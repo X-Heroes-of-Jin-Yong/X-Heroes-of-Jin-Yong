@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: kezhenger-attack0024
+  m_Rect:
+    serializedVersion: 2
+    x: 309.05414
+    y: 148.02675
+    width: 171.90295
+    height: 119.897125
+  m_Offset: {x: -51.005604, y: -53.975315}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 6f175cb56dd502c409d1b714d5c93359, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 137, y: 46, z: 0}
+    - serializedVersion: 2
+      pos: {x: 129, y: 23, z: 0}
+    - serializedVersion: 2
+      pos: {x: 137, y: 29, z: 0}
+    - serializedVersion: 2
+      pos: {x: 59, y: -5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 44, y: -6, z: 0}
+    - serializedVersion: 2
+      pos: {x: 35, y: 114, z: 0}
+    - serializedVersion: 2
+      pos: {x: 14, y: 114, z: 0}
+    - serializedVersion: 2
+      pos: {x: -9, y: 107, z: 0}
+    - serializedVersion: 2
+      pos: {x: -35, y: 96, z: 0}
+    - serializedVersion: 2
+      pos: {x: -35, y: -6, z: 0}
+    - serializedVersion: 2
+      pos: {x: 135, y: 5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 132, y: 20, z: 0}
+    indices: 030001000a000b000a000100090008000400070004000800060004000700050004000600000004000500030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 309.05414
+      y: 148.02675
+      width: 171.90295
+      height: 119.897125
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 344, z: 1, w: 154}

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: shibing-attack0015
+  m_Rect:
+    serializedVersion: 2
+    x: 365.0761
+    y: 123.04291
+    width: 115.91097
+    height: 122.88097
+  m_Offset: {x: -18.031603, y: -55.483395}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 0785c3780009ae94584c6168c887193e, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 20, y: 117, z: 0}
+    - serializedVersion: 2
+      pos: {x: -38, y: 83, z: 0}
+    - serializedVersion: 2
+      pos: {x: -10, y: 71, z: 0}
+    - serializedVersion: 2
+      pos: {x: -39, y: 91, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40, y: 89, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40, y: 84, z: 0}
+    - serializedVersion: 2
+      pos: {x: 76, y: 61, z: 0}
+    - serializedVersion: 2
+      pos: {x: 39, y: -6, z: 0}
+    - serializedVersion: 2
+      pos: {x: 76, y: 46, z: 0}
+    - serializedVersion: 2
+      pos: {x: 24, y: 117, z: 0}
+    - serializedVersion: 2
+      pos: {x: -25, y: -6, z: 0}
+    - serializedVersion: 2
+      pos: {x: -29, y: 9, z: 0}
+    indices: 0b0002000a0007000a000200000007000200090007000000060007000900080007000600050004000100030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 365.0761
+      y: 123.04291
+      width: 115.91097
+      height: 122.88097
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 405, z: 1, w: 129}

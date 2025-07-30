@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: daoke-attack003
+  m_Rect:
+    serializedVersion: 2
+    x: 0.026752472
+    y: 474.0761
+    width: 155.89713
+    height: 110.88759
+  m_Offset: {x: 26.02469, y: -50.519917}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 034710f9c80a717479ef10431034cb7a, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -10, y: 106, z: 0}
+    - serializedVersion: 2
+      pos: {x: -19, y: 49, z: 0}
+    - serializedVersion: 2
+      pos: {x: -10, y: 50, z: 0}
+    - serializedVersion: 2
+      pos: {x: -21, y: 46, z: 0}
+    - serializedVersion: 2
+      pos: {x: -22, y: 40, z: 0}
+    - serializedVersion: 2
+      pos: {x: -21, y: 43, z: 0}
+    - serializedVersion: 2
+      pos: {x: -42, y: 34, z: 0}
+    - serializedVersion: 2
+      pos: {x: -91, y: 40, z: 0}
+    - serializedVersion: 2
+      pos: {x: -98, y: 44, z: 0}
+    - serializedVersion: 2
+      pos: {x: -104, y: 70, z: 0}
+    - serializedVersion: 2
+      pos: {x: -104, y: 64, z: 0}
+    - serializedVersion: 2
+      pos: {x: 34, y: 106, z: 0}
+    - serializedVersion: 2
+      pos: {x: 52, y: -5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 52, y: 85, z: 0}
+    - serializedVersion: 2
+      pos: {x: -20, y: -5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -32, y: -1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -34, y: 12, z: 0}
+    indices: 100002000f000e000f0002000c000e00020000000c0002000b000c0000000d000c000b000a0009000800000008000900070008000000060007000000030006000000040006000300050004000300010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.026752472
+      y: 474.0761
+      width: 155.89713
+      height: 110.88759
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 104, z: 1, w: 479}

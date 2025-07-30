@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: huodu-move0002
+  m_Rect:
+    serializedVersion: 2
+    x: 0.054130554
+    y: 362.0761
+    width: 77.93296
+    height: 125.88097
+  m_Offset: {x: -5.02061, y: -60.016605}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: ee428648b9cf9db40bd845d4fe8c2e6f, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 44, y: 44, z: 0}
+    - serializedVersion: 2
+      pos: {x: 34, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: 44, y: 4, z: 0}
+    - serializedVersion: 2
+      pos: {x: 17, y: 123, z: 0}
+    - serializedVersion: 2
+      pos: {x: -9, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: -12, y: 123, z: 0}
+    - serializedVersion: 2
+      pos: {x: -34, y: 68, z: 0}
+    - serializedVersion: 2
+      pos: {x: -34, y: 16, z: 0}
+    indices: 070006000400050004000600030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.054130554
+      y: 362.0761
+      width: 77.93296
+      height: 125.88097
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 34, z: 1, w: 365}

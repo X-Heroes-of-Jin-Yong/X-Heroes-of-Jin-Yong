@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: hua-skill-10
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 213
+    height: 256
+  m_Offset: {x: -1.6000186, y: -73.800026}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.852
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 7783aee0474d77a428ea1c1e989c5e57, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -123.12204, y: 236.61977, z: 0}
+    - serializedVersion: 2
+      pos: {x: 126.87796, y: -63.84973, z: 0}
+    - serializedVersion: 2
+      pos: {x: 126.87796, y: 236.61977, z: 0}
+    - serializedVersion: 2
+      pos: {x: -123.12204, y: -63.84973, z: 0}
+    indices: 030000000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 213
+      height: 256
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.852, y: 104.89998, z: 0.852, w: 54.39997}

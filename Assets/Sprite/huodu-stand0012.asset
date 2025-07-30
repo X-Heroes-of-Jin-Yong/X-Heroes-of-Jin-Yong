@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: huodu-stand0012
+  m_Rect:
+    serializedVersion: 2
+    x: 100.051315
+    y: 0.042907715
+    width: 95.87256
+    height: 117.88097
+  m_Offset: {x: 0.012406071, y: -52.98339}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: ee428648b9cf9db40bd845d4fe8c2e6f, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 47, y: 94, z: 0}
+    - serializedVersion: 2
+      pos: {x: 48, y: 58, z: 0}
+    - serializedVersion: 2
+      pos: {x: 48, y: 93, z: 0}
+    - serializedVersion: 2
+      pos: {x: 45, y: 32, z: 0}
+    - serializedVersion: 2
+      pos: {x: 42, y: 14, z: 0}
+    - serializedVersion: 2
+      pos: {x: 14, y: 112, z: 0}
+    - serializedVersion: 2
+      pos: {x: 46, y: 23, z: 0}
+    - serializedVersion: 2
+      pos: {x: 43, y: 14, z: 0}
+    - serializedVersion: 2
+      pos: {x: 46, y: 3, z: 0}
+    - serializedVersion: 2
+      pos: {x: 46, y: 11, z: 0}
+    - serializedVersion: 2
+      pos: {x: 43, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: -10, y: -6, z: 0}
+    - serializedVersion: 2
+      pos: {x: -11, y: 112, z: 0}
+    - serializedVersion: 2
+      pos: {x: -37, y: -6, z: 0}
+    - serializedVersion: 2
+      pos: {x: -38, y: 77, z: 0}
+    - serializedVersion: 2
+      pos: {x: -48, y: 34, z: 0}
+    - serializedVersion: 2
+      pos: {x: -48, y: 7, z: 0}
+    indices: 10000f000d000e000d000f000c000d000e000b000d000c0005000b000c000a000b00050004000a00050007000a00040008000a000700090008000700040003000600050000000400030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 100.051315
+      y: 0.042907715
+      width: 95.87256
+      height: 117.88097
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 148, z: 1, w: 6}

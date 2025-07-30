@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: emeici-stand0019
+  m_Rect:
+    serializedVersion: 2
+    x: 0.07611847
+    y: 349.0761
+    width: 132.84775
+    height: 114.91983
+  m_Offset: {x: 8.300007, y: -52.636036}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: b0e7ffe63c8fb174491b33cd9df89508, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 49.199997, y: 71.1, z: 0}
+    - serializedVersion: 2
+      pos: {x: 31.199997, y: 44.1, z: 0}
+    - serializedVersion: 2
+      pos: {x: 37.199997, y: 46.1, z: 0}
+    - serializedVersion: 2
+      pos: {x: 24.199997, y: 110.1, z: 0}
+    - serializedVersion: 2
+      pos: {x: 10.199997, y: 74.1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -62.800003, y: -4.9000015, z: 0}
+    - serializedVersion: 2
+      pos: {x: -73.8, y: 99.1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -74.8, y: 110.1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -74.8, y: 102.1, z: 0}
+    - serializedVersion: 2
+      pos: {x: 58.199997, y: 2.0999985, z: 0}
+    - serializedVersion: 2
+      pos: {x: 57.199997, y: -4.9000015, z: 0}
+    - serializedVersion: 2
+      pos: {x: 58.199997, y: -2.9000015, z: 0}
+    - serializedVersion: 2
+      pos: {x: 14.199997, y: 58.1, z: 0}
+    indices: 04000c0005000a0005000c0001000a000c0009000a0001000b000a000900080007000600030006000700050006000300040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.07611847
+      y: 349.0761
+      width: 132.84775
+      height: 114.91983
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 74.8, z: 1, w: 353.9}

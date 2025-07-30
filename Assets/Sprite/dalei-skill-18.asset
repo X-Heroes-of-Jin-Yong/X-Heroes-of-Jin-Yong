@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: dalei-skill-18
+  m_Rect:
+    serializedVersion: 2
+    x: 130.07613
+    y: 635.0429
+    width: 127.92388
+    height: 127.95709
+  m_Offset: {x: -0.038063288, y: -47.381454}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.42666668
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 0dbf63838d3def74ba6c92aa93a87187, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -150, y: 261, z: 0}
+    - serializedVersion: 2
+      pos: {x: 150, y: -38.999996, z: 0}
+    - serializedVersion: 2
+      pos: {x: 150, y: 261, z: 0}
+    - serializedVersion: 2
+      pos: {x: -150, y: -38.999996, z: 0}
+    indices: 030000000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 130.07613
+      y: 635.0429
+      width: 127.92388
+      height: 127.95709
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.42666668, y: 194, z: 0.42666668, w: 651.64}

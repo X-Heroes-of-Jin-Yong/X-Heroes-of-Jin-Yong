@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: huozhu_jin-skill-12
+  m_Rect:
+    serializedVersion: 2
+    x: 118
+    y: 258
+    width: 112
+    height: 256
+  m_Offset: {x: -2.5946488, y: -103.3615}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.55531454
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 6c2c893507d9ca34390043bc9fcac6b8, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -96.5151, y: 416.63147, z: 0}
+    - serializedVersion: 2
+      pos: {x: 105.1724, y: -44.36854, z: 0}
+    - serializedVersion: 2
+      pos: {x: 105.1724, y: 416.63147, z: 0}
+    - serializedVersion: 2
+      pos: {x: -96.5151, y: -44.36854, z: 0}
+    indices: 030000000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 118
+      y: 258
+      width: 112
+      height: 256
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.55531454, y: 171.59624, z: 0.55531454, w: 282.6385}

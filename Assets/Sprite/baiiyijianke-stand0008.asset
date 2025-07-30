@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: baiiyijianke-stand0008
+  m_Rect:
+    serializedVersion: 2
+    x: 301.0761
+    y: 0.076122284
+    width: 97.84775
+    height: 127.84775
+  m_Offset: {x: 1.2000003, y: -58.999996}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 93b3bfe03191349478635e75d92b5e88, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 46.800003, y: 99, z: 0}
+    - serializedVersion: 2
+      pos: {x: 47.800003, y: 4, z: 0}
+    - serializedVersion: 2
+      pos: {x: 47.800003, y: 96, z: 0}
+    - serializedVersion: 2
+      pos: {x: 41.800003, y: 99, z: 0}
+    - serializedVersion: 2
+      pos: {x: 34.800003, y: 116, z: 0}
+    - serializedVersion: 2
+      pos: {x: 18.800003, y: -5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.800003, y: 123, z: 0}
+    - serializedVersion: 2
+      pos: {x: -44.199997, y: -5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -50.199997, y: 123, z: 0}
+    - serializedVersion: 2
+      pos: {x: -50.199997, y: 32, z: 0}
+    - serializedVersion: 2
+      pos: {x: 43.800003, y: 112, z: 0}
+    - serializedVersion: 2
+      pos: {x: 44.800003, y: 109, z: 0}
+    indices: 04000a0003000b0003000a00090008000700060007000800050007000600040005000600010005000400030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 301.0761
+      y: 0.076122284
+      width: 97.84775
+      height: 127.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 351.2, z: 1, w: 5}

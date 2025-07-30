@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ball_purple-skill-7
+  m_Rect:
+    serializedVersion: 2
+    x: 826.0761
+    y: 205.00597
+    width: 187.88097
+    height: 182.91791
+  m_Offset: {x: 8.983398, y: 7.53507}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: e34835562650a7f4fa6ddfc63ee145a8, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 55, y: 84, z: 0}
+    - serializedVersion: 2
+      pos: {x: 85, y: -90, z: 0}
+    - serializedVersion: 2
+      pos: {x: 85, y: 66, z: 0}
+    - serializedVersion: 2
+      pos: {x: 48, y: -99, z: 0}
+    - serializedVersion: 2
+      pos: {x: 43, y: -99, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0, y: -82, z: 0}
+    - serializedVersion: 2
+      pos: {x: -29, y: -99, z: 0}
+    - serializedVersion: 2
+      pos: {x: -57, y: 84, z: 0}
+    - serializedVersion: 2
+      pos: {x: -68, y: -99, z: 0}
+    - serializedVersion: 2
+      pos: {x: -85, y: 72, z: 0}
+    - serializedVersion: 2
+      pos: {x: -102, y: 58, z: 0}
+    - serializedVersion: 2
+      pos: {x: -103, y: 19, z: 0}
+    - serializedVersion: 2
+      pos: {x: -103, y: -71, z: 0}
+    indices: 0c000b0008000a0008000b00090008000a00070008000900060008000700000006000700050006000000040005000000030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 826.0761
+      y: 205.00597
+      width: 187.88097
+      height: 182.91791
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 929, z: 1, w: 304}

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: quanzhennv-move0022
+  m_Rect:
+    serializedVersion: 2
+    x: 90.07612
+    y: 133.07613
+    width: 70.91097
+    height: 131.84775
+  m_Offset: {x: -0.53160566, y: -65}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: b98260d0e46d42843bc3647ed51b0b72, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 36, y: 40, z: 0}
+    - serializedVersion: 2
+      pos: {x: 26, y: -1, z: 0}
+    - serializedVersion: 2
+      pos: {x: 36, y: 35, z: 0}
+    - serializedVersion: 2
+      pos: {x: 22, y: 127, z: 0}
+    - serializedVersion: 2
+      pos: {x: 7, y: 131, z: 0}
+    - serializedVersion: 2
+      pos: {x: -17, y: 131, z: 0}
+    - serializedVersion: 2
+      pos: {x: -19, y: -1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -35, y: 85, z: 0}
+    - serializedVersion: 2
+      pos: {x: -35, y: 9, z: 0}
+    indices: 080007000600050006000700010006000500040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 90.07612
+      y: 133.07613
+      width: 70.91097
+      height: 131.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 125, z: 1, w: 134}

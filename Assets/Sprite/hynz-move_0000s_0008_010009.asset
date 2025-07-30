@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: hynz-move_0000s_0008_010009
+  m_Rect:
+    serializedVersion: 2
+    x: 303.04938
+    y: 122.02675
+    width: 83.87451
+    height: 119.89713
+  m_Offset: {x: -1.986626, y: -57.47532}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 4b19a22f3dc1d1e4288cee8091230c8a, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -16, y: 117.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -21, y: 102.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -19, y: 97.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -24, y: 114.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 37, y: 117.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 44, y: -2.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 44, y: 87.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -28, y: -2.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -29, y: 90.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40, y: 11.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40, y: 6.5, z: 0}
+    indices: 0a0009000700080007000900020007000800050007000200000005000200040005000000060005000400030000000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 303.04938
+      y: 122.02675
+      width: 83.87451
+      height: 119.89713
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 343, z: 1, w: 124.5}

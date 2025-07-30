@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: dalei-skill-9
+  m_Rect:
+    serializedVersion: 2
+    x: 130.03629
+    y: 252.02675
+    width: 127.963715
+    height: 124.97132
+  m_Offset: {x: -0.01814137, y: -48.872414}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.42666668
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 0dbf63838d3def74ba6c92aa93a87187, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 150, y: 261, z: 0}
+    - serializedVersion: 2
+      pos: {x: -77.34375, y: -31.968748, z: 0}
+    - serializedVersion: 2
+      pos: {x: 150, y: -31.968748, z: 0}
+    - serializedVersion: 2
+      pos: {x: -100.78125, y: 261, z: 0}
+    - serializedVersion: 2
+      pos: {x: -117.1875, y: -24.937498, z: 0}
+    - serializedVersion: 2
+      pos: {x: -135.9375, y: -13.218748, z: 0}
+    - serializedVersion: 2
+      pos: {x: -150, y: 249.28125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -150, y: -3.8437486, z: 0}
+    indices: 070006000500030005000600040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 130.03629
+      y: 252.02675
+      width: 127.963715
+      height: 124.97132
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.42666668, y: 194, z: 0.42666668, w: 265.64}

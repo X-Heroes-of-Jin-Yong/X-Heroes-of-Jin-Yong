@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: mojun-stand0000
+  m_Rect:
+    serializedVersion: 2
+    x: 314.05414
+    y: 336.0761
+    width: 108.86974
+    height: 138.87256
+  m_Offset: {x: 20.510998, y: -60.5124}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 62d5c6d48cce68c48b7b7d6b598854b7, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 34, y: 111, z: 0}
+    - serializedVersion: 2
+      pos: {x: 15, y: -9, z: 0}
+    - serializedVersion: 2
+      pos: {x: 34, y: -9, z: 0}
+    - serializedVersion: 2
+      pos: {x: 5, y: 130, z: 0}
+    - serializedVersion: 2
+      pos: {x: -9, y: 130, z: 0}
+    - serializedVersion: 2
+      pos: {x: -38, y: 105, z: 0}
+    - serializedVersion: 2
+      pos: {x: -42, y: -7, z: 0}
+    - serializedVersion: 2
+      pos: {x: -55, y: 15, z: 0}
+    - serializedVersion: 2
+      pos: {x: -67, y: -8, z: 0}
+    - serializedVersion: 2
+      pos: {x: -55, y: 12, z: 0}
+    - serializedVersion: 2
+      pos: {x: -70, y: -9, z: 0}
+    - serializedVersion: 2
+      pos: {x: -75, y: 3, z: 0}
+    - serializedVersion: 2
+      pos: {x: -75, y: -9, z: 0}
+    - serializedVersion: 2
+      pos: {x: -55, y: 9, z: 0}
+    indices: 0d00090006000700060009000c000b000a0005000a000b0008000a000500070008000500090008000700060007000500010006000500040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 314.05414
+      y: 336.0761
+      width: 108.86974
+      height: 138.87256
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 389, z: 1, w: 345}

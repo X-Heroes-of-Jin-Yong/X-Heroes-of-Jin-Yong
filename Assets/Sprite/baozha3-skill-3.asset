@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: baozha3-skill-3
+  m_Rect:
+    serializedVersion: 2
+    x: 237.09149
+    y: 0.07612038
+    width: 89.8324
+    height: 112.84776
+  m_Offset: {x: -2.5076876, y: -32.43893}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.70469797
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 6d8f6f015174cc9448ca457b80419a81, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 67.40476, y: 47.841904, z: 0}
+    - serializedVersion: 2
+      pos: {x: 47.538097, y: -34.46286, z: 0}
+    - serializedVersion: 2
+      pos: {x: 67.40476, y: -13.177146, z: 0}
+    - serializedVersion: 2
+      pos: {x: 17.738096, y: 125.889534, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4.9666667, y: 125.889534, z: 0}
+    - serializedVersion: 2
+      pos: {x: -47.538097, y: 87.57524, z: 0}
+    - serializedVersion: 2
+      pos: {x: -48.957146, y: -34.46286, z: 0}
+    - serializedVersion: 2
+      pos: {x: -51.79524, y: -10.33905, z: 0}
+    - serializedVersion: 2
+      pos: {x: -56.052383, y: -10.33905, z: 0}
+    - serializedVersion: 2
+      pos: {x: -60.309525, y: 45.003807, z: 0}
+    - serializedVersion: 2
+      pos: {x: -60.309525, y: -4.66286, z: 0}
+    - serializedVersion: 2
+      pos: {x: -58.890476, y: -14.596193, z: 0}
+    - serializedVersion: 2
+      pos: {x: -60.309525, y: -17.434288, z: 0}
+    - serializedVersion: 2
+      pos: {x: -60.309525, y: -25.948574, z: 0}
+    indices: 0d000c0006000b0006000c00070006000b000a0009000800050008000900070008000500060007000500010006000500040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 237.09149
+      y: 0.07612038
+      width: 89.8324
+      height: 112.84776
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.70469797, y: 279.5, z: 0.70469797, w: 24.285908}

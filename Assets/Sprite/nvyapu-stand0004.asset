@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: nvyapu-stand0004
+  m_Rect:
+    serializedVersion: 2
+    x: 0.0019302368
+    y: 114.04291
+    width: 67.92194
+    height: 111.93034
+  m_Offset: {x: -2.9629023, y: -47.008076}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: e92f7b8d540a00d4598b1e088f99e245, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 37, y: 78, z: 0}
+    - serializedVersion: 2
+      pos: {x: 24, y: -8, z: 0}
+    - serializedVersion: 2
+      pos: {x: 37, y: 36, z: 0}
+    - serializedVersion: 2
+      pos: {x: 23, y: 100, z: 0}
+    - serializedVersion: 2
+      pos: {x: 21, y: -9, z: 0}
+    - serializedVersion: 2
+      pos: {x: 16, y: 103, z: 0}
+    - serializedVersion: 2
+      pos: {x: 4, y: 103, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5, y: -9, z: 0}
+    - serializedVersion: 2
+      pos: {x: -28, y: 69, z: 0}
+    - serializedVersion: 2
+      pos: {x: -30, y: 65, z: 0}
+    - serializedVersion: 2
+      pos: {x: -30, y: 49, z: 0}
+    - serializedVersion: 2
+      pos: {x: -31, y: 58, z: 0}
+    - serializedVersion: 2
+      pos: {x: -31, y: 52, z: 0}
+    indices: 0c000b000a0009000a000b0007000a000900080007000900060007000800040007000600050004000600030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.0019302368
+      y: 114.04291
+      width: 67.92194
+      height: 111.93034
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 31, z: 1, w: 123}

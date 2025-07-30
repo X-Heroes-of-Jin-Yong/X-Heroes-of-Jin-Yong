@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: aoyi_gunzibaozha-skill-3
+  m_Rect:
+    serializedVersion: 2
+    x: 724.02673
+    y: 0.07612038
+    width: 164.93697
+    height: 190.84775
+  m_Offset: {x: 1.1047794, y: -45.499992}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.512
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 1af809faaeb06d445a7a7528938ec6cc, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 139.45311, y: 138.67188, z: 0}
+    - serializedVersion: 2
+      pos: {x: 158.98436, y: -66.40625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 158.98436, y: 87.89062, z: 0}
+    - serializedVersion: 2
+      pos: {x: 121.874985, y: -97.65624, z: 0}
+    - serializedVersion: 2
+      pos: {x: -38.28126, y: 275.39062, z: 0}
+    - serializedVersion: 2
+      pos: {x: -69.53126, y: 275.39062, z: 0}
+    - serializedVersion: 2
+      pos: {x: -130.07812, y: -97.65624, z: 0}
+    - serializedVersion: 2
+      pos: {x: -163.28125, y: 89.84374, z: 0}
+    - serializedVersion: 2
+      pos: {x: -163.28125, y: -50.781246, z: 0}
+    indices: 080007000600050006000700030006000500040003000500000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 724.02673
+      y: 0.07612038
+      width: 164.93697
+      height: 190.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.512, y: 807.6, z: 0.512, w: 50}

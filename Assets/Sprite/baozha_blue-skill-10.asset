@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: baozha_blue-skill-10
+  m_Rect:
+    serializedVersion: 2
+    x: 0.07612038
+    y: 0.07612038
+    width: 116.89713
+    height: 115.84776
+  m_Offset: {x: -1.5246842, y: -22.88552}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.55172414
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 72257ba8303f00849b6ee22deaa74ce5, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -25.375, y: 146.35501, z: 0}
+    - serializedVersion: 2
+      pos: {x: -41.6875, y: 115.542496, z: 0}
+    - serializedVersion: 2
+      pos: {x: -39.875, y: 86.542496, z: 0}
+    - serializedVersion: 2
+      pos: {x: 108.75, y: 88.354996, z: 0}
+    - serializedVersion: 2
+      pos: {x: 87, y: -63.895, z: 0}
+    - serializedVersion: 2
+      pos: {x: 108.75, y: -0.45750165, z: 0}
+    - serializedVersion: 2
+      pos: {x: 59.8125, y: 117.355, z: 0}
+    - serializedVersion: 2
+      pos: {x: -16.3125, y: 146.35501, z: 0}
+    - serializedVersion: 2
+      pos: {x: -63.4375, y: 110.104996, z: 0}
+    - serializedVersion: 2
+      pos: {x: -41.6875, y: 95.604996, z: 0}
+    - serializedVersion: 2
+      pos: {x: -72.5, y: -63.895, z: 0}
+    - serializedVersion: 2
+      pos: {x: -96.0625, y: -58.4575, z: 0}
+    - serializedVersion: 2
+      pos: {x: -103.3125, y: 24.917498, z: 0}
+    - serializedVersion: 2
+      pos: {x: -103.3125, y: -31.270002, z: 0}
+    indices: 0d000c000b0008000b000c000a000b00080004000a000800020004000800090002000800000004000200070004000000060004000700030004000600050004000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.07612038
+      y: 0.07612038
+      width: 116.89713
+      height: 115.84776
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.55172414, y: 57, z: 0.55172414, w: 35.252415}

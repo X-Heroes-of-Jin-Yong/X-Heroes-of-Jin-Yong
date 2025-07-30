@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: aoyi_quanblue-skill-4
+  m_Rect:
+    serializedVersion: 2
+    x: 205.07613
+    y: 201.07613
+    width: 89.89038
+    height: 193.84775
+  m_Offset: {x: -80.09274, y: 1.5000043}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.7107143
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: e349f0a2669061d45a826250ab473c12, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 161.80905, y: 117.487434, z: 0}
+    - serializedVersion: 2
+      pos: {x: 137.88945, y: 41.507538, z: 0}
+    - serializedVersion: 2
+      pos: {x: 161.80905, y: 87.9397, z: 0}
+    - serializedVersion: 2
+      pos: {x: 122.41206, y: 134.37186, z: 0}
+    - serializedVersion: 2
+      pos: {x: 137.88945, y: -138.59297, z: 0}
+    - serializedVersion: 2
+      pos: {x: 66.13065, y: -138.59297, z: 0}
+    - serializedVersion: 2
+      pos: {x: 49.24623, y: 134.37186, z: 0}
+    - serializedVersion: 2
+      pos: {x: 49.24623, y: -113.266335, z: 0}
+    - serializedVersion: 2
+      pos: {x: 170.25125, y: 33.065327, z: 0}
+    - serializedVersion: 2
+      pos: {x: 175.8794, y: -92.160805, z: 0}
+    - serializedVersion: 2
+      pos: {x: 175.8794, y: 27.437185, z: 0}
+    - serializedVersion: 2
+      pos: {x: 149.14574, y: 44.32161, z: 0}
+    indices: 0400010009000b0009000100080009000b000a0009000800070006000500030005000600040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 205.07613
+      y: 201.07613
+      width: 89.89038
+      height: 193.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.7107143, y: 170, z: 0.7107143, w: 299.5}

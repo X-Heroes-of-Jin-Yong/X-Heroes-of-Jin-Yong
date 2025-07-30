@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: guojing-attack0010
+  m_Rect:
+    serializedVersion: 2
+    x: 0.026752472
+    y: 344.02676
+    width: 120.93034
+    height: 93.897125
+  m_Offset: {x: 34.508083, y: -39.975315}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 71de361663daf22499df75c4653e252c, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 23, y: 69, z: 0}
+    - serializedVersion: 2
+      pos: {x: 26, y: -7, z: 0}
+    - serializedVersion: 2
+      pos: {x: 26, y: 50, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0, y: 87, z: 0}
+    - serializedVersion: 2
+      pos: {x: -84, y: -7, z: 0}
+    - serializedVersion: 2
+      pos: {x: -95, y: 87, z: 0}
+    - serializedVersion: 2
+      pos: {x: -95, y: 9, z: 0}
+    indices: 060005000400030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.026752472
+      y: 344.02676
+      width: 120.93034
+      height: 93.897125
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 95, z: 1, w: 351}

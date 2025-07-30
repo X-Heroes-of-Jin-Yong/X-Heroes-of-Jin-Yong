@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: mutouren-move0002
+  m_Rect:
+    serializedVersion: 2
+    x: 428.0761
+    y: 228.02675
+    width: 84.847755
+    height: 103.897125
+  m_Offset: {x: -0.49999702, y: -49.975315}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 57ff37f95223d084f8604a87533d7754, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 39, y: 102, z: 0}
+    - serializedVersion: 2
+      pos: {x: 43, y: 23, z: 0}
+    - serializedVersion: 2
+      pos: {x: 43, y: 101, z: 0}
+    - serializedVersion: 2
+      pos: {x: 37, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2, y: 15, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4, y: 15, z: 0}
+    - serializedVersion: 2
+      pos: {x: -6, y: 15, z: 0}
+    - serializedVersion: 2
+      pos: {x: -9, y: 16, z: 0}
+    - serializedVersion: 2
+      pos: {x: -14, y: 102, z: 0}
+    - serializedVersion: 2
+      pos: {x: -14, y: 28, z: 0}
+    - serializedVersion: 2
+      pos: {x: -17, y: 4, z: 0}
+    - serializedVersion: 2
+      pos: {x: -28, y: 87, z: 0}
+    - serializedVersion: 2
+      pos: {x: -35, y: 9, z: 0}
+    - serializedVersion: 2
+      pos: {x: -42, y: 60, z: 0}
+    - serializedVersion: 2
+      pos: {x: -42, y: 45, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: -7, y: 11, z: 0}
+    - serializedVersion: 2
+      pos: {x: -7, y: 1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -10, y: 16, z: 0}
+    indices: 0a0009001200110010000f0005000f00100003000f0005000400030005000e000d000c000b000c000d000a000c000b0008000a000b0009000a000800070009000800000007000800060007000000050006000000040005000000030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 428.0761
+      y: 228.02675
+      width: 84.847755
+      height: 103.897125
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 470, z: 1, w: 230}

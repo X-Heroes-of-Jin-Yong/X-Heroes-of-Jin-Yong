@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: sunpopo-stand0000
+  m_Rect:
+    serializedVersion: 2
+    x: 276.0824
+    y: 139.07613
+    width: 66.84146
+    height: 93.91502
+  m_Offset: {x: 3.4968586, y: -37.033634}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: cf42b563cfeec8b44833979bfef4cc0c, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 21, y: 81, z: 0}
+    - serializedVersion: 2
+      pos: {x: 30, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: 30, y: 30, z: 0}
+    - serializedVersion: 2
+      pos: {x: 13, y: -8, z: 0}
+    - serializedVersion: 2
+      pos: {x: 10, y: 84, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1, y: -10, z: 0}
+    - serializedVersion: 2
+      pos: {x: -6, y: 84, z: 0}
+    - serializedVersion: 2
+      pos: {x: -30, y: -10, z: 0}
+    - serializedVersion: 2
+      pos: {x: -32, y: 76, z: 0}
+    - serializedVersion: 2
+      pos: {x: -37, y: 43, z: 0}
+    - serializedVersion: 2
+      pos: {x: -37, y: 1, z: 0}
+    indices: 0a0009000700080007000900060007000800050007000600040005000600030005000400000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 276.0824
+      y: 139.07613
+      width: 66.84146
+      height: 93.91502
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 313, z: 1, w: 149}

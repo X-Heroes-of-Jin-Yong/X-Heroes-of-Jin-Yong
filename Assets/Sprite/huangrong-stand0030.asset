@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: huangrong-stand0030
+  m_Rect:
+    serializedVersion: 2
+    x: 188.04291
+    y: 474.0761
+    width: 102.88097
+    height: 120.917206
+  m_Offset: {x: -10.483391, y: -56.534725}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 4fbe88c98f850a64983397e2980dd1e1, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 62, y: 53, z: 0}
+    - serializedVersion: 2
+      pos: {x: 23, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: 62, y: 23, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0, y: 117, z: 0}
+    - serializedVersion: 2
+      pos: {x: -16, y: 117, z: 0}
+    - serializedVersion: 2
+      pos: {x: -17, y: 111, z: 0}
+    - serializedVersion: 2
+      pos: {x: -21, y: 76, z: 0}
+    - serializedVersion: 2
+      pos: {x: -22, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: -32, y: 78, z: 0}
+    - serializedVersion: 2
+      pos: {x: -36, y: 1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -41, y: 76, z: 0}
+    - serializedVersion: 2
+      pos: {x: -41, y: 3, z: 0}
+    indices: 0b000a000900080009000a00070009000800060007000800010007000600050001000600040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 188.04291
+      y: 474.0761
+      width: 102.88097
+      height: 120.917206
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 229, z: 1, w: 478}

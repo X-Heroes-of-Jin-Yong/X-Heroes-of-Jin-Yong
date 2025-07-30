@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: bingdong-skill-8
+  m_Rect:
+    serializedVersion: 2
+    x: 108.04771
+    y: 255.07613
+    width: 106.876175
+    height: 100.91097
+  m_Offset: {x: -6.4857945, y: -18.971605}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.32
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: c70282206a71f074c8cbbd8669c0876e, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 146.875, y: 217.00002, z: 0}
+    - serializedVersion: 2
+      pos: {x: 187.5, y: -67.37501, z: 0}
+    - serializedVersion: 2
+      pos: {x: 187.5, y: 207.62502, z: 0}
+    - serializedVersion: 2
+      pos: {x: 96.875, y: -98.62501, z: 0}
+    - serializedVersion: 2
+      pos: {x: -112.5, y: 217.00002, z: 0}
+    - serializedVersion: 2
+      pos: {x: -115.625, y: -98.62501, z: 0}
+    - serializedVersion: 2
+      pos: {x: -146.875, y: 63.874996, z: 0}
+    - serializedVersion: 2
+      pos: {x: -146.875, y: -73.62501, z: 0}
+    indices: 070006000500040005000600030005000400000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 108.04771
+      y: 255.07613
+      width: 106.876175
+      height: 100.91097
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.32, y: 155, z: 0.32, w: 286.56}

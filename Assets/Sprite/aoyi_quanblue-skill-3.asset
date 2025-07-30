@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: aoyi_quanblue-skill-3
+  m_Rect:
+    serializedVersion: 2
+    x: 205.01291
+    y: 0
+    width: 217.91096
+    height: 199
+  m_Offset: {x: -17.039816, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.7107143
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: e349f0a2669061d45a826250ab473c12, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -126.63316, y: 13.366835, z: 0}
+    - serializedVersion: 2
+      pos: {x: -126.63316, y: 7.7386937, z: 0}
+    - serializedVersion: 2
+      pos: {x: -123.8191, y: 11.959799, z: 0}
+    - serializedVersion: 2
+      pos: {x: -129.44724, y: 10.552764, z: 0}
+    - serializedVersion: 2
+      pos: {x: -119.59799, y: 20.40201, z: 0}
+    - serializedVersion: 2
+      pos: {x: -122.41206, y: 11.959799, z: 0}
+    - serializedVersion: 2
+      pos: {x: 177.28644, y: 106.231155, z: 0}
+    - serializedVersion: 2
+      pos: {x: 168.84422, y: -140, z: 0}
+    - serializedVersion: 2
+      pos: {x: 177.28644, y: -78.090454, z: 0}
+    - serializedVersion: 2
+      pos: {x: 105.52764, y: 140, z: 0}
+    - serializedVersion: 2
+      pos: {x: 81.60804, y: -140, z: 0}
+    - serializedVersion: 2
+      pos: {x: 43.61809, y: 140, z: 0}
+    - serializedVersion: 2
+      pos: {x: 28.140703, y: 127.336685, z: 0}
+    - serializedVersion: 2
+      pos: {x: -122.41206, y: 7.7386937, z: 0}
+    - serializedVersion: 2
+      pos: {x: -126.63316, y: 6.3316584, z: 0}
+    - serializedVersion: 2
+      pos: {x: -129.44724, y: 3.517588, z: 0}
+    - serializedVersion: 2
+      pos: {x: -129.44724, y: -31.65829, z: 0}
+    indices: 010002000e000d000e00020005000d00020010000f000a000e000a000f0001000e000f000d000a000e0005000a000d0004000a0005000c000a0004000b000a000c0009000a000b0007000a000900060007000900080007000600050002000400030000000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 205.01291
+      y: 0
+      width: 217.91096
+      height: 199
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.7107143, y: 297, z: 0.7107143, w: 99.5}

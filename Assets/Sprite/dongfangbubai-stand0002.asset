@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: dongfangbubai-stand0002
+  m_Rect:
+    serializedVersion: 2
+    x: 211.05132
+    y: 283.0761
+    width: 67.87256
+    height: 138.84775
+  m_Offset: {x: 10.012406, y: -64.49999}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 88ebcdef9756c3f4389bcc73722799f4, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 20, y: 134, z: 0}
+    - serializedVersion: 2
+      pos: {x: 24, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: 24, y: 116, z: 0}
+    - serializedVersion: 2
+      pos: {x: 20, y: -5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -11, y: -5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -23, y: 10, z: 0}
+    - serializedVersion: 2
+      pos: {x: -33, y: 134, z: 0}
+    - serializedVersion: 2
+      pos: {x: -44, y: 126, z: 0}
+    - serializedVersion: 2
+      pos: {x: -44, y: 61, z: 0}
+    indices: 080007000500060005000700000005000600040005000000030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 211.05132
+      y: 283.0761
+      width: 67.87256
+      height: 138.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 255, z: 1, w: 288}

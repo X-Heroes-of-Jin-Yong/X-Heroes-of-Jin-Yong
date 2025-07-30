@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: jiqi2-skill-5
+  m_Rect:
+    serializedVersion: 2
+    x: 0.01291275
+    y: 77.07612
+    width: 238.97418
+    height: 4.847763
+  m_Offset: {x: -0.499999, y: 0.5}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.32
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: f073cf2e9c363004d9a77361be740f26, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 371.875, y: 6.25, z: 0}
+    - serializedVersion: 2
+      pos: {x: 368.75, y: -9.375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 375, y: -3.125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -365.625, y: 6.25, z: 0}
+    - serializedVersion: 2
+      pos: {x: -368.75, y: -9.375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -371.875, y: 0, z: 0}
+    indices: 050003000400010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.01291275
+      y: 77.07612
+      width: 238.97418
+      height: 4.847763
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.32, y: 119, z: 0.32, w: 80}

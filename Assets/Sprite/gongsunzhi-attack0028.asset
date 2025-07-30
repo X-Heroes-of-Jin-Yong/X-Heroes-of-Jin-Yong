@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: gongsunzhi-attack0028
+  m_Rect:
+    serializedVersion: 2
+    x: 399.0761
+    y: 412.0761
+    width: 121.84776
+    height: 128.88759
+  m_Offset: {x: -36.000004, y: -58.519917}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 6647f9e545350e04a9521370dbdf235f, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 97, y: 123, z: 0}
+    - serializedVersion: 2
+      pos: {x: 79, y: -6, z: 0}
+    - serializedVersion: 2
+      pos: {x: 97, y: 5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 39, y: 123, z: 0}
+    - serializedVersion: 2
+      pos: {x: -25, y: 70, z: 0}
+    - serializedVersion: 2
+      pos: {x: -25, y: -6, z: 0}
+    indices: 050004000100030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 399.0761
+      y: 412.0761
+      width: 121.84776
+      height: 128.88759
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 424, z: 1, w: 418}

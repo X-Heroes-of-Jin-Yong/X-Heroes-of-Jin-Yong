@@ -1,0 +1,499 @@
+<root>
+  <aoyi start="罗汉拳" buff="晕眩.3.3.100" animation="" probability="0.3" name="小人物的愤怒" level="10">
+    <condition level="10" value="松风剑法" type="skill" />
+    <condition level="10" value="南山刀法" type="skill" />
+    <condition level="10" value="袖箭" type="skill" />
+  </aoyi>
+  <aoyi start="松风剑法" buff="晕眩.3.3.100" animation="" probability="0.3" name="小人物的愤怒" level="10">
+    <condition level="10" value="罗汉拳" type="skill" />
+    <condition level="10" value="南山刀法" type="skill" />
+    <condition level="10" value="袖箭" type="skill" />
+  </aoyi>
+  <aoyi start="南山刀法" buff="晕眩.3.3.100" animation="" probability="0.3" name="小人物的愤怒" level="10">
+    <condition level="10" value="罗汉拳" type="skill" />
+    <condition level="10" value="松风剑法" type="skill" />
+    <condition level="10" value="袖箭" type="skill" />
+  </aoyi>
+  <aoyi start="袖箭" buff="晕眩.3.3.100" animation="" probability="0.3" name="小人物的愤怒" level="10">
+    <condition level="10" value="罗汉拳" type="skill" />
+    <condition level="10" value="松风剑法" type="skill" />
+    <condition level="10" value="南山刀法" type="skill" />
+  </aoyi>
+  <aoyi start="大金刚掌" buff="晕眩.2.1.100" animation="aoyi_zhangblue" probability="0.3" name="千手观音" level="10">
+    <condition level="10" value="如来千手法" type="skill" />
+  </aoyi>
+  <aoyi start="佛光普照" buff="轻身.2.3.100" animation="zhang" probability="0.3" name="黑沼灵狐" level="10">
+    <condition level="10" value="峨眉剑法" type="skill" />
+    <condition level="10" value="四象掌" type="skill" />
+    <condition level="10" value="飘雪穿云掌" type="skill" />
+  </aoyi>
+  <aoyi start="大嵩阳手" buff="" animation="aoyi_zhangblue" probability="0.3" name="嵩山神掌" level="10">
+    <condition level="10" value="嵩山剑法" type="skill" />
+  </aoyi>
+  <aoyi start="九阴白骨爪" buff="致盲.3.2.100" animation="zhua" probability="0.3" name="九阴白骨爪.九阴神爪" level="10">
+    <condition level="1" value="九阴神功" type="internalskill" />
+  </aoyi>
+  <aoyi start="九阴白骨爪" buff="中毒.8.2.100" animation="aoyi_zhua" probability="0.3" name="九阴白骨爪.九阴魔爪" level="10">
+    <condition level="" value="毒圣" type="talent" />
+  </aoyi>
+  <aoyi start="灵蛇拳" buff="中毒.6.2.100" animation="longjuanfeng_green" probability="0.3" name="千噬万毒" level="8">
+    <condition level="5" value="蛤蟆功" type="internalskill" />
+    <condition level="" value="毒系精通" type="talent" />
+  </aoyi>
+  <aoyi start="灵蛇拳" buff="中毒.6.2.100" animation="longjuanfeng_green" probability="0.3" name="千噬万毒" level="8">
+    <condition level="1" value="蛤蟆功" type="internalskill" />
+    <condition level="" value="毒圣" type="talent" />
+  </aoyi>
+  <aoyi start="灵蛇拳" buff="中毒.6.2.100" animation="longjuanfeng_green" probability="0.3" name="千噬万毒" level="8">
+    <condition level="" value="臭蛤蟆" type="talent" />
+  </aoyi>
+  <aoyi start="幻阴指" buff="重伤.3.3.100" animation="longjuanfeng2" probability="0.3" name="阴阳双指" level="10">
+    <condition level="9" value="一阳指" type="skill" />
+  </aoyi>
+  <aoyi start="一阳指" buff="重伤.3.3.100" animation="longjuanfeng2" probability="0.3" name="阴阳双指" level="10">
+    <condition level="9" value="幻阴指" type="skill" />
+  </aoyi>
+  <aoyi start="一阳指" buff="攻击弱化.3.2.100" animation="fo" probability="0.3" name="天南一指" level="10">
+    <condition level="" value="大理世家" type="talent" />
+  </aoyi>
+  <aoyi start="一阳指" buff="攻击弱化.5.3.100" animation="yunshi" probability="0.3" name="纯阳一指" level="10">
+    <condition level="9" value="九阳神功" type="internalskill" />
+  </aoyi>
+  <aoyi start="一阳指" buff="攻击弱化.5.3.100" animation="yunshi" probability="0.3" name="纯阳一指" level="10">
+    <condition level="9" value="纯阳无极功" type="internalskill" />
+  </aoyi>
+  <aoyi start="一阳指" buff="攻击强化.5.3.100" animation="yunshi_big" probability="0.3" name="先天一指" level="10">
+    <condition level="10" value="先天功" type="internalskill" />
+    <condition level="" value="清心" type="talent" />
+  </aoyi>
+  <aoyi start="铁掌" buff="晕眩.0.1.100#防御强化.5.3.100" animation="aoyi_baozhahuo" probability="0.3" name="钢铁奔雷" level="10">
+    <condition level="" value="金钟罩" type="talent" />
+  </aoyi>
+  <aoyi start="寒冰神掌" buff="麻痹.2.2.100" animation="bingkuai" probability="0.3" name="寒冰玄煞" level="10">
+    <condition level="10" value="寒冰真气" type="internalskill" />
+  </aoyi>
+  <aoyi start="嵩山剑法" buff="定身.3.3.100" animation="bingkuai" probability="0.3" name="冰凛嵩山" level="10">
+    <condition level="10" value="寒冰真气" type="internalskill" />
+  </aoyi>
+  <aoyi start="空明拳" buff="" animation="quanji" probability="0.3" name="空明神拳" level="10">
+    <condition level="" value="左右互搏" type="talent" />
+  </aoyi>
+  <aoyi start="庖丁解牛" buff="" animation="quanji" probability="0.3" name="大宗师" level="10">
+    <condition level="10" value="百花错拳" type="skill" />
+    <condition level="10" value="北冥神功" type="internalskill" />
+  </aoyi>
+  <aoyi start="弹指神通" buff="内伤.5.3.100#轻身.2.3.100" animation="" probability="0.3" name="碧海潮生" level="10">
+    <condition level="10" value="落英神剑掌" type="skill" />
+    <condition level="10" value="玉箫剑法" type="skill" />
+  </aoyi>
+  <aoyi start="狂风快剑" buff="" animation="flower_jian" probability="0.3" name="华山一剑" level="10">
+    <condition level="10" value="华山剑法" type="skill" />
+    <condition level="10" value="紫霞神功" type="internalskill" />
+  </aoyi>
+  <aoyi start="狂风快剑" buff="" animation="flower_jian" probability="0.3" name="华山一剑" level="10">
+    <condition level="10" value="夺命连环三仙剑" type="skill" />
+    <condition level="10" value="紫霞神功" type="internalskill" />
+  </aoyi>
+  <aoyi start="狂风快剑" buff="" animation="flower_jian" probability="0.5" name="华山剑宗" level="15">
+    <condition level="10" value="夺命连环三仙剑" type="skill" />
+  </aoyi>
+  <aoyi start="华山剑法" buff="内伤.5.3.100" animation="aoyi_jianpurple" probability="0.5" name="紫霞剑气" level="15">
+    <condition level="20" value="紫霞神功" type="internalskill" />
+  </aoyi>
+  <aoyi start="百变千幻云雾十三式" buff="致盲.3.3.100" animation="luoxing_purple" probability="0.3" name="潇湘夜雨.一剑落九雁" level="10">
+    <condition level="10" value="琴胆剑心" type="talent" />
+  </aoyi>
+  <aoyi start="金蛇剑法" buff="致盲.3.2.100#定身.3.2.100" animation="aoyi3" probability="0.3" name="金蛇郎君.金蛇剑法奥义" level="10">
+    <condition level="" value="金蛇郎君" type="talent" />
+  </aoyi>
+  <aoyi start="柔云剑法" buff="缓速.5.3.100#内伤.3.3.100" animation="dalei" probability="0.3" name="云意" level="10">
+    <condition level="10" value="武当心法" type="internalskill" />
+  </aoyi>
+  <aoyi start="两仪剑法" buff="缓速.5.3.100#内伤.3.3.100" animation="taiji3" probability="0.3" name="两仪反转" level="10">
+    <condition level="9" value="反两仪刀法" type="skill" />
+  </aoyi>
+  <aoyi start="狂风快剑" buff="" animation="longjuanfeng2" probability="0.3" name="狂风" level="10">
+    <condition level="9" value="狂风刀法" type="skill" />
+  </aoyi>
+  <aoyi start="万劫刀法" buff="" animation="" probability="0.3" name="万劫闪电貂" level="1">
+    <condition level="" value="闪电貂" type="specialskill" />
+  </aoyi>
+  <aoyi start="狂风刀法" buff="" animation="longjuanfeng2" probability="0.3" name="狂风" level="10">
+    <condition level="9" value="狂风快剑" type="skill" />
+  </aoyi>
+  <aoyi start="草原刀法" buff="" animation="bingdong" probability="0.3" name="天山雪" level="10">
+    <condition level="9" value="三分剑法" type="skill" />
+  </aoyi>
+  <aoyi start="反两仪刀法" buff="缓速.5.3.100#内伤.3.3.100" animation="taiji3" probability="0.3" name="两仪反转" level="10">
+    <condition level="9" value="两仪剑法" type="skill" />
+  </aoyi>
+  <aoyi start="燃木刀法" buff="内伤.3.3.100#防御强化.3.3.100" animation="aoyi_fire" probability="0.3" name="达摩焚天" level="10">
+    <condition level="9" value="天竺佛指" type="skill" />
+    <condition level="9" value="如来千手法" type="skill" />
+  </aoyi>
+  <aoyi start="达摩剑法" buff="内伤.3.3.100#防御强化.3.3.100" animation="yunshi_big" probability="0.3" name="达摩千劫" level="10">
+    <condition level="9" value="大金刚掌" type="skill" />
+    <condition level="9" value="如来千手法" type="skill" />
+  </aoyi>
+  <aoyi start="玉蜂针" buff="" animation="longjuanfeng2" probability="0.3" name="玉蜂群" level="10">
+    <condition level="9" value="玉女素心剑" type="skill" />
+    <condition level="9" value="九阴神功" type="internalskill" />
+  </aoyi>
+  <aoyi start="黑血神针" buff="" animation="duyao2" probability="0.3" name="黑血奇毒" level="10">
+    <condition level="9" value="毒龙鞭法" type="skill" />
+    <condition level="9" value="五毒神掌" type="skill" />
+  </aoyi>
+  <aoyi start="日月鞭法" buff="魔神降临.1.3.100" animation="aoyi_guangjian" probability="0.3" name="日月魔剑" level="10">
+    <condition level="9" value="嵩山剑法" type="skill" />
+    <condition level="9" value="华山剑法" type="skill" />
+  </aoyi>
+  <aoyi start="天罗地网掌" buff="定身.1.3.100#轻身.1.2.100" animation="aoyi_flower" probability="0.3" name="古墓.森罗万象.天罗地网掌" level="5">
+    <condition level="5" value="玉女剑法" type="skill" />
+    <condition level="5" value="玉蜂针" type="skill" />
+    <condition level="5" value="玉女心经" type="internalskill" />
+  </aoyi>
+  <aoyi start="玉女剑法" buff="伤害加深.1.3.100#轻身.1.2.100" animation="aoyi_flower" probability="0.3" name="古墓.森罗万象.玉女剑法" level="5">
+    <condition level="5" value="天罗地网掌" type="skill" />
+    <condition level="5" value="玉蜂针" type="skill" />
+    <condition level="5" value="玉女心经" type="internalskill" />
+  </aoyi>
+  <aoyi start="玉蜂针" buff="中毒.1.3.100#轻身.1.2.100" animation="aoyi_flower" probability="0.3" name="古墓.森罗万象.驱蜂术" level="5">
+    <condition level="5" value="玉女剑法" type="skill" />
+    <condition level="5" value="天罗地网掌" type="skill" />
+    <condition level="5" value="玉女心经" type="internalskill" />
+  </aoyi>
+  <aoyi start="密宗大手印" buff="缓速.1.3.100#防御强化.2.3.100" animation="aoyi_laolong" probability="0.3" name="大轮.无上秘境.密宗大手印" level="7">
+    <condition level="7" value="漫天花雨" type="skill" />
+    <condition level="7" value="无上大力杵" type="skill" />
+  </aoyi>
+  <aoyi start="漫天花雨" buff="致盲.1.3.100#防御强化.2.3.100" animation="aoyi_laolong" probability="0.3" name="大轮.无上秘境.漫天花雨" level="7">
+    <condition level="7" value="密宗大手印" type="skill" />
+    <condition level="7" value="无上大力杵" type="skill" />
+  </aoyi>
+  <aoyi start="无上大力杵" buff="内伤.1.3.100#防御强化.2.3.100" animation="aoyi_laolong" probability="0.3" name="大轮.无上秘境.金刚神杵" level="7">
+    <condition level="7" value="密宗大手印" type="skill" />
+    <condition level="7" value="漫天花雨" type="skill" />
+  </aoyi>
+  <aoyi start="归藏剑" buff="定身.1.3.100" animation="longjuanfeng2" probability="0.3" name="灵鹫宫绝学.天羽奇剑" level="7">
+    <condition level="7" value="天山掌法" type="skill" />
+    <condition level="7" value="天山心法" type="internalskill" />
+  </aoyi>
+  <aoyi start="天山掌法" buff="轻身.3.2.100" animation="longjuanfeng2" probability="0.3" name="灵鹫宫绝学.逍遥游" level="7">
+    <condition level="7" value="归藏剑" type="skill" />
+    <condition level="7" value="天山心法" type="internalskill" />
+  </aoyi>
+  <aoyi start="归藏剑" buff="定身.2.3.100" animation="aoyi_jianpurple" probability="0.3" name="灵鹫宫绝学.北冥一剑" level="10">
+    <condition level="" value="北冥真气" type="talent" />
+  </aoyi>
+  <aoyi start="天山掌法" buff="定身.2.3.100" animation="aoyi_banruozhang" probability="0.2" name="灵鹫宫绝学.北冥神掌" level="10">
+    <condition level="" value="北冥真气" type="talent" />
+  </aoyi>
+  <aoyi start="天山六阳掌" buff="飘渺.5.3.100" animation="aoyi_hongzha" probability="0.2" name="逍遥绝学.信天游" level="10">
+    <condition level="" value="北冥真气" type="talent" />
+  </aoyi>
+  <aoyi start="天山折梅手" buff="定身.2.3.100" animation="aoyi_banruozhang" probability="0.2" name="灵鹫宫绝学.北冥神掌" level="10">
+    <condition level="" value="北冥真气" type="talent" />
+  </aoyi>
+  <aoyi start="天山折梅手" buff="恢复.6.3.100#伤害加深.2.3.100" animation="" probability="0.25" name="灵鹫宫绝学.天地唯我独尊" level="10">
+    <condition level="10" value="八荒六合唯我独尊功" type="internalskill" />
+  </aoyi>
+  <aoyi start="三阴蜈蚣爪" buff="中毒.7.3.100#伤害加深.2.3.100" animation="aoyi_baozhahuo" probability="0.25" name="星宿派绝学.幽冥神掌" level="10">
+    <condition level="10" value="化功大法" type="internalskill" />
+  </aoyi>
+  <aoyi start="抽髓掌" buff="中毒.7.3.100#伤害加深.2.3.100" animation="aoyi_baozhahuo" probability="0.25" name="星宿派绝学.幽冥神掌" level="10">
+    <condition level="10" value="化功大法" type="internalskill" />
+  </aoyi>
+  <aoyi start="三阴蜈蚣爪" buff="中毒.7.3.100#伤害加深.2.3.100" animation="aoyi_baozhahuo" probability="0.15" name="星宿派绝学.幽冥神掌" level="10">
+    <condition level="10" value="抽髓掌" type="skill" />
+  </aoyi>
+  <aoyi start="一剑化三清" buff="飘渺.4.3.100" animation="taiji3" probability="0.2" name="全真绝学.太乙剑诀" level="7">
+    <condition level="7" value="全真剑法" type="skill" />
+    <condition level="7" value="全真心法" type="internalskill" />
+  </aoyi>
+  <aoyi start="七星七绝剑" buff="飘渺.4.3.100" animation="taiji3" probability="0.3" name="全真绝学.太乙剑诀" level="7">
+    <condition level="7" value="全真剑法" type="skill" />
+    <condition level="7" value="全真心法" type="internalskill" />
+  </aoyi>
+  <aoyi start="七星七绝剑" buff="晕眩.0.1.100#重伤.3.3.100" animation="aoyi_fire" probability="0.3" name="全真绝学.重阳剑法" level="10">
+    <condition level="10" value="全真剑法" type="skill" />
+    <condition level="10" value="一剑化三清" type="skill" />
+    <condition level="5" value="先天功" type="internalskill" />
+  </aoyi>
+  <aoyi start="三花聚顶掌" buff="晕眩.0.1.100" animation="hua" probability="0.3" name="全真绝学.三花聚顶" level="10">
+    <condition level="10" value="昊天掌" type="skill" />
+    <condition level="10" value="全真心法" type="internalskill" />
+  </aoyi>
+  <aoyi start="三花聚顶掌" buff="集气.3.3.100#诸般封印" animation="aoyi_long2" probability="0.3" name="全真绝学.三花聚顶.炼神返虚" level="16">
+    <condition level="16" value="昊天掌" type="skill" />
+  </aoyi>
+  <aoyi start="六脉神剑" buff="神速攻击.5.3.100#内伤.5.3.100" animation="aoyi_bluelight" probability="0.15" name="大理绝学.六脉神剑奥义" level="10">
+    <condition level="" value="大理世家" type="talent" />
+  </aoyi>
+  <aoyi start="六脉神剑" buff="神速攻击.5.3.100#内伤.5.3.100" animation="aoyi_bluelight" probability="0.15" name="大理绝学.六脉神剑奥义" level="10">
+    <condition level="10" value="一阳指" type="skill" />
+  </aoyi>
+  <aoyi start="打狗棒法" buff="集气.3.3.100#飘渺.3.3.100#诸般封印" animation="aoyi_dagoubang" probability="0.2" name="丐帮绝学.打狗棒法奥义" level="10">
+    <condition level="10" value="降龙十八掌" type="skill" />
+    <condition level="" value="臭叫花" type="talent" />
+  </aoyi>
+  <aoyi start="打狗棒法" buff="集气.3.3.100#飘渺.3.3.100#诸般封印" animation="aoyi_dagoubang" probability="0.15" name="丐帮绝学.打狗棒法奥义" level="10">
+    <condition level="10" value="降龙十八掌" type="skill" />
+  </aoyi>
+  <aoyi start="打狗棒法" buff="集气.3.3.100#飘渺.3.3.100#诸般封印" animation="aoyi_dagoubang" probability="0.2" name="丐帮绝学.打狗棒法奥义" level="10">
+    <condition level="" value="玲珑璇玑" type="talent" />
+  </aoyi>
+  <aoyi start="玉女素心剑" buff="飘渺.5.3.100#致盲.3.3.100#缓速.3.3.100" animation="aoyi_flower" probability="0.3" name="古墓绝学.双剑合璧" level="10">
+    <condition level="10" value="玉女剑法" type="skill" />
+    <condition level="10" value="天罗地网掌" type="skill" />
+    <condition level="10" value="玉蜂针" type="skill" />
+    <condition level="10" value="玉女心经" type="internalskill" />
+  </aoyi>
+  <aoyi start="斗转星移" buff="诸般封印#内伤.5.3.100" animation="aoyi_hongzha" probability="0.3" name="慕容绝学.离合参商" level="10">
+    <condition level="" value="斗转星移" type="talent" />
+    <condition level="" value="慕容世家" type="talent" />
+  </aoyi>
+  <aoyi start="斗转星移" buff="诸般封印#内伤.5.3.100" animation="aoyi_hongzha" probability="0.15" name="慕容绝学.离合参商" level="10">
+    <condition level="" value="斗转星移" type="talent" />
+  </aoyi>
+  <aoyi start="天山六阳掌" buff="中毒.18.3.100#麻痹.2.2.100" animation="aoyi_shengsifu" probability="0.5" name="逍遥绝学.生死符" level="10">
+    <condition level="10" value="天山折梅手" type="skill" />
+    <condition level="10" value="北冥神功" type="internalskill" />
+  </aoyi>
+  <aoyi start="天山折梅手" buff="中毒.18.3.100#麻痹.2.2.100" animation="aoyi_shengsifu" probability="0.3" name="逍遥绝学.生死符" level="10">
+    <condition level="10" value="天山六阳掌" type="skill" />
+    <condition level="10" value="北冥神功" type="internalskill" />
+  </aoyi>
+  <aoyi start="独孤九剑" buff="定身.3.3.100#神行.2.2.100" animation="aoyi3" probability="0.3" name="华山绝学.独孤九剑奥义" level="10">
+    <condition level="10" value="华山剑法" type="skill" />
+    <condition level="10" value="狂风快剑" type="skill" />
+  </aoyi>
+  <aoyi start="独孤九剑" buff="定身.3.3.100#神行.2.2.100" animation="aoyi3" probability="0.15" name="华山绝学.独孤九剑奥义" level="10">
+    <condition level="10" value="华山剑法" type="skill" />
+    <condition level="10" value="紫霞神功" type="internalskill" />
+  </aoyi>
+  <aoyi start="绝户虎爪手" buff="晕眩.0.2.100" animation="aoyi_baozhahuo" probability="0.2" name="绝户虎爪手.断子绝孙爪" level="10">
+    <condition level="10" value="太极神功" type="internalskill" />
+    <condition level="10" value="绵掌" type="skill" />
+  </aoyi>
+  <aoyi start="太极拳" buff="飘渺.3.3.100#麻痹.2.2.100" animation="aoyi_baguajian" probability="0.2" name="武当绝学.太极拳奥义" level="10">
+    <condition level="10" value="太极神功" type="internalskill" />
+    <condition level="10" value="太极宗师" type="talent" />
+  </aoyi>
+  <aoyi start="太极拳" buff="飘渺.3.3.100#麻痹.2.2.100" animation="aoyi_baguajian" probability="0.2" name="武当绝学.太极拳奥义" level="10">
+    <condition level="10" value="太极神功" type="internalskill" />
+    <condition level="10" value="太极高手" type="talent" />
+  </aoyi>
+  <aoyi start="太极拳" buff="飘渺.3.3.100#麻痹.2.2.100" animation="aoyi_baguajian" probability="0.15" name="武当绝学.太极拳奥义" level="10">
+    <condition level="10" value="太极剑" type="skill" />
+  </aoyi>
+  <aoyi start="太极剑" buff="飘渺.3.3.100#麻痹.2.2.100" animation="aoyi_baguajian" probability="0.2" name="武当绝学.太极剑奥义" level="10">
+    <condition level="10" value="太极神功" type="internalskill" />
+    <condition level="10" value="太极宗师" type="talent" />
+  </aoyi>
+  <aoyi start="太极剑" buff="飘渺.3.3.100#麻痹.2.2.100" animation="aoyi_baguajian" probability="0.2" name="武当绝学.太极剑奥义" level="10">
+    <condition level="10" value="太极神功" type="internalskill" />
+    <condition level="10" value="太极高手" type="talent" />
+  </aoyi>
+  <aoyi start="太极剑" buff="飘渺.3.3.100#麻痹.2.2.100" animation="aoyi_baguajian" probability="0.15" name="武当绝学.太极剑奥义" level="10">
+    <condition level="10" value="太极拳" type="skill" />
+  </aoyi>
+  <aoyi start="太极拳" buff="飘渺.3.3.100#麻痹.2.2.100" animation="aoyi_baguajian" probability="1" name="纯阳无极功.太极拳奥义" level="10">
+    <condition level="15" value="纯阳无极功" type="internalskill" />
+  </aoyi>
+  <aoyi start="太极剑" buff="飘渺.3.3.100#麻痹.2.2.100" animation="aoyi_baguajian" probability="1" name="纯阳无极功.太极剑奥义" level="10">
+    <condition level="15" value="纯阳无极功" type="internalskill" />
+  </aoyi>
+  <aoyi start="火焰刀法" buff="晕眩.0.1.100#中毒.10.2.100" animation="aoyi_fire" probability="0.2" name="大轮绝学.般若火舞" level="10">
+    <condition level="10" value="龙象般若功" type="internalskill" />
+    <condition level="10" value="密宗大手印" type="skill" />
+    <condition level="10" value="漫天花雨" type="skill" />
+    <condition level="10" value="无上大力杵" type="skill" />
+  </aoyi>
+  <aoyi start="龙象般若功.龙象秘境" buff="晕眩.0.1.100#防御强化.3.3.100" animation="aoyi_jinzhong" probability="0.3" name="龙象般若功奥义.象跌势" level="10">
+    <condition level="10" value="龙象般若功" type="internalskill" />
+    <condition level="10" value="密宗大手印" type="skill" />
+    <condition level="10" value="漫天花雨" type="skill" />
+    <condition level="10" value="无上大力杵" type="skill" />
+  </aoyi>
+  <aoyi start="龙象般若功.庄严宝相" buff="伤害加深.3.3.100#防御强化.3.3.100" animation="aoyi_long" probability="0.3" name="龙象般若功奥义.龙吞势" level="10">
+    <condition level="10" value="龙象般若功" type="internalskill" />
+    <condition level="10" value="密宗大手印" type="skill" />
+    <condition level="10" value="漫天花雨" type="skill" />
+    <condition level="10" value="无上大力杵" type="skill" />
+  </aoyi>
+  <aoyi start="日月神鞭" buff="缓速.10.3.100#防御强化.3.3.100" animation="foxiang" probability="0.9" name="少林阵法.金刚伏魔圈" level="10">
+    <condition level="" value="金刚伏魔圈" type="talent" />
+    <condition level="10" value="易筋经" type="internalskill" />
+  </aoyi>
+  <aoyi start="弹指神通" buff="防御强化.3.3.100" animation="aoyi_fire" probability="0.5" name="明教.大光明圣火" level="10">
+    <condition level="" value="光明圣火阵" type="talent" />
+  </aoyi>
+  <aoyi start="须弥山掌" buff="防御强化.3.3.100" animation="aoyi_fire" probability="0.5" name="明教.大光明圣火" level="10">
+    <condition level="" value="光明圣火阵" type="talent" />
+  </aoyi>
+  <aoyi start="降龙十八掌" buff="麻痹.3.3.100#神行.1.1.100" animation="bingkuai" probability="0.15" name="降龙十八掌.履霜冰至" level="10">
+    <condition level="10" value="擒龙功" type="skill" />
+    <condition level="" value="天龙.盖世英雄" type="talent" />
+  </aoyi>
+  <aoyi start="降龙十八掌" buff="晕眩.0.1.100#神行.1.1.100" animation="aoyi_long2" probability="0.15" name="降龙十八掌.震惊百里" level="10">
+    <condition level="10" value="擒龙功" type="skill" />
+    <condition level="" value="天龙.盖世英雄" type="talent" />
+  </aoyi>
+  <aoyi start="降龙十八掌" buff="缓速.5.3.100#神行.1.1.100" animation="dalei" probability="0.15" name="降龙十八掌.密云不雨" level="10">
+    <condition level="10" value="擒龙功" type="skill" />
+    <condition level="" value="天龙.盖世英雄" type="talent" />
+  </aoyi>
+  <aoyi start="降龙十八掌" buff="伤害加深.3.3.100#神行.1.1.100" animation="aoyi_long3" probability="0.15" name="降龙十八掌.突如其来" level="10">
+    <condition level="10" value="擒龙功" type="skill" />
+    <condition level="" value="天龙.盖世英雄" type="talent" />
+  </aoyi>
+  <aoyi start="降龙十八掌" buff="定身.3.3.100#神行.1.1.100" animation="aoyi_long3" probability="0.15" name="降龙十八掌.时乘六龙" level="10">
+    <condition level="10" value="擒龙功" type="skill" />
+  </aoyi>
+  <aoyi start="降龙十八掌" buff="重伤.5.3.100#魔神降临.1.1.100" animation="aoyi_long4" probability="0.25" name="降龙十八掌奥义式" level="10">
+    <condition level="" value="射雕英雄" type="talent" />
+  </aoyi>
+  <aoyi start="独孤九剑" buff="致盲.10.3.100#缓速.10.3.100" animation="aoyi_jianying" probability="0.4" name="绝学.无招胜有招" level="10">
+    <condition level="10" value="玄铁剑法" type="skill" />
+    <condition level="" value="孤独求败" type="talent" />
+  </aoyi>
+  <aoyi start="独孤九剑" buff="致盲.10.3.100#缓速.10.3.100" animation="aoyi_jianying" probability="0.2" name="绝学.无招胜有招" level="12">
+    <condition level="" value="浪子剑客" type="talent" />
+  </aoyi>
+  <aoyi start="玄铁剑法" buff="致盲.10.3.100#缓速.10.3.100" animation="aoyi_jianying" probability="0.4" name="绝学.无招胜有招" level="12">
+    <condition level="" value="神雕大侠" type="talent" />
+  </aoyi>
+  <aoyi start="胡家刀法" buff="诸般封印#轻身.1.3.100#神速攻击.3.3.100#飘渺.3.3.100" animation="aoyi_baguadao" probability="0.3" name="绝学.刀剑归真" level="10">
+    <condition level="9" value="苗家剑法" type="skill" />
+  </aoyi>
+  <aoyi start="苗家剑法" buff="诸般封印#轻身.1.3.100#神速攻击.3.3.100#飘渺.3.3.100" animation="aoyi_baguajian" probability="0.3" name="绝学.刀剑归真" level="10">
+    <condition level="9" value="胡家刀法" type="skill" />
+  </aoyi>
+  <aoyi start="胡家刀法" buff="伤害加深.3.3.100" animation="aoyi_jianguangblue" probability="0.1" name="胡家刀法奥义.穿手藏刀" level="10">
+    <condition level="" value="雪山飞狐" type="talent" />
+  </aoyi>
+  <aoyi start="胡家刀法" buff="定身.3.3.100" animation="aoyi_jianguangblue" probability="0.1" name="胡家刀法奥义.鹞子翻身刀" level="10">
+    <condition level="" value="雪山飞狐" type="talent" />
+  </aoyi>
+  <aoyi start="胡家刀法" buff="轻身.3.3.100" animation="aoyi_jianguangblue" probability="0.1" name="胡家刀法奥义.怀中抱月" level="10">
+    <condition level="" value="雪山飞狐" type="talent" />
+  </aoyi>
+  <aoyi start="野球拳" buff="定身.3.3.100" animation="aoyi_guangzhu" probability="0.4" name="草头百姓的逆袭.百姓也有春天" level="10">
+    <condition level="10" value="草头百姓" type="talent" />
+  </aoyi>
+  <aoyi start="野球拳" buff="圣战.0.4.100#魔神降临.3.3.100" animation="aoyi_guangzhu" probability="0.4" name="草头百姓的逆袭.这下子逆天了" level="10">
+    <condition level="10" value="九阴神功" type="internalskill" />
+    <condition level="10" value="九阳神功" type="internalskill" />
+    <condition level="10" value="易筋经" type="internalskill" />
+    <condition level="10" value="草头百姓" type="talent" />
+  </aoyi>
+  <aoyi start="黯然销魂掌" buff="防御强化.5.3.100" animation="aoyi_hongzha" probability="0.3" name="黯然销魂.左手帝" level="10">
+    <condition level="" value="神雕大侠" type="talent" />
+  </aoyi>
+  <aoyi start="黯然销魂掌" buff="定身.3.3.100" animation="aoyi_banruozhang" probability="0.3" name="黯然销魂掌奥义式" level="10">
+    <condition level="10" value="玄铁剑法" type="skill" />
+    <condition level="" value="神雕大侠" type="talent" />
+  </aoyi>
+  <aoyi start="辟邪剑法" buff="致盲.4#飘渺#轻身.2.3.100#魔神降临.3.3.30" animation="aoyi_kuihua" probability="0.25" name="辟邪剑法奥义式" level="10">
+    <condition level="" value="阉人" type="talent" />
+    <condition level="10" value="葵花宝典" type="internalskill" />
+  </aoyi>
+  <aoyi start="葵花宝典.真辟邪剑法" buff="致盲.4#飘渺#轻身.2.3.100#魔神降临.3.3.30" animation="aoyi_kuihua" probability="0.25" name="辟邪剑法奥义式" level="10">
+    <condition level="" value="阉人" type="talent" />
+    <condition level="10" value="葵花宝典" type="internalskill" />
+  </aoyi>
+  <aoyi start="辟邪剑法" buff="致盲.4#飘渺#轻身.2.3.100" animation="aoyi_kuihua" probability="0.3" name="辟邪剑法.阴凛玄煞.电光火石" level="10">
+    <condition level="10" value="狂风快剑" type="skill" />
+    <condition level="" value="阉人" type="talent" />
+  </aoyi>
+  <aoyi start="八卦游身掌" buff="" animation="taiji3" probability="0.25" name="绝学.形意八卦掌" level="7">
+    <condition level="7" value="八卦刀法" type="skill" />
+  </aoyi>
+  <aoyi start="八卦刀法" buff="" animation="taiji3" probability="0.25" name="绝学.八卦无双" level="7">
+    <condition level="7" value="八卦游身掌" type="skill" />
+  </aoyi>
+  <aoyi start="太祖长拳" buff="定身.3.3.100" animation="aoyi_gunzibaozha" probability="0.25" name="奥义.缠丝擒拿手" level="7">
+    <condition level="7" value="疯魔杖法" type="skill" />
+  </aoyi>
+  <aoyi start="混元掌" buff="伤害加深.3.3.100" animation="aoyi_quanpurple" probability="0.25" name="混元掌奥义.劈石破玉拳" level="10">
+    <condition level="10" value="混元功" type="internalskill" />
+  </aoyi>
+  <aoyi start="血刀大法" buff="伤害加深.5.3.100#魔神降临.3.3.50" animation="aoyi_huanrao" probability="0.25" name="血刀大法奥义.血海无边" level="10">
+    <condition level="" value="血海魔功" type="talent" />
+  </aoyi>
+  <aoyi start="血刀大法" buff="伤害加深.5.3.100#魔神降临.3.3.50" animation="aoyi_huanrao" probability="0.35" name="血刀大法奥义.血海无边" level="10">
+    <condition level="" value="血魔刀法" type="talent" />
+  </aoyi>
+  <aoyi start="连城剑法" buff="伤害加深.3.3.100" animation="aoyi_jianguangblue" probability="0.25" name="绝学.唐诗剑法" level="10">
+    <condition level="" value="神照功" type="internalskill" />
+  </aoyi>
+  <aoyi start="青莲掌法" buff="定身.3.3.100" animation="aoyi_quanpurple" probability="0.25" name="绝学.罗汉伏魔拳" level="10">
+    <condition level="" value="罗汉伏魔功" type="internalskill" />
+  </aoyi>
+  <aoyi start="太白剑法" buff="定身.3.3.100" animation="aoyi_quanpurple" probability="0.25" name="绝学.罗汉伏魔剑" level="10">
+    <condition level="" value="罗汉伏魔功" type="internalskill" />
+  </aoyi>
+  <aoyi start="金乌刀法" buff="定身.3.3.100" animation="longjuanfeng2" probability="0.25" name="绝学.罗汉伏魔刀" level="10">
+    <condition level="" value="罗汉伏魔功" type="internalskill" />
+  </aoyi>
+  <aoyi start="青莲掌法" buff="定身.3.3.100" animation="aoyi_quanpurple" probability="0.2" name="绝学.罗汉伏魔拳" level="10">
+    <condition level="" value="罗汉伏魔功" type="internalskill" />
+    <condition level="" value="狗杂种" type="talent" />
+  </aoyi>
+  <aoyi start="太白剑法" buff="定身.3.3.100" animation="aoyi_quanpurple" probability="0.2" name="绝学.罗汉伏魔剑" level="10">
+    <condition level="" value="罗汉伏魔功" type="internalskill" />
+    <condition level="" value="狗杂种" type="talent" />
+  </aoyi>
+  <aoyi start="金乌刀法" buff="定身.3.3.100" animation="longjuanfeng2" probability="0.2" name="绝学.罗汉伏魔刀" level="10">
+    <condition level="" value="罗汉伏魔功" type="internalskill" />
+    <condition level="" value="狗杂种" type="talent" />
+  </aoyi>
+  <aoyi start="太玄神功" buff="攻击强化.2.3.100#定身.3.3.100" animation="aoyi_fire" probability="0.5" name="太玄神功奥义式" level="10">
+    <condition level="" value="太玄神功" type="internalskill" />
+    <condition level="" value="狗杂种" type="talent" />
+  </aoyi>
+  <aoyi start="上清剑法" buff="定身.3.3.100" animation="dalei" probability="0.25" name="奥义.逍遥无极剑" level="7">
+    <condition level="7" value="归藏剑" type="skill" />
+  </aoyi>
+  <aoyi start="般若掌" buff="" animation="aoyi_banruozhang" probability="0.25" name="少林.观照般若" level="10">
+    <condition level="" value="少林心法" type="internalskill" />
+  </aoyi>
+  <aoyi start="韦陀棍" buff="定身.3.3.100" animation="aoyi_gunzibaozha" probability="0.2" name="少林.横扫千军" level="7">
+    <condition level="" value="俗家弟子" type="talent" />
+  </aoyi>
+  <aoyi start="罗汉拳" buff="攻击强化.2.3.100" animation="aoyi_quanpurple" probability="0.2" name="少林.醉梦罗汉拳" level="7">
+    <condition level="" value="无相" type="talent" />
+  </aoyi>
+  <aoyi start="伏魔棍" buff="定身.3.3.100" animation="aoyi_gunzibaozha" probability="0.2" name="少林.韦陀伏魔" level="7">
+    <condition level="" value="俗家弟子" type="talent" />
+    <condition level="7" value="韦陀棍" type="skill" />
+  </aoyi>
+  <aoyi start="伏魔棍" buff="定身.3.3.100#内伤.5.3.100" animation="aoyi_jinzhong" probability="0.25" name="少林.伏魔禅杖" level="10">
+    <condition level="" value="俗家弟子" type="talent" />
+    <condition level="10" value="韦陀棍" type="skill" />
+  </aoyi>
+  <aoyi start="小洪拳" buff="" animation="quanji" probability="0.2" name="福建少林.工字伏虎" level="10">
+    <condition level="7" value="小洪拳" type="skill" />
+  </aoyi>
+  <aoyi start="大洪拳" buff="" animation="quanji" probability="0.2" name="福建少林.虎鹤双形" level="10">
+    <condition level="7" value="大洪拳" type="skill" />
+  </aoyi>
+  <aoyi start="如来神掌" buff="诸般封印#定身#麻痹" animation="aoyi_banruozhang" probability="0.3" name="如来神掌.万佛朝宗" level="10">
+    <condition level="15" value="小洪拳" type="skill" />
+    <condition level="15" value="大洪拳" type="skill" />
+  </aoyi>
+  <aoyi start="拈花指" buff="拳掌封印#内伤.5.3.100" animation="aoyi_hongzha" probability="0.2" name="拈花一指" level="10">
+    <condition level="10" value="拈花指" type="skill" />
+    <condition level="" value="无相" type="talent" />
+  </aoyi>
+  <aoyi start="大力金刚指" buff="定身.3.3.100#内伤.5.3.100#重伤.3.3.100" animation="aoyi_zhua" probability="0.25" name="西域少林绝学.大力金刚指" level="10">
+    <condition level="10" value="大力金刚指" type="skill" />
+    <condition level="" value="九阳神功" type="internalskill" />
+  </aoyi>
+  <aoyi start="越女剑法" buff="晕眩.0.1.100" animation="aoyi_guangjian" probability="0.25" name="越女剑法奥义式" level="10">
+    <condition level="10" value="越女剑法" type="skill" />
+    <condition level="10" value="九阴神功" type="internalskill" />
+    <condition level="10" value="九阳神功" type="internalskill" />
+    <condition level="10" value="易筋经" type="internalskill" />
+  </aoyi>
+</root>

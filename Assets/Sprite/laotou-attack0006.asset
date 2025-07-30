@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: laotou-attack0006
+  m_Rect:
+    serializedVersion: 2
+    x: 0.07611847
+    y: 379.02673
+    width: 87.847755
+    height: 108.92555
+  m_Offset: {x: -19.999996, y: -90.489525}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 0eabcc65e51c7cc4aa747ee3cf05f700, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 24, y: 145, z: 0}
+    - serializedVersion: 2
+      pos: {x: 64, y: 80, z: 0}
+    - serializedVersion: 2
+      pos: {x: 64, y: 122, z: 0}
+    - serializedVersion: 2
+      pos: {x: 15, y: 36, z: 0}
+    - serializedVersion: 2
+      pos: {x: -24, y: 145, z: 0}
+    - serializedVersion: 2
+      pos: {x: -24, y: 36, z: 0}
+    indices: 050004000300000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.07611847
+      y: 379.02673
+      width: 87.847755
+      height: 108.92555
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 24, z: 1, w: 343}

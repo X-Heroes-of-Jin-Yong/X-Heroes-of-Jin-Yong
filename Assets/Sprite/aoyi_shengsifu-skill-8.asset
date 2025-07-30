@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: aoyi_shengsifu-skill-8
+  m_Rect:
+    serializedVersion: 2
+    x: 0.042907715
+    y: 194.07613
+    width: 161.91418
+    height: 201.92387
+  m_Offset: {x: -7.902651, y: -39.590824}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.426
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 2b5e9a6b1e4d3db47b0bbf29f85f58e8, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 140.14706, y: 142.14265, z: 0}
+    - serializedVersion: 2
+      pos: {x: 140.14706, y: 142.14265, z: 0}
+    - serializedVersion: 2
+      pos: {x: 140.14706, y: 142.14265, z: 0}
+    - serializedVersion: 2
+      pos: {x: 144.8419, y: 144.49008, z: 0}
+    - serializedVersion: 2
+      pos: {x: 114.32548, y: 123.36332, z: 0}
+    - serializedVersion: 2
+      pos: {x: 104.93581, y: 329.93607, z: 0}
+    - serializedVersion: 2
+      pos: {x: 168.31609, y: 139.79524, z: 0}
+    - serializedVersion: 2
+      pos: {x: 208.22218, y: -24.524008, z: 0}
+    - serializedVersion: 2
+      pos: {x: 208.22218, y: 45.89853, z: 0}
+    - serializedVersion: 2
+      pos: {x: 140.14706, y: -144.24232, z: 0}
+    - serializedVersion: 2
+      pos: {x: 137.79965, y: 132.75299, z: 0}
+    - serializedVersion: 2
+      pos: {x: -54.68861, y: -144.24232, z: 0}
+    - serializedVersion: 2
+      pos: {x: -96.94213, y: 329.93607, z: 0}
+    - serializedVersion: 2
+      pos: {x: -172.05951, y: 132.75299, z: 0}
+    - serializedVersion: 2
+      pos: {x: -172.05951, y: -97.29396, z: 0}
+    indices: 0e000d000b000c000b000d0005000b000c0004000b00050009000b0004000a0009000400020009000a00000009000200070009000000060007000000080007000600030001000500040005000100020004000100000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.042907715
+      y: 194.07613
+      width: 161.91418
+      height: 201.92387
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.426, y: 73.29735, z: 0.426, w: 255.44724}

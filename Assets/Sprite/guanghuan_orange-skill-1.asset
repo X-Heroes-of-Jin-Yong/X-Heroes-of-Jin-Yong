@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: guanghuan_orange-skill-1
+  m_Rect:
+    serializedVersion: 2
+    x: 118.07612
+    y: 229
+    width: 115.84776
+    height: 112.92388
+  m_Offset: {x: 0, y: -14.221939}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 2770b19fd8339b243a24d2752f160b7c, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 52, y: 70.759995, z: 0}
+    - serializedVersion: 2
+      pos: {x: 58, y: -37.24, z: 0}
+    - serializedVersion: 2
+      pos: {x: 58, y: 41.76, z: 0}
+    - serializedVersion: 2
+      pos: {x: 49, y: -42.24, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40, y: 70.759995, z: 0}
+    - serializedVersion: 2
+      pos: {x: -47, y: 60.76, z: 0}
+    - serializedVersion: 2
+      pos: {x: -49, y: -42.24, z: 0}
+    - serializedVersion: 2
+      pos: {x: -58, y: 24.759998, z: 0}
+    - serializedVersion: 2
+      pos: {x: -58, y: -22.240002, z: 0}
+    indices: 080007000600050006000700030006000500040003000500000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 118.07612
+      y: 229
+      width: 115.84776
+      height: 112.92388
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 176, z: 1, w: 271.24}

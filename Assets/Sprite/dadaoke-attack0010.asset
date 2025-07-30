@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: dadaoke-attack0010
+  m_Rect:
+    serializedVersion: 2
+    x: 0.07611847
+    y: 0.026750565
+    width: 88.89713
+    height: 144.9644
+  m_Offset: {x: 28.475313, y: -43.508953}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 86d43883f6f1e994ab1b5cf16d643449, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 2, y: 116, z: 0}
+    - serializedVersion: 2
+      pos: {x: 16, y: 7, z: 0}
+    - serializedVersion: 2
+      pos: {x: 16, y: 89, z: 0}
+    - serializedVersion: 2
+      pos: {x: -29, y: 116, z: 0}
+    - serializedVersion: 2
+      pos: {x: -42, y: -29, z: 0}
+    - serializedVersion: 2
+      pos: {x: -71, y: -29, z: 0}
+    - serializedVersion: 2
+      pos: {x: -73, y: 78, z: 0}
+    - serializedVersion: 2
+      pos: {x: -73, y: -11, z: 0}
+    indices: 070006000500030005000600040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.07611847
+      y: 0.026750565
+      width: 88.89713
+      height: 144.9644
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 73, z: 1, w: 29}

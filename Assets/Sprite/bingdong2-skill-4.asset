@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: bingdong2-skill-4
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 387
+    width: 256
+    height: 172
+  m_Offset: {x: -7.6293945E-06, y: -0.057144642}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.52244896
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 1863dd11fb588b84db764f1f68ce07df, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 245.00002, y: 32.539062, z: 0}
+    - serializedVersion: 2
+      pos: {x: 233.51564, y: -107.18751, z: 0}
+    - serializedVersion: 2
+      pos: {x: 245.00002, y: -68.90625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 189.4922, y: 141.64062, z: 0}
+    - serializedVersion: 2
+      pos: {x: 109.10157, y: 137.8125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 91.87501, y: -105.273445, z: 0}
+    - serializedVersion: 2
+      pos: {x: 76.5625, y: 164.60938, z: 0}
+    - serializedVersion: 2
+      pos: {x: 51.67969, y: -164.60938, z: 0}
+    - serializedVersion: 2
+      pos: {x: -21.054688, y: -164.60938, z: 0}
+    - serializedVersion: 2
+      pos: {x: -147.38281, y: 164.60938, z: 0}
+    - serializedVersion: 2
+      pos: {x: -199.06252, y: -93.78907, z: 0}
+    - serializedVersion: 2
+      pos: {x: -245.00002, y: 40.195312, z: 0}
+    - serializedVersion: 2
+      pos: {x: -245.00002, y: -32.539062, z: 0}
+    indices: 0c000b000a0009000a000b0008000a000900060008000900070008000600050007000600040005000600010005000400030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 387
+      width: 256
+      height: 172
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.52244896, y: 128, z: 0.52244896, w: 473}

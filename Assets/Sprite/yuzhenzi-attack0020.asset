@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: yuzhenzi-attack0020
+  m_Rect:
+    serializedVersion: 2
+    x: 471.0129
+    y: 0.07612038
+    width: 120.92023
+    height: 188.84775
+  m_Offset: {x: -51.473026, y: -77.49999}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 0c4000ca895fda346afd633f6a872061, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 112, y: 172, z: 0}
+    - serializedVersion: 2
+      pos: {x: 103, y: 37, z: 0}
+    - serializedVersion: 2
+      pos: {x: 112, y: 142, z: 0}
+    - serializedVersion: 2
+      pos: {x: 99, y: 22, z: 0}
+    - serializedVersion: 2
+      pos: {x: 94, y: 172, z: 0}
+    - serializedVersion: 2
+      pos: {x: 93, y: 17, z: 0}
+    - serializedVersion: 2
+      pos: {x: 83, y: 36, z: 0}
+    - serializedVersion: 2
+      pos: {x: 76, y: -12, z: 0}
+    - serializedVersion: 2
+      pos: {x: 75, y: -17, z: 0}
+    - serializedVersion: 2
+      pos: {x: 38, y: -17, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3, y: 114, z: 0}
+    - serializedVersion: 2
+      pos: {x: -9, y: 86, z: 0}
+    - serializedVersion: 2
+      pos: {x: -9, y: 32, z: 0}
+    indices: 0c000b0009000a0009000b00040009000a00080009000400070008000400060007000400050006000400030005000400000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 471.0129
+      y: 0.07612038
+      width: 120.92023
+      height: 188.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 480, z: 1, w: 17}

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: aoyi_baguadao-skill-1
+  m_Rect:
+    serializedVersion: 2
+    x: 258
+    y: 464
+    width: 202
+    height: 256
+  m_Offset: {x: 1.6013263, y: -95.17287}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.41393444
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 0e83f42f5e593df49add049d6fb13bb8, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 232.88391, y: 287.67505, z: 0}
+    - serializedVersion: 2
+      pos: {x: 240.13144, y: 63.001778, z: 0}
+    - serializedVersion: 2
+      pos: {x: 240.13144, y: 258.68494, z: 0}
+    - serializedVersion: 2
+      pos: {x: 203.89381, y: -14.30515, z: 0}
+    - serializedVersion: 2
+      pos: {x: 172.48788, y: 389.1404, z: 0}
+    - serializedVersion: 2
+      pos: {x: 119.33937, y: -79.53287, z: 0}
+    - serializedVersion: 2
+      pos: {x: 107.26016, y: 538.92255, z: 0}
+    - serializedVersion: 2
+      pos: {x: -134.32399, y: 538.92255, z: 0}
+    - serializedVersion: 2
+      pos: {x: -156.06656, y: -79.53287, z: 0}
+    - serializedVersion: 2
+      pos: {x: -192.30418, y: 246.60573, z: 0}
+    - serializedVersion: 2
+      pos: {x: -197.13586, y: 386.72455, z: 0}
+    - serializedVersion: 2
+      pos: {x: -223.71013, y: -40.879406, z: 0}
+    - serializedVersion: 2
+      pos: {x: -247.86855, y: 251.43741, z: 0}
+    - serializedVersion: 2
+      pos: {x: -247.86855, y: 24.348314, z: 0}
+    indices: 0d000c000b0009000b000c0008000b0009000a0007000900080009000700050008000700060005000700040005000600030005000400000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 258
+      y: 464
+      width: 202
+      height: 256
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.41393444, y: 360.60132, z: 0.41393444, w: 496.9214}

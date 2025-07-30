@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: zyjk-attack003
+  m_Rect:
+    serializedVersion: 2
+    x: 202.07611
+    y: 0.076122284
+    width: 75.847755
+    height: 121.88097
+  m_Offset: {x: 2.000005, y: -58.016605}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: ebd025af1ca28ef4d9072edd28bbb51e, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -14, y: 119, z: 0}
+    - serializedVersion: 2
+      pos: {x: -38, y: 51, z: 0}
+    - serializedVersion: 2
+      pos: {x: -30, y: 53, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40, y: 73, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40, y: 52, z: 0}
+    - serializedVersion: 2
+      pos: {x: 12, y: 119, z: 0}
+    - serializedVersion: 2
+      pos: {x: 36, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: 36, y: 84, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40, y: 17, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40, y: -3, z: 0}
+    indices: 090008000600020006000800000006000200050006000000070006000500040003000100000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 202.07611
+      y: 0.076122284
+      width: 75.847755
+      height: 121.88097
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 242, z: 1, w: 3}

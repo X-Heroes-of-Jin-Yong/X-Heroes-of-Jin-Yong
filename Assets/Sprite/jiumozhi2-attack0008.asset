@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: jiumozhi2-attack0008
+  m_Rect:
+    serializedVersion: 2
+    x: 574.0761
+    y: 317.0761
+    width: 154.84778
+    height: 123.84775
+  m_Offset: {x: -35.500008, y: -57.999996}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: d8a94d773d35b6742914fa869891552d, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 113, y: 106, z: 0}
+    - serializedVersion: 2
+      pos: {x: 95, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: 113, y: 38, z: 0}
+    - serializedVersion: 2
+      pos: {x: 72, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: 61, y: 120, z: 0}
+    - serializedVersion: 2
+      pos: {x: 49, y: 120, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: -42, y: 20, z: 0}
+    - serializedVersion: 2
+      pos: {x: -42, y: -3, z: 0}
+    indices: 080007000600050006000700030006000500040003000500000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 574.0761
+      y: 317.0761
+      width: 154.84778
+      height: 123.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 616, z: 1, w: 321}

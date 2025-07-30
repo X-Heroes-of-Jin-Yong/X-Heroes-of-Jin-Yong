@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: taiji-skill-4
+  m_Rect:
+    serializedVersion: 2
+    x: 56
+    y: 34
+    width: 46
+    height: 25
+  m_Offset: {x: 2.190923, y: 1.7214372}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: d5f90c9d6e1195443a3bc62d4c71e13e, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -25.190924, y: 10.778563, z: 0}
+    - serializedVersion: 2
+      pos: {x: 20.809076, y: 10.778563, z: 0}
+    - serializedVersion: 2
+      pos: {x: -25.190924, y: -14.221437, z: 0}
+    - serializedVersion: 2
+      pos: {x: 20.809076, y: -14.221437, z: 0}
+    indices: 000001000200020001000300
+    textureRect:
+      serializedVersion: 2
+      x: 56
+      y: 34
+      width: 46
+      height: 25
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 81.190926, z: 1, w: 48.221436}

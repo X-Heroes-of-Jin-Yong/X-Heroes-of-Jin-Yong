@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: xiedaoshi2-stand0012
+  m_Rect:
+    serializedVersion: 2
+    x: 171.02675
+    y: 349.02676
+    width: 98.897125
+    height: 107.921936
+  m_Offset: {x: -14.475312, y: -45.98772}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 6a2db9540d9b7d4429cd86780e9d743e, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -17, y: 40, z: 0}
+    - serializedVersion: 2
+      pos: {x: -29, y: 11, z: 0}
+    - serializedVersion: 2
+      pos: {x: -28, y: -6, z: 0}
+    - serializedVersion: 2
+      pos: {x: -17, y: 51, z: 0}
+    - serializedVersion: 2
+      pos: {x: -19, y: 46, z: 0}
+    - serializedVersion: 2
+      pos: {x: -9, y: 100, z: 0}
+    - serializedVersion: 2
+      pos: {x: -21, y: 42, z: 0}
+    - serializedVersion: 2
+      pos: {x: -26, y: 35, z: 0}
+    - serializedVersion: 2
+      pos: {x: -35, y: 95, z: 0}
+    - serializedVersion: 2
+      pos: {x: -35, y: 39, z: 0}
+    - serializedVersion: 2
+      pos: {x: 64, y: 70, z: 0}
+    - serializedVersion: 2
+      pos: {x: 45, y: -8, z: 0}
+    - serializedVersion: 2
+      pos: {x: 64, y: 40, z: 0}
+    - serializedVersion: 2
+      pos: {x: 21, y: 100, z: 0}
+    - serializedVersion: 2
+      pos: {x: -28, y: -8, z: 0}
+    indices: 0e0002000b0000000b00020003000b00000005000b0003000d000b0005000a000b000d000c000b000a00090008000700050007000800060007000500030006000500000004000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 171.02675
+      y: 349.02676
+      width: 98.897125
+      height: 107.921936
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 206, z: 1, w: 357}

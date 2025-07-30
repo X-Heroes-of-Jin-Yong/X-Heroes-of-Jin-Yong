@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: maichong_blue-skill-3
+  m_Rect:
+    serializedVersion: 2
+    x: 345
+    y: 0
+    width: 107
+    height: 120.98709
+  m_Offset: {x: -0.16666517, y: -23.757547}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.42666668
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: db506d81a43aecd4f8839a40f946f324, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 55.078125, y: 197.49374, z: 0}
+    - serializedVersion: 2
+      pos: {x: 125.390625, y: -86.1, z: 0}
+    - serializedVersion: 2
+      pos: {x: 125.390625, y: 136.55624, z: 0}
+    - serializedVersion: 2
+      pos: {x: -64.453125, y: 197.49374, z: 0}
+    - serializedVersion: 2
+      pos: {x: -125.390625, y: 129.525, z: 0}
+    - serializedVersion: 2
+      pos: {x: -125.390625, y: -86.1, z: 0}
+    indices: 050004000100030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 345
+      y: 0
+      width: 107
+      height: 120.98709
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.42666668, y: 398.5, z: 0.42666668, w: 36.736}

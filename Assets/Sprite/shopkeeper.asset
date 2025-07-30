@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: shopkeeper
+  m_Rect:
+    serializedVersion: 2
+    x: 0.0362854
+    y: 0
+    width: 165.96371
+    height: 247.95709
+  m_Offset: {x: -45.018143, y: 4.0214586}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 100
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 9556fa27979a2fa41987083c7b1d5a36, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.4, y: 1.2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.23, y: 1.01, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.29, y: 0.53, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.28, y: -0.44, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.25, y: -1.28, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.28, y: -1.26, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.12, y: 0.3, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.92, y: 1.12, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.68, y: 1.2, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.16, y: -1.28, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.38, y: 0.38, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.38, y: -1.07, z: 0}
+    indices: 0b000a000900020009000a00040009000200000004000200080004000000070004000800060004000700030004000600050004000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.0362854
+      y: 0
+      width: 165.96371
+      height: 247.95709
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 100, y: 38, z: 100, w: 128}

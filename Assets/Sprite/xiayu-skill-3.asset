@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: xiayu-skill-3
+  m_Rect:
+    serializedVersion: 2
+    x: 160.07613
+    y: 0.07612038
+    width: 157.84775
+    height: 185.92387
+  m_Offset: {x: 5.6933312, y: -37.57806}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.59444445
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: b183bb72db1d197418bb0fa3c17dbc78, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 37.19814, y: 175.86168, z: 0}
+    - serializedVersion: 2
+      pos: {x: 122.99253, y: -93.297195, z: 0}
+    - serializedVersion: 2
+      pos: {x: 122.99253, y: 179.22617, z: 0}
+    - serializedVersion: 2
+      pos: {x: -11.5869055, y: 219.6, z: 0}
+    - serializedVersion: 2
+      pos: {x: -18.315878, y: 177.54393, z: 0}
+    - serializedVersion: 2
+      pos: {x: -137.75513, y: -93.297195, z: 0}
+    - serializedVersion: 2
+      pos: {x: -142.80185, y: 170.81496, z: 0}
+    - serializedVersion: 2
+      pos: {x: -142.80185, y: -88.250465, z: 0}
+    - serializedVersion: 2
+      pos: {x: 42.24487, y: 219.6, z: 0}
+    indices: 000003000800070006000500040005000600010005000400030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 160.07613
+      y: 0.07612038
+      width: 157.84775
+      height: 185.92387
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.59444445, y: 244.88776, z: 0.59444445, w: 55.46}

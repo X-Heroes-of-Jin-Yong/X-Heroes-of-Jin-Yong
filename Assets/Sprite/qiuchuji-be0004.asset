@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: qiuchuji-be0004
+  m_Rect:
+    serializedVersion: 2
+    x: 0.067276
+    y: 289.0761
+    width: 147.91982
+    height: 130.89713
+  m_Offset: {x: -23.027184, y: -58.524685}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 8bed43a4040bc5e4098625babe228b67, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 97, y: 76, z: 0}
+    - serializedVersion: 2
+      pos: {x: 96, y: 67, z: 0}
+    - serializedVersion: 2
+      pos: {x: 97, y: 71, z: 0}
+    - serializedVersion: 2
+      pos: {x: 44, y: 41, z: 0}
+    - serializedVersion: 2
+      pos: {x: 29, y: -7, z: 0}
+    - serializedVersion: 2
+      pos: {x: 38, y: 8, z: 0}
+    - serializedVersion: 2
+      pos: {x: -18, y: 124, z: 0}
+    - serializedVersion: 2
+      pos: {x: -25, y: -7, z: 0}
+    - serializedVersion: 2
+      pos: {x: -33, y: 124, z: 0}
+    - serializedVersion: 2
+      pos: {x: -51, y: 41, z: 0}
+    - serializedVersion: 2
+      pos: {x: -51, y: 5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 45, y: 21, z: 0}
+    indices: 050003000b000a0009000700080007000900060007000800040007000600030004000600000003000600050004000300010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.067276
+      y: 289.0761
+      width: 147.91982
+      height: 130.89713
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 51, z: 1, w: 296}

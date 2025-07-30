@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: luyoujiao-attack0012
+  m_Rect:
+    serializedVersion: 2
+    x: 110.02675
+    y: 344.05133
+    width: 92.897125
+    height: 94.87256
+  m_Offset: {x: -53.475307, y: -42.487595}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: d7662d2890fb26042b125a79f6d722a5, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 93, y: 90, z: 0}
+    - serializedVersion: 2
+      pos: {x: 100, y: 47, z: 0}
+    - serializedVersion: 2
+      pos: {x: 100, y: 85, z: 0}
+    - serializedVersion: 2
+      pos: {x: 72, y: -5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 25, y: -5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 23, y: 44, z: 0}
+    - serializedVersion: 2
+      pos: {x: 20, y: 43, z: 0}
+    - serializedVersion: 2
+      pos: {x: 18, y: 90, z: 0}
+    - serializedVersion: 2
+      pos: {x: 8, y: 72, z: 0}
+    - serializedVersion: 2
+      pos: {x: 7, y: 65, z: 0}
+    - serializedVersion: 2
+      pos: {x: 7, y: 50, z: 0}
+    - serializedVersion: 2
+      pos: {x: 21, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: 16, y: 28, z: 0}
+    indices: 0c0005000b0004000b0005000a0009000600080006000900070006000800000006000700050006000000040005000000030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 110.02675
+      y: 344.05133
+      width: 92.897125
+      height: 94.87256
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 103, z: 1, w: 349}

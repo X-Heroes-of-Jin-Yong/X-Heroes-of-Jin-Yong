@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: asdg-attack015
+  m_Rect:
+    serializedVersion: 2
+    x: 360.0477
+    y: 109.076126
+    width: 66.916016
+    height: 106.87135
+  m_Offset: {x: -12.505707, y: -49.5118}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 155f3144bc773f441a7cd6d4e7afee05, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -5, y: 103, z: 0}
+    - serializedVersion: 2
+      pos: {x: 46, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: 46, y: 103, z: 0}
+    - serializedVersion: 2
+      pos: {x: -21, y: 83, z: 0}
+    - serializedVersion: 2
+      pos: {x: -21, y: -4, z: 0}
+    indices: 040003000100000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 360.0477
+      y: 109.076126
+      width: 66.916016
+      height: 106.87135
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 381, z: 1, w: 113}

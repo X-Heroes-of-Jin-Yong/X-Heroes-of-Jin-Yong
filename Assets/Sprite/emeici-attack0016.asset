@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: emeici-attack0016
+  m_Rect:
+    serializedVersion: 2
+    x: 146.01291
+    y: 448.02676
+    width: 119.963806
+    height: 131.92194
+  m_Offset: {x: -32.19481, y: -58.08772}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: b0e7ffe63c8fb174491b33cd9df89508, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 78.2, y: 124.1, z: 0}
+    - serializedVersion: 2
+      pos: {x: 92.2, y: -7.9000015, z: 0}
+    - serializedVersion: 2
+      pos: {x: 92.2, y: 124.1, z: 0}
+    - serializedVersion: 2
+      pos: {x: 9.199997, y: 84.1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -25.800003, y: 51.1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -27.800003, y: 39.1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -27.800003, y: -7.9000015, z: 0}
+    indices: 060005000100040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 146.01291
+      y: 448.02676
+      width: 119.963806
+      height: 131.92194
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 173.79999, z: 1, w: 455.9}

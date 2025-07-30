@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: limochou-stand0010
+  m_Rect:
+    serializedVersion: 2
+    x: 403.0761
+    y: 238.02675
+    width: 74.92194
+    height: 113.921936
+  m_Offset: {x: 3.4629104, y: -53.98772}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 7734d3685ae40b8439b819c25afc8e49, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -14, y: 111, z: 0}
+    - serializedVersion: 2
+      pos: {x: -22, y: 54, z: 0}
+    - serializedVersion: 2
+      pos: {x: -17, y: 68, z: 0}
+    - serializedVersion: 2
+      pos: {x: -36, y: 46, z: 0}
+    - serializedVersion: 2
+      pos: {x: -41, y: 88, z: 0}
+    - serializedVersion: 2
+      pos: {x: -41, y: 63, z: 0}
+    - serializedVersion: 2
+      pos: {x: 28, y: 99, z: 0}
+    - serializedVersion: 2
+      pos: {x: 34, y: 40, z: 0}
+    - serializedVersion: 2
+      pos: {x: 34, y: 81, z: 0}
+    - serializedVersion: 2
+      pos: {x: 27, y: 9, z: 0}
+    - serializedVersion: 2
+      pos: {x: 19, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 27, y: 6, z: 0}
+    - serializedVersion: 2
+      pos: {x: 13, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2, y: 111, z: 0}
+    - serializedVersion: 2
+      pos: {x: -19, y: 62, z: 0}
+    - serializedVersion: 2
+      pos: {x: -27, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: -30, y: 30, z: 0}
+    - serializedVersion: 2
+      pos: {x: -38, y: 8, z: 0}
+    indices: 110010000f000e000f0010000c000f000e0002000c000e0000000c0002000d000c00000006000c000d000a000c00060009000a0006000b000a000900070009000600080007000600050004000300000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 403.0761
+      y: 238.02675
+      width: 74.92194
+      height: 113.921936
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 444, z: 1, w: 241}

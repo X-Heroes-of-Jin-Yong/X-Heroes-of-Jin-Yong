@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: laotou-stand0010
+  m_Rect:
+    serializedVersion: 2
+    x: 147.01291
+    y: 499.0761
+    width: 76.910965
+    height: 115.88097
+  m_Offset: {x: -1.4683906, y: -57.016605}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 0eabcc65e51c7cc4aa747ee3cf05f700, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 40, y: 90, z: 0}
+    - serializedVersion: 2
+      pos: {x: 39, y: 2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 40, y: 7, z: 0}
+    - serializedVersion: 2
+      pos: {x: 17, y: -1, z: 0}
+    - serializedVersion: 2
+      pos: {x: 12, y: 115, z: 0}
+    - serializedVersion: 2
+      pos: {x: -30, y: -1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -32, y: 2, z: 0}
+    - serializedVersion: 2
+      pos: {x: -37, y: 115, z: 0}
+    - serializedVersion: 2
+      pos: {x: -37, y: 44, z: 0}
+    indices: 080007000600040006000700050006000400030005000400000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 147.01291
+      y: 499.0761
+      width: 76.910965
+      height: 115.88097
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 184, z: 1, w: 500}

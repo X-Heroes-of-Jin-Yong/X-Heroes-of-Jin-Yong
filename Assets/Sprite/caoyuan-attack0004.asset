@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: caoyuan-attack0004
+  m_Rect:
+    serializedVersion: 2
+    x: 0.026748657
+    y: 125.02675
+    width: 103.9465
+    height: 98.9465
+  m_Offset: {x: 34, y: -43.500004}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 02f9cad659db67f4c9d071262afed6e8, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 18, y: 84, z: 0}
+    - serializedVersion: 2
+      pos: {x: 7, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 18, y: 3, z: 0}
+    - serializedVersion: 2
+      pos: {x: -20, y: 93, z: 0}
+    - serializedVersion: 2
+      pos: {x: -41, y: -1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -46, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: -61, y: -6, z: 0}
+    - serializedVersion: 2
+      pos: {x: -81, y: 57, z: 0}
+    - serializedVersion: 2
+      pos: {x: -84, y: 59, z: 0}
+    - serializedVersion: 2
+      pos: {x: -85, y: 93, z: 0}
+    - serializedVersion: 2
+      pos: {x: -83, y: -6, z: 0}
+    - serializedVersion: 2
+      pos: {x: -86, y: 26, z: 0}
+    - serializedVersion: 2
+      pos: {x: -86, y: 1, z: 0}
+    indices: 0c000b000a0007000a000b0006000a000700090003000800070008000300060007000300050006000300040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.026748657
+      y: 125.02675
+      width: 103.9465
+      height: 98.9465
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 86, z: 1, w: 131}

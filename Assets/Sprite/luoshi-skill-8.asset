@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: luoshi-skill-8
+  m_Rect:
+    serializedVersion: 2
+    x: 211
+    y: 188.01291
+    width: 96
+    height: 50.974174
+  m_Offset: {x: 6.8571453, y: 0.09999949}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.45714286
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 83ad2f51fd1ffc44f89f8e6cdc6b57e7, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 8.75, y: 55.562504, z: 0}
+    - serializedVersion: 2
+      pos: {x: 89.6875, y: -55.999996, z: 0}
+    - serializedVersion: 2
+      pos: {x: 89.6875, y: 18.375004, z: 0}
+    - serializedVersion: 2
+      pos: {x: -74.375, y: 55.562504, z: 0}
+    - serializedVersion: 2
+      pos: {x: -100.625, y: 53.375004, z: 0}
+    - serializedVersion: 2
+      pos: {x: -102.8125, y: -55.999996, z: 0}
+    - serializedVersion: 2
+      pos: {x: -120.3125, y: 27.125004, z: 0}
+    - serializedVersion: 2
+      pos: {x: -120.3125, y: -20.999996, z: 0}
+    indices: 070006000500040005000600010005000400030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 211
+      y: 188.01291
+      width: 96
+      height: 50.974174
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.45714286, y: 266, z: 0.45714286, w: 213.6}

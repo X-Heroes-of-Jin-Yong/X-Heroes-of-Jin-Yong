@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: laotou-move0008
+  m_Rect:
+    serializedVersion: 2
+    x: 343.05762
+    y: 0.04770279
+    width: 81.86624
+    height: 126.876175
+  m_Offset: {x: -16.990751, y: -61.48579}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 0eabcc65e51c7cc4aa747ee3cf05f700, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 56, y: 75, z: 0}
+    - serializedVersion: 2
+      pos: {x: 58, y: 67, z: 0}
+    - serializedVersion: 2
+      pos: {x: 58, y: 70, z: 0}
+    - serializedVersion: 2
+      pos: {x: 29, y: 73, z: 0}
+    - serializedVersion: 2
+      pos: {x: 13, y: 125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 21, y: 103, z: 0}
+    - serializedVersion: 2
+      pos: {x: 12, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: -7, y: 125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -24, y: 107, z: 0}
+    - serializedVersion: 2
+      pos: {x: -24, y: -2, z: 0}
+    indices: 090008000600070006000800040006000700030006000400010006000300050003000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 343.05762
+      y: 0.04770279
+      width: 81.86624
+      height: 126.876175
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 367, z: 1, w: 2}

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: limochou-stand0022
+  m_Rect:
+    serializedVersion: 2
+    x: 326.0761
+    y: 151.02675
+    width: 74.847755
+    height: 113.897125
+  m_Offset: {x: 2.5000043, y: -53.975315}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 7734d3685ae40b8439b819c25afc8e49, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 35, y: 83, z: 0}
+    - serializedVersion: 2
+      pos: {x: 25, y: 5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 35, y: 61, z: 0}
+    - serializedVersion: 2
+      pos: {x: 21, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: 18, y: 111, z: 0}
+    - serializedVersion: 2
+      pos: {x: -23, y: 111, z: 0}
+    - serializedVersion: 2
+      pos: {x: -32, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: -39, y: 4, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40, y: 89, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40, y: 14, z: 0}
+    indices: 090008000700050007000800060007000500030006000500040003000500000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 326.0761
+      y: 151.02675
+      width: 74.847755
+      height: 113.897125
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 366, z: 1, w: 154}

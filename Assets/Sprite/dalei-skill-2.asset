@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: dalei-skill-2
+  m_Rect:
+    serializedVersion: 2
+    x: 0.07612038
+    y: 120.051315
+    width: 116.84776
+    height: 120.87257
+  m_Offset: {x: 0.5000006, y: -48.847603}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.42666668
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 0dbf63838d3def74ba6c92aa93a87187, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 135.9375, y: 256.3125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 124.21875, y: -27.281248, z: 0}
+    - serializedVersion: 2
+      pos: {x: 135.9375, y: -17.906248, z: 0}
+    - serializedVersion: 2
+      pos: {x: 11.71875, y: 96.9375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 9.375, y: 103.96875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 4.6875, y: 106.3125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -11.71875, y: 106.3125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -18.75, y: 101.625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -91.40625, y: -27.281248, z: 0}
+    - serializedVersion: 2
+      pos: {x: -18.75, y: 85.21875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -131.25, y: -20.249998, z: 0}
+    - serializedVersion: 2
+      pos: {x: -138.28125, y: 256.3125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -138.28125, y: -17.906248, z: 0}
+    - serializedVersion: 2
+      pos: {x: 11.71875, y: 85.21875, z: 0}
+    indices: 090007000d0006000d00070005000d00060004000d00050003000d0004000800090001000d0001000900030001000d000c000b000a0007000a000b00000007000b0008000a000700090008000700060007000000050006000000040005000000030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.07612038
+      y: 120.051315
+      width: 116.84776
+      height: 120.87257
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.42666668, y: 59, z: 0.42666668, w: 131.64}

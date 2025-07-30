@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: flower-skill-11
+  m_Rect:
+    serializedVersion: 2
+    x: 210
+    y: 0
+    width: 87
+    height: 87
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 24419346c4aec19478036996997d250b, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 39.5, y: 43.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 43.5, y: -27.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 43.5, y: 28.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 30.5, y: -43.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -17.5, y: 0.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -21.5, y: 43.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -24.5, y: -5.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40.5, y: -4.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -42.5, y: 32.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -43.5, y: 25.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -43.5, y: -3.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -24.5, y: -6.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -28.5, y: -43.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -36.5, y: -39.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -43.5, y: -6.5, z: 0}
+    indices: 0e000b000d000c000d000b0003000c000b00040003000b000a0009000700080007000900050007000800060007000500040006000500000004000500030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 210
+      y: 0
+      width: 87
+      height: 87
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 253.5, z: 1, w: 43.5}

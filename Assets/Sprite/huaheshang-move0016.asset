@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: huaheshang-move0016
+  m_Rect:
+    serializedVersion: 2
+    x: 425.0761
+    y: 222.07613
+    width: 75.89713
+    height: 129.89713
+  m_Offset: {x: 5.975317, y: -60.024685}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 4232d83c719b4e84f83aae703ddbac49, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 21, y: 121, z: 0}
+    - serializedVersion: 2
+      pos: {x: 32, y: -5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 32, y: 79, z: 0}
+    - serializedVersion: 2
+      pos: {x: 18, y: 125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3, y: 125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -16, y: 107, z: 0}
+    - serializedVersion: 2
+      pos: {x: -44, y: 51, z: 0}
+    - serializedVersion: 2
+      pos: {x: -44, y: -5, z: 0}
+    indices: 070006000100050001000600040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 425.0761
+      y: 222.07613
+      width: 75.89713
+      height: 129.89713
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 469, z: 1, w: 227}

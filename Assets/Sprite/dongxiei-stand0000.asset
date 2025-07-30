@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: dongxiei-stand0000
+  m_Rect:
+    serializedVersion: 2
+    x: 241.07611
+    y: 440.0429
+    width: 81.847755
+    height: 144.93034
+  m_Offset: {x: 8.800006, y: -68.40808}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 0d5ee43f09d03c140b5c15c84a40aa5d, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 22.199997, y: 140.9, z: 0}
+    - serializedVersion: 2
+      pos: {x: 32.199997, y: -4.0999985, z: 0}
+    - serializedVersion: 2
+      pos: {x: 32.199997, y: 133.9, z: 0}
+    - serializedVersion: 2
+      pos: {x: -12.800003, y: 140.9, z: 0}
+    - serializedVersion: 2
+      pos: {x: -33.800003, y: 124.9, z: 0}
+    - serializedVersion: 2
+      pos: {x: -45.800003, y: 55.9, z: 0}
+    - serializedVersion: 2
+      pos: {x: -49.800003, y: 9.900002, z: 0}
+    - serializedVersion: 2
+      pos: {x: -49.800003, y: -4.0999985, z: 0}
+    indices: 070006000100050001000600040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 241.07611
+      y: 440.0429
+      width: 81.847755
+      height: 144.93034
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 290.8, z: 1, w: 444.1}

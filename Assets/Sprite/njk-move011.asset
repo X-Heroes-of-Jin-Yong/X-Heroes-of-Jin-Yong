@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: njk-move011
+  m_Rect:
+    serializedVersion: 2
+    x: 0.012908936
+    y: 0.026752472
+    width: 99.935776
+    height: 120.9465
+  m_Offset: {x: -18.980799, y: -56.500004}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 02a02888a1f7e1243a08645d8fc8056b, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 69, y: 6, z: 0}
+    - serializedVersion: 2
+      pos: {x: 65, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: 69, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 62, y: 14, z: 0}
+    - serializedVersion: 2
+      pos: {x: 49, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: 20, y: 3, z: 0}
+    - serializedVersion: 2
+      pos: {x: 13, y: 114, z: 0}
+    - serializedVersion: 2
+      pos: {x: 9, y: 117, z: 0}
+    - serializedVersion: 2
+      pos: {x: 9, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: -9, y: 11, z: 0}
+    - serializedVersion: 2
+      pos: {x: -14, y: 117, z: 0}
+    - serializedVersion: 2
+      pos: {x: -6, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3, y: 6, z: 0}
+    - serializedVersion: 2
+      pos: {x: -18, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: -24, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: -31, y: 72, z: 0}
+    - serializedVersion: 2
+      pos: {x: -31, y: 23, z: 0}
+    indices: 10000f000e000a000e000f000d000e000a0009000d000a000b000d0009000c000b0009000a0007000900080009000700050008000700060005000700030005000600040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.012908936
+      y: 0.026752472
+      width: 99.935776
+      height: 120.9465
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 31, z: 1, w: 4}

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: duyao-skill-10
+  m_Rect:
+    serializedVersion: 2
+    x: 102.03988
+    y: 289.0165
+    width: 111.93337
+    height: 64.9472
+  m_Offset: {x: -5.0065703, y: 5.8511844}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.43686005
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: a6395b20210904c4b8fb41f2c0cd1def, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 132.76562, y: 60.660156, z: 0}
+    - serializedVersion: 2
+      pos: {x: 139.63281, y: -74.39453, z: 0}
+    - serializedVersion: 2
+      pos: {x: 139.63281, y: 53.79297, z: 0}
+    - serializedVersion: 2
+      pos: {x: 93.85156, y: -88.12891, z: 0}
+    - serializedVersion: 2
+      pos: {x: -59.515625, y: 60.660156, z: 0}
+    - serializedVersion: 2
+      pos: {x: -116.74219, y: 44.63672, z: 0}
+    - serializedVersion: 2
+      pos: {x: -116.74219, y: -88.12891, z: 0}
+    indices: 060005000300040003000500000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 102.03988
+      y: 289.0165
+      width: 111.93337
+      height: 64.9472
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.43686005, y: 153, z: 0.43686005, w: 327.5}

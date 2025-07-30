@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: hua-skill-1
+  m_Rect:
+    serializedVersion: 2
+    x: 777
+    y: 183
+    width: 160
+    height: 142
+  m_Offset: {x: 23.999996, y: -20.000002}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 7783aee0474d77a428ea1c1e989c5e57, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 56, y: 91, z: 0}
+    - serializedVersion: 2
+      pos: {x: 27, y: -44.999996, z: 0}
+    - serializedVersion: 2
+      pos: {x: 56, y: -31.999996, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4, y: -50.999996, z: 0}
+    - serializedVersion: 2
+      pos: {x: -43, y: 91, z: 0}
+    - serializedVersion: 2
+      pos: {x: -54, y: 60.000004, z: 0}
+    - serializedVersion: 2
+      pos: {x: -54, y: -50.999996, z: 0}
+    - serializedVersion: 2
+      pos: {x: -84, y: -11.999996, z: 0}
+    - serializedVersion: 2
+      pos: {x: -81, y: -19.999996, z: 0}
+    - serializedVersion: 2
+      pos: {x: -81, y: -12.999996, z: 0}
+    - serializedVersion: 2
+      pos: {x: -86, y: -21.999996, z: 0}
+    - serializedVersion: 2
+      pos: {x: -89, y: -11.999996, z: 0}
+    - serializedVersion: 2
+      pos: {x: -93, y: -23.999996, z: 0}
+    - serializedVersion: 2
+      pos: {x: -101, y: -25.999996, z: 0}
+    - serializedVersion: 2
+      pos: {x: -104, y: -19.999996, z: 0}
+    - serializedVersion: 2
+      pos: {x: -104, y: -25.999996, z: 0}
+    indices: 0f000e000d000b000d000e000c000d000b000a000c000b0007000a000b0008000a000700090008000700060005000300040003000500000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 777
+      y: 183
+      width: 160
+      height: 142
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 881, z: 1, w: 234}

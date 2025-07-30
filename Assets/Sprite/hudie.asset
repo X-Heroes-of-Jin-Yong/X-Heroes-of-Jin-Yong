@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: hudie
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 116
+    height: 105
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 3b7ba46be6a447e48a448862a1c76728, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -47, y: 35.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -57, y: 3.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -51, y: 5.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -58, y: 21.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -58, y: 4.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 40, y: 39.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 58, y: -19.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 58, y: 24.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 22, y: 50.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 10, y: 52.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 10, y: -52.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4, y: 48.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -6, y: 48.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -8, y: 52.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -8, y: 50.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -13, y: 46.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -15, y: 52.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -18, y: 52.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -36, y: -52.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -37, y: 47.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -58, y: 2.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -58, y: -29.5, z: 0}
+    indices: 1500140012000200120014000000120002001300120000001100120013000a001200110010000a0011000f000a0010000b000a000f000e000d000c0009000c000d000b000c0009000a000b00090006000a000900080006000900050006000800070006000500040003000100000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 116
+      height: 105
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 1, y: 58, z: 1, w: 52.5}

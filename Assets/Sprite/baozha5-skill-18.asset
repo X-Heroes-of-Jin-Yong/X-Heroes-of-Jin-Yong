@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: baozha5-skill-18
+  m_Rect:
+    serializedVersion: 2
+    x: 130
+    y: 253
+    width: 128
+    height: 124.95709
+  m_Offset: {x: 0, y: 1.5214523}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.5
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 1ff14395a722be749ad9bfc88cfa2a14, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 120, y: 122, z: 0}
+    - serializedVersion: 2
+      pos: {x: 128, y: -38, z: 0}
+    - serializedVersion: 2
+      pos: {x: 128, y: 118, z: 0}
+    - serializedVersion: 2
+      pos: {x: 76, y: -128, z: 0}
+    - serializedVersion: 2
+      pos: {x: 4, y: 122, z: 0}
+    - serializedVersion: 2
+      pos: {x: -36, y: 116, z: 0}
+    - serializedVersion: 2
+      pos: {x: -128, y: 70, z: 0}
+    - serializedVersion: 2
+      pos: {x: -128, y: -128, z: 0}
+    indices: 070006000300050003000600040003000500000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 130
+      y: 253
+      width: 128
+      height: 124.95709
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.5, y: 194, z: 0.5, w: 317}

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: nqhs-move005
+  m_Rect:
+    serializedVersion: 2
+    x: 56.07612
+    y: 115.05637
+    width: 87.847755
+    height: 111.91688
+  m_Offset: {x: -3.9999955, y: -54.014812}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: b1cf528cf914a25439aab91b193d51b7, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 28, y: 110, z: 0}
+    - serializedVersion: 2
+      pos: {x: 48, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 48, y: 103, z: 0}
+    - serializedVersion: 2
+      pos: {x: -4, y: 110, z: 0}
+    - serializedVersion: 2
+      pos: {x: -13, y: 105, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40, y: 20, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40, y: -2, z: 0}
+    indices: 060005000100040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 56.07612
+      y: 115.05637
+      width: 87.847755
+      height: 111.91688
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 96, z: 1, w: 117}

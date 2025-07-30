@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: changyuchun
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 128
+    height: 128
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: d995147bbf4d9d442b8581836087d0fa, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 43, y: 45, z: 0}
+    - serializedVersion: 2
+      pos: {x: 64, y: -64, z: 0}
+    - serializedVersion: 2
+      pos: {x: 64, y: 12, z: 0}
+    - serializedVersion: 2
+      pos: {x: 20, y: 64, z: 0}
+    - serializedVersion: 2
+      pos: {x: -19, y: 64, z: 0}
+    - serializedVersion: 2
+      pos: {x: -44, y: 51, z: 0}
+    - serializedVersion: 2
+      pos: {x: -62, y: 19, z: 0}
+    - serializedVersion: 2
+      pos: {x: -64, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: -64, y: -64, z: 0}
+    indices: 080007000100060001000700050001000600040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 128
+      height: 128
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 1, y: 64, z: 1, w: 64}

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: quanzhennv-move0030
+  m_Rect:
+    serializedVersion: 2
+    x: 270.02673
+    y: 0.076122284
+    width: 67.897125
+    height: 132.89713
+  m_Offset: {x: 0.02469065, y: -64.52468}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: b98260d0e46d42843bc3647ed51b0b72, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 17, y: 64, z: 0}
+    - serializedVersion: 2
+      pos: {x: 18, y: 61, z: 0}
+    - serializedVersion: 2
+      pos: {x: 18, y: 61, z: 0}
+    - serializedVersion: 2
+      pos: {x: 15, y: 67, z: 0}
+    - serializedVersion: 2
+      pos: {x: 32, y: 60, z: 0}
+    - serializedVersion: 2
+      pos: {x: 22, y: 60, z: 0}
+    - serializedVersion: 2
+      pos: {x: 18, y: 121, z: 0}
+    - serializedVersion: 2
+      pos: {x: 10, y: 131, z: 0}
+    - serializedVersion: 2
+      pos: {x: 34, y: 39, z: 0}
+    - serializedVersion: 2
+      pos: {x: 22, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 34, y: 26, z: 0}
+    - serializedVersion: 2
+      pos: {x: 21, y: 55, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: -9, y: 131, z: 0}
+    - serializedVersion: 2
+      pos: {x: -19, y: 1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -27, y: 6, z: 0}
+    - serializedVersion: 2
+      pos: {x: -34, y: 92, z: 0}
+    - serializedVersion: 2
+      pos: {x: -34, y: 15, z: 0}
+    indices: 110010000f000d000f0010000e000f000d000c000e000d0007000c000d0003000c00070009000c0003000100090003000200090001000b0009000200080009000b000a0009000800070006000300000003000600020000000600040002000600050002000400030000000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 270.02673
+      y: 0.076122284
+      width: 67.897125
+      height: 132.89713
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 304, z: 1, w: 2}

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: jianke-attack0012
+  m_Rect:
+    serializedVersion: 2
+    x: 293.0429
+    y: 388.02676
+    width: 148.88098
+    height: 105.96236
+  m_Offset: {x: -44.4834, y: -47.00793}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 795fb3cc188a6dd48a66fc41628f9e62, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 116, y: 71, z: 0}
+    - serializedVersion: 2
+      pos: {x: 119, y: 62, z: 0}
+    - serializedVersion: 2
+      pos: {x: 119, y: 67, z: 0}
+    - serializedVersion: 2
+      pos: {x: 71, y: 93, z: 0}
+    - serializedVersion: 2
+      pos: {x: 44, y: 100, z: 0}
+    - serializedVersion: 2
+      pos: {x: 34, y: -6, z: 0}
+    - serializedVersion: 2
+      pos: {x: -9, y: 100, z: 0}
+    - serializedVersion: 2
+      pos: {x: -11, y: -6, z: 0}
+    - serializedVersion: 2
+      pos: {x: -13, y: 79, z: 0}
+    - serializedVersion: 2
+      pos: {x: -15, y: 85, z: 0}
+    - serializedVersion: 2
+      pos: {x: -30, y: 51, z: 0}
+    - serializedVersion: 2
+      pos: {x: -30, y: 10, z: 0}
+    indices: 0b000a000700080007000a00090006000800070008000600050007000600040005000600010005000400030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 293.0429
+      y: 388.02676
+      width: 148.88098
+      height: 105.96236
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 323, z: 1, w: 394}

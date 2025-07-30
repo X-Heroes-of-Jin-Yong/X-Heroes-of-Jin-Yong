@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: guanghuan_white-skill-11
+  m_Rect:
+    serializedVersion: 2
+    x: 0.07612038
+    y: 131.07613
+    width: 238.84775
+    height: 152.91096
+  m_Offset: {x: 2.5000033, y: -25.531605}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 157affe1c4c5a634cb87160f2bd48339, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -84, y: 102, z: 0}
+    - serializedVersion: 2
+      pos: {x: -99, y: 101, z: 0}
+    - serializedVersion: 2
+      pos: {x: -91, y: 92, z: 0}
+    - serializedVersion: 2
+      pos: {x: 117, y: 42, z: 0}
+    - serializedVersion: 2
+      pos: {x: 116, y: 34, z: 0}
+    - serializedVersion: 2
+      pos: {x: 117, y: 36, z: 0}
+    - serializedVersion: 2
+      pos: {x: 111, y: 44, z: 0}
+    - serializedVersion: 2
+      pos: {x: 4, y: -51, z: 0}
+    - serializedVersion: 2
+      pos: {x: 106, y: 102, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5, y: -51, z: 0}
+    - serializedVersion: 2
+      pos: {x: -92, y: 3, z: 0}
+    - serializedVersion: 2
+      pos: {x: -122, y: 74, z: 0}
+    - serializedVersion: 2
+      pos: {x: -122, y: 42, z: 0}
+    indices: 0c000b000a0002000a000b0009000a000200000009000200080009000000070009000800060007000800040007000600030004000600050004000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.07612038
+      y: 131.07613
+      width: 238.84775
+      height: 152.91096
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 122, z: 1, w: 182}

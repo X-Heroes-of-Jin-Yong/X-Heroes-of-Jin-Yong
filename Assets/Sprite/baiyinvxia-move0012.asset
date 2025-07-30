@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: baiyinvxia-move0012
+  m_Rect:
+    serializedVersion: 2
+    x: 0.042907715
+    y: 244.02675
+    width: 51.880966
+    height: 127.897125
+  m_Offset: {x: -0.9833909, y: -64.97532}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 7ef711107ff7aa341817bd4fefc8d623, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 27, y: 69, z: 0}
+    - serializedVersion: 2
+      pos: {x: 23, y: 1, z: 0}
+    - serializedVersion: 2
+      pos: {x: 27, y: 4, z: 0}
+    - serializedVersion: 2
+      pos: {x: 21, y: 122, z: 0}
+    - serializedVersion: 2
+      pos: {x: 10, y: 1, z: 0}
+    - serializedVersion: 2
+      pos: {x: 9, y: 129, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0, y: 8, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3, y: 1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -6, y: 129, z: 0}
+    - serializedVersion: 2
+      pos: {x: -17, y: 1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -25, y: 64, z: 0}
+    - serializedVersion: 2
+      pos: {x: -25, y: 14, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1, y: 5, z: 0}
+    indices: 070006000c000b000a000900080009000a00070009000800050007000800060007000500040006000500030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.042907715
+      y: 244.02675
+      width: 51.880966
+      height: 127.897125
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 25, z: 1, w: 243}

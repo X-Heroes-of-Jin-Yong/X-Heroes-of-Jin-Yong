@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: gunzi-skill-4
+  m_Rect:
+    serializedVersion: 2
+    x: 211
+    y: 161.01291
+    width: 256
+    height: 156.97418
+  m_Offset: {x: -5.3600006, y: 4.669999}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.73
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: b95f696785188f946bc41e0b196a96c5, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 182.34247, y: 32.643837, z: 0}
+    - serializedVersion: 2
+      pos: {x: 171.38356, y: -64.61643, z: 0}
+    - serializedVersion: 2
+      pos: {x: 182.34247, y: -28.999996, z: 0}
+    - serializedVersion: 2
+      pos: {x: 111.10959, y: 88.80822, z: 0}
+    - serializedVersion: 2
+      pos: {x: 85.08219, y: -108.45205, z: 0}
+    - serializedVersion: 2
+      pos: {x: 67.27397, y: 97.0274, z: 0}
+    - serializedVersion: 2
+      pos: {x: 50.835617, y: 101.136986, z: 0}
+    - serializedVersion: 2
+      pos: {x: 26.178082, y: -113.9315, z: 0}
+    - serializedVersion: 2
+      pos: {x: -57.38356, y: 101.136986, z: 0}
+    - serializedVersion: 2
+      pos: {x: -69.712326, y: -113.9315, z: 0}
+    - serializedVersion: 2
+      pos: {x: -136.83562, y: 77.84931, z: 0}
+    - serializedVersion: 2
+      pos: {x: -142.31506, y: -70.09589, z: 0}
+    - serializedVersion: 2
+      pos: {x: -168.34245, y: 51.82192, z: 0}
+    - serializedVersion: 2
+      pos: {x: -168.34245, y: -49.547943, z: 0}
+    indices: 0d000c000b000a000b000c0009000b000a00080009000a00070009000800060007000800040007000600050004000600030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 211
+      y: 161.01291
+      width: 256
+      height: 156.97418
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.73, y: 333.89, z: 0.73, w: 244.17}

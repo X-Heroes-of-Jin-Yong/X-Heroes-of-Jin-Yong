@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: heiyinv-attack0008
+  m_Rect:
+    serializedVersion: 2
+    x: 363.0761
+    y: 0.076122284
+    width: 80.897125
+    height: 154.84775
+  m_Offset: {x: -40.52469, y: -71.5}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: c88c14f5d27003b4eb3f53580c52af91, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 81, y: 149, z: 0}
+    - serializedVersion: 2
+      pos: {x: 48, y: -6, z: 0}
+    - serializedVersion: 2
+      pos: {x: 81, y: 2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 39, y: 149, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0, y: 132, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0, y: -6, z: 0}
+    indices: 050004000100030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 363.0761
+      y: 0.076122284
+      width: 80.897125
+      height: 154.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 363, z: 1, w: 6}

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: baozha_yellow-skill-4
+  m_Rect:
+    serializedVersion: 2
+    x: 328.02676
+    y: 0.026750565
+    width: 109.89713
+    height: 99.96034
+  m_Offset: {x: -0.9753155, y: -24.181192}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.53112036
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: e3ea953a810877646ab03bcf6919a1e1, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 105.43749, y: 97.765625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 103.55468, y: -41.562496, z: 0}
+    - serializedVersion: 2
+      pos: {x: 105.43749, y: -28.382809, z: 0}
+    - serializedVersion: 2
+      pos: {x: 77.195305, y: -49.093746, z: 0}
+    - serializedVersion: 2
+      pos: {x: 58.367184, y: 139.18748, z: 0}
+    - serializedVersion: 2
+      pos: {x: 37.656246, y: 139.18748, z: 0}
+    - serializedVersion: 2
+      pos: {x: -71.546875, y: 114.71093, z: 0}
+    - serializedVersion: 2
+      pos: {x: -101.67187, y: 71.40625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -101.67187, y: -49.093746, z: 0}
+    indices: 080007000300060003000700050003000600040003000500000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 328.02676
+      y: 0.026750565
+      width: 109.89713
+      height: 99.96034
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.53112036, y: 382, z: 0.53112036, w: 26.074688}

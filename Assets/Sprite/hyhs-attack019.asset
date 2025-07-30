@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: hyhs-attack019
+  m_Rect:
+    serializedVersion: 2
+    x: 0.026748657
+    y: 152.07613
+    width: 129.93034
+    height: 118.84775
+  m_Offset: {x: -9.9919195, y: -57.499996}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: a330809f22b171f44904fa6d02e4b73b, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 75, y: 117, z: 0}
+    - serializedVersion: 2
+      pos: {x: 34, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 75, y: 40, z: 0}
+    - serializedVersion: 2
+      pos: {x: -28, y: 117, z: 0}
+    - serializedVersion: 2
+      pos: {x: -55, y: 90, z: 0}
+    - serializedVersion: 2
+      pos: {x: -55, y: -2, z: 0}
+    indices: 050004000100030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.026748657
+      y: 152.07613
+      width: 129.93034
+      height: 118.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 55, z: 1, w: 154}

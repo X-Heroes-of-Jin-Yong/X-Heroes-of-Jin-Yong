@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: aoyi_quanpurple-skill-0
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0.07612038
+    width: 256
+    height: 126.847755
+  m_Offset: {x: 0, y: -0.1976749}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.59534883
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: c9eecb5e52a61a14ca14c1801468b32f, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 215, y: 89.86328, z: 0}
+    - serializedVersion: 2
+      pos: {x: 183.08594, y: -106.66016, z: 0}
+    - serializedVersion: 2
+      pos: {x: 215, y: -89.86328, z: 0}
+    - serializedVersion: 2
+      pos: {x: 169.64844, y: -98.26172, z: 0}
+    - serializedVersion: 2
+      pos: {x: 166.28906, y: 106.66016, z: 0}
+    - serializedVersion: 2
+      pos: {x: 154.53125, y: -96.58203, z: 0}
+    - serializedVersion: 2
+      pos: {x: 149.49219, y: -98.26172, z: 0}
+    - serializedVersion: 2
+      pos: {x: 28.554688, y: -98.26172, z: 0}
+    - serializedVersion: 2
+      pos: {x: 8.3984375, y: -98.26172, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40.3125, y: -106.66016, z: 0}
+    - serializedVersion: 2
+      pos: {x: -215, y: 106.66016, z: 0}
+    - serializedVersion: 2
+      pos: {x: -215, y: -106.66016, z: 0}
+    - serializedVersion: 2
+      pos: {x: 26.875, y: -106.66016, z: 0}
+    - serializedVersion: 2
+      pos: {x: 25.195312, y: -101.62109, z: 0}
+    indices: 0d0007000c0001000c0007000600010007000300010006000b000a000900040009000a00080009000400070008000400060007000400050006000400030005000400000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0.07612038
+      width: 256
+      height: 126.847755
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.59534883, y: 128, z: 0.59534883, w: 63.5}

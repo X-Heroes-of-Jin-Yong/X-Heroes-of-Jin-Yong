@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: chenyuanyuan
+  m_Rect:
+    serializedVersion: 2
+    x: 1.042908
+    y: 0
+    width: 124.90578
+    height: 128
+  m_Offset: {x: 0.5042028, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 37ab8737197166441b6d8d57d932a064, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 51, y: 64, z: 0}
+    - serializedVersion: 2
+      pos: {x: 45, y: 2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 47, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: 43, y: 2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 41, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: -51, y: 64, z: 0}
+    - serializedVersion: 2
+      pos: {x: 41, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 62, y: -64, z: 0}
+    - serializedVersion: 2
+      pos: {x: 62, y: 2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 47, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 45, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: 43, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: -63, y: 29, z: 0}
+    - serializedVersion: 2
+      pos: {x: -63, y: -64, z: 0}
+    indices: 060004000b0003000b0004000a000b00030001000a00030009000a0001000200090001000d000c000700050007000c000600070005000b00070006000a0007000b00090007000a00020007000900000007000200080007000000000004000500060005000400030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 1.042908
+      y: 0
+      width: 124.90578
+      height: 128
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 1, y: 64, z: 1, w: 64}

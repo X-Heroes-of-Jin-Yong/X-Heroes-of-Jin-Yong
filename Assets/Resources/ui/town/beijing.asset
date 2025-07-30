@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: beijing
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 212
+    height: 133
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 100
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 04c6b127061123c4c9cabc2e29b6c114, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 1.04, y: -0.055, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.06, y: -0.415, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.06, y: -0.125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.71, y: -0.605, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.52, y: -0.665, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.23, y: -0.665, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.25, y: 0.665, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.62, y: 0.665, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.77, y: 0.645, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.06, y: 0.445, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.06, y: 0.145, z: 0}
+    indices: 0a0009000500080005000900070005000800060005000700000005000600040005000000030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 212
+      height: 133
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 100, y: 106, z: 100, w: 66.5}

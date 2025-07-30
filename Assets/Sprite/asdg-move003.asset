@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: asdg-move003
+  m_Rect:
+    serializedVersion: 2
+    x: 189.07611
+    y: 334.0761
+    width: 60.887596
+    height: 118.84775
+  m_Offset: {x: 8.480084, y: -57.499996}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 155f3144bc773f441a7cd6d4e7afee05, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 10, y: 117, z: 0}
+    - serializedVersion: 2
+      pos: {x: 22, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 22, y: 91, z: 0}
+    - serializedVersion: 2
+      pos: {x: -20, y: 117, z: 0}
+    - serializedVersion: 2
+      pos: {x: -33, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: -35, y: 92, z: 0}
+    - serializedVersion: 2
+      pos: {x: -39, y: 60, z: 0}
+    - serializedVersion: 2
+      pos: {x: -39, y: 0, z: 0}
+    indices: 070006000400050004000600030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 189.07611
+      y: 334.0761
+      width: 60.887596
+      height: 118.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 228, z: 1, w: 336}

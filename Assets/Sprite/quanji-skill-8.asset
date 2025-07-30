@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: quanji-skill-8
+  m_Rect:
+    serializedVersion: 2
+    x: 179.00667
+    y: 236.07613
+    width: 114.95984
+    height: 117.89713
+  m_Offset: {x: 9.513415, y: 15.775322}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.512
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 843f149220c77574eb072d2db379f893, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 93.74999, y: 83.98437, z: 0}
+    - serializedVersion: 2
+      pos: {x: 80.078125, y: -130.85938, z: 0}
+    - serializedVersion: 2
+      pos: {x: 93.74999, y: -76.171875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 54.687496, y: -146.48438, z: 0}
+    - serializedVersion: 2
+      pos: {x: 50.781246, y: -134.76562, z: 0}
+    - serializedVersion: 2
+      pos: {x: 44.92187, y: -132.8125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 41.01562, y: -136.71875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -54.687496, y: -146.48438, z: 0}
+    - serializedVersion: 2
+      pos: {x: -58.593746, y: 83.98437, z: 0}
+    - serializedVersion: 2
+      pos: {x: -130.85938, y: 31.249998, z: 0}
+    - serializedVersion: 2
+      pos: {x: -130.85938, y: -87.89062, z: 0}
+    - serializedVersion: 2
+      pos: {x: 50.781246, y: -140.625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 44.92187, y: -142.57812, z: 0}
+    indices: 060005000c000b000c00050004000b00050006000c000700030007000c000b0003000c00040003000b000a0009000700080007000900000007000800060007000000050006000000040005000000030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 179.00667
+      y: 236.07613
+      width: 114.95984
+      height: 117.89713
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.512, y: 246, z: 0.512, w: 311}

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: jiumozhi2-stand0002
+  m_Rect:
+    serializedVersion: 2
+    x: 299.0429
+    y: 322.02676
+    width: 90.88097
+    height: 156.89713
+  m_Offset: {x: 11.51661, y: -75.47531}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: d8a94d773d35b6742914fa869891552d, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -7, y: 154, z: 0}
+    - serializedVersion: 2
+      pos: {x: -42, y: 70, z: 0}
+    - serializedVersion: 2
+      pos: {x: -34, y: 76, z: 0}
+    - serializedVersion: 2
+      pos: {x: -56, y: 71, z: 0}
+    - serializedVersion: 2
+      pos: {x: -57, y: 98, z: 0}
+    - serializedVersion: 2
+      pos: {x: -57, y: 72, z: 0}
+    - serializedVersion: 2
+      pos: {x: 9, y: 154, z: 0}
+    - serializedVersion: 2
+      pos: {x: 34, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: 34, y: 124, z: 0}
+    - serializedVersion: 2
+      pos: {x: -39, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: -49, y: 18, z: 0}
+    indices: 0a0002000900070009000200000007000200060007000000080007000600050004000300000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 299.0429
+      y: 322.02676
+      width: 90.88097
+      height: 156.89713
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 356, z: 1, w: 325}

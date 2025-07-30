@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: jianqi-skill-2
+  m_Rect:
+    serializedVersion: 2
+    x: 258
+    y: 496
+    width: 60
+    height: 248
+  m_Offset: {x: 0, y: -148.8}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 12df9b1ddabc07f4a8817ce5b681f295, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 30, y: 272.8, z: 0}
+    - serializedVersion: 2
+      pos: {x: -12, y: 24.800003, z: 0}
+    - serializedVersion: 2
+      pos: {x: 30, y: 24.800003, z: 0}
+    - serializedVersion: 2
+      pos: {x: -20, y: 272.8, z: 0}
+    - serializedVersion: 2
+      pos: {x: -21, y: 37.800003, z: 0}
+    - serializedVersion: 2
+      pos: {x: -30, y: 246.8, z: 0}
+    - serializedVersion: 2
+      pos: {x: -30, y: 98.8, z: 0}
+    indices: 060005000400030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 258
+      y: 496
+      width: 60
+      height: 248
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 288, z: 1, w: 471.2}

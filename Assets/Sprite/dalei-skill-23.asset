@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: dalei-skill-23
+  m_Rect:
+    serializedVersion: 2
+    x: 0.042907953
+    y: 888
+    width: 124.95709
+    height: 120.9665
+  m_Offset: {x: -1.5214523, y: -47.84325}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.42666668
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 0dbf63838d3def74ba6c92aa93a87187, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 100.78125, y: 122.71875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 150, y: -29.624998, z: 0}
+    - serializedVersion: 2
+      pos: {x: 150, y: 89.90625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -46.875, y: 122.71875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -140.625, y: 57.09375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -140.625, y: -29.624998, z: 0}
+    - serializedVersion: 2
+      pos: {x: 126.5625, y: 253.96875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 150, y: 193.03125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 150, y: 249.28125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 86.71875, y: 164.90625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -131.25, y: 164.90625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -135.9375, y: 253.96875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -142.96875, y: 235.21875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -142.96875, y: 178.96875, z: 0}
+    indices: 0d000c000a000b000a000c0006000a000b0009000a000600070009000600080007000600050004000100030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.042907953
+      y: 888
+      width: 124.95709
+      height: 120.9665
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.42666668, y: 61, z: 0.42666668, w: 900.64}

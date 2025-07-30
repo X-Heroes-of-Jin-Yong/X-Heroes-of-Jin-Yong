@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: laoheshani-stand0008
+  m_Rect:
+    serializedVersion: 2
+    x: 185.03629
+    y: 330.06464
+    width: 101.90552
+    height: 109.859245
+  m_Offset: {x: 19.010956, y: -51.99425}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: ffb8334498666af4b97311e2243353ce, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 32, y: 64, z: 0}
+    - serializedVersion: 2
+      pos: {x: 26, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: 32, y: 21, z: 0}
+    - serializedVersion: 2
+      pos: {x: 25, y: 93, z: 0}
+    - serializedVersion: 2
+      pos: {x: 18, y: 95, z: 0}
+    - serializedVersion: 2
+      pos: {x: 14, y: 90, z: 0}
+    - serializedVersion: 2
+      pos: {x: 14, y: 88, z: 0}
+    - serializedVersion: 2
+      pos: {x: 12, y: 91, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2, y: 107, z: 0}
+    - serializedVersion: 2
+      pos: {x: -12, y: 107, z: 0}
+    - serializedVersion: 2
+      pos: {x: -70, y: 41, z: 0}
+    - serializedVersion: 2
+      pos: {x: -70, y: -3, z: 0}
+    indices: 0b000a000100090001000a00080001000900070001000800060001000700050001000600040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 185.03629
+      y: 330.06464
+      width: 101.90552
+      height: 109.859245
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 255, z: 1, w: 333}

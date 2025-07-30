@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: nandi-stand0020
+  m_Rect:
+    serializedVersion: 2
+    x: 88.07612
+    y: 278.0129
+    width: 82.92388
+    height: 134.97418
+  m_Offset: {x: 17.461943, y: -63.5}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: eb1b00ae893fafc498d469d558595fbb, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 23, y: 131, z: 0}
+    - serializedVersion: 2
+      pos: {x: 24, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: 24, y: 127, z: 0}
+    - serializedVersion: 2
+      pos: {x: -13, y: 131, z: 0}
+    - serializedVersion: 2
+      pos: {x: -59, y: 31, z: 0}
+    - serializedVersion: 2
+      pos: {x: -59, y: -4, z: 0}
+    indices: 050004000100030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 88.07612
+      y: 278.0129
+      width: 82.92388
+      height: 134.97418
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 147, z: 1, w: 282}

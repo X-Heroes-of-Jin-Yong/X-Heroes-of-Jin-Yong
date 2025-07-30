@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: yangdingtian-stand0012
+  m_Rect:
+    serializedVersion: 2
+    x: 0.023284912
+    y: 0.091487885
+    width: 153.90059
+    height: 146.83238
+  m_Offset: {x: -0.97357816, y: -61.50768}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 2289d2561cab7af4bb85a6d705dcd702, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 75, y: 72, z: 0}
+    - serializedVersion: 2
+      pos: {x: 78, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: 78, y: 52, z: 0}
+    - serializedVersion: 2
+      pos: {x: 53, y: 127, z: 0}
+    - serializedVersion: 2
+      pos: {x: 50, y: -1, z: 0}
+    - serializedVersion: 2
+      pos: {x: 43, y: 16, z: 0}
+    - serializedVersion: 2
+      pos: {x: 40, y: 6, z: 0}
+    - serializedVersion: 2
+      pos: {x: 23, y: 135, z: 0}
+    - serializedVersion: 2
+      pos: {x: 53, y: -12, z: 0}
+    - serializedVersion: 2
+      pos: {x: 55, y: -10, z: 0}
+    - serializedVersion: 2
+      pos: {x: 5, y: 135, z: 0}
+    - serializedVersion: 2
+      pos: {x: -20, y: 76, z: 0}
+    - serializedVersion: 2
+      pos: {x: -44, y: -12, z: 0}
+    - serializedVersion: 2
+      pos: {x: -50, y: 17, z: 0}
+    - serializedVersion: 2
+      pos: {x: -68, y: 4, z: 0}
+    - serializedVersion: 2
+      pos: {x: -75, y: 5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -76, y: 9, z: 0}
+    - serializedVersion: 2
+      pos: {x: -76, y: 8, z: 0}
+    - serializedVersion: 2
+      pos: {x: -27, y: 77, z: 0}
+    - serializedVersion: 2
+      pos: {x: -39, y: 118, z: 0}
+    - serializedVersion: 2
+      pos: {x: -42, y: 96, z: 0}
+    - serializedVersion: 2
+      pos: {x: -52, y: 15, z: 0}
+    - serializedVersion: 2
+      pos: {x: -53, y: -10, z: 0}
+    indices: 160015000c000d000c0015001400130012000a00120013000b0012000a00110010000f000b000f0010000e000f000b000d000e000b000c000d000b0008000c000b00060008000b000a0006000b00070006000a00090008000600070003000600050006000300040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.023284912
+      y: 0.091487885
+      width: 153.90059
+      height: 146.83238
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 76, z: 1, w: 12}

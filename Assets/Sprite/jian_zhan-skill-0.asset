@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: jian_zhan-skill-0
+  m_Rect:
+    serializedVersion: 2
+    x: 739.03625
+    y: 502.0761
+    width: 159.88759
+    height: 247.89713
+  m_Offset: {x: 30.897524, y: -74.86168}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.9823529
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 7510424da08bceb448353f1d9292f930, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 50.004837, y: 140.01372, z: 0}
+    - serializedVersion: 2
+      pos: {x: 26.591663, y: -50.345577, z: 0}
+    - serializedVersion: 2
+      pos: {x: 50.004837, y: -41.1839, z: 0}
+    - serializedVersion: 2
+      pos: {x: 7.2503457, y: 202.10953, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.911331, y: -50.345577, z: 0}
+    - serializedVersion: 2
+      pos: {x: -22.270613, y: -45.255756, z: 0}
+    - serializedVersion: 2
+      pos: {x: -48.73768, y: -39.147972, z: 0}
+    - serializedVersion: 2
+      pos: {x: -55.86343, y: 202.10953, z: 0}
+    - serializedVersion: 2
+      pos: {x: -112.869415, y: 183.78616, z: 0}
+    - serializedVersion: 2
+      pos: {x: -112.869415, y: 116.60054, z: 0}
+    indices: 090008000600070006000800030006000700050006000300040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 739.03625
+      y: 502.0761
+      width: 159.88759
+      height: 247.89713
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.9823529, y: 849.8776, z: 0.9823529, w: 551.45715}

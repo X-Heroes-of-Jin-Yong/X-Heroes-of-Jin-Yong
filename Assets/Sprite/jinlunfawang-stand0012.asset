@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: jinlunfawang-stand0012
+  m_Rect:
+    serializedVersion: 2
+    x: 144.07611
+    y: 152.04291
+    width: 140.87256
+    height: 149.93034
+  m_Offset: {x: -4.5123982, y: -64.00808}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 9374ab72e47fe934eb876012c39d7e6c, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 33, y: 139, z: 0}
+    - serializedVersion: 2
+      pos: {x: 75, y: -11, z: 0}
+    - serializedVersion: 2
+      pos: {x: 75, y: 91, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3, y: 139, z: 0}
+    - serializedVersion: 2
+      pos: {x: -19, y: 136, z: 0}
+    - serializedVersion: 2
+      pos: {x: -65, y: -11, z: 0}
+    - serializedVersion: 2
+      pos: {x: -66, y: 89, z: 0}
+    - serializedVersion: 2
+      pos: {x: -66, y: -1, z: 0}
+    indices: 070006000500040005000600010005000400030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 144.07611
+      y: 152.04291
+      width: 140.87256
+      height: 149.93034
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 210, z: 1, w: 163}

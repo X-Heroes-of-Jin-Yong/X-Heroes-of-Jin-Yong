@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: battle_jiasu
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 80
+    height: 72
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: ed53b58b67ed0e345b0c264fb75ad6aa, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 37, y: -33, z: 0}
+    - serializedVersion: 2
+      pos: {x: 40, y: -36, z: 0}
+    - serializedVersion: 2
+      pos: {x: 40, y: -33, z: 0}
+    - serializedVersion: 2
+      pos: {x: 35, y: -35, z: 0}
+    - serializedVersion: 2
+      pos: {x: 35, y: -36, z: 0}
+    - serializedVersion: 2
+      pos: {x: -34, y: 36, z: 0}
+    - serializedVersion: 2
+      pos: {x: -38, y: -15, z: 0}
+    - serializedVersion: 2
+      pos: {x: -36, y: -15, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40, y: 20, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40, y: -13, z: 0}
+    - serializedVersion: 2
+      pos: {x: 35, y: 17, z: 0}
+    - serializedVersion: 2
+      pos: {x: 37, y: 6, z: 0}
+    - serializedVersion: 2
+      pos: {x: 37, y: 13, z: 0}
+    - serializedVersion: 2
+      pos: {x: 30, y: -27, z: 0}
+    - serializedVersion: 2
+      pos: {x: 23, y: 35, z: 0}
+    - serializedVersion: 2
+      pos: {x: 19, y: 36, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2, y: -35, z: 0}
+    - serializedVersion: 2
+      pos: {x: -21, y: -35, z: 0}
+    - serializedVersion: 2
+      pos: {x: -39, y: -17, z: 0}
+    - serializedVersion: 2
+      pos: {x: -39, y: -23, z: 0}
+    indices: 1300120011000700110012000500110007000f0011000500100011000f000d0010000f000e000d000f000a000d000e000b000d000a000c000b000a00090008000600050006000800070006000500040003000100000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 80
+      height: 72
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 1, y: 40, z: 1, w: 36}

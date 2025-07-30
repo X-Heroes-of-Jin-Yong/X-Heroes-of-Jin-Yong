@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: qingyinv-stand0010
+  m_Rect:
+    serializedVersion: 2
+    x: 385.0477
+    y: 262.02478
+    width: 42.939384
+    height: 127.96232
+  m_Offset: {x: 5.4826007, y: -62.00593}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 92bfb9dc10c816e47a3f4c4547df86d0, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 7, y: 126, z: 0}
+    - serializedVersion: 2
+      pos: {x: 16, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 16, y: 100, z: 0}
+    - serializedVersion: 2
+      pos: {x: -22, y: 126, z: 0}
+    - serializedVersion: 2
+      pos: {x: -27, y: 107, z: 0}
+    - serializedVersion: 2
+      pos: {x: -27, y: -2, z: 0}
+    indices: 050004000100030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 385.0477
+      y: 262.02478
+      width: 42.939384
+      height: 127.96232
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 412, z: 1, w: 264}

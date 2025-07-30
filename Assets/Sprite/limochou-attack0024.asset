@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: limochou-attack0024
+  m_Rect:
+    serializedVersion: 2
+    x: 244.02675
+    y: 0.076122284
+    width: 73.96034
+    height: 200.89713
+  m_Offset: {x: -40.00692, y: -97.52468}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 7734d3685ae40b8439b819c25afc8e49, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 54, y: 198, z: 0}
+    - serializedVersion: 2
+      pos: {x: 77, y: 23, z: 0}
+    - serializedVersion: 2
+      pos: {x: 77, y: 198, z: 0}
+    - serializedVersion: 2
+      pos: {x: 45, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 42, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: 35, y: 180, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3, y: 130, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3, y: -3, z: 0}
+    indices: 070006000400050004000600000004000500030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 244.02675
+      y: 0.076122284
+      width: 73.96034
+      height: 200.89713
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 241, z: 1, w: 3}

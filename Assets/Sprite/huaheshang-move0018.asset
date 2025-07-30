@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: huaheshang-move0018
+  m_Rect:
+    serializedVersion: 2
+    x: 0.012908936
+    y: 371.02676
+    width: 85.910965
+    height: 125.9465
+  m_Offset: {x: 2.031609, y: -59.000004}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 4232d83c719b4e84f83aae703ddbac49, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 31, y: 122, z: 0}
+    - serializedVersion: 2
+      pos: {x: 41, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: 41, y: 58, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3, y: 122, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0, y: 118, z: 0}
+    - serializedVersion: 2
+      pos: {x: -9, y: 95, z: 0}
+    - serializedVersion: 2
+      pos: {x: -11, y: 85, z: 0}
+    - serializedVersion: 2
+      pos: {x: -11, y: 79, z: 0}
+    - serializedVersion: 2
+      pos: {x: -17, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: -25, y: -1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -33, y: 6, z: 0}
+    - serializedVersion: 2
+      pos: {x: -37, y: 15, z: 0}
+    - serializedVersion: 2
+      pos: {x: -41, y: 32, z: 0}
+    - serializedVersion: 2
+      pos: {x: -44, y: 12, z: 0}
+    - serializedVersion: 2
+      pos: {x: -45, y: 18, z: 0}
+    - serializedVersion: 2
+      pos: {x: -45, y: 13, z: 0}
+    indices: 0f000e000d000c000d000e000b000d000c0007000b000c000a000b00070009000a000700080009000700010008000700060001000700050001000600040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.012908936
+      y: 371.02676
+      width: 85.910965
+      height: 125.9465
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 45, z: 1, w: 375}

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: snyw-stand003
+  m_Rect:
+    serializedVersion: 2
+    x: 109.014496
+    y: 0.0362854
+    width: 113.90938
+    height: 120.88759
+  m_Offset: {x: -14.969185, y: -56.48008}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: a459bc79d9e42d648a9d10bf1c4a53c7, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 72, y: 58, z: 0}
+    - serializedVersion: 2
+      pos: {x: 49, y: 38, z: 0}
+    - serializedVersion: 2
+      pos: {x: 72, y: 25, z: 0}
+    - serializedVersion: 2
+      pos: {x: 24, y: 117, z: 0}
+    - serializedVersion: 2
+      pos: {x: 62, y: 3, z: 0}
+    - serializedVersion: 2
+      pos: {x: 60, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: 63, y: -1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -34, y: 117, z: 0}
+    - serializedVersion: 2
+      pos: {x: -42, y: 115, z: 0}
+    - serializedVersion: 2
+      pos: {x: -42, y: -4, z: 0}
+    indices: 090008000500070005000800030005000700010005000300040005000100060005000400030000000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 109.014496
+      y: 0.0362854
+      width: 113.90938
+      height: 120.88759
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 151, z: 1, w: 4}

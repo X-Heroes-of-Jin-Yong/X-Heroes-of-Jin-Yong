@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: xiedaoshi-move0014
+  m_Rect:
+    serializedVersion: 2
+    x: 216.02675
+    y: 540.01294
+    width: 77.897125
+    height: 126.910965
+  m_Offset: {x: 5.024688, y: -55.468395}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 5343edc59b5bb6f4a89cca916f67d14c, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 25, y: 103, z: 0}
+    - serializedVersion: 2
+      pos: {x: 34, y: 25, z: 0}
+    - serializedVersion: 2
+      pos: {x: 34, y: 49, z: 0}
+    - serializedVersion: 2
+      pos: {x: 22, y: 119, z: 0}
+    - serializedVersion: 2
+      pos: {x: 12, y: -7, z: 0}
+    - serializedVersion: 2
+      pos: {x: 11, y: 119, z: 0}
+    - serializedVersion: 2
+      pos: {x: 11, y: -8, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3, y: 112, z: 0}
+    - serializedVersion: 2
+      pos: {x: -8, y: 108, z: 0}
+    - serializedVersion: 2
+      pos: {x: -20, y: -8, z: 0}
+    - serializedVersion: 2
+      pos: {x: -25, y: 102, z: 0}
+    - serializedVersion: 2
+      pos: {x: -44, y: 78, z: 0}
+    - serializedVersion: 2
+      pos: {x: -44, y: 37, z: 0}
+    indices: 0c000b0009000a0009000b00080009000a00060009000800070006000800050006000700040006000500030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 216.02675
+      y: 540.01294
+      width: 77.897125
+      height: 126.910965
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 260, z: 1, w: 548}

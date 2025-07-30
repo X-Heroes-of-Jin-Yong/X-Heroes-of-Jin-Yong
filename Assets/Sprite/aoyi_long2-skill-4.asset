@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: aoyi_long2-skill-4
+  m_Rect:
+    serializedVersion: 2
+    x: 258
+    y: 0
+    width: 256
+    height: 230
+  m_Offset: {x: -0.22221375, y: 1.3709068E-05}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.51111114
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 68f8fed912591e44882d09819fe19e2c, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -250.43477, y: 224.99998, z: 0}
+    - serializedVersion: 2
+      pos: {x: 250.43477, y: -224.99998, z: 0}
+    - serializedVersion: 2
+      pos: {x: 250.43477, y: 224.99998, z: 0}
+    - serializedVersion: 2
+      pos: {x: -250.43477, y: -224.99998, z: 0}
+    indices: 030000000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 258
+      y: 0
+      width: 256
+      height: 230
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.51111114, y: 386, z: 0.51111114, w: 115}

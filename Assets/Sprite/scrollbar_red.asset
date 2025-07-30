@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: scrollbar_red
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 10
+    height: 491
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: ac0f7294aa2384e40b35715bf881944d, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -5, y: 245.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 5, y: 245.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5, y: -245.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 5, y: -245.5, z: 0}
+    indices: 000001000200020001000300
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 10
+      height: 491
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 1, y: 5, z: 1, w: 245.5}

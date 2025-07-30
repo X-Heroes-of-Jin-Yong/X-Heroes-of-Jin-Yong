@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: xiaolongnv-move0002
+  m_Rect:
+    serializedVersion: 2
+    x: 338.05972
+    y: 450.02676
+    width: 136.92737
+    height: 125.897125
+  m_Offset: {x: -24.52341, y: -57.975315}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 8964857031a91914a980eabe487d4c93, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 93, y: 77, z: 0}
+    - serializedVersion: 2
+      pos: {x: 52, y: -5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 93, y: 37, z: 0}
+    - serializedVersion: 2
+      pos: {x: 8, y: 121, z: 0}
+    - serializedVersion: 2
+      pos: {x: -10, y: -5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -12, y: 121, z: 0}
+    - serializedVersion: 2
+      pos: {x: -44, y: 36, z: 0}
+    - serializedVersion: 2
+      pos: {x: -44, y: 25, z: 0}
+    indices: 070006000400050004000600030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 338.05972
+      y: 450.02676
+      width: 136.92737
+      height: 125.897125
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 382, z: 1, w: 455}

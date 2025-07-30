@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: baozha_green-skill-3
+  m_Rect:
+    serializedVersion: 2
+    x: 101.01291
+    y: 0.026750565
+    width: 97.910965
+    height: 92.93975
+  m_Offset: {x: -1.0543633, y: -22.94662}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.51131225
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: aedcb2563dd92934b94c83e59c4b8caa, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 86.05309, y: 128.00397, z: 0}
+    - serializedVersion: 2
+      pos: {x: 97.787605, y: -3.0314143, z: 0}
+    - serializedVersion: 2
+      pos: {x: 97.787605, y: 88.88893, z: 0}
+    - serializedVersion: 2
+      pos: {x: 64.53982, y: -46.05796, z: 0}
+    - serializedVersion: 2
+      pos: {x: 33.247787, y: 135.82698, z: 0}
+    - serializedVersion: 2
+      pos: {x: -25.424778, y: 135.82698, z: 0}
+    - serializedVersion: 2
+      pos: {x: -60.628315, y: -46.05796, z: 0}
+    - serializedVersion: 2
+      pos: {x: -68.451324, y: 110.40221, z: 0}
+    - serializedVersion: 2
+      pos: {x: -93.8761, y: 83.021675, z: 0}
+    - serializedVersion: 2
+      pos: {x: -93.8761, y: 14.570354, z: 0}
+    indices: 090008000600070006000800050006000700030006000500040003000500000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 101.01291
+      y: 0.026750565
+      width: 97.910965
+      height: 92.93975
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.51131225, y: 149, z: 0.51131225, w: 23.55}

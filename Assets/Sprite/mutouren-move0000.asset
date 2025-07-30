@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: mutouren-move0000
+  m_Rect:
+    serializedVersion: 2
+    x: 481.02673
+    y: 0.026752472
+    width: 83.93034
+    height: 107.897125
+  m_Offset: {x: -3.9919202, y: -50.975315}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 57ff37f95223d084f8604a87533d7754, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 46, y: 93, z: 0}
+    - serializedVersion: 2
+      pos: {x: 37, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: 46, y: 72, z: 0}
+    - serializedVersion: 2
+      pos: {x: 34, y: 105, z: 0}
+    - serializedVersion: 2
+      pos: {x: 34, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5, y: 105, z: 0}
+    - serializedVersion: 2
+      pos: {x: -7, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: -13, y: 4, z: 0}
+    - serializedVersion: 2
+      pos: {x: -31, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: -35, y: 98, z: 0}
+    - serializedVersion: 2
+      pos: {x: -35, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: -38, y: 53, z: 0}
+    - serializedVersion: 2
+      pos: {x: -38, y: 2, z: 0}
+    indices: 0c000b000a0009000a000b0008000a000900050008000900070008000500060007000500040006000500030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 481.02673
+      y: 0.026752472
+      width: 83.93034
+      height: 107.897125
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 519, z: 1, w: 3}

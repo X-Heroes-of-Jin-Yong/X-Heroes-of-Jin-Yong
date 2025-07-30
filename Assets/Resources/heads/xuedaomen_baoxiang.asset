@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: xuedaomen_baoxiang
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 128
+    height: 128
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 3a7664b1b2ed42141b297025e2dd392f, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 64, y: -24, z: 0}
+    - serializedVersion: 2
+      pos: {x: 37, y: 31, z: 0}
+    - serializedVersion: 2
+      pos: {x: 64, y: -64, z: 0}
+    - serializedVersion: 2
+      pos: {x: 34, y: 64, z: 0}
+    - serializedVersion: 2
+      pos: {x: 35, y: 33, z: 0}
+    - serializedVersion: 2
+      pos: {x: 32, y: 33, z: 0}
+    - serializedVersion: 2
+      pos: {x: 30, y: 31, z: 0}
+    - serializedVersion: 2
+      pos: {x: -26, y: 64, z: 0}
+    - serializedVersion: 2
+      pos: {x: 30, y: 28, z: 0}
+    - serializedVersion: 2
+      pos: {x: 37, y: 28, z: 0}
+    - serializedVersion: 2
+      pos: {x: 35, y: 26, z: 0}
+    - serializedVersion: 2
+      pos: {x: 32, y: 26, z: 0}
+    - serializedVersion: 2
+      pos: {x: -64, y: 10, z: 0}
+    - serializedVersion: 2
+      pos: {x: -64, y: -64, z: 0}
+    indices: 080006000b0005000b0006000a000b00050004000a00050009000a0004000100090004000d000c000200070002000c000800020007000b00020008000a0002000b00090002000a00010002000900030006000700080007000600050006000300040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 128
+      height: 128
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 1, y: 64, z: 1, w: 64}

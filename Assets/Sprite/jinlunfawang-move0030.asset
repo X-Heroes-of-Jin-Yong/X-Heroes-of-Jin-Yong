@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: jinlunfawang-move0030
+  m_Rect:
+    serializedVersion: 2
+    x: 442.019
+    y: 296.0761
+    width: 121.90486
+    height: 146.87256
+  m_Offset: {x: 35.028557, y: -70.5124}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 9374ab72e47fe934eb876012c39d7e6c, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 26, y: 108, z: 0}
+    - serializedVersion: 2
+      pos: {x: 8, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: 26, y: 20, z: 0}
+    - serializedVersion: 2
+      pos: {x: -8, y: 144, z: 0}
+    - serializedVersion: 2
+      pos: {x: -35, y: 144, z: 0}
+    - serializedVersion: 2
+      pos: {x: -67, y: 132, z: 0}
+    - serializedVersion: 2
+      pos: {x: -96, y: 47, z: 0}
+    - serializedVersion: 2
+      pos: {x: -96, y: -3, z: 0}
+    indices: 070006000100050001000600040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 442.019
+      y: 296.0761
+      width: 121.90486
+      height: 146.87256
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 538, z: 1, w: 299}

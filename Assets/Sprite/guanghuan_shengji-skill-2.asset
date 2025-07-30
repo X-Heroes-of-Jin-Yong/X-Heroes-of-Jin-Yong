@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: guanghuan_shengji-skill-2
+  m_Rect:
+    serializedVersion: 2
+    x: 778
+    y: 199
+    width: 113
+    height: 256
+  m_Offset: {x: 4.7262316, y: -73.71518}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.70523417
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 4f8cc42003d33df4f83c14c802d59f00, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -86.93211, y: 286.02582, z: 0}
+    - serializedVersion: 2
+      pos: {x: 73.29835, y: -76.974174, z: 0}
+    - serializedVersion: 2
+      pos: {x: 73.29835, y: 286.02582, z: 0}
+    - serializedVersion: 2
+      pos: {x: -86.93211, y: -76.974174, z: 0}
+    indices: 030000000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 778
+      y: 199
+      width: 113
+      height: 256
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.70523417, y: 839.3075, z: 0.70523417, w: 253.28482}

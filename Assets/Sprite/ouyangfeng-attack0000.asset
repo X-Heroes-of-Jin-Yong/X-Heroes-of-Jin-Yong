@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ouyangfeng-attack0000
+  m_Rect:
+    serializedVersion: 2
+    x: 790.0761
+    y: 137.07613
+    width: 128.84775
+    height: 126.88097
+  m_Offset: {x: 1.5000044, y: -61.516605}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 928195b381b61ba4b9eab91829b70cbb, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -4, y: 125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -22, y: 62, z: 0}
+    - serializedVersion: 2
+      pos: {x: -17, y: 62, z: 0}
+    - serializedVersion: 2
+      pos: {x: -32, y: 57, z: 0}
+    - serializedVersion: 2
+      pos: {x: -41, y: 115, z: 0}
+    - serializedVersion: 2
+      pos: {x: -46, y: 59, z: 0}
+    - serializedVersion: 2
+      pos: {x: 63, y: 107, z: 0}
+    - serializedVersion: 2
+      pos: {x: 59, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 63, y: 1, z: 0}
+    - serializedVersion: 2
+      pos: {x: 27, y: 125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -37, y: 55, z: 0}
+    - serializedVersion: 2
+      pos: {x: -65, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: -66, y: 5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -66, y: 3, z: 0}
+    indices: 0d000c000b000a000b000c0007000b000a00020007000a00000007000200090007000000060007000900080007000600050004000300000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 790.0761
+      y: 137.07613
+      width: 128.84775
+      height: 126.88097
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 856, z: 1, w: 139}

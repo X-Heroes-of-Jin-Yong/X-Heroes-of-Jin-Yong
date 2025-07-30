@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: caoyuan-stand0008
+  m_Rect:
+    serializedVersion: 2
+    x: 624.0429
+    y: 125.04291
+    width: 83.88097
+    height: 119.93034
+  m_Offset: {x: 7.0166073, y: -52.008083}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 02f9cad659db67f4c9d071262afed6e8, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -33, y: 104, z: 0}
+    - serializedVersion: 2
+      pos: {x: -46, y: 80, z: 0}
+    - serializedVersion: 2
+      pos: {x: -44, y: 76, z: 0}
+    - serializedVersion: 2
+      pos: {x: 15, y: 112, z: 0}
+    - serializedVersion: 2
+      pos: {x: 35, y: -8, z: 0}
+    - serializedVersion: 2
+      pos: {x: 35, y: 72, z: 0}
+    - serializedVersion: 2
+      pos: {x: -17, y: 112, z: 0}
+    - serializedVersion: 2
+      pos: {x: -49, y: 44, z: 0}
+    - serializedVersion: 2
+      pos: {x: -49, y: -8, z: 0}
+    indices: 080007000400020004000700000004000200060004000000030004000600050004000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 624.0429
+      y: 125.04291
+      width: 83.88097
+      height: 119.93034
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 673, z: 1, w: 133}

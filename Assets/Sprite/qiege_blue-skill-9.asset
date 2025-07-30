@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: qiege_blue-skill-9
+  m_Rect:
+    serializedVersion: 2
+    x: 494.0761
+    y: 0
+    width: 98.84776
+    height: 108.98709
+  m_Offset: {x: 10.499999, y: 9.5064535}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.36571428
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 69679ed0f9200e04c9757eb78b3feb68, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -98.4375, y: -5.46875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -153.125, y: -98.4375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -147.65625, y: -103.90625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -161.32812, y: -101.171875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -164.0625, y: -68.359375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -161.32812, y: -109.375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 106.640625, y: 123.046875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 84.765625, y: -175, z: 0}
+    - serializedVersion: 2
+      pos: {x: 106.640625, y: -131.25, z: 0}
+    - serializedVersion: 2
+      pos: {x: 57.421875, y: 123.046875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -147.65625, y: -112.109375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -155.85938, y: -114.84375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -164.0625, y: -175, z: 0}
+    indices: 050003000b0001000b0003000a000b00010002000a000100040005000c000b000c00050007000c000b000a0007000b00020007000a00000007000200090007000000060007000900080007000600000003000400050004000300010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 494.0761
+      y: 0
+      width: 98.84776
+      height: 108.98709
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.36571428, y: 554, z: 0.36571428, w: 64}

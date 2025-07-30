@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: huangrong-attack0012
+  m_Rect:
+    serializedVersion: 2
+    x: 704.0761
+    y: 301.061
+    width: 107.847755
+    height: 126.902695
+  m_Offset: {x: -4.999997, y: -59.512363}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 4fbe88c98f850a64983397e2980dd1e1, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 22, y: 117, z: 0}
+    - serializedVersion: 2
+      pos: {x: 59, y: 46, z: 0}
+    - serializedVersion: 2
+      pos: {x: 59, y: 85, z: 0}
+    - serializedVersion: 2
+      pos: {x: 19, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: 11, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: -8, y: 123, z: 0}
+    - serializedVersion: 2
+      pos: {x: -19, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: -32, y: 2, z: 0}
+    - serializedVersion: 2
+      pos: {x: -49, y: 123, z: 0}
+    - serializedVersion: 2
+      pos: {x: -49, y: 52, z: 0}
+    indices: 090008000700050007000800060007000500040006000500000004000500030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 704.0761
+      y: 301.061
+      width: 107.847755
+      height: 126.902695
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 753, z: 1, w: 305}

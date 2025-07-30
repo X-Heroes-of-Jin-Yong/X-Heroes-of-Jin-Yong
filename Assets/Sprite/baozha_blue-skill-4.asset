@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: baozha_blue-skill-4
+  m_Rect:
+    serializedVersion: 2
+    x: 0.05637169
+    y: 403.0761
+    width: 113.91688
+    height: 101.91097
+  m_Offset: {x: 1.985185, y: -25.917124}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.55172414
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 72257ba8303f00849b6ee22deaa74ce5, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 90.625, y: 139.10501, z: 0}
+    - serializedVersion: 2
+      pos: {x: 99.6875, y: -45.77, z: 0}
+    - serializedVersion: 2
+      pos: {x: 99.6875, y: 131.85501, z: 0}
+    - serializedVersion: 2
+      pos: {x: -19.9375, y: 139.10501, z: 0}
+    - serializedVersion: 2
+      pos: {x: -106.9375, y: 106.479996, z: 0}
+    - serializedVersion: 2
+      pos: {x: -106.9375, y: -45.77, z: 0}
+    indices: 050004000100030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.05637169
+      y: 403.0761
+      width: 113.91688
+      height: 101.91097
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.55172414, y: 59, z: 0.55172414, w: 428.2524}

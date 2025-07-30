@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: quanshi-be007
+  m_Rect:
+    serializedVersion: 2
+    x: 99.07612
+    y: 200.02675
+    width: 94.91097
+    height: 102.9465
+  m_Offset: {x: 2.4683945, y: -52.500004}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 274d355c0a5b09849ad78d9abd55b5f9, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 45, y: 76, z: 0}
+    - serializedVersion: 2
+      pos: {x: 26, y: 1, z: 0}
+    - serializedVersion: 2
+      pos: {x: 45, y: 64, z: 0}
+    - serializedVersion: 2
+      pos: {x: 4, y: 104, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3, y: 1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -20, y: 104, z: 0}
+    - serializedVersion: 2
+      pos: {x: -25, y: 7, z: 0}
+    - serializedVersion: 2
+      pos: {x: -29, y: 2, z: 0}
+    - serializedVersion: 2
+      pos: {x: -36, y: 1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -41, y: 4, z: 0}
+    - serializedVersion: 2
+      pos: {x: -46, y: 44, z: 0}
+    - serializedVersion: 2
+      pos: {x: -50, y: 68, z: 0}
+    - serializedVersion: 2
+      pos: {x: -50, y: 52, z: 0}
+    indices: 0c000b000a0005000a000b0009000a000500080009000500070008000500060007000500040006000500030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 99.07612
+      y: 200.02675
+      width: 94.91097
+      height: 102.9465
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 149, z: 1, w: 199}

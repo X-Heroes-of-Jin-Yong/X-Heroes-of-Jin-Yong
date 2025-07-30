@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: aoyi_dagoubang-skill-1
+  m_Rect:
+    serializedVersion: 2
+    x: 0.01291275
+    y: 87.098694
+    width: 223.98709
+    height: 88.87456
+  m_Offset: {x: -16.006453, y: 18.464025}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.32
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: ffce427f22c099e4f8ab5cfdcbbdbe0d, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 296.875, y: 81.25, z: 0}
+    - serializedVersion: 2
+      pos: {x: 400, y: -196.875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 400, y: -125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 53.125, y: 81.25, z: 0}
+    - serializedVersion: 2
+      pos: {x: -78.125, y: -196.875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -256.25, y: -9.375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -296.875, y: 12.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -300, y: 34.375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -300, y: 12.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -278.125, y: -53.125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -293.75, y: -156.25, z: 0}
+    indices: 0a0009000400050004000900080007000600030006000700050006000300040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.01291275
+      y: 87.098694
+      width: 223.98709
+      height: 88.87456
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.32, y: 96, z: 0.32, w: 150}

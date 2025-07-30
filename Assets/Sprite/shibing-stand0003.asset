@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: shibing-stand0003
+  m_Rect:
+    serializedVersion: 2
+    x: 252.01291
+    y: 252.04291
+    width: 71.910965
+    height: 127.93591
+  m_Offset: {x: -6.9683924, y: -58.010864}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 0785c3780009ae94584c6168c887193e, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 43, y: 57, z: 0}
+    - serializedVersion: 2
+      pos: {x: 18, y: -6, z: 0}
+    - serializedVersion: 2
+      pos: {x: 43, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: 13, y: 107, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0, y: 122, z: 0}
+    - serializedVersion: 2
+      pos: {x: -6, y: 122, z: 0}
+    - serializedVersion: 2
+      pos: {x: -15, y: 115, z: 0}
+    - serializedVersion: 2
+      pos: {x: -25, y: -6, z: 0}
+    - serializedVersion: 2
+      pos: {x: -28, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: -29, y: 116, z: 0}
+    - serializedVersion: 2
+      pos: {x: -29, y: 20, z: 0}
+    indices: 0a0009000800060008000900070008000600010007000600050001000600040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 252.01291
+      y: 252.04291
+      width: 71.910965
+      height: 127.93591
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 281, z: 1, w: 258}

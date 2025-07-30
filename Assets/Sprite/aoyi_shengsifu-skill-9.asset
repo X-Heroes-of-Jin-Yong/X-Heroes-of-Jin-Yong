@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: aoyi_shengsifu-skill-9
+  m_Rect:
+    serializedVersion: 2
+    x: 164.04291
+    y: 204.07613
+    width: 159.90578
+    height: 201.92387
+  m_Offset: {x: 2.804191, y: -36.18552}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.426
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 2b5e9a6b1e4d3db47b0bbf29f85f58e8, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 110.328674, y: 321.94238, z: 0}
+    - serializedVersion: 2
+      pos: {x: 180.7512, y: -27.822844, z: 0}
+    - serializedVersion: 2
+      pos: {x: 180.7512, y: 66.07387, z: 0}
+    - serializedVersion: 2
+      pos: {x: 70.42257, y: -152.236, z: 0}
+    - serializedVersion: 2
+      pos: {x: -63.380245, y: -152.236, z: 0}
+    - serializedVersion: 2
+      pos: {x: -100.938934, y: 321.94238, z: 0}
+    - serializedVersion: 2
+      pos: {x: -194.83565, y: 56.6842, z: 0}
+    - serializedVersion: 2
+      pos: {x: -194.83565, y: -60.686695, z: 0}
+    indices: 070006000400050004000600000004000500030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 164.04291
+      y: 204.07613
+      width: 159.90578
+      height: 201.92387
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.426, y: 247, z: 0.426, w: 268.85254}

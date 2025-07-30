@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: nvyapu-be0006
+  m_Rect:
+    serializedVersion: 2
+    x: 236.07611
+    y: 241.04291
+    width: 62.847755
+    height: 98.914185
+  m_Offset: {x: -3.4999964, y: -40.5}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: e92f7b8d540a00d4598b1e088f99e245, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 31, y: 89, z: 0}
+    - serializedVersion: 2
+      pos: {x: 35, y: 35, z: 0}
+    - serializedVersion: 2
+      pos: {x: 35, y: 80, z: 0}
+    - serializedVersion: 2
+      pos: {x: 28, y: 90, z: 0}
+    - serializedVersion: 2
+      pos: {x: 25, y: -8, z: 0}
+    - serializedVersion: 2
+      pos: {x: 18, y: -9, z: 0}
+    - serializedVersion: 2
+      pos: {x: 11, y: -9, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1, y: -8, z: 0}
+    - serializedVersion: 2
+      pos: {x: -8, y: 90, z: 0}
+    - serializedVersion: 2
+      pos: {x: -8, y: 5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -9, y: 27, z: 0}
+    - serializedVersion: 2
+      pos: {x: -17, y: 41, z: 0}
+    - serializedVersion: 2
+      pos: {x: -28, y: 62, z: 0}
+    - serializedVersion: 2
+      pos: {x: -28, y: 45, z: 0}
+    - serializedVersion: 2
+      pos: {x: -19, y: 27, z: 0}
+    - serializedVersion: 2
+      pos: {x: -20, y: 35, z: 0}
+    - serializedVersion: 2
+      pos: {x: -21, y: 29, z: 0}
+    indices: 10000f000e000b000e000f000a000e000b000d000c000b0008000b000c000a000b00080009000a000800070009000800030007000800060007000300050006000300040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 236.07611
+      y: 241.04291
+      width: 62.847755
+      height: 98.914185
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 264, z: 1, w: 250}

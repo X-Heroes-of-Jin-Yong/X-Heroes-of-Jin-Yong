@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: aoyi_banruozhang-skill-3
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 714
+    width: 256
+    height: 236
+  m_Offset: {x: -0.16666412, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.39333335
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 2aa3c85c53034d849936cfad713712fb, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -325.4237, y: 300, z: 0}
+    - serializedVersion: 2
+      pos: {x: 325.4237, y: -300, z: 0}
+    - serializedVersion: 2
+      pos: {x: 325.4237, y: 300, z: 0}
+    - serializedVersion: 2
+      pos: {x: -325.4237, y: -300, z: 0}
+    indices: 030000000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 714
+      width: 256
+      height: 236
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.39333335, y: 128, z: 0.39333335, w: 832}

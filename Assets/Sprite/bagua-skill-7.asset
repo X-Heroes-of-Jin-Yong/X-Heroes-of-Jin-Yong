@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: bagua-skill-7
+  m_Rect:
+    serializedVersion: 2
+    x: 0.026750565
+    y: 651.01733
+    width: 194.89713
+    height: 123.97669
+  m_Offset: {x: 0.33024165, y: -0.5256915}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.59444445
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 1d069cac724fec0439a212269b78a832, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 52.149532, y: -64.732704, z: 0}
+    - serializedVersion: 2
+      pos: {x: 55.51402, y: -103.42429, z: 0}
+    - serializedVersion: 2
+      pos: {x: 55.51402, y: -68.09719, z: 0}
+    - serializedVersion: 2
+      pos: {x: 48.785046, y: -64.732704, z: 0}
+    - serializedVersion: 2
+      pos: {x: 45.42056, y: -66.41495, z: 0}
+    - serializedVersion: 2
+      pos: {x: -67.28972, y: 105.173836, z: 0}
+    - serializedVersion: 2
+      pos: {x: -102.61682, y: -103.42429, z: 0}
+    - serializedVersion: 2
+      pos: {x: -124.48598, y: 101.80935, z: 0}
+    - serializedVersion: 2
+      pos: {x: -148.03738, y: -96.69532, z: 0}
+    - serializedVersion: 2
+      pos: {x: -164.85982, y: 16.01496, z: 0}
+    - serializedVersion: 2
+      pos: {x: -164.85982, y: -22.676628, z: 0}
+    - serializedVersion: 2
+      pos: {x: 109.345795, y: 105.173836, z: 0}
+    - serializedVersion: 2
+      pos: {x: 163.17757, y: -68.09719, z: 0}
+    - serializedVersion: 2
+      pos: {x: 163.17757, y: -4.1719556, z: 0}
+    - serializedVersion: 2
+      pos: {x: 84.112144, y: -103.42429, z: 0}
+    - serializedVersion: 2
+      pos: {x: 57.196262, y: -61.368217, z: 0}
+    - serializedVersion: 2
+      pos: {x: 52.149532, y: -59.685974, z: 0}
+    - serializedVersion: 2
+      pos: {x: 57.196262, y: -103.42429, z: 0}
+    indices: 11000f000e0005000b000400100004000b000f0010000b000e000f000b000c000e000b000d000c000b000a0009000800070008000900060008000700050006000700010006000500040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.026750565
+      y: 651.01733
+      width: 194.89713
+      height: 123.97669
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.59444445, y: 98, z: 0.59444445, w: 712.48}

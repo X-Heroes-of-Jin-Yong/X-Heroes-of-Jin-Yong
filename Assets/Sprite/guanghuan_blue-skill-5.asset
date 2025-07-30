@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: guanghuan_blue-skill-5
+  m_Rect:
+    serializedVersion: 2
+    x: 73.07612
+    y: 140.07613
+    width: 100.89911
+    height: 67.89038
+  m_Offset: {x: -0.32567614, y: -3.0713093}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.425
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 6915df0010fe0fa4bbca21527ce123b8, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 118.94118, y: 18.941174, z: 0}
+    - serializedVersion: 2
+      pos: {x: 90.70589, y: -68.117645, z: 0}
+    - serializedVersion: 2
+      pos: {x: 118.94118, y: -18.705883, z: 0}
+    - serializedVersion: 2
+      pos: {x: 57.764713, y: -72.82353, z: 0}
+    - serializedVersion: 2
+      pos: {x: 53.05883, y: 87.17647, z: 0}
+    - serializedVersion: 2
+      pos: {x: -55.17646, y: 87.17647, z: 0}
+    - serializedVersion: 2
+      pos: {x: -78.70587, y: -72.82353, z: 0}
+    - serializedVersion: 2
+      pos: {x: -118.70587, y: 25.999998, z: 0}
+    - serializedVersion: 2
+      pos: {x: -118.70587, y: -16.352943, z: 0}
+    indices: 080007000600050006000700030006000500040003000500000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 73.07612
+      y: 140.07613
+      width: 100.89911
+      height: 67.89038
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.425, y: 123.45, z: 0.425, w: 170.95}

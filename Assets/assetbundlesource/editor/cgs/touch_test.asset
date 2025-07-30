@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: touch_test
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 293
+    height: 512
+  m_Offset: {x: -0.21429399, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 73.14285
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: fbdd284d38ee88748a6c4795f2b6d737, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -2.00293, y: 3.5000002, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.00293, y: -3.5000002, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.00293, y: 3.5000002, z: 0}
+    - serializedVersion: 2
+      pos: {x: -2.00293, y: -3.5000002, z: 0}
+    indices: 030000000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 293
+      height: 512
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 73.14285, y: 146.5, z: 73.14285, w: 256}

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: bingkuai-skill-16
+  m_Rect:
+    serializedVersion: 2
+    x: 229.07613
+    y: 408.0761
+    width: 215.84775
+    height: 99.84776
+  m_Offset: {x: -16.000002, y: -27.80398}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.57918555
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 86e1b08edb0e3b64a98d3e3db1b2414d, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 196.82811, y: 77.09515, z: 0}
+    - serializedVersion: 2
+      pos: {x: 214.09373, y: -16.13922, z: 0}
+    - serializedVersion: 2
+      pos: {x: 214.09373, y: 18.392029, z: 0}
+    - serializedVersion: 2
+      pos: {x: 165.75, y: -38.58453, z: 0}
+    - serializedVersion: 2
+      pos: {x: 164.02344, y: 134.07172, z: 0}
+    - serializedVersion: 2
+      pos: {x: 50.07031, y: 134.07172, z: 0}
+    - serializedVersion: 2
+      pos: {x: -110.49999, y: -38.58453, z: 0}
+    - serializedVersion: 2
+      pos: {x: -158.84375, y: 42.563904, z: 0}
+    - serializedVersion: 2
+      pos: {x: -158.84375, y: -5.779845, z: 0}
+    indices: 080007000600050006000700030006000500040003000500000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 229.07613
+      y: 408.0761
+      width: 215.84775
+      height: 99.84776
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.57918555, y: 321, z: 0.57918555, w: 430.3476}

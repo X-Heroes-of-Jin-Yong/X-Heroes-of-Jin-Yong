@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: blnz-attack009
+  m_Rect:
+    serializedVersion: 2
+    x: 127.07612
+    y: 241.07613
+    width: 70.847755
+    height: 120.84775
+  m_Offset: {x: -5.4999967, y: -59.499996}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: f7f078fb0dfe9dc449f300f303d15295, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 41, y: 88, z: 0}
+    - serializedVersion: 2
+      pos: {x: 30, y: 42, z: 0}
+    - serializedVersion: 2
+      pos: {x: 41, y: 67, z: 0}
+    - serializedVersion: 2
+      pos: {x: 23, y: 46, z: 0}
+    - serializedVersion: 2
+      pos: {x: 18, y: 62, z: 0}
+    - serializedVersion: 2
+      pos: {x: 11, y: -1, z: 0}
+    - serializedVersion: 2
+      pos: {x: 16, y: 32, z: 0}
+    - serializedVersion: 2
+      pos: {x: 7, y: 119, z: 0}
+    - serializedVersion: 2
+      pos: {x: 4, y: 120, z: 0}
+    - serializedVersion: 2
+      pos: {x: -8, y: 120, z: 0}
+    - serializedVersion: 2
+      pos: {x: -21, y: -1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -30, y: 88, z: 0}
+    - serializedVersion: 2
+      pos: {x: -30, y: 23, z: 0}
+    indices: 0c000b000a0009000a000b0005000a000900080005000900070005000800040005000700000004000700060005000400030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 127.07612
+      y: 241.07613
+      width: 70.847755
+      height: 120.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 157, z: 1, w: 242}

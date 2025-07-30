@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: honglingbo-attack0032
+  m_Rect:
+    serializedVersion: 2
+    x: 0.07611847
+    y: 380.0761
+    width: 162.81833
+    height: 132.89713
+  m_Offset: {x: -38.48528, y: -63.524685}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 84a5a6523396ef74ebff113081a63af1, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 120, y: 107, z: 0}
+    - serializedVersion: 2
+      pos: {x: 62, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: 120, y: 58, z: 0}
+    - serializedVersion: 2
+      pos: {x: 31, y: 130, z: 0}
+    - serializedVersion: 2
+      pos: {x: -12, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: -25, y: 130, z: 0}
+    - serializedVersion: 2
+      pos: {x: -43, y: 84, z: 0}
+    - serializedVersion: 2
+      pos: {x: -43, y: 24, z: 0}
+    indices: 070006000400050004000600030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.07611847
+      y: 380.0761
+      width: 162.81833
+      height: 132.89713
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 43, z: 1, w: 383}

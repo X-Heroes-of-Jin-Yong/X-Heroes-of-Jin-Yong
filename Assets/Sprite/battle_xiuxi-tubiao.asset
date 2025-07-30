@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: battle_xiuxi-tubiao
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 109
+    height: 98
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: f84cd0e958c32e94a9722f5d45b4224a, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 53.5, y: 27, z: 0}
+    - serializedVersion: 2
+      pos: {x: 54.5, y: -21, z: 0}
+    - serializedVersion: 2
+      pos: {x: 54.5, y: 20, z: 0}
+    - serializedVersion: 2
+      pos: {x: 39.5, y: -49, z: 0}
+    - serializedVersion: 2
+      pos: {x: 34.5, y: 49, z: 0}
+    - serializedVersion: 2
+      pos: {x: -31.5, y: 49, z: 0}
+    - serializedVersion: 2
+      pos: {x: -33.5, y: -49, z: 0}
+    - serializedVersion: 2
+      pos: {x: -48.5, y: -30, z: 0}
+    - serializedVersion: 2
+      pos: {x: -54.5, y: 15, z: 0}
+    - serializedVersion: 2
+      pos: {x: -54.5, y: -12, z: 0}
+    indices: 090008000700050007000800060007000500030006000500040003000500000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 109
+      height: 98
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 1, y: 54.5, z: 1, w: 49}

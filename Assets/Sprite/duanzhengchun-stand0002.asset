@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: duanzhengchun-stand0002
+  m_Rect:
+    serializedVersion: 2
+    x: 369.0761
+    y: 123.02675
+    width: 74.847755
+    height: 119.9465
+  m_Offset: {x: -11.499995, y: -59.000004}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 7cd226f079a994c4ca998c572155ad93, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -10, y: 119, z: 0}
+    - serializedVersion: 2
+      pos: {x: -21, y: 95, z: 0}
+    - serializedVersion: 2
+      pos: {x: -14, y: 102, z: 0}
+    - serializedVersion: 2
+      pos: {x: -23, y: 94, z: 0}
+    - serializedVersion: 2
+      pos: {x: -26, y: 109, z: 0}
+    - serializedVersion: 2
+      pos: {x: -26, y: 100, z: 0}
+    - serializedVersion: 2
+      pos: {x: 9, y: 119, z: 0}
+    - serializedVersion: 2
+      pos: {x: 49, y: -1, z: 0}
+    - serializedVersion: 2
+      pos: {x: 49, y: 101, z: 0}
+    - serializedVersion: 2
+      pos: {x: -19, y: 96, z: 0}
+    - serializedVersion: 2
+      pos: {x: -25, y: 85, z: 0}
+    - serializedVersion: 2
+      pos: {x: -26, y: 63, z: 0}
+    - serializedVersion: 2
+      pos: {x: -26, y: -1, z: 0}
+    indices: 0c000b0007000a0007000b00090007000a00020007000900000007000200060007000000080007000600050004000300000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 369.0761
+      y: 123.02675
+      width: 74.847755
+      height: 119.9465
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 395, z: 1, w: 124}

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: taiji3-skill-4
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 258
+    width: 213
+    height: 256
+  m_Offset: {x: -2.2674744, y: -48.64}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.92086333
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: a54971ca88ebfe044a9dc148db849f82, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -39.498596, y: 191.81999, z: 0}
+    - serializedVersion: 2
+      pos: {x: -72.07672, y: 159.24187, z: 0}
+    - serializedVersion: 2
+      pos: {x: -62.303284, y: 128.83562, z: 0}
+    - serializedVersion: 2
+      pos: {x: 117.96233, y: 71.28094, z: 0}
+    - serializedVersion: 2
+      pos: {x: 112.532646, y: -60.1175, z: 0}
+    - serializedVersion: 2
+      pos: {x: 117.96233, y: -35.140938, z: 0}
+    - serializedVersion: 2
+      pos: {x: 107.10296, y: 87.57, z: 0}
+    - serializedVersion: 2
+      pos: {x: 66.92327, y: 161.41374, z: 0}
+    - serializedVersion: 2
+      pos: {x: 65.83733, y: -86.18, z: 0}
+    - serializedVersion: 2
+      pos: {x: 50.634212, y: 188.56218, z: 0}
+    - serializedVersion: 2
+      pos: {x: 37.602962, y: 191.81999, z: 0}
+    - serializedVersion: 2
+      pos: {x: -63.38922, y: -86.18, z: 0}
+    - serializedVersion: 2
+      pos: {x: -89.45172, y: -79.664375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -113.34235, y: 59.335625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -113.34235, y: -43.828438, z: 0}
+    indices: 0e000d000c0002000c000d000b000c00020008000b0002000000080002000a0008000000090008000a00070008000900040008000700060004000700030004000600050004000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 258
+      width: 213
+      height: 256
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.92086333, y: 104.37281, z: 0.92086333, w: 337.36}

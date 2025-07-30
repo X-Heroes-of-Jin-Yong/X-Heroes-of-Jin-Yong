@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: houzi-move0022
+  m_Rect:
+    serializedVersion: 2
+    x: 0.07611847
+    y: 55.042908
+    width: 107.921364
+    height: 55.914185
+  m_Offset: {x: 14.963201, y: -24}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 649cfd359807442488a4e008899e56ba, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 39, y: 43, z: 0}
+    - serializedVersion: 2
+      pos: {x: 36, y: 25, z: 0}
+    - serializedVersion: 2
+      pos: {x: 39, y: 38, z: 0}
+    - serializedVersion: 2
+      pos: {x: 34, y: 52, z: 0}
+    - serializedVersion: 2
+      pos: {x: 28, y: 15, z: 0}
+    - serializedVersion: 2
+      pos: {x: 24, y: 8, z: 0}
+    - serializedVersion: 2
+      pos: {x: 17, y: 5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 9, y: 5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 7, y: 5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -35, y: 52, z: 0}
+    - serializedVersion: 2
+      pos: {x: 12, y: 2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 13, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: 14, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: -46, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: -69, y: 23, z: 0}
+    - serializedVersion: 2
+      pos: {x: -69, y: 2, z: 0}
+    indices: 0f000e000d0009000d000e000b000d00090008000b00090007000b0008000a000b0007000c000b000a00090003000800070008000300060007000300050006000300040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.07611847
+      y: 55.042908
+      width: 107.921364
+      height: 55.914185
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 69, z: 1, w: 59}

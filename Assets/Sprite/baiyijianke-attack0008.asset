@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: baiyijianke-attack0008
+  m_Rect:
+    serializedVersion: 2
+    x: 0.076122284
+    y: 539.02673
+    width: 104.84775
+    height: 102.93034
+  m_Offset: {x: 20.699999, y: -46.491924}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 93b3bfe03191349478635e75d92b5e88, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 31.800003, y: 60, z: 0}
+    - serializedVersion: 2
+      pos: {x: 28.800003, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: 31.800003, y: 2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 8.800003, y: 98, z: 0}
+    - serializedVersion: 2
+      pos: {x: 6.800003, y: 6, z: 0}
+    - serializedVersion: 2
+      pos: {x: -17.199997, y: 14, z: 0}
+    - serializedVersion: 2
+      pos: {x: -24.199997, y: -5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -53.199997, y: -5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -56.199997, y: 98, z: 0}
+    - serializedVersion: 2
+      pos: {x: -73.2, y: 84, z: 0}
+    - serializedVersion: 2
+      pos: {x: -73.2, y: 32, z: 0}
+    - serializedVersion: 2
+      pos: {x: -16.199997, y: 0, z: 0}
+    indices: 060005000b000a0009000700080007000900030007000800060007000300050006000300040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.076122284
+      y: 539.02673
+      width: 104.84775
+      height: 102.93034
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 73.2, z: 1, w: 544}

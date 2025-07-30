@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: zhaozhijing-stand0000
+  m_Rect:
+    serializedVersion: 2
+    x: 412.06726
+    y: 0.076122284
+    width: 78.926056
+    height: 150.91096
+  m_Offset: {x: 8.469696, y: -71.53161}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 52a07c5bd9da68049b8198e2ffe50c4f, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 14, y: 147, z: 0}
+    - serializedVersion: 2
+      pos: {x: 5, y: 147, z: 0}
+    - serializedVersion: 2
+      pos: {x: 8, y: 115, z: 0}
+    - serializedVersion: 2
+      pos: {x: 31, y: 105, z: 0}
+    - serializedVersion: 2
+      pos: {x: 28, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: 31, y: 26, z: 0}
+    - serializedVersion: 2
+      pos: {x: 7, y: 117, z: 0}
+    - serializedVersion: 2
+      pos: {x: -8, y: 134, z: 0}
+    - serializedVersion: 2
+      pos: {x: -31, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: -38, y: 63, z: 0}
+    - serializedVersion: 2
+      pos: {x: -48, y: 16, z: 0}
+    - serializedVersion: 2
+      pos: {x: -48, y: 2, z: 0}
+    indices: 0b000a000800090008000a00070008000900040008000700060004000700020004000600000004000200030004000000050004000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 412.06726
+      y: 0.076122284
+      width: 78.926056
+      height: 150.91096
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 460, z: 1, w: 4}

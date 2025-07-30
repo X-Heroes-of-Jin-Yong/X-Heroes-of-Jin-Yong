@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: gongsunzhi-stand0040
+  m_Rect:
+    serializedVersion: 2
+    x: 0.07611847
+    y: 126.076126
+    width: 133.84775
+    height: 126.909195
+  m_Offset: {x: 6.0000067, y: -59.53072}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 6647f9e545350e04a9521370dbdf235f, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 61, y: 76, z: 0}
+    - serializedVersion: 2
+      pos: {x: 48, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: 61, y: 35, z: 0}
+    - serializedVersion: 2
+      pos: {x: 17, y: 123, z: 0}
+    - serializedVersion: 2
+      pos: {x: -29, y: 123, z: 0}
+    - serializedVersion: 2
+      pos: {x: -73, y: 75, z: 0}
+    - serializedVersion: 2
+      pos: {x: -73, y: -4, z: 0}
+    indices: 060005000100040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.07611847
+      y: 126.076126
+      width: 133.84775
+      height: 126.909195
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 73, z: 1, w: 130}

@@ -1,0 +1,786 @@
+<root>
+  <story name="鹿鼎剧情1">
+    <action value="地图.扬州" type="BACKGROUND" />
+    <action value="茅十八#狗鞑子！尽管放马过来!" type="DIALOG" />
+    <action value="主角#好像前面这条汉子有点麻烦，怎么办？#好汉，我来助你！#还是不管这种闲事的好。" type="SELECT" />
+    <result value="鹿鼎记1.1.1战斗" type="story" ret="0" />
+    <result value="大地图" type="map" ret="1" />
+  </story>
+  <story name="鹿鼎记1.1.1战斗">
+    <action value="主角#好汉，我来助你！" type="DIALOG" />
+    <action value="鹿鼎记_救援茅十八" type="BATTLE" />
+    <result value="鹿鼎记_救援茅十八_胜" type="story" ret="win" />
+  </story>
+  <story name="鹿鼎记_救援茅十八_胜">
+    <action value="2" type="DAODE" />
+    <action value="茅十八#在下茅十八，刚才多谢阁下相救，请教尊姓大名？" type="DIALOG" />
+    <action value="主角#无名小卒，何足挂齿！英雄无恙，小子告辞。" type="DIALOG" />
+    <result value="大地图" type="map" ret="0" />
+  </story>
+  <story name="鹿鼎剧情1.1.2">
+    <result value="鹿鼎剧情1.1.3" type="story" ret="0" />
+    <result value="大地图" type="map" ret="1" />
+    <action value="地图.长安" type="BACKGROUND" />
+    <action value="太监#庄家撰写《明史》，乃是蛊惑人心，意图谋反，罪大恶极，满门抄斩！" type="DIALOG" />
+    <action value="鳌拜#行刑！" type="DIALOG" />
+    <action value="主角#这文字狱真是草菅人命呐，庄家一家老小未免也太惨了。" type="DIALOG" />
+    <action value="主角#怎么办？#这一家人太可怜了，出手救他们#别管了，天下这么多可怜人管得过来么" type="SELECT" />
+  </story>
+  <story name="鹿鼎剧情1.1.3">
+    <action value="陈近南#天父地母，反清复明！陈近南在此！鳌拜，纳命来！" type="DIALOG" />
+    <action value="鳌拜#上！别让天地会的反贼跑了!" type="DIALOG" />
+    <action value="主角#（不好，是个陷阱。既然这样，只能上了。）" type="DIALOG" />
+    <action value="主角#陈总舵主！我来帮你！" type="DIALOG" />
+    <action value="鹿鼎记_助陈近南" type="BATTLE" />
+    <result value="鹿鼎记_助陈近南_胜" type="story" ret="win" />
+  </story>
+  <story name="鹿鼎记_助陈近南_胜">
+    <action value="陈近南#多谢少侠，敢问少侠如何称呼？" type="DIALOG" />
+    <action value="主角#无名小卒，何足挂齿！英雄无恙，小子告辞。" type="DIALOG" />
+    <result value="大地图" type="map" ret="0" />
+  </story>
+  <story name="鹿鼎剧情1.2">
+    <result value="鹿鼎记_救人" type="story" ret="0" />
+    <result value="大地图" type="map" ret="1" />
+    <action value="地图.长安" type="BACKGROUND" />
+    <action value="主角#（茅十八？跟他绑一块的小孩儿是谁？他们怎么被几个太监押进皇宫了？）" type="DIALOG" />
+    <action value="主角#怎么办？#（先救人）#（皇宫里动手肯定会很麻烦，算了）" type="SELECT" />
+  </story>
+  <story name="鹿鼎记_救人">
+    <result value="鹿鼎记_救人_胜" type="story" ret="win" />
+    <action value="鹿鼎记_救人" type="BATTLE" />
+  </story>
+  <story name="鹿鼎记_救人_胜">
+    <action value="地图.长安" type="BACKGROUND" />
+    <action value="太监#有刺客！" type="DIALOG" />
+    <action value="主角#走！" type="DIALOG" />
+    <action value="茅十八#不能丢下小宝！" type="DIALOG" />
+    <action value="主角#今天没机会了，我们先出去。" type="DIALOG" />
+    <result value="鹿鼎记_救人_胜a" type="story" ret="0" />
+  </story>
+  <story name="鹿鼎记_救人_胜a">
+    <action value="地图.大地图" type="BACKGROUND" />
+    <action value="茅十八#大恩不言谢，阁下两次救我茅十八的性命。日后如有吩咐，茅十八赴汤蹈火！" type="DIALOG" />
+    <action value="主角#客气，我会去救小宝，先告辞了。" type="DIALOG" />
+    <result value="大地图" type="map" ret="0" />
+  </story>
+  <story name="鹿鼎剧情1.3">
+    <result value="大地图" type="map" ret="0" />
+    <action value="地图.长安" type="BACKGROUND" />
+    <action value="主角#看看韦小宝在不在皇宫。" type="DIALOG" />
+    <action value="主角#（找了半天也没找到）唉，这也找不到了，下回再来吧。" type="DIALOG" />
+  </story>
+  <story name="鹿鼎记_北京韦小宝">
+    <action value="韦小宝#今天天气不错，溜出宫来玩玩..." type="DIALOG" />
+    <action value="主角#小宝哥！" type="DIALOG" />
+    <action value="韦小宝#啊不！你一定认错人了，我是皇上跟前的...额...小跟班。" type="DIALOG" />
+    <action value="主角#怎么会认错呢，你不就是原来老是在各个客栈卖药的小宝嘛。" type="DIALOG" />
+    <action value="韦小宝#嘘...这可是京城，声音小点...被人听到了就不好了。" type="DIALOG" />
+    <action value="主角#原来你在皇宫里当差，偷了点宫里的宝贝出来卖啊。" type="DIALOG" />
+    <action value="韦小宝#这位兄弟，你再嚷嚷，我就让禁卫军来抓你了啊。" type="DIALOG" />
+    <action value="主角#别担心，有钱一起赚的嘛。我看你混得还算不错，怎么样，要不要一起干大买卖啊？" type="DIALOG" />
+    <action value="韦小宝#大买卖？嘿嘿，要做大买卖，先得有大本钱。" type="DIALOG" />
+    <action value="韦小宝#拿得出1000两银子，我就先跟你跑跑。这皇宫闷死了，最近小玄子也忙不鸟我。" type="DIALOG" />
+    <result value="鹿鼎记_北京韦小宝2" type="story" ret="0" />
+  </story>
+  <story name="鹿鼎记_北京韦小宝2">
+    <action value="韦小宝#1000两银子，就跟你跑跑？" type="DIALOG" />
+    <action value="主角#1000两银子招募韦小宝？#好吧！#算了。" type="SELECT" />
+    <result value="鹿鼎记_北京韦小宝加入" type="story" ret="0">
+      <condition value="1000" type="have_money" />
+    </result>
+    <result value="鹿鼎记_北京韦小宝没钱" type="story" ret="0" />
+  </story>
+  <story name="鹿鼎记_北京韦小宝加入">
+    <action value="1000" type="COST_MONEY" />
+    <action value="韦小宝#嘿嘿，兄弟，以后有钱一起赚。" type="DIALOG" />
+    <action value="韦小宝#我不太擅长打架啦，不过打架的时候带上我，可以帮你用点好东西顺便在后头打打阴枪。" type="DIALOG" />
+    <action value="韦小宝" type="JOIN" />
+  </story>
+  <story name="鹿鼎记_北京韦小宝没钱">
+    <action value="韦小宝#穷鬼，别惹得本爷一身晦气！" type="DIALOG" />
+  </story>
+  <story name="鹿鼎记_皇宫鳌拜1">
+    <result value="鹿鼎记_皇宫鳌拜2" type="story" ret="0" />
+    <action value="地图.长安" type="BACKGROUND" />
+    <action value="音乐.室内_世俗" type="MUSIC" />
+    <action value="韦小宝#咦？这是小桂子的来信？(...原来如此）" type="DIALOG" />
+    <action value="韦小宝#兄弟，我这里有一场大富贵，想与兄弟共享。兄弟可敢跟来？" type="DIALOG" />
+    <action value="主角#（嘿嘿，以为我不知道，定是鳌拜的剧情，正好手头缺银子，找小皇帝弄点银子花去）" type="DIALOG" />
+    <action value="主角#好！小宝你有事，我当然不能袖手旁观了。" type="DIALOG" />
+  </story>
+  <story name="鹿鼎记_皇宫鳌拜2">
+    <result value="鹿鼎记_皇宫鳌拜3" type="story" ret="win" />
+    <action value="地图.御书房" type="BACKGROUND" />
+    <action value="音乐.室内_世俗" type="MUSIC" />
+    <action value="康熙#鳌少保，你来得正好，我这十几名小太监在练摔跤。听说你是我满洲勇士中武功第一，你来指点他们几招如何？" type="DIALOG" />
+    <action value="鳌拜#皇上有兴，臣自当效力。" type="DIALOG" />
+    <action value="康熙#小的们，都给我好好表现了！" type="DIALOG" />
+    <action value="鳌拜#一群窝囊废，来吧。" type="DIALOG" />
+    <action value="韦小宝#（兄弟，这鳌拜可是个大奸臣，我们一起趁这个机会把他抓起来！）" type="DIALOG" />
+    <action value="主角#（你爷爷的，原来是把我拉来当打手）" type="DIALOG" />
+    <action value="主角#事到如今，也没办法了！上吧。" type="DIALOG" />
+    <action value="御书房_战斗" type="BATTLE" />
+  </story>
+  <story name="鹿鼎记_皇宫鳌拜3">
+    <result value="鹿鼎记_皇宫鳌拜4" type="story" ret="0" />
+    <action value="地图.御书房" type="BACKGROUND" />
+    <action value="音乐.室内_世俗" type="MUSIC" />
+    <action value="韦小宝#哈哈，任你三头六臂，也敌不过我们这一群摔跤的小太监。" type="DIALOG" />
+    <action value="康熙#鳌拜，你可知罪？" type="DIALOG" />
+    <action value="鳌拜#我无罪！我是忠臣！！" type="DIALOG" />
+    <action value="韦小宝#你爷爷的，你还忠臣呢，就差骑到小玄子头上拉屎了！" type="DIALOG" />
+    <action value="康熙#小宝，不得无礼。来人，将鳌拜押下去！" type="DIALOG" />
+    <action value="韦小宝#兄弟，这会咱立大功了。" type="DIALOG" />
+    <action value="鳌拜#康熙！你这黄口小儿……（被拉下去）" type="DIALOG" />
+  </story>
+  <story name="鹿鼎记_皇宫鳌拜4">
+    <result value="鹿鼎记_皇宫鳌拜_1" type="story" ret="0" />
+    <result value="鹿鼎记_皇宫鳌拜_2" type="story" ret="1" />
+    <result value="鹿鼎记_皇宫鳌拜_3" type="story" ret="2" />
+    <result value="鹿鼎记_皇宫鳌拜_4" type="story" ret="3" />
+    <action value="地图.御书房" type="BACKGROUND" />
+    <action value="音乐.室内_世俗" type="MUSIC" />
+    <action value="康熙#小桂子，真有你的。这次咱哥俩终于把鳌拜给治了。" type="DIALOG" />
+    <action value="韦小宝#皇上洪福齐天，自然无事，多亏了这位义士。皇上可要好好奖赏他们。" type="DIALOG" />
+    <action value="康熙#那是自然。赏！" type="DIALOG" />
+    <action value="韦小宝#15" type="GET_POINT" />
+    <action value="韦小宝#15" type="UPGRADE.身法" />
+    <action value="韦小宝#15" type="UPGRADE.定力" />
+    <action value="康熙#你可要啥奖励？#神兵#宝甲#银子#什么都不要" type="SELECT" />
+  </story>
+  <story name="鹿鼎记_皇宫鳌拜_1">
+    <action value="玄铁匕首#1" type="ITEM" />
+    <result value="鹿鼎记_皇宫鳌拜结束" type="story" ret="0" />
+  </story>
+  <story name="鹿鼎记_皇宫鳌拜_2">
+    <result value="鹿鼎记_皇宫鳌拜结束" type="story" ret="0" />
+    <action value="黄金重甲#1" type="ITEM" />
+  </story>
+  <story name="鹿鼎记_皇宫鳌拜_3">
+    <action value="5000" type="GET_MONEY" />
+    <result value="鹿鼎记_皇宫鳌拜结束" type="story" ret="0" />
+  </story>
+  <story name="鹿鼎记_皇宫鳌拜_4">
+    <action value="主角#为民除害乃侠义道所在，这鳌拜欺凌百姓、欺君犯上，自然当诛！" type="DIALOG" />
+    <action value="康熙#好！很好，那朕为你题书一封！" type="DIALOG" />
+    <action value="为民除害" type="NICK" />
+    <action value="1" type="DAODE" />
+    <action value="主角#谢皇上！" type="DIALOG" />
+    <result value="鹿鼎记_皇宫鳌拜结束" type="story" ret="0" />
+  </story>
+  <story name="鹿鼎记_皇宫鳌拜结束">
+    <action value="韦小宝#谢皇上！还要求皇上一件事！" type="DIALOG" />
+    <action value="康熙#说" type="DIALOG" />
+    <action value="韦小宝#我跟这位大哥投缘得很，想和他一起去江湖上为小玄子探听探听消息！" type="DIALOG" />
+    <action value="康熙#你这鬼头，明明是想贪玩，好吧，准了！" type="DIALOG" />
+    <action value="韦小宝#谢皇上！（哈哈，在皇宫都要闷出鸟了，终于能出来散散心）" type="DIALOG" />
+    <action value="协助康熙抓捕鳌拜。" type="LOG" />
+    <result value="北京" type="map" ret="0" />
+  </story>
+  <story name="鹿鼎剧情4">
+    <result value="大地图" type="map" ret="0" />
+    <action value="张康年#韦大人，皇上要见您。" type="DIALOG" />
+    <action value="韦小宝#知道了，走吧。" type="DIALOG" />
+    <action value="地图.宫殿" type="BACKGROUND" />
+    <action value="康熙#小桂子，上次我们联手制服了鳌拜的时候，我捅了他一刀，以为他命不久矣。谁知道他身子骨那么硬朗，还在康亲王府胡言乱语，唉。" type="DIALOG" />
+    <action value="韦小宝#小玄子你别担心，我这就去让他闭嘴。嘿嘿嘿，看来康亲王府今天要省顿饭了。" type="DIALOG" />
+    <action value="地图.地牢" type="BACKGROUND" />
+    <action value="音乐.紧张感" type="MUSIC" />
+    <action value="康亲王#韦兄弟，等你多时了。这鳌拜。。。" type="DIALOG" />
+    <action value="韦小宝#不用说，带我进去。" type="DIALOG" />
+    <action value="康亲王#韦兄弟，你小心点，他可不好应付啊。" type="DIALOG" />
+    <action value="韦小宝#不用担心，我小宝一出马，什么事情搞不定？对了 ，鳌拜今天吃了晚饭没有？" type="DIALOG" />
+    <action value="康亲王#正准备给他送去。" type="DIALOG" />
+    <action value="韦小宝#给我吧。" type="DIALOG" />
+    <action value="康亲王#麻烦韦兄弟了，小王就在此恭候韦兄弟的佳音。" type="DIALOG" />
+    <action value="韦小宝#（在饭菜里下药）鳌拜！皇上让我问候问候你。" type="DIALOG" />
+    <action value="鳌拜#啊！！你个小杂种！皇上就是听你的话才会误入歧途！我要杀了你！！！" type="DIALOG" />
+    <action value="韦小宝#你。。。你。。。你过来。。。先吃东西。。。" type="DIALOG" />
+    <action value="鳌拜#哼！（镇定自若的吃完下过药的饭菜）" type="DIALOG" />
+    <action value="韦小宝#鳌拜，刚才的饭菜好吃么？" type="DIALOG" />
+    <action value="鳌拜#恩？你！" type="DIALOG" />
+    <action value="徐天川#杀鳌拜！" type="DIALOG" />
+    <action value="旁白#天地会的人要杀鳌拜，闯入康亲王府。一时间场面混乱，韦小宝伸出匕首无意间杀了鳌拜。" type="SUGGEST" />
+    <action value="" type="SHAKE" />
+    <action value="音效.男惨叫" type="EFFECT" />
+    <action value="玄贞道长#（挟持住韦小宝）走！" type="DIALOG" />
+    <action value="地图.长安" type="BACKGROUND" />
+    <action value="音乐.天龙八部1" type="MUSIC" />
+    <action value="玄贞道长#尹香主，我们今天给你报仇了！" type="DIALOG" />
+    <action value="风际中#不，杀鳌拜的是这个小太监。" type="DIALOG" />
+    <action value="徐天川#先不管他了，我们现在来推选新的香主。我推举玄贞道长！" type="DIALOG" />
+    <action value="风际中#当日大家在尹香主灵前立过的誓不算了么？" type="DIALOG" />
+    <action value="徐天川#当然算，但是现在杀鳌拜的是这个小太监，难道让他来当我门香主？" type="DIALOG" />
+    <action value="韦小宝#（快溜）" type="DIALOG" />
+    <action value="徐天川#想溜？快说！为什么要当鞑子的走狗？！" type="DIALOG" />
+    <action value="韦小宝#我不是鞑子走狗啊，我是被海大富抓进宫的！" type="DIALOG" />
+    <action value="徐天川#我们凭什么相信你。" type="DIALOG" />
+    <action value="韦小宝#茅十八，茅十八听过吧，他和我一起来的。" type="DIALOG" />
+    <action value="徐天川#你认识茅十八？带他进去。" type="DIALOG" />
+    <action value="茅十八#小宝！一定是天地会的英雄救你出来的。" type="DIALOG" />
+    <action value="韦小宝#是啊，天地会的英雄真是厉害呀，一个打二十个。" type="DIALOG" />
+    <action value="徐天川#（想找个地缝钻进去）……" type="DIALOG" />
+    <action value="韦小宝#现在说清楚了吧。" type="DIALOG" />
+    <action value="陈近南#小宝，你跟我来。" type="DIALOG" />
+    <action value="徐天川#总舵主。" type="DIALOG" />
+    <action value="韦小宝#你就是平生不见陈近南，就称英雄也枉然的陈近南？" type="DIALOG" />
+    <action value="陈近南#那都是江湖谣传，我没那么大本事。小宝，你愿意做我徒弟么？" type="DIALOG" />
+    <action value="韦小宝#（大喜）师父在上，受小宝一拜！" type="DIALOG" />
+    <action value="陈近南#恩，很好。做了我的徒弟就要加入天地会，你敢么？" type="DIALOG" />
+    <action value="韦小宝#当然，天地会都是大英雄，做的都是惊天动地的大事，我当然愿意了。" type="DIALOG" />
+    <action value="陈近南#好，那从今日起，你就是青木堂的香主了。你现在马上回皇宫，以后就在宫中卧底，有事情钱老本通知你。" type="DIALOG" />
+    <action value="韦小宝#知道啦师父。" type="DIALOG" />
+    <action value="韦小宝成为青木堂香主" type="LOG" />
+  </story>
+  <story name="鹿鼎剧情4.2">
+    <result value="大地图" type="map" ret="0" />
+    <action value="地图.宫殿" type="BACKGROUND" />
+    <action value="康熙#小桂子，你吓死我了。康亲王说你给乱党抓去，我还以为你。。。" type="DIALOG" />
+    <action value="韦小宝#哈哈，小桂子福大命大，哪有那么容易死。" type="DIALOG" />
+    <action value="康熙#上回你说先皇尚在人世，只是隐在少林寺出家，我想让你去替我看看父皇。" type="DIALOG" />
+    <action value="韦小宝#遵命！" type="DIALOG" />
+    <action value="地图.长安" type="BACKGROUND" />
+    <action value="主角#出来啦？" type="DIALOG" />
+    <action value="韦小宝#顺手牵羊，拿了本书，你看看！" type="DIALOG" />
+    <action value="主角#四十二章经！这东西可要收好了……" type="DIALOG" />
+  </story>
+  <story name="鹿鼎记_皇宫太后1">
+    <result value="鹿鼎记_皇宫太后2" type="story" ret="0" />
+    <action value="地图.长安" type="BACKGROUND" />
+    <action value="音乐.室内_世俗" type="MUSIC" />
+    <action value="韦小宝#大哥，今天天气不错。我有个好去处，有美女奥！" type="DIALOG" />
+    <action value="主角#（这家伙真是个色胚，跟他在一起时间长了，我也变坏了。）" type="DIALOG" />
+    <action value="主角#有这种好事，那还不走。" type="DIALOG" />
+  </story>
+  <story name="鹿鼎记_皇宫太后2">
+    <result value="鹿鼎记_皇宫太后3" type="story" ret="0" />
+    <action value="地图.慈宁宫" type="BACKGROUND" />
+    <action value="音乐.室内_世俗" type="MUSIC" />
+    <action value="韦小宝#（吞口水）快看那个帘子里面，有个美女人影。" type="DIALOG" />
+    <action value="主角#那是谁。看身材不错啊！" type="DIALOG" />
+    <action value="韦小宝#那是太后。有眼福把！我把这后宫转遍了，太后什么时候洗澡我都知道。" type="DIALOG" />
+    <action value="主角#...偷看太后，你口味果然够重。" type="DIALOG" />
+    <action value="柳燕#什么人，竟敢偷看太后洗澡!" type="DIALOG" />
+  </story>
+  <story name="鹿鼎记_皇宫太后3">
+    <result value="鹿鼎记_皇宫太后4" type="story" ret="win" />
+    <action value="地图.慈宁宫" type="BACKGROUND" />
+    <action value="音乐.室内_世俗" type="MUSIC" />
+    <action value="韦小宝#不好，被发现了！我们快走！" type="DIALOG" />
+    <action value="太后#竟然是你，小宝！怎么还带人来了，你晚上看就看吧！竟然还带同伙来一起看。带同伙来就来吧，竟然还想逃跑！" type="DIALOG" />
+    <action value="太后#今天我让你们都死在这里。" type="DIALOG" />
+    <action value="韦小宝#太后，我还是处男，一会轻点。" type="DIALOG" />
+    <action value="太后#放心吧！小宝！事后我不会负责的。" type="DIALOG" />
+    <action value="慈宁宫1_战斗" type="BATTLE" />
+  </story>
+  <story name="鹿鼎记_皇宫太后4">
+    <action value="地图.慈宁宫" type="BACKGROUND" />
+    <action value="音乐.室内_世俗" type="MUSIC" />
+    <action value="韦小宝#太后的脸蛋真美。咦，怎么手上有张面具。" type="DIALOG" />
+    <result value="鹿鼎记_皇宫太后5" type="story" ret="0" />
+  </story>
+  <story name="鹿鼎记_皇宫太后5">
+    <result value="鹿鼎记_皇宫太后6" type="story" ret="0" />
+    <action value="地图.慈宁宫" type="BACKGROUND" />
+    <action value="音乐.室内_世俗" type="MUSIC" />
+    <action value="毛东珠#..." type="DIALOG" />
+    <action value="主角#我擦！是...你？！" type="DIALOG" />
+    <action value="韦小宝#你不是去美国了吗！谁让你混进剧组的！" type="DIALOG" />
+    <action value="毛东珠#你管我怎么进的，既然发现了老娘的真面目还想走！阿胖阿瘦，还不帮忙！" type="DIALOG" />
+  </story>
+  <story name="鹿鼎记_皇宫太后6">
+    <result value="鹿鼎记_皇宫太后7" type="story" ret="win" />
+    <action value="地图.慈宁宫" type="BACKGROUND" />
+    <action value="音乐.室内_世俗" type="MUSIC" />
+    <action value="胖头陀#Hi，我是胖头陀。" type="DIALOG" />
+    <action value="瘦头陀#那啥，我是瘦头陀..." type="DIALOG" />
+    <action value="韦小宝#今夜慈宁宫的汉子可真不少啊...看来只能使出我的必杀技了.." type="DIALOG" />
+    <action value="韦小宝#撒石灰" type="LEARN.SPECIALSKILL" />
+    <action value="慈宁宫2_战斗" type="BATTLE" />
+  </story>
+  <story name="鹿鼎记_皇宫太后7">
+    <action value="韦小宝#好险，好险！险些被这恶婆娘给干掉了。" type="DIALOG" />
+    <action value="发现假太后。" type="LOG" />
+    <result value="北京" type="map" ret="0" />
+  </story>
+  <story name="鹿鼎剧情4.4">
+    <action value="地图.风陵渡口" type="BACKGROUND" />
+    <action value="主角#下雨了，到前面屋子避避雨吧。" type="DIALOG" />
+    <action value="主角#这屋子里头阴风阵阵，东西放得乱七八糟，到处挂着蜘蛛网，一看就知道许久都没人住了。" type="DIALOG" />
+    <action value="韦小宝#（打冷战）这里会不会有鬼啊。。。" type="DIALOG" />
+    <action value="主角#小宝别怕，有我在呢。" type="DIALOG" />
+    <action value="鬼#韦~小~宝~你为什么杀鳌拜。。。" type="DIALOG" />
+    <action value="韦小宝#鬼啊！！！别杀我，别杀我。。。（不知是鳌拜亲鬼还是仇鬼，管他的，押大！）鳌拜杀我汉人，兴文字狱，该杀！" type="DIALOG" />
+    <action value="庄家少奶奶#韦相公，对不住，吓着你了。" type="DIALOG" />
+    <action value="主角#庄家少奶奶。" type="DIALOG" />
+    <action value="庄家少奶奶#啊，恩公，是你。" type="DIALOG" />
+    <action value="主角#唉，可惜我武功不济，鳌拜奸猾，你们一家受苦了。" type="DIALOG" />
+    <action value="庄家少奶奶#不必客气。如今鳌拜已被韦相公所杀，我们的仇也算报了。双儿~" type="DIALOG" />
+    <action value="双儿#三少奶奶。" type="DIALOG" />
+    <action value="庄家少奶奶#两位恩公，我没有别的东西送给你们。这个丫头聪明伶俐，又听话，就送给二位吧。" type="DIALOG" />
+    <action value="韦小宝#哇！这么漂亮！爽翻了！。" type="DIALOG" />
+    <action value="双儿" type="JOIN" />
+  </story>
+  <story name="鹿鼎剧情4.5">
+    <action value="行痴#施主何事。" type="DIALOG" />
+    <action value="韦小宝#老皇上，皇上叫我来看看你。" type="DIALOG" />
+    <action value="行痴#既如此，你就帮我把这本书带给皇上吧。叫他记住四个字“永不加赋” " type="DIALOG" />
+    <action value="韦小宝#是，老皇上。" type="DIALOG" />
+  </story>
+  <story name="鹿鼎剧情4.6">
+    <action value="地图.宫殿" type="BACKGROUND" />
+    <action value="康熙#小桂子，见到父皇了么？" type="DIALOG" />
+    <action value="韦小宝#见到了，老皇上好的很呐，可真是阿弥陀佛、佛法无边。" type="DIALOG" />
+    <action value="康熙#辛苦你了，下去吧。" type="DIALOG" />
+    <action value="韦小宝#喳。" type="DIALOG" />
+  </story>
+  <story name="鹿鼎剧情4.7">
+    <result value="鹿鼎剧情4.8c" type="story" ret="0" />
+    <result value="鹿鼎剧情4.8_拒绝" type="story" ret="1" />
+    <action value="康熙#$MALE$大侠留步。" type="DIALOG" />
+    <action value="主角#？" type="DIALOG" />
+    <action value="康熙#集齐十四天书，打穿金庸群侠传的$MALE$大侠。" type="DIALOG" />
+    <action value="主角#你说窜了。" type="DIALOG" />
+    <action value="康熙#管他呢。现在反政府武装火力太猛，弄得我头疼。大侠武功高强，可愿意为我分忧？荣华富贵，包你享之不尽。" type="DIALOG" />
+    <action value="主角#如何回答#当然愿意（皇上罩啊）#（反清复明的都是英雄好汉，我怎能帮皇帝和他们为难）" type="SELECT" />
+  </story>
+  <story name="鹿鼎剧情4.8_拒绝">
+    <result value="大地图" type="map" ret="0" />
+    <action value="主角#谢谢皇上好意，可惜我是江湖人士，闲散惯了，请恕无法答应。" type="DIALOG" />
+    <action value="主角#告辞！" type="DIALOG" />
+  </story>
+  <story name="鹿鼎记_阿九1">
+    <action value="韦小宝#哇塞！有美女！" type="DIALOG" />
+    <action value="韦小宝#美女，你好，我姓老名公。能交个朋友吗？" type="DIALOG" />
+    <action value="阿珂#哪来的登徒子！师父，有人欺负我啊。" type="DIALOG" />
+    <result value="鹿鼎记_阿九2" type="story" ret="0" />
+  </story>
+  <story name="鹿鼎记_阿九2">
+    <action value="九难#好胆色，竟敢欺负到我九难头上。" type="DIALOG" />
+    <action value="韦小宝#冤枉啊，这位师太。我确实叫老公啊！" type="DIALOG" />
+    <action value="大理_战斗" type="BATTLE" />
+    <result value="鹿鼎记_阿九3" type="story" ret="win" />
+  </story>
+  <story name="鹿鼎记_阿九3">
+    <action value="地图.大理" type="BACKGROUND" />
+    <action value="音乐.宿命" type="MUSIC" />
+    <action value="袁承志#这一式神行百变，不觉之间，岁月流年。阿九，这些年你过得还好吗？" type="DIALOG" />
+    <action value="九难#是你...（不觉之间，九难已经泪流满面）" type="DIALOG" />
+    <action value="袁承志#阿九！" type="DIALOG" />
+    <action value="温青青#干什么，旧情难忘啊！老娘在这里，你们要干什么。" type="DIALOG" />
+    <action value="韦小宝#（天赐良机啊！）师太，老婆，原来大家都是熟人，不打不相识，我们一起走吧！" type="DIALOG" />
+    <action value="阿珂#无耻。" type="DIALOG" />
+    <action value="主角#要邀请九难师徒加入吗？#邀请#不邀请" type="SELECT" />
+    <result value="鹿鼎记_阿九.邀请" type="story" ret="0" />
+    <result value="鹿鼎记_阿九.不邀请" type="story" ret="1" />
+  </story>
+  <story name="鹿鼎记_阿九.邀请">
+    <action value="地图.大理" type="BACKGROUND" />
+    <action value="音乐.宿命" type="MUSIC" />
+    <action value="主角#师太，相逢就是有缘，既然大家这么熟，不如一起走吧！" type="DIALOG" />
+    <action value="九难#（看着袁承志，心中思绪万千）嗯...好吧。" type="DIALOG" />
+    <action value="阿珂#师父啊，我不要和着这个坏蛋一起啊。" type="DIALOG" />
+    <action value="温青青#承志！你想清楚了，我不要跟她一起走。" type="DIALOG" />
+    <action value="袁承志#青青，别这样嘛。大家也都是老朋友了，过去的事情都过去那么久了。" type="DIALOG" />
+    <action value="温青青#（大怒）你还想要和她在一起，好，你不走。我走！" type="DIALOG" />
+    <action value="温青青" type="LEAVE" />
+    <action value="九难#袁大哥..." type="DIALOG" />
+    <action value="袁承志#对不起，阿九，你知道..." type="DIALOG" />
+    <action value="九难#（勉强一笑）什么也不必说了，我知道你还好好的，就已经足够开心了。你快去找她回来吧，我们...有缘再见。" type="DIALOG" />
+    <action value="袁承志#谢谢你，阿九。你还是那么美，这么多年了，都没有一点变化。" type="DIALOG" />
+    <action value="九难#（泪水无法止息）瞎说些什么呢...快走吧。" type="DIALOG" />
+    <action value="袁承志" type="LEAVE" />
+    <result value="鹿鼎记_阿九.邀请2" type="story" ret="0" />
+  </story>
+  <story name="鹿鼎记_阿九.邀请2">
+    <action value="地图.大理" type="BACKGROUND" />
+    <action value="音乐.宿命" type="MUSIC" />
+    <action value="九难#今生总是无缘么...小兄弟，你为何会和他们一起？" type="DIALOG" />
+    <action value="主角#（把金蛇剑的事情从头到尾说了一遍。）" type="DIALOG" />
+    <action value="九难#你是天选之人，此后也必有奇缘。阿珂，我们就和这位小兄弟一起闯荡一番吧。" type="DIALOG" />
+    <action value="阿珂#师父啊，那个浪子..." type="DIALOG" />
+    <action value="九难#放心，有师父保护你周全。我们走吧。" type="DIALOG" />
+    <action value="阿珂#（不情愿）哦..." type="DIALOG" />
+    <action value="九难" type="JOIN" />
+    <action value="阿珂" type="JOIN" />
+    <action value="韦小宝#YES!" type="DIALOG" />
+    <action value="九难#你这孩子，虽然油嘴滑舌，但是却很讨人喜欢。" type="DIALOG" />
+    <action value="九难#我教你一点武功，可以保全性命。" type="DIALOG" />
+    <action value="韦小宝#谢谢师太!师太文成武德，鸟生鱼汤~" type="DIALOG" />
+    <action value="韦小宝#神行百变" type="LEARN.TALENT" />
+    <action value="韦小宝#15" type="UPGRADE.身法" />
+    <action value="主角#10" type="GET_POINT" />
+  </story>
+  <story name="鹿鼎记_阿九.不邀请">
+    <action value="地图.大理" type="BACKGROUND" />
+    <action value="音乐.宿命" type="MUSIC" />
+    <action value="主角#小宝，人家不愿意跟咱们走，这里关系这么复杂，那就不要强求嘛。" type="DIALOG" />
+    <action value="韦小宝#......" type="DIALOG" />
+    <action value="九难#小兄弟说的很对。袁大哥，今日见到你，阿九已经十万分开心了。你们，好好过。" type="DIALOG" />
+    <action value="温青青#哼..." type="DIALOG" />
+    <action value="袁承志#阿九，我..." type="DIALOG" />
+    <action value="九难#（转涕为笑）好了，不用再说了。十年之约已过，我早已遁入空门，法名九难。袁大哥，万法皆空，如今我一身清净，前尘往事，早已经随风而去。" type="DIALOG" />
+    <action value="九难#阿珂，我们走吧。" type="DIALOG" />
+    <action value="阿珂#是，师父。" type="DIALOG" />
+    <action value="袁承志#..." type="DIALOG" />
+    <action value="九难#（袁大哥，你我今生无缘，只盼来世...）" type="DIALOG" />
+    <action value="袁承志#长平公主的眷恋" type="LEARN.TALENT" />
+  </story>
+  <story name="鹿鼎剧情4.8b">
+    <action value="主角#谢谢皇上好意了，告辞了！" type="DIALOG" />
+    <action value="地图.长安" type="BACKGROUND" />
+    <action value="双儿#恩公不为高官厚禄所动，真是难能可贵。" type="DIALOG" />
+    <action value="主角#虽然我不帮康熙，但是我却也认为康熙是个好皇帝。" type="DIALOG" />
+    <action value="双儿#可是。。。可是他杀了庄家。。。（眼泪慢慢开始在眼眶中滴溜溜的打转）" type="DIALOG" />
+    <action value="主角#当时鳌拜独掌大权，康熙想拦也没拦住。坏人是鳌拜，现在仇人已经死了，仇也就算报了，别哭了。" type="DIALOG" />
+    <action value="双儿#是，我一切都听两位恩公的。" type="DIALOG" />
+    <result value="大地图" type="map" ret="0" />
+  </story>
+  <story name="鹿鼎剧情4.8c">
+    <action value="-2" type="DAODE" />
+    <action value="康熙#这是风际中，在天地会卧底。以后你们就是我的左膀右臂，一同为我去对付天地会的反贼！" type="DIALOG" />
+    <action value="风际中#呵呵，少侠请多多提携啊！" type="DIALOG" />
+    <action value="主角#（贼眉鼠眼的，一看就是个坏家伙）嘿嘿，必须的！" type="DIALOG" />
+  </story>
+  <story name="鹿鼎剧情5">
+    <action value="康熙#小桂子，我想念父皇想念的紧。真想去少林寺去看看父皇。" type="DIALOG" />
+    <action value="韦小宝#小玄子，我再替你去问候问候老皇上。" type="DIALOG" />
+    <action value="康熙#恩，小桂子，你替我到少林寺出家。" type="DIALOG" />
+    <action value="韦小宝#啊？要我当和尚？这……" type="DIALOG" />
+    <action value="康熙#替我服侍父皇，也算我尽的一点孝心。你放心，不会让你一直当和尚的。回头可以还俗嘛！" type="DIALOG" />
+    <action value="韦小宝#遵旨！（吓死我了……）" type="DIALOG" />
+  </story>
+  <story name="鹿鼎剧情6">
+    <action value="悔聪#韦大人代帝出家，非同小可。老衲不敢做你师父，便带先师收你做师弟，法名晦明。本寺上下，除了老衲便是师弟辈分最高。" type="DIALOG" />
+    <action value="悔聪#师弟，佛家五大戒“杀生，偷盗，淫邪，妄语，饮酒”。师弟必须要受，其余小戒可守可不守。" type="DIALOG" />
+    <action value="韦小宝#戒不戒赌？" type="DIALOG" />
+    <action value="悔聪#赌什么？" type="DIALOG" />
+    <action value="韦小宝#赌钱啊。" type="DIALOG" />
+    <action value="悔聪#五大戒中并无赌戒，旁人要守，师弟自便。" type="DIALOG" />
+    <action value="韦小宝#（辣块儿妈妈，别人都守，我一个人怎么赌？左手跟右手赌？对了，小玄子要我来少林寺一定是要我学少林武功保护老皇上，可是找谁学呢？）" type="DIALOG" />
+    <action value="澄观#师叔，以后你要学功夫就到藏经阁找我来。" type="DIALOG" />
+    <action value="韦小宝#好吧，看你这呆头鹅的样子，应该属于好欺负型的……" type="DIALOG" />
+    <action value="10" type="COST_DAY" />
+    <action value="悔聪#皇上有旨，师弟即日回京，不必留守。" type="DIALOG" />
+    <action value="韦小宝#皇上圣明！！！" type="DIALOG" />
+    <action value="悔聪#。。。" type="DIALOG" />
+    <action value="韦小宝#5" type="UPGRADE.拳掌" />
+    <action value="韦小宝#如来千手法#1" type="LEARN.SKILL" />
+  </story>
+  <story name="鹿鼎剧情7">
+    <result value="偷看太后" type="story" ret="0" />
+    <action value="地图.长安" type="BACKGROUND" />
+    <action value="韦小宝#（悄悄的）这回再看看太后洗澡怎么样？" type="DIALOG" />
+    <action value="主角#别。喂，回来，喂。。。" type="DIALOG" />
+    <action value="主角#这家伙真是个不折不扣的色丕，唉，还是跟着去吧。。。" type="DIALOG" />
+  </story>
+  <story name="偷看太后">
+    <action value="地图.慈宁宫" type="BACKGROUND" />
+    <action value="太后#是谁？好大胆子！" type="DIALOG" />
+    <action value="主角#唉，剧情若干定律之偷看女生洗澡必被发现。没办法，打吧。。。" type="DIALOG" />
+    <action value="鹿鼎记战斗7" type="BATTLE" />
+    <result value="鹿鼎记战斗7_胜" type="story" ret="win" />
+  </story>
+  <story name="鹿鼎记战斗7_胜">
+    <action value="韦小宝#嘿嘿，你以为我真是来偷看洗澡的，看！" type="DIALOG" />
+    <action value="主角#四十二章经！好样的，快走。" type="DIALOG" />
+    <result value="大地图" type="map" ret="0" />
+  </story>
+  <story name="鹿鼎记_吴三桂1">
+    <action value="地图.平西王府" type="BACKGROUND" />
+    <action value="音乐.天龙八部6" type="MUSIC" />
+    <action value="主角#今天大理好热闹，好像是平西王吴三桂在大宴宾客。" type="DIALOG" />
+    <action value="韦小宝#那还等什么，我们赶紧去瞧瞧啊！" type="DIALOG" />
+    <result value="鹿鼎记_吴三桂2" type="story" ret="0" />
+  </story>
+  <story name="鹿鼎记_吴三桂2">
+    <action value="音乐.宿命" type="MUSIC" />
+    <action value="陈圆圆#相见初经田窦家，侯门歌舞出如花。许将戚里箜篓伎，等取将军油壁车。" type="DIALOG" />
+    <action value="陈圆圆#家本姑苏浣花里，圆圆小字娇罗绮。梦向夫差苑里游，宫娥拥入君王起。" type="DIALOG" />
+    <action value="陈圆圆#前身合是采莲人，门前一片横塘水..." type="DIALOG" />
+    <action value="韦小宝#唱得好啊，好啊！" type="DIALOG" />
+    <action value="陈圆圆#韦爵爷，请您救救小女吧！" type="DIALOG" />
+    <action value="韦小宝#（此人生得真美，真像那日大理城中遇见的阿珂啊！）你怎么认识我？" type="DIALOG" />
+    <action value="陈圆圆#韦爵爷美名传遍天下，民女怎么会不知道？那日您在大理城中遇见小女，一场缘分，请您救救她吧！" type="DIALOG" />
+    <action value="韦小宝#你果然是阿珂的娘？她怎么了？" type="DIALOG" />
+    <action value="陈圆圆#她行刺吴三桂不成，被抓住了！" type="DIALOG" />
+    <action value="主角#怎么会这样？她师父呢？" type="DIALOG" />
+    <action value="陈圆圆#她师父巴不得她早点死，怎么会去救她！" type="DIALOG" />
+    <action value="陈圆圆#她尚在襁褓之中，就已经被九公主掳掠了去。" type="DIALOG" />
+    <action value="陈圆圆#阿珂小时候随我在平西王府长大，九公主自然认为她是吴三桂的女儿。如今叫她来杀自己的父亲，不管谁死了都如了她的意！" type="DIALOG" />
+    <action value="韦小宝#什么？阿珂是吴三桂的女儿？！" type="DIALOG" />
+    <result value="鹿鼎记_吴三桂3" type="story" ret="0" />
+  </story>
+  <story name="鹿鼎记_吴三桂3">
+    <result value="鹿鼎记_吴三桂4" type="story" ret="win" />
+    <action value="音乐.紧张感" type="MUSIC" />
+    <action value="李自成#一派胡言！阿珂怎么会是那狗贼的女儿！阿珂是我的女儿！" type="DIALOG" />
+    <action value="陈圆圆#啊！你也来了！" type="DIALOG" />
+    <action value="李自成#不错，我来了！" type="DIALOG" />
+    <action value="吴三桂#李自成，这么多年了，你还敢再出来混！" type="DIALOG" />
+    <action value="李自成#今日特来取你狗命，救回我的女儿！" type="DIALOG" />
+    <action value="主角#救个毛啊！平西王府高手这么多，先闪吧！" type="DIALOG" />
+    <action value="吴三桂#哪里跑！" type="DIALOG" />
+    <action value="鹿鼎记_吴三桂" type="BATTLE" />
+  </story>
+  <story name="鹿鼎记_吴三桂4">
+    <action value="主角#呼呼，总算是跑了出来。" type="DIALOG" />
+    <action value="韦小宝#好险好险！险里顺手牵了个羊~你看！" type="DIALOG" />
+    <action value="主角#四十二章经！厉害，赶紧跑。" type="DIALOG" />
+    <result value="大理" type="map" ret="0" />
+  </story>
+  <story name="鹿鼎剧情9">
+    <action value="地图.长安" type="BACKGROUND" />
+    <action value="韦小宝#唉，集齐了四十二章经也不知道有什么用。" type="DIALOG" />
+    <action value="主角#我知道，割开封皮。" type="DIALOG" />
+    <action value="双儿#哇，有碎羊皮！" type="DIALOG" />
+    <action value="韦小宝#神了。" type="DIALOG" />
+    <action value="主角#没什么。。。（偷偷翻了下鹿鼎记而已）" type="DIALOG" />
+    <action value="韦小宝#这些碎羊皮上面画的好像就是龙脉！" type="DIALOG" />
+    <action value="主角#是的。" type="DIALOG" />
+    <action value="韦小宝#但是这么多碎羊皮，怎么拼起来呢？" type="DIALOG" />
+    <action value="主角#双儿，看你的了。" type="DIALOG" />
+    <action value="双儿#是，恩公。" type="DIALOG" />
+    <action value="双儿#（花了一夜，拼好地图）" type="DIALOG" />
+    <action value="韦小宝#哇，双儿，这么厉害！这个红圈圈应该就是龙脉所在，这上面写的是什么地方？" type="DIALOG" />
+    <action value="双儿#这是满人的文字，我也看不懂。" type="DIALOG" />
+    <action value="主角#别想了，这写的就是鹿鼎山。" type="DIALOG" />
+    <action value="韦小宝#那还等什么，赶紧去吧！ " type="DIALOG" />
+  </story>
+  <story name="鹿鼎记_神龙岛">
+    <result value="鹿鼎记_神龙岛2" type="story" ret="0" />
+    <action value="地图.神龙岛" type="BACKGROUND" />
+    <action value="音乐.武侠进行" type="MUSIC" />
+    <action value="主角#这里便是神龙岛了！" type="DIALOG" />
+    <action value="韦小宝#咦！里面谁在争吵..." type="DIALOG" />
+  </story>
+  <story name="鹿鼎记_神龙岛2">
+    <result value="鹿鼎记_神龙岛3" type="story" ret="0" />
+    <action value="苏荃#不错，我要打下胎儿。快杀了我罢。" type="DIALOG" />
+    <action value="洪教主#说！你肚子里的孩子是谁的？" type="DIALOG" />
+    <action value="苏荃#叫你快杀了我，为什么又不下手？" type="DIALOG" />
+    <action value="洪教主#我不杀你。是谁的孩子？" type="DIALOG" />
+  </story>
+  <story name="鹿鼎记_神龙岛3">
+    <action value="韦小宝#啊呀，教主别生气别生气，大家有话好好说。" type="DIALOG" />
+    <action value="苏荃#（看着韦小宝，表情复杂）" type="DIALOG" />
+    <action value="洪教主#白龙使！！孩子，是你的！！" type="DIALOG" />
+    <action value="韦小宝#不是我的。。。" type="DIALOG" />
+    <action value="韦小宝#你信吗？" type="DIALOG" />
+    <action value="洪教主#好大胆子，来人，给我杀了他们！" type="DIALOG" />
+    <action value="鹿鼎记_神龙岛" type="BATTLE" />
+    <result value="鹿鼎记_神龙岛4" type="story" ret="win" />
+  </story>
+  <story name="鹿鼎记_神龙岛4">
+    <action value="地图.神龙岛" type="BACKGROUND" />
+    <action value="音乐.武侠进行" type="MUSIC" />
+    <action value="苏荃#洪教主，我是你虏来当你的教主夫人的，我俩从没有夫妻之实，我也从来没有爱过你" type="DIALOG" />
+    <action value="苏荃#如今，我怀上了别人的孩子，神龙教也分崩离析了，我们再没有任何瓜葛了。" type="DIALOG" />
+    <action value="洪教主#滚，你们都给我滚！我永远是这里的教主，我永远仙福永享、寿与天齐，哈哈哈哈……" type="DIALOG" />
+    <action value="韦小宝#这老家伙已经疯了，美人儿，跟我们一起走吧。" type="DIALOG" />
+    <action value="苏荃#（白了韦小宝一眼）你这坏家伙！你可要对我负责。" type="DIALOG" />
+    <action value="韦小宝#哈哈，必须的必须的！" type="DIALOG" />
+    <action value="苏荃" type="JOIN" />
+    <action value="韦小宝#500" type="UPGRADE.MAXHP" />
+    <action value="韦小宝#500" type="UPGRADE.MAXMP" />
+    <action value="韦小宝#15" type="GET_POINT" />
+  </story>
+  <story name="鹿鼎记_台湾1">
+    <action value="地图.台湾" type="BACKGROUND" />
+    <action value="音乐.紧张感" type="MUSIC" />
+    <action value="郑克爽#你还没死..." type="DIALOG" />
+    <action value="阿珂#我还没死。你把我推进海里，好狠啊！郑克爽，枉我对你一往情深。你竟然这样对我。" type="DIALOG" />
+    <action value="韦小宝#啊！是阿珂，她从平西王府逃出来了..." type="DIALOG" />
+    <action value="主角#嘘，我们先静观其变。" type="DIALOG" />
+    <action value="郑克爽#（面色狰狞）哼！要不是你和那韦小宝通奸，肚子怎么会大..." type="DIALOG" />
+    <action value="冯锡范#公子，啰嗦什么，既然上次不死，这次我来帮公子杀了她。" type="DIALOG" />
+    <action value="郑克爽#（脸色一暗）师父，这种事情别拖太久了！" type="DIALOG" />
+    <action value="阿珂#郑克爽，你好狠！" type="DIALOG" />
+    <action value="韦小宝#住手！休伤我老婆！" type="DIALOG" />
+    <action value="鹿鼎记_台湾郑克爽1" type="BATTLE" />
+    <result value="鹿鼎记_台湾2" type="story" ret="win" />
+  </story>
+  <story name="鹿鼎记_台湾2">
+    <result value="鹿鼎记_台湾3" type="story" ret="win" />
+    <action value="地图.台湾" type="BACKGROUND" />
+    <action value="音乐.紧张感" type="MUSIC" />
+    <action value="陈近南#住手！郑公子，你的所做所为实在是令我无法忍受。作为国舅爷的后人，怎能如此下作欺负一个女子！" type="DIALOG" />
+    <action value="主角#陈总舵主！" type="DIALOG" />
+    <action value="郑克爽#我的事情不用你管！" type="DIALOG" />
+    <action value="冯锡范#陈军师，我家公子的事情什么时候轮到你管。咦，有飞碟？" type="DIALOG" />
+    <action value="陈近南#哈哈，这么弱智的把戏，你以为我会上当？" type="DIALOG" />
+    <action value="郑克爽#咦，康熙！" type="DIALOG" />
+    <action value="陈近南#（心头一震）在哪里？！" type="DIALOG" />
+    <action value="郑克爽#在那边！" type="DIALOG" />
+    <action value="" type="SHAKE" />
+    <action value="陈近南#啊！（陈近南忍不住回头，一柄利刃却从背后穿刺到前胸。）" type="DIALOG" />
+    <action value="郑克爽#你武功比我高怎么样，还不是被我偷袭致死。" type="DIALOG" />
+    <action value="陈近南#你..好卑鄙..." type="DIALOG" />
+    <action value="韦小宝#啊啊啊！郑克爽，你这个无耻小人，竟然敢伤害我师父！" type="DIALOG" />
+    <action value="鹿鼎记_台湾郑克爽2" type="BATTLE" />
+  </story>
+  <story name="鹿鼎记_台湾3">
+    <action value="地图.台湾" type="BACKGROUND" />
+    <action value="音乐.如梦往事" type="MUSIC" />
+    <action value="韦小宝#师父，你坚持住啊！" type="DIALOG" />
+    <action value="陈近南#小宝，师父不行了。反清复明的大业，就靠你了..." type="DIALOG" />
+    <action value="韦小宝#师父，你不能死啊！" type="DIALOG" />
+    <action value="陈近南#咱们汉人齐心协力，江山必可光复...只是我却见不到...了...（缓缓闭上眼睛）" type="DIALOG" />
+    <action value="韦小宝#师父！" type="DIALOG" />
+    <action value="阿珂#你这人，虽然嘴上不干不净。但对你师父这么好，也算是重情重义之人。" type="DIALOG" />
+    <action value="韦小宝#师父与我相处时间虽然不长，但对我恩重如山，我韦小宝虽然不是什么好人，也懂得知恩图报。" type="DIALOG" />
+    <action value="阿珂#（你这样，已经胜过了郑公子万万千千了...）师父也不要我了，这……我和你们一起闯荡江湖吧。" type="DIALOG" />
+    <action value="韦小宝#欢迎！欢迎！" type="DIALOG" />
+    <action value="阿珂" type="JOIN" />
+    <action value="韦小宝#15" type="GET_POINT" />
+    <action value="主角#5" type="GET_POINT" />
+  </story>
+  <story name="鹿鼎记_鹿鼎山1">
+    <action value="地图.鹿鼎山" type="BACKGROUND" />
+    <action value="音乐.紧张感" type="MUSIC" />
+    <action value="韦小宝#皇上，你竟然派兵来围剿我，就因为这个龙脉吗！" type="DIALOG" />
+    <action value="康熙#韦小宝，你竟然毁我大清龙脉，我自问对你如兄弟，你竟然这样对我。" type="DIALOG" />
+    <action value="韦小宝#待我如兄弟，那为何安排大炮准备围剿我，又利用我杀天地会的兄弟？" type="DIALOG" />
+    <action value="康熙#不管你说什么，今天我也要抓住你。来人，上！" type="DIALOG" />
+    <action value="鹿鼎记_鹿鼎山之战" type="BATTLE" />
+    <result value="鹿鼎记_鹿鼎山2" type="story" ret="win" />
+  </story>
+  <story name="鹿鼎记_鹿鼎山2">
+    <action value="地图.鹿鼎山" type="BACKGROUND" />
+    <action value="音乐.如梦往事" type="MUSIC" />
+    <action value="韦小宝#皇上，睁大你的眼看看，这所谓的龙脉是我花了所有积蓄建造的。自古忠义难两全。师父让我接受天地会。你让我杀天地会。你说，我该怎么做。" type="DIALOG" />
+    <action value="康熙#和反贼有什么好。我们两兄弟情谊难道比不过所谓天地会？" type="DIALOG" />
+    <action value="韦小宝#我做人卑鄙无耻贪财好色，也许很多人觉得我不学无术，觉得我坑蒙拐骗。但是有一项，我不会做，那就是出卖朋友！" type="DIALOG" />
+    <action value="韦小宝#师父待我恩重如山，小玄子……你待我也不薄。我不能做对不起兄弟的事情。" type="DIALOG" />
+    <action value="康熙#小宝，你果真要离我而去？" type="DIALOG" />
+    <action value="韦小宝#我最后叫你一次，小玄子！从今天起小桂子已经死了，天地会韦小宝也死了。" type="DIALOG" />
+    <action value="康熙#好。从今天起再无小玄子，只有康熙。我走了，你保重。" type="DIALOG" />
+    <action value="韦小宝#从此之后，韦小宝浪迹江湖，再不受朝廷约束。" type="DIALOG" />
+    <action value="主角#夕阳西下，小玄子和小桂子依依不舍地告别了..." type="DIALOG" />
+    <action value="韦小宝#鹿鼎.一品鹿鼎公" type="LEARN.TALENT" />
+    <action value="一品鹿鼎公印记" type="ITEM" />
+    <action value="韦小宝#1000" type="UPGRADE.MAXHP" />
+    <action value="韦小宝#1000" type="UPGRADE.MAXMP" />
+    <action value="韦小宝#15" type="GET_POINT" />
+  </story>
+  <story name="鹿鼎剧情13">
+    <result value="鹿鼎剧情13.1a" type="story" ret="win" />
+    <result value="鹿鼎剧情13.1b" type="story" ret="lose" />
+    <action value="地图.嵩山" type="BACKGROUND" />
+    <action value="胖头陀#韦小宝！四十二章经拿来！" type="DIALOG" />
+    <action value="韦小宝#没有！" type="DIALOG" />
+    <action value="胖头陀#编剧说有！" type="DIALOG" />
+    <action value="韦小宝#编剧骗你的！" type="DIALOG" />
+    <action value="胖头陀#编剧从来不骗人！" type="DIALOG" />
+    <action value="韦小宝#我身上没有，不信你搜啊！" type="DIALOG" />
+    <action value="韦小宝#挖靠，你们还真搜啊，这不能忍了！" type="DIALOG" />
+    <action value="鹿鼎记战斗10" type="BATTLE" />
+  </story>
+  <story name="鹿鼎剧情13.1a">
+    <action value="地图.嵩山" type="BACKGROUND" />
+    <action value="韦小宝#这么无耻的剧情也难不住老子，老子厉不厉害！嗯？谁在叫我？" type="DIALOG" />
+    <action value="方怡#相公！我是方怡！" type="DIALOG" />
+    <action value="韦小宝#大老婆？！你想死我啦！" type="DIALOG" />
+    <action value="主角#真特么天生一对。" type="DIALOG" />
+    <action value="方怡#师妹在神龙岛等着我们呢，我带你去见她。" type="DIALOG" />
+    <action value="韦小宝#哇，小老婆在等我！走吧！" type="DIALOG" />
+    <action value="韦小宝" type="LEAVE" />
+    <action value="主角#喂喂，花了我1000大洋雇来的，就这么跑了？" type="DIALOG" />
+  </story>
+  <story name="鹿鼎剧情13.1b">
+    <action value="地图.嵩山" type="BACKGROUND" />
+    <action value="胖头陀#韦小宝，跟我去神龙岛！" type="DIALOG" />
+    <action value="韦小宝#救命啊！" type="DIALOG" />
+    <action value="主角#追！" type="DIALOG" />
+    <action value="韦小宝" type="LEAVE" />
+    <action value="主角#喂喂，花了我1000大洋雇来的，就这么跑了？" type="DIALOG" />
+  </story>
+  <story name="鹿鼎剧情14">
+    <result value="鹿鼎剧情14.1a" type="story" ret="0" />
+    <result value="鹿鼎剧情14.1b" type="story" ret="1" />
+    <action value="地图.神龙岛" type="BACKGROUND" />
+    <action value="主角#这是哪儿？" type="DIALOG" />
+    <action value="陆高轩#小兄弟这是神龙岛。" type="DIALOG" />
+    <action value="主角#咦？你什么时候出现的。" type="DIALOG" />
+    <action value="神龙教众#所有教众集合！" type="DIALOG" />
+    <action value="陆高轩#先别说了，去大殿吧" type="DIALOG" />
+    <action value="韦小宝#（躲在一旁角落里。）" type="DIALOG" />
+    <action value="钟志灵#教主，你近些年只顾提拔年轻后辈。我们这帮老功臣一个个被你除掉，今日为求自保，对不住了！（放毒）" type="DIALOG" />
+    <action value="洪教主#哼！老子吃毒大米，喝地沟油长大的，怕你放毒气？化骨绵掌！" type="DIALOG" />
+    <action value="" type="SHAKE" />
+    <action value="钟志灵#呃啊！" type="DIALOG" />
+    <action value="洪教主#（全身瘫软）靠，这个毒，这么屌。。。" type="DIALOG" />
+    <action value="苏荃#（向韦小宝抛媚眼）小朋友，帮我们解毒怎么样？往我身上泼水就行了，湿身诱惑哦。" type="DIALOG" />
+    <action value="陆高轩#别听她的，你救了她，她会杀你的！杀教主！我们让你当教主！" type="DIALOG" />
+    <action value="韦小宝#（看向主角）你说救不救？" type="DIALOG" />
+    <action value="沐剑屏#不能杀教主，他死了我们都没解药！" type="DIALOG" />
+    <action value="韦小宝#小老婆！" type="DIALOG" />
+    <action value="主角#这。。。" type="DIALOG" />
+    <action value="苏荃#（对你使出淫荡勾魂眼）小兄弟，你看我美吗？" type="DIALOG" />
+    <action value="主角#怎么办？#休想诱惑我，照杀！#教主夫人芳华绝代，我来帮您老人家解解毒。" type="SELECT" />
+  </story>
+  <story name="鹿鼎剧情14.1a">
+    <result value="鹿鼎剧情14.1a_win" type="story" ret="win" />
+    <action value="洪教主#哇啊啊啊啊啊，这么点毒能难倒我吗？" type="DIALOG" />
+    <action value="洪教主#（用尽全力摸出一颗药吃下）" type="DIALOG" />
+    <action value="主角#你吃的什么？" type="DIALOG" />
+    <action value="洪教主#速效豹胎易筋丸！" type="DIALOG" />
+    <action value="鹿鼎记战斗13" type="BATTLE" />
+  </story>
+  <story name="鹿鼎剧情14.1a_win">
+    <action value="陆高轩#少侠武功高强，今日除掉这江湖一害。现在我们信守承诺，愿意奉你当教主！" type="DIALOG" />
+    <action value="主角#如何回答？#我只是为江湖除害#却之不恭，我就来执掌神龙教！" type="SELECT" />
+    <result value="鹿鼎记_神龙教不当教主" type="story" ret="0" />
+    <result value="鹿鼎记_神龙教当教主" type="story" ret="1" />
+  </story>
+  <story name="鹿鼎记_神龙教不当教主">
+    <action value="主角#我只是伸张正义，为江湖除害。至于神龙教主一职，你们还是另请高就吧！" type="DIALOG" />
+    <action value="陆高轩#少侠果然高风亮节！那么我们神龙教自己的事我们自家处理吧。" type="DIALOG" />
+    <action value="2" type="DAODE" />
+  </story>
+  <story name="鹿鼎记_神龙教当教主">
+    <action value="陆高轩#$MALE$教主仙福永享，寿与天齐！" type="DIALOG" />
+    <action value="主角#（哇，原来当教主这么爽。）好，好！" type="DIALOG" />
+  </story>
+  <story name="鹿鼎剧情14.1b">
+    <action value="主角#夫人，我来帮你解毒啦！哈哈，来个湿身诱惑吧！" type="DIALOG" />
+    <action value="苏荃" type="TOUCH" />
+    <action value="鹿鼎剧情14.1b_win" type="story" />
+    <action value="鹿鼎剧情14.1a" type="story" />
+  </story>
+  <story name="鹿鼎剧情14.1b_win">
+    <result value="鹿鼎剧情14.2" type="story" ret="0" />
+    <action value="苏荃#谢谢你。（我居然一点也不生气？！什么情况？？？）" type="DIALOG" />
+    <action value="苏荃#2" type="HAOGAN" />
+    <action value="主角#夫人，你好些了吧？" type="DIALOG" />
+    <action value="苏荃#快给教主他们解毒吧。" type="DIALOG" />
+    <action value="洪安通#赶紧给众人解毒吧，韦小宝，你跟我进来一下。" type="DIALOG" />
+    <action value="韦小宝#啊？好……" type="DIALOG" />
+  </story>
+  <story name="鹿鼎剧情14.2">
+    <action value="地图.神龙岛" type="BACKGROUND" />
+    <action value="女主#（笑嘻嘻望着你）我看见了。" type="DIALOG" />
+    <action value="主角#看见什么了？" type="DIALOG" />
+    <action value="女主#坏蛋！" type="DIALOG" />
+    <action value="主角#啊？#你是不是也想试试啊？#我只是给她解毒啊……" type="SELECT" />
+    <result value="鹿鼎剧情14.2.2a" type="story" ret="0" />
+    <result value="鹿鼎剧情14.2.1a" type="story" ret="1" />
+  </story>
+  <story name="鹿鼎剧情14.2.1a">
+    <action value="地图.神龙岛" type="BACKGROUND" />
+    <action value="主角#我只是……给她擦擦脸上的水而已。她不是中毒么。。这样才能解毒。" type="DIALOG" />
+    <action value="女主#呸！还装！" type="DIALOG" />
+    <action value="主角#真的没有。。。" type="DIALOG" />
+    <action value="女主#哼，解释就是掩饰！" type="DIALOG" />
+    <action value="女主#1" type="HAOGAN" />
+  </story>
+  <story name="鹿鼎剧情14.2.2a">
+    <action value="地图.神龙岛" type="BACKGROUND" />
+    <action value="主角#那你是不是也想试试啊？" type="DIALOG" />
+    <action value="韦小宝#诶哟，兄弟我看好你哟。加油！加油！" type="DIALOG" />
+    <action value="女主#讨厌！臭流氓！（红着脸跑了）" type="DIALOG" />
+    <action value="女主#2" type="HAOGAN" />
+    <action value="-2" type="DAODE" />
+  </story>
+</root>

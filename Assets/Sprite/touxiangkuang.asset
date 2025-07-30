@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: touxiangkuang
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 205
+    height: 206
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: c4e7c75f2be9a1d458d86b88c2bcf99d, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 69.5, y: 103, z: 0}
+    - serializedVersion: 2
+      pos: {x: 21.5, y: 80, z: 0}
+    - serializedVersion: 2
+      pos: {x: 69.5, y: 43, z: 0}
+    - serializedVersion: 2
+      pos: {x: -86.5, y: 103, z: 0}
+    - serializedVersion: 2
+      pos: {x: -76.5, y: -28, z: 0}
+    - serializedVersion: 2
+      pos: {x: 102.5, y: 80, z: 0}
+    - serializedVersion: 2
+      pos: {x: 89.5, y: -103, z: 0}
+    - serializedVersion: 2
+      pos: {x: 102.5, y: -24, z: 0}
+    - serializedVersion: 2
+      pos: {x: 30.5, y: -73, z: 0}
+    - serializedVersion: 2
+      pos: {x: -102.5, y: 69, z: 0}
+    - serializedVersion: 2
+      pos: {x: -102.5, y: -103, z: 0}
+    indices: 090004000a0006000a000400030004000900080006000400020006000800000006000200050006000000070006000500000001000300040003000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 205
+      height: 206
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 1, y: 102.5, z: 1, w: 103}

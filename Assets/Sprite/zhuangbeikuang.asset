@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: zhuangbeikuang
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 222
+    height: 412
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 039ccdc9a14c7a94fadd3dfffb5426bc, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 99, y: 206, z: 0}
+    - serializedVersion: 2
+      pos: {x: 111, y: 53, z: 0}
+    - serializedVersion: 2
+      pos: {x: 111, y: 182, z: 0}
+    - serializedVersion: 2
+      pos: {x: 68, y: 14, z: 0}
+    - serializedVersion: 2
+      pos: {x: 48, y: 14, z: 0}
+    - serializedVersion: 2
+      pos: {x: 29, y: 206, z: 0}
+    - serializedVersion: 2
+      pos: {x: 11, y: 181, z: 0}
+    - serializedVersion: 2
+      pos: {x: 11, y: 59, z: 0}
+    - serializedVersion: 2
+      pos: {x: -11, y: -49, z: 0}
+    - serializedVersion: 2
+      pos: {x: -52, y: -206, z: 0}
+    - serializedVersion: 2
+      pos: {x: -11, y: -191, z: 0}
+    - serializedVersion: 2
+      pos: {x: -58, y: -14, z: 0}
+    - serializedVersion: 2
+      pos: {x: -69, y: -14, z: 0}
+    - serializedVersion: 2
+      pos: {x: -92, y: -206, z: 0}
+    - serializedVersion: 2
+      pos: {x: -109, y: -81, z: 0}
+    - serializedVersion: 2
+      pos: {x: -111, y: -55, z: 0}
+    - serializedVersion: 2
+      pos: {x: -111, y: -73, z: 0}
+    - serializedVersion: 2
+      pos: {x: -111, y: -97, z: 0}
+    - serializedVersion: 2
+      pos: {x: -111, y: -167, z: 0}
+    indices: 120011000d000e000d00110010000f000e000c000e000f000d000e000c0009000d000c000b0009000c00080009000b000a0009000800070006000400050004000600000004000500030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 222
+      height: 412
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 1, y: 111, z: 1, w: 206}

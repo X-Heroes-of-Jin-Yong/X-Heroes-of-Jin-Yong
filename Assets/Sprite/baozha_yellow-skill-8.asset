@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: baozha_yellow-skill-8
+  m_Rect:
+    serializedVersion: 2
+    x: 0.076120496
+    y: 359.0761
+    width: 125.91097
+    height: 109.89713
+  m_Offset: {x: -0.031606797, y: -19.198956}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.53112036
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: e3ea953a810877646ab03bcf6919a1e1, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -99.789055, y: 3.6250014, z: 0}
+    - serializedVersion: 2
+      pos: {x: -101.67187, y: -5.7890606, z: 0}
+    - serializedVersion: 2
+      pos: {x: -99.789055, y: -2.0234358, z: 0}
+    - serializedVersion: 2
+      pos: {x: -107.320305, y: 9.273438, z: 0}
+    - serializedVersion: 2
+      pos: {x: -114.851555, y: 9.273438, z: 0}
+    - serializedVersion: 2
+      pos: {x: -116.73437, y: -5.7890606, z: 0}
+    - serializedVersion: 2
+      pos: {x: -118.61718, y: 7.390626, z: 0}
+    - serializedVersion: 2
+      pos: {x: -118.61718, y: 1.7421889, z: 0}
+    - serializedVersion: 2
+      pos: {x: -86.60937, y: 14.921876, z: 0}
+    - serializedVersion: 2
+      pos: {x: -88.49218, y: 3.6250014, z: 0}
+    - serializedVersion: 2
+      pos: {x: -86.60937, y: 3.6250014, z: 0}
+    - serializedVersion: 2
+      pos: {x: -92.257805, y: 20.570312, z: 0}
+    - serializedVersion: 2
+      pos: {x: -97.90624, y: 3.6250014, z: 0}
+    - serializedVersion: 2
+      pos: {x: -101.67187, y: 20.570312, z: 0}
+    - serializedVersion: 2
+      pos: {x: -103.55468, y: 16.804688, z: 0}
+    - serializedVersion: 2
+      pos: {x: -103.55468, y: 9.273438, z: 0}
+    - serializedVersion: 2
+      pos: {x: -82.84374, y: 5.507814, z: 0}
+    - serializedVersion: 2
+      pos: {x: -82.84374, y: 11.156251, z: 0}
+    - serializedVersion: 2
+      pos: {x: -88.49218, y: 58.226562, z: 0}
+    - serializedVersion: 2
+      pos: {x: -86.60937, y: 52.578125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -84.726555, y: 58.226562, z: 0}
+    - serializedVersion: 2
+      pos: {x: -86.60937, y: 41.28125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -92.257805, y: 54.460938, z: 0}
+    - serializedVersion: 2
+      pos: {x: -92.257805, y: 50.695312, z: 0}
+    - serializedVersion: 2
+      pos: {x: -75.31249, y: 109.06249, z: 0}
+    - serializedVersion: 2
+      pos: {x: -84.726555, y: 58.226562, z: 0}
+    - serializedVersion: 2
+      pos: {x: -75.31249, y: 46.929688, z: 0}
+    - serializedVersion: 2
+      pos: {x: -80.96093, y: -67.92187, z: 0}
+    - serializedVersion: 2
+      pos: {x: -86.60937, y: -54.742184, z: 0}
+    - serializedVersion: 2
+      pos: {x: -80.96093, y: 39.398438, z: 0}
+    - serializedVersion: 2
+      pos: {x: -75.31249, y: 41.28125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -64.015625, y: 122.24217, z: 0}
+    - serializedVersion: 2
+      pos: {x: -54.60156, y: 120.35937, z: 0}
+    - serializedVersion: 2
+      pos: {x: -58.367184, y: 124.124985, z: 0}
+    - serializedVersion: 2
+      pos: {x: -64.015625, y: 116.59374, z: 0}
+    - serializedVersion: 2
+      pos: {x: -24.47656, y: 139.18748, z: 0}
+    - serializedVersion: 2
+      pos: {x: -52.718746, y: 118.476555, z: 0}
+    - serializedVersion: 2
+      pos: {x: 107.320305, y: 11.156251, z: 0}
+    - serializedVersion: 2
+      pos: {x: 109.20312, y: -64.15624, z: 0}
+    - serializedVersion: 2
+      pos: {x: 109.20312, y: 11.156251, z: 0}
+    - serializedVersion: 2
+      pos: {x: 103.55468, y: 14.921876, z: 0}
+    - serializedVersion: 2
+      pos: {x: 90.37499, y: -67.92187, z: 0}
+    - serializedVersion: 2
+      pos: {x: 109.20312, y: 24.335938, z: 0}
+    - serializedVersion: 2
+      pos: {x: 103.55468, y: 18.6875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 109.20312, y: 97.765625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 73.42968, y: 139.18748, z: 0}
+    - serializedVersion: 2
+      pos: {x: -52.718746, y: 110.945305, z: 0}
+    - serializedVersion: 2
+      pos: {x: -58.367184, y: 109.06249, z: 0}
+    - serializedVersion: 2
+      pos: {x: -64.015625, y: 114.71093, z: 0}
+    - serializedVersion: 2
+      pos: {x: 111.08593, y: 26.21875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 118.61718, y: 20.570312, z: 0}
+    - serializedVersion: 2
+      pos: {x: 116.73437, y: 26.21875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -90.37499, y: 75.171875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -84.726555, y: 61.992188, z: 0}
+    - serializedVersion: 2
+      pos: {x: -84.726555, y: 69.52344, z: 0}
+    - serializedVersion: 2
+      pos: {x: -90.37499, y: 60.109375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -94.14062, y: 75.171875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -97.90624, y: 71.40625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -97.90624, y: 67.640625, z: 0}
+    indices: 3000180022003a0039003700380037003900340037003800350037003400360035003400300022002f0020002f0022002e002f00200024002e00200027002a003200310032002a003300320031000800150011001d00110015001b0011001d0029001b001d001e0029001d001a0029001e00180029001a003000290018002f00290030002e0029002f00240029002e002300290024002d00290023002c0029002d002b0029002c00280029002b002a002b002c0028002b0025002a0025002b00270025002a0029002800260025002600280027002600250024002000230022001f002000210020001f00150013001d0014001d00130019001d0014001a001d0019001e001d001a001c000a001b0010001b000a0011001b0010001400180019001a00190018001700160015001200150016001300150012001400130012000a00080010001100100008000f000e000c000d000c000e000b000c000d0009000c000b00080009000b000a0009000800070006000500040005000600010005000400030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.076120496
+      y: 359.0761
+      width: 125.91097
+      height: 109.89713
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.53112036, y: 63, z: 0.53112036, w: 395.07468}

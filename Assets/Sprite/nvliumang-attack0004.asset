@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: nvliumang-attack0004
+  m_Rect:
+    serializedVersion: 2
+    x: 342.0761
+    y: 219.07613
+    width: 79.84775
+    height: 118.84775
+  m_Offset: {x: -35, y: -59.499996}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: ca8a70160a286f24b91acffbe04b1ed6, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 66, y: 82, z: 0}
+    - serializedVersion: 2
+      pos: {x: 75, y: 49, z: 0}
+    - serializedVersion: 2
+      pos: {x: 75, y: 73, z: 0}
+    - serializedVersion: 2
+      pos: {x: 31, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: 28, y: 119, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5, y: 119, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5, y: 16, z: 0}
+    indices: 070006000500040005000600030005000400000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 342.0761
+      y: 219.07613
+      width: 79.84775
+      height: 118.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 347, z: 1, w: 219}

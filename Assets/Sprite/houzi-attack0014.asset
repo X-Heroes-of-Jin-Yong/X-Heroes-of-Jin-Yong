@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: houzi-attack0014
+  m_Rect:
+    serializedVersion: 2
+    x: 215.07613
+    y: 216.05132
+    width: 99.84775
+    height: 100.921936
+  m_Offset: {x: 40.999996, y: -48.512283}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 649cfd359807442488a4e008899e56ba, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -33, y: 92, z: 0}
+    - serializedVersion: 2
+      pos: {x: -39, y: 99, z: 0}
+    - serializedVersion: 2
+      pos: {x: -37, y: 85, z: 0}
+    - serializedVersion: 2
+      pos: {x: 9, y: 74, z: 0}
+    - serializedVersion: 2
+      pos: {x: 4, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 9, y: -1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -21, y: 93, z: 0}
+    - serializedVersion: 2
+      pos: {x: -31, y: 94, z: 0}
+    - serializedVersion: 2
+      pos: {x: -54, y: 99, z: 0}
+    - serializedVersion: 2
+      pos: {x: -64, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: -67, y: 95, z: 0}
+    - serializedVersion: 2
+      pos: {x: -91, y: 41, z: 0}
+    - serializedVersion: 2
+      pos: {x: -91, y: 4, z: 0}
+    indices: 0c000b0009000a0009000b00080009000a00040009000800020004000800010002000800070004000200060004000700030004000600050004000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 215.07613
+      y: 216.05132
+      width: 99.84775
+      height: 100.921936
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 306, z: 1, w: 218}

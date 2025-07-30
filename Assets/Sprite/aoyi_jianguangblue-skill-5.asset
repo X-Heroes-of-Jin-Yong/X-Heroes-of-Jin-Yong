@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: aoyi_jianguangblue-skill-5
+  m_Rect:
+    serializedVersion: 2
+    x: 409.0761
+    y: 356.02676
+    width: 242.92387
+    height: 117.96034
+  m_Offset: {x: -6.538053, y: -11.710923}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.512
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: dc1f170803f904247bc7c5e63208c767, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 249.99998, y: 133.99219, z: 0}
+    - serializedVersion: 2
+      pos: {x: 214.84373, y: -84.757805, z: 0}
+    - serializedVersion: 2
+      pos: {x: 249.99998, y: -74.99219, z: 0}
+    - serializedVersion: 2
+      pos: {x: 93.74999, y: -92.570305, z: 0}
+    - serializedVersion: 2
+      pos: {x: 78.125, y: 137.89844, z: 0}
+    - serializedVersion: 2
+      pos: {x: -99.60937, y: -92.570305, z: 0}
+    - serializedVersion: 2
+      pos: {x: -207.03123, y: 137.89844, z: 0}
+    - serializedVersion: 2
+      pos: {x: -222.65623, y: 133.99219, z: 0}
+    - serializedVersion: 2
+      pos: {x: -224.60936, y: 102.74218, z: 0}
+    - serializedVersion: 2
+      pos: {x: -224.60936, y: -71.08594, z: 0}
+    indices: 090008000500070005000800060005000700040005000600030005000400000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 409.0761
+      y: 356.02676
+      width: 242.92387
+      height: 117.96034
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.512, y: 524, z: 0.512, w: 403.396}

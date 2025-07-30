@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: jinlunfawang-attack0022
+  m_Rect:
+    serializedVersion: 2
+    x: 816.0761
+    y: 148.04291
+    width: 131.87254
+    height: 127.90297
+  m_Offset: {x: -46.0124, y: -46.994392}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 9374ab72e47fe934eb876012c39d7e6c, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 112, y: 102, z: 0}
+    - serializedVersion: 2
+      pos: {x: 101, y: -17, z: 0}
+    - serializedVersion: 2
+      pos: {x: 112, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: 90, y: 111, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1, y: -17, z: 0}
+    - serializedVersion: 2
+      pos: {x: -12, y: -14, z: 0}
+    - serializedVersion: 2
+      pos: {x: -13, y: 111, z: 0}
+    - serializedVersion: 2
+      pos: {x: -20, y: 90, z: 0}
+    - serializedVersion: 2
+      pos: {x: -20, y: -11, z: 0}
+    indices: 080007000500060005000700030005000600040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 816.0761
+      y: 148.04291
+      width: 131.87254
+      height: 127.90297
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 836, z: 1, w: 165}

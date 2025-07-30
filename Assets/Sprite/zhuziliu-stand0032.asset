@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: zhuziliu-stand0032
+  m_Rect:
+    serializedVersion: 2
+    x: 759.0761
+    y: 381.0761
+    width: 137.91098
+    height: 129.84775
+  m_Offset: {x: 4.9683895, y: -56.999992}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 0c32d248c0f5f204d9e729ffcf22436b, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 64, y: 88, z: 0}
+    - serializedVersion: 2
+      pos: {x: 53, y: 51, z: 0}
+    - serializedVersion: 2
+      pos: {x: 64, y: 52, z: 0}
+    - serializedVersion: 2
+      pos: {x: 47, y: 122, z: 0}
+    - serializedVersion: 2
+      pos: {x: 42, y: 53, z: 0}
+    - serializedVersion: 2
+      pos: {x: 34, y: 61, z: 0}
+    - serializedVersion: 2
+      pos: {x: -12, y: 122, z: 0}
+    - serializedVersion: 2
+      pos: {x: 27, y: -8, z: 0}
+    - serializedVersion: 2
+      pos: {x: -41, y: -8, z: 0}
+    - serializedVersion: 2
+      pos: {x: -49, y: 89, z: 0}
+    - serializedVersion: 2
+      pos: {x: -53, y: 104, z: 0}
+    - serializedVersion: 2
+      pos: {x: 43, y: 52, z: 0}
+    - serializedVersion: 2
+      pos: {x: 64, y: 14, z: 0}
+    - serializedVersion: 2
+      pos: {x: 64, y: 20, z: 0}
+    - serializedVersion: 2
+      pos: {x: -74, y: 49, z: 0}
+    - serializedVersion: 2
+      pos: {x: -74, y: 6, z: 0}
+    indices: 0f000e000800090008000e00070005000c0004000c0005000b000c0004000d000c000b000a0006000900080009000600070008000600050007000600030005000600040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 759.0761
+      y: 381.0761
+      width: 137.91098
+      height: 129.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 833, z: 1, w: 389}

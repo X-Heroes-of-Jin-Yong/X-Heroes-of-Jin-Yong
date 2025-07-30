@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fengzi-attack0014
+  m_Rect:
+    serializedVersion: 2
+    x: 384.02673
+    y: 131.04291
+    width: 65.91913
+    height: 120.951126
+  m_Offset: {x: 3.0136876, y: -51.51847}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 1b9ea7ea251798f4797876ed628a0444, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -6, y: 112, z: 0}
+    - serializedVersion: 2
+      pos: {x: 30, y: -9, z: 0}
+    - serializedVersion: 2
+      pos: {x: 30, y: 112, z: 0}
+    - serializedVersion: 2
+      pos: {x: -30, y: -9, z: 0}
+    - serializedVersion: 2
+      pos: {x: -33, y: 94, z: 0}
+    - serializedVersion: 2
+      pos: {x: -36, y: 72, z: 0}
+    - serializedVersion: 2
+      pos: {x: -36, y: -8, z: 0}
+    indices: 060005000300040003000500000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 384.02673
+      y: 131.04291
+      width: 65.91913
+      height: 120.951126
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 420, z: 1, w: 140}

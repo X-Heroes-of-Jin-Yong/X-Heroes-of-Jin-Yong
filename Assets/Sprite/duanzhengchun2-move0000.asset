@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: duanzhengchun2-move0000
+  m_Rect:
+    serializedVersion: 2
+    x: 425.0761
+    y: 245.07613
+    width: 68.880974
+    height: 122.861755
+  m_Offset: {x: 1.4833955, y: -63.507}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: d50eae6a3cb71904eb611e16d1aacf4b, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 33, y: 54, z: 0}
+    - serializedVersion: 2
+      pos: {x: 20, y: 3, z: 0}
+    - serializedVersion: 2
+      pos: {x: 33, y: 7, z: 0}
+    - serializedVersion: 2
+      pos: {x: 16, y: 125, z: 0}
+    - serializedVersion: 2
+      pos: {x: 15, y: 2, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1, y: 125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -11, y: 2, z: 0}
+    - serializedVersion: 2
+      pos: {x: -18, y: 112, z: 0}
+    - serializedVersion: 2
+      pos: {x: -33, y: 21, z: 0}
+    - serializedVersion: 2
+      pos: {x: -36, y: 36, z: 0}
+    - serializedVersion: 2
+      pos: {x: -36, y: 25, z: 0}
+    indices: 0a0009000800070008000900060008000700050006000700040006000500030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 425.0761
+      y: 245.07613
+      width: 68.880974
+      height: 122.861755
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 461, z: 1, w: 243}

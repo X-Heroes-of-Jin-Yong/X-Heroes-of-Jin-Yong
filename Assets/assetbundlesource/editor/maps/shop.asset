@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: shop
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 512
+    height: 289
+  m_Offset: {x: 0, y: -0.07433769}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 40.0626
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: a5d00ba628100bc47a8e1c4c09a437ea, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -6.39, y: 3.6068554, z: 0}
+    - serializedVersion: 2
+      pos: {x: 6.39, y: -3.6068554, z: 0}
+    - serializedVersion: 2
+      pos: {x: 6.39, y: 3.6068554, z: 0}
+    - serializedVersion: 2
+      pos: {x: -6.39, y: -3.6068554, z: 0}
+    indices: 030000000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 512
+      height: 289
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 40.0626, y: 256, z: 40.0626, w: 144.5}

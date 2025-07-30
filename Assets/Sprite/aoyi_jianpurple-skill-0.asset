@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: aoyi_jianpurple-skill-0
+  m_Rect:
+    serializedVersion: 2
+    x: 0.07611847
+    y: 0.042907715
+    width: 82.847755
+    height: 35.880974
+  m_Offset: {x: 20.500006, y: 6.4166064}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.42666668
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: cb65dc0db7ac33c4e9b5db1b6d146830, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 49.21875, y: -10.546875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0, y: -57.421875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 49.21875, y: -57.421875, z: 0}
+    - serializedVersion: 2
+      pos: {x: -21.09375, y: 26.953125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -138.28125, y: -26.953125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -145.3125, y: 26.953125, z: 0}
+    - serializedVersion: 2
+      pos: {x: -145.3125, y: -10.546875, z: 0}
+    indices: 060005000400030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.07611847
+      y: 0.042907715
+      width: 82.847755
+      height: 35.880974
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.42666668, y: 62, z: 0.42666668, w: 24.5}

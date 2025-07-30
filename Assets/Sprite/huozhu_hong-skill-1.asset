@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: huozhu_hong-skill-1
+  m_Rect:
+    serializedVersion: 2
+    x: 67
+    y: 179
+    width: 60
+    height: 178
+  m_Offset: {x: 0, y: -89}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 456d59c4e3f777545b8149335b394c55, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -29, y: 178, z: 0}
+    - serializedVersion: 2
+      pos: {x: -30, y: 178, z: 0}
+    - serializedVersion: 2
+      pos: {x: -29, y: 168, z: 0}
+    - serializedVersion: 2
+      pos: {x: 20, y: 73, z: 0}
+    - serializedVersion: 2
+      pos: {x: 20, y: 69, z: 0}
+    - serializedVersion: 2
+      pos: {x: 22, y: 68, z: 0}
+    - serializedVersion: 2
+      pos: {x: 17, y: 80, z: 0}
+    - serializedVersion: 2
+      pos: {x: 17, y: 66, z: 0}
+    - serializedVersion: 2
+      pos: {x: 30, y: 178, z: 0}
+    - serializedVersion: 2
+      pos: {x: 26, y: 136, z: 0}
+    - serializedVersion: 2
+      pos: {x: 30, y: 132, z: 0}
+    - serializedVersion: 2
+      pos: {x: 20, y: 137, z: 0}
+    - serializedVersion: 2
+      pos: {x: 17, y: 133, z: 0}
+    - serializedVersion: 2
+      pos: {x: 17, y: 83, z: 0}
+    - serializedVersion: 2
+      pos: {x: 17, y: 123, z: 0}
+    - serializedVersion: 2
+      pos: {x: 17, y: 65, z: 0}
+    - serializedVersion: 2
+      pos: {x: 13, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: -9, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: -13, y: 1, z: 0}
+    - serializedVersion: 2
+      pos: {x: -18, y: 178, z: 0}
+    - serializedVersion: 2
+      pos: {x: -18, y: 163, z: 0}
+    - serializedVersion: 2
+      pos: {x: -21, y: 163, z: 0}
+    - serializedVersion: 2
+      pos: {x: -30, y: 12, z: 0}
+    - serializedVersion: 2
+      pos: {x: 30, y: 122, z: 0}
+    - serializedVersion: 2
+      pos: {x: 26, y: 119, z: 0}
+    - serializedVersion: 2
+      pos: {x: 23, y: 119, z: 0}
+    - serializedVersion: 2
+      pos: {x: 27, y: 86, z: 0}
+    - serializedVersion: 2
+      pos: {x: 30, y: 85, z: 0}
+    - serializedVersion: 2
+      pos: {x: 20, y: 86, z: 0}
+    - serializedVersion: 2
+      pos: {x: 30, y: 68, z: 0}
+    - serializedVersion: 2
+      pos: {x: 23, y: 68, z: 0}
+    - serializedVersion: 2
+      pos: {x: 30, y: 23, z: 0}
+    - serializedVersion: 2
+      pos: {x: 23, y: 66, z: 0}
+    - serializedVersion: 2
+      pos: {x: 20, y: 63, z: 0}
+    - serializedVersion: 2
+      pos: {x: 19, y: 63, z: 0}
+    - serializedVersion: 2
+      pos: {x: 22, y: 68, z: 0}
+    indices: 020000001500130015000000140015001300230005001e000f00070022000400220007002100220004002000210004002300200004000500230004001e002000230010000f001f0022001f000f0021001f00220020001f0021001e001f0020001d001f001e0006000d0003001c0003000d00050003001c001a0005001c001e0005001a001d001e001a001b001d001a000d000e001c0019001c000e001a001c00190018001a00190017001a0018001b001a0017000e000c0019000b0019000c00090019000b001800190009001700180009000a00170009001600010012000200120001001500120002001400120015001300120014000c001200130008000c001300110012000c00100011000c000f0010000c0007000f000c00060007000c000d0006000c000e000d000c000b000c00080009000b0008000a0009000800070006000400030004000600050004000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 67
+      y: 179
+      width: 60
+      height: 178
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 97, z: 1, w: 179}

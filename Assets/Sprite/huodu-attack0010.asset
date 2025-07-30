@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: huodu-attack0010
+  m_Rect:
+    serializedVersion: 2
+    x: 243.07613
+    y: 363.0761
+    width: 146.84776
+    height: 111.91097
+  m_Offset: {x: -91.50001, y: -30.031607}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: ee428648b9cf9db40bd845d4fe8c2e6f, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 165, y: 77, z: 0}
+    - serializedVersion: 2
+      pos: {x: 162, y: 30, z: 0}
+    - serializedVersion: 2
+      pos: {x: 165, y: 36, z: 0}
+    - serializedVersion: 2
+      pos: {x: 147, y: 86, z: 0}
+    - serializedVersion: 2
+      pos: {x: 121, y: 7, z: 0}
+    - serializedVersion: 2
+      pos: {x: 116, y: 9, z: 0}
+    - serializedVersion: 2
+      pos: {x: 62, y: 60, z: 0}
+    - serializedVersion: 2
+      pos: {x: 52, y: 86, z: 0}
+    - serializedVersion: 2
+      pos: {x: 49, y: 66, z: 0}
+    - serializedVersion: 2
+      pos: {x: 48, y: 78, z: 0}
+    - serializedVersion: 2
+      pos: {x: 130, y: -26, z: 0}
+    - serializedVersion: 2
+      pos: {x: 130, y: -21, z: 0}
+    - serializedVersion: 2
+      pos: {x: 60, y: -26, z: 0}
+    - serializedVersion: 2
+      pos: {x: 18, y: 44, z: 0}
+    - serializedVersion: 2
+      pos: {x: 18, y: 11, z: 0}
+    indices: 0e000d000c0006000c000d000a000c00060005000a0006000b000a000500090007000800060008000700030006000700050006000300040005000300010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 243.07613
+      y: 363.0761
+      width: 146.84776
+      height: 111.91097
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 225, z: 1, w: 389}

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: gunzi-skill-7
+  m_Rect:
+    serializedVersion: 2
+    x: 0.011117935
+    y: 676.0761
+    width: 203.97597
+    height: 119.89713
+  m_Offset: {x: -0.35910225, y: 12.145315}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.73
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: b95f696785188f946bc41e0b196a96c5, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 97.41096, y: 65.520546, z: 0}
+    - serializedVersion: 2
+      pos: {x: 139.87671, y: -52.287666, z: 0}
+    - serializedVersion: 2
+      pos: {x: 139.87671, y: 25.794523, z: 0}
+    - serializedVersion: 2
+      pos: {x: 93.30137, y: -98.86301, z: 0}
+    - serializedVersion: 2
+      pos: {x: -47.794518, y: -98.86301, z: 0}
+    - serializedVersion: 2
+      pos: {x: -69.712326, y: 65.520546, z: 0}
+    - serializedVersion: 2
+      pos: {x: -99.84931, y: -93.38356, z: 0}
+    - serializedVersion: 2
+      pos: {x: -128.61644, y: 54.561646, z: 0}
+    - serializedVersion: 2
+      pos: {x: -139.57533, y: 34.0137, z: 0}
+    - serializedVersion: 2
+      pos: {x: -139.57533, y: -35.84931, z: 0}
+    indices: 090008000600070006000800050006000700040006000500000004000500030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.011117935
+      y: 676.0761
+      width: 203.97597
+      height: 119.89713
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.73, y: 101.89, z: 0.73, w: 748.17}

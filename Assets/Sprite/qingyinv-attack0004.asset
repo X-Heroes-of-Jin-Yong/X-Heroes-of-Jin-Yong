@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: qingyinv-attack0004
+  m_Rect:
+    serializedVersion: 2
+    x: 66.07612
+    y: 264.0761
+    width: 71.847755
+    height: 135.84775
+  m_Offset: {x: 19.000004, y: -61.999992}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 92bfb9dc10c816e47a3f4c4547df86d0, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -22, y: 130, z: 0}
+    - serializedVersion: 2
+      pos: {x: 17, y: -6, z: 0}
+    - serializedVersion: 2
+      pos: {x: 17, y: 99, z: 0}
+    - serializedVersion: 2
+      pos: {x: -55, y: 130, z: 0}
+    - serializedVersion: 2
+      pos: {x: -55, y: -6, z: 0}
+    indices: 040003000100000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 66.07612
+      y: 264.0761
+      width: 71.847755
+      height: 135.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 121, z: 1, w: 270}

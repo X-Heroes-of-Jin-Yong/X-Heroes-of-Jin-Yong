@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: aoyi_laolong-skill-0
+  m_Rect:
+    serializedVersion: 2
+    x: 516
+    y: 198
+    width: 146
+    height: 256
+  m_Offset: {x: -0.7991998, y: -109.818375}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.63203466
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 16e678764079fee478eabc9ab76e9f6a, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 116.76449, y: 375.75372, z: 0}
+    - serializedVersion: 2
+      pos: {x: 110.43572, y: 13.431814, z: 0}
+    - serializedVersion: 2
+      pos: {x: 116.76449, y: 46.65784, z: 0}
+    - serializedVersion: 2
+      pos: {x: 94.6138, y: -15.047636, z: 0}
+    - serializedVersion: 2
+      pos: {x: 81.95627, y: -29.287361, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.8998927, y: -29.287361, z: 0}
+    - serializedVersion: 2
+      pos: {x: -90.50263, y: -24.540787, z: 0}
+    - serializedVersion: 2
+      pos: {x: -98.41359, y: -16.629827, z: 0}
+    - serializedVersion: 2
+      pos: {x: -103.160164, y: -5.5544863, z: 0}
+    - serializedVersion: 2
+      pos: {x: -104.742355, y: -0.807911, z: 0}
+    - serializedVersion: 2
+      pos: {x: -111.07112, y: 26.089348, z: 0}
+    - serializedVersion: 2
+      pos: {x: -114.235504, y: 375.75372, z: 0}
+    - serializedVersion: 2
+      pos: {x: -114.235504, y: 114.692085, z: 0}
+    indices: 0c000b000a0000000a000b0009000a000000080009000000070008000000060007000000050006000000040005000000030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 516
+      y: 198
+      width: 146
+      height: 256
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.63203466, y: 588.2008, z: 0.63203466, w: 216.51062}

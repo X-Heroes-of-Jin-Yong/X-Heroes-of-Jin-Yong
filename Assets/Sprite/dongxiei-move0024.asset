@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: dongxiei-move0024
+  m_Rect:
+    serializedVersion: 2
+    x: 638.0761
+    y: 160.02675
+    width: 111.847755
+    height: 144.9465
+  m_Offset: {x: 3.800008, y: -64.40001}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 0d5ee43f09d03c140b5c15c84a40aa5d, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 52.199997, y: 44.9, z: 0}
+    - serializedVersion: 2
+      pos: {x: 49.199997, y: -3.0999985, z: 0}
+    - serializedVersion: 2
+      pos: {x: 52.199997, y: 15.900002, z: 0}
+    - serializedVersion: 2
+      pos: {x: 13.199997, y: 136.9, z: 0}
+    - serializedVersion: 2
+      pos: {x: -13.800003, y: 136.9, z: 0}
+    - serializedVersion: 2
+      pos: {x: -14.800003, y: -8.099998, z: 0}
+    - serializedVersion: 2
+      pos: {x: -32.800003, y: -8.099998, z: 0}
+    - serializedVersion: 2
+      pos: {x: -44.800003, y: 88.9, z: 0}
+    - serializedVersion: 2
+      pos: {x: -54.800003, y: -2.0999985, z: 0}
+    - serializedVersion: 2
+      pos: {x: -59.800003, y: 28.900002, z: 0}
+    - serializedVersion: 2
+      pos: {x: -59.800003, y: 1.9000015, z: 0}
+    indices: 0a0009000800070008000900060008000700040006000700050006000400010005000400030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 638.0761
+      y: 160.02675
+      width: 111.847755
+      height: 144.9465
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 697.8, z: 1, w: 168.1}

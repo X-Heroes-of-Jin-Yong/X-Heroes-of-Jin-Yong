@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: foxiang-skill-3
+  m_Rect:
+    serializedVersion: 2
+    x: 202.0477
+    y: 191.07613
+    width: 224.87617
+    height: 188.84775
+  m_Offset: {x: 4.514207, y: -60.659992}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.512
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 96d0d7924a3f2df42b54101261e3d0f1, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 193.35936, y: 109.6875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 210.93748, y: 10.078132, z: 0}
+    - serializedVersion: 2
+      pos: {x: 210.93748, y: 86.25, z: 0}
+    - serializedVersion: 2
+      pos: {x: 173.82811, y: 127.265625, z: 0}
+    - serializedVersion: 2
+      pos: {x: 164.06248, y: -62.18749, z: 0}
+    - serializedVersion: 2
+      pos: {x: 162.10936, y: 234.6875, z: 0}
+    - serializedVersion: 2
+      pos: {x: 162.10936, y: -66.09374, z: 0}
+    - serializedVersion: 2
+      pos: {x: 111.32812, y: 303.04688, z: 0}
+    - serializedVersion: 2
+      pos: {x: -119.14062, y: 303.04688, z: 0}
+    - serializedVersion: 2
+      pos: {x: -148.4375, y: 236.64062, z: 0}
+    - serializedVersion: 2
+      pos: {x: -199.21873, y: -66.09374, z: 0}
+    - serializedVersion: 2
+      pos: {x: -228.51561, y: 92.109375, z: 0}
+    - serializedVersion: 2
+      pos: {x: -228.51561, y: 4.218757, z: 0}
+    indices: 0c000b000a0009000a000b0006000a000900080006000900070006000800050006000700040006000500030004000500010004000300000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 202.0477
+      y: 191.07613
+      width: 224.87617
+      height: 188.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.512, y: 319, z: 0.512, w: 224.84}

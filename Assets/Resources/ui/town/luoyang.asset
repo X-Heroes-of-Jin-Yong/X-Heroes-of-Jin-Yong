@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: luoyang
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 154
+    height: 144
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 100
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: e94e08f45976cd342a2c4b56291b79d8, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.2, y: 0.72, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.77, y: 0.03, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.77, y: 0.72, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.15, y: -0.72, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.04, y: 0.67, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.13, y: -0.72, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.67, y: -0.6, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.77, y: -0.18, z: 0}
+    - serializedVersion: 2
+      pos: {x: -0.77, y: -0.42, z: 0}
+    indices: 080007000600040006000700050006000400030005000400000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 154
+      height: 144
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 100, y: 77, z: 100, w: 72}

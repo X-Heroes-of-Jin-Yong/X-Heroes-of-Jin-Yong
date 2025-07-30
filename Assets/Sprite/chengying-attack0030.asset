@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: chengying-attack0030
+  m_Rect:
+    serializedVersion: 2
+    x: 411.02673
+    y: 140.07613
+    width: 155.89713
+    height: 119.84775
+  m_Offset: {x: -17.97531, y: -54.89999}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: f0bfd0c0932494c469b5b9a2317e02e6, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 67, y: 114.899994, z: 0}
+    - serializedVersion: 2
+      pos: {x: 96, y: 25.899994, z: 0}
+    - serializedVersion: 2
+      pos: {x: 96, y: 90.899994, z: 0}
+    - serializedVersion: 2
+      pos: {x: 51, y: -2.100006, z: 0}
+    - serializedVersion: 2
+      pos: {x: 48, y: 0.8999939, z: 0}
+    - serializedVersion: 2
+      pos: {x: 43, y: 4.899994, z: 0}
+    - serializedVersion: 2
+      pos: {x: -16, y: 114.899994, z: 0}
+    - serializedVersion: 2
+      pos: {x: 47, y: 0.8999939, z: 0}
+    - serializedVersion: 2
+      pos: {x: 45, y: -5.100006, z: 0}
+    - serializedVersion: 2
+      pos: {x: 47, y: -3.100006, z: 0}
+    - serializedVersion: 2
+      pos: {x: -34, y: -5.100006, z: 0}
+    - serializedVersion: 2
+      pos: {x: -35, y: 47.899994, z: 0}
+    - serializedVersion: 2
+      pos: {x: -36, y: 81.899994, z: 0}
+    - serializedVersion: 2
+      pos: {x: -37, y: 49.899994, z: 0}
+    - serializedVersion: 2
+      pos: {x: -60, y: 40.899994, z: 0}
+    - serializedVersion: 2
+      pos: {x: -60, y: 21.899994, z: 0}
+    indices: 0f000e000a000b000a000e000d000c000b0006000b000c000a000b00060008000a000600050008000600070008000500090008000700060000000500040005000000030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 411.02673
+      y: 140.07613
+      width: 155.89713
+      height: 119.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 471, z: 1, w: 145.1}

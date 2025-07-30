@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: hit-skill-1
+  m_Rect:
+    serializedVersion: 2
+    x: 171.10889
+    y: 0.01291275
+    width: 148.81499
+    height: 197.91096
+  m_Offset: {x: 41.72362, y: -76.30416}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.93430656
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 1fdf81c9eef118a4d9ee3d38ae67fe03, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 31.852495, y: 157.51172, z: 0}
+    - serializedVersion: 2
+      pos: {x: 35.06343, y: 36.566406, z: 0}
+    - serializedVersion: 2
+      pos: {x: 35.06343, y: 140.38672, z: 0}
+    - serializedVersion: 2
+      pos: {x: 29.71187, y: 5.527344, z: 0}
+    - serializedVersion: 2
+      pos: {x: 12.586869, y: -13.73828, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.3271934, y: -24.441406, z: 0}
+    - serializedVersion: 2
+      pos: {x: -7.7490683, y: -24.441406, z: 0}
+    - serializedVersion: 2
+      pos: {x: -8.819381, y: -23.371094, z: 0}
+    - serializedVersion: 2
+      pos: {x: -25.944382, y: 187.48047, z: 0}
+    - serializedVersion: 2
+      pos: {x: -85.88188, y: 187.48047, z: 0}
+    - serializedVersion: 2
+      pos: {x: -99.795944, y: 171.42578, z: 0}
+    - serializedVersion: 2
+      pos: {x: -122.27251, y: 124.33203, z: 0}
+    - serializedVersion: 2
+      pos: {x: -124.41313, y: 113.62891, z: 0}
+    - serializedVersion: 2
+      pos: {x: -124.41313, y: 49.410156, z: 0}
+    indices: 0d000c0007000b0007000c000a0007000b00090007000a00080007000900000007000800060007000000050006000000040005000000030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 171.10889
+      y: 0.01291275
+      width: 148.81499
+      height: 197.91096
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.93430656, y: 287.24, z: 0.93430656, w: 22.835766}

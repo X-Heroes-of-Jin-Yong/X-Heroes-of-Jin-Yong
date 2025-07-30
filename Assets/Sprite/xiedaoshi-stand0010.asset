@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: xiedaoshi-stand0010
+  m_Rect:
+    serializedVersion: 2
+    x: 163.07611
+    y: 130.04291
+    width: 160.91098
+    height: 127.88097
+  m_Offset: {x: -48.531612, y: -58.98339}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 5343edc59b5bb6f4a89cca916f67d14c, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 32, y: 123, z: 0}
+    - serializedVersion: 2
+      pos: {x: 129, y: 71, z: 0}
+    - serializedVersion: 2
+      pos: {x: 129, y: 78, z: 0}
+    - serializedVersion: 2
+      pos: {x: 23, y: -5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -8, y: -5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -10, y: 123, z: 0}
+    - serializedVersion: 2
+      pos: {x: -32, y: 107, z: 0}
+    - serializedVersion: 2
+      pos: {x: -32, y: 13, z: 0}
+    indices: 070006000400050004000600000004000500030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 163.07611
+      y: 130.04291
+      width: 160.91098
+      height: 127.88097
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 195, z: 1, w: 135}

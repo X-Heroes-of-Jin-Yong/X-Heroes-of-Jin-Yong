@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: gaosheng-move0012
+  m_Rect:
+    serializedVersion: 2
+    x: 444.0129
+    y: 128.02675
+    width: 46.910965
+    height: 125.93976
+  m_Offset: {x: 2.5316076, y: -65.99663}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: fc37c31fa3ba1254a81bbfd663ec00a2, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 21, y: 84, z: 0}
+    - serializedVersion: 2
+      pos: {x: 11, y: 3, z: 0}
+    - serializedVersion: 2
+      pos: {x: 21, y: 29, z: 0}
+    - serializedVersion: 2
+      pos: {x: 10, y: 129, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0, y: 129, z: 0}
+    - serializedVersion: 2
+      pos: {x: -12, y: 124, z: 0}
+    - serializedVersion: 2
+      pos: {x: -24, y: 69, z: 0}
+    - serializedVersion: 2
+      pos: {x: -26, y: 17, z: 0}
+    - serializedVersion: 2
+      pos: {x: -26, y: 3, z: 0}
+    indices: 080007000100060001000700050001000600040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 444.0129
+      y: 128.02675
+      width: 46.910965
+      height: 125.93976
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 470, z: 1, w: 125}

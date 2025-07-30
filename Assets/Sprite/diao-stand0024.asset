@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: diao-stand0024
+  m_Rect:
+    serializedVersion: 2
+    x: 349.0129
+    y: 119
+    width: 98.94418
+    height: 131.88167
+  m_Offset: {x: 29.515, y: -17.940832}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: d333b8d522304df4781203583c8065e2, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -35, y: -44, z: 0}
+    - serializedVersion: 2
+      pos: {x: -33, y: -48, z: 0}
+    - serializedVersion: 2
+      pos: {x: -33, y: -46, z: 0}
+    - serializedVersion: 2
+      pos: {x: -37, y: -44, z: 0}
+    - serializedVersion: 2
+      pos: {x: -39, y: -46, z: 0}
+    - serializedVersion: 2
+      pos: {x: -39, y: -48, z: 0}
+    - serializedVersion: 2
+      pos: {x: 19, y: 68, z: 0}
+    - serializedVersion: 2
+      pos: {x: 20, y: 56, z: 0}
+    - serializedVersion: 2
+      pos: {x: 20, y: 63, z: 0}
+    - serializedVersion: 2
+      pos: {x: 14, y: 84, z: 0}
+    - serializedVersion: 2
+      pos: {x: -25, y: -35, z: 0}
+    - serializedVersion: 2
+      pos: {x: -38, y: 84, z: 0}
+    - serializedVersion: 2
+      pos: {x: -55, y: 80, z: 0}
+    - serializedVersion: 2
+      pos: {x: -76, y: -35, z: 0}
+    - serializedVersion: 2
+      pos: {x: -79, y: 9, z: 0}
+    - serializedVersion: 2
+      pos: {x: -79, y: -22, z: 0}
+    indices: 0f000e000d000c000d000e000a000d000c000b000a000c0009000a000b0007000a000900060007000900080007000600050004000100030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 349.0129
+      y: 119
+      width: 98.94418
+      height: 131.88167
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 428, z: 1, w: 167}

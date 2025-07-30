@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: long3-skill-5
+  m_Rect:
+    serializedVersion: 2
+    x: 285.02676
+    y: 239
+    width: 144.92361
+    height: 250.9665
+  m_Offset: {x: 4.9277196, y: -84.01847}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.64
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: aa2ebf801763a49459830702424bb4de, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -72.52543, y: 246.14879, z: 0}
+    - serializedVersion: 2
+      pos: {x: -105.33793, y: 86.77378, z: 0}
+    - serializedVersion: 2
+      pos: {x: -86.58793, y: 86.77378, z: 0}
+    - serializedVersion: 2
+      pos: {x: -114.71293, y: 83.64878, z: 0}
+    - serializedVersion: 2
+      pos: {x: -119.40043, y: 68.02378, z: 0}
+    - serializedVersion: 2
+      pos: {x: -120.96293, y: 100.83628, z: 0}
+    - serializedVersion: 2
+      pos: {x: -119.40043, y: 55.523777, z: 0}
+    - serializedVersion: 2
+      pos: {x: 21.224571, y: 327.39877, z: 0}
+    - serializedVersion: 2
+      pos: {x: 105.59957, y: -64.78873, z: 0}
+    - serializedVersion: 2
+      pos: {x: 105.59957, y: 139.89877, z: 0}
+    - serializedVersion: 2
+      pos: {x: -13.15043, y: 327.39877, z: 0}
+    - serializedVersion: 2
+      pos: {x: -38.15043, y: 299.27377, z: 0}
+    - serializedVersion: 2
+      pos: {x: -86.58793, y: 57.086277, z: 0}
+    - serializedVersion: 2
+      pos: {x: -88.15043, y: -64.78873, z: 0}
+    - serializedVersion: 2
+      pos: {x: -89.71293, y: 47.711277, z: 0}
+    - serializedVersion: 2
+      pos: {x: -99.08793, y: 44.586277, z: 0}
+    - serializedVersion: 2
+      pos: {x: -114.71293, y: 44.586277, z: 0}
+    - serializedVersion: 2
+      pos: {x: -116.27543, y: 46.148777, z: 0}
+    - serializedVersion: 2
+      pos: {x: -120.96293, y: -49.163723, z: 0}
+    indices: 0600040011000300110004001000110003000f001000030001000f00030002000f0001000e000f0002000c000e0002000500060012000d001200060011000d00060010000d0011000f000d0010000e000d000f000c000d000e0008000d000c00020008000c000000080002000b00080000000a0008000b00070008000a00090008000700000004000500060005000400030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 285.02676
+      y: 239
+      width: 144.92361
+      height: 250.9665
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.64, y: 362.41626, z: 0.64, w: 280.46478}

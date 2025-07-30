@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: tianboguang
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 128
+    height: 128
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 7123af30ccbcf9747b462321dfa0d71b, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 16, y: 64, z: 0}
+    - serializedVersion: 2
+      pos: {x: -30, y: -19, z: 0}
+    - serializedVersion: 2
+      pos: {x: -26, y: -17, z: 0}
+    - serializedVersion: 2
+      pos: {x: -33, y: -22, z: 0}
+    - serializedVersion: 2
+      pos: {x: -38, y: 64, z: 0}
+    - serializedVersion: 2
+      pos: {x: -38, y: -26, z: 0}
+    - serializedVersion: 2
+      pos: {x: -43, y: 63, z: 0}
+    - serializedVersion: 2
+      pos: {x: -50, y: -27, z: 0}
+    - serializedVersion: 2
+      pos: {x: -63, y: 3, z: 0}
+    - serializedVersion: 2
+      pos: {x: 64, y: 17, z: 0}
+    - serializedVersion: 2
+      pos: {x: 62, y: -64, z: 0}
+    - serializedVersion: 2
+      pos: {x: 64, y: -62, z: 0}
+    - serializedVersion: 2
+      pos: {x: -35, y: -26, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40, y: -27, z: 0}
+    - serializedVersion: 2
+      pos: {x: -52, y: -31, z: 0}
+    - serializedVersion: 2
+      pos: {x: -63, y: -64, z: 0}
+    - serializedVersion: 2
+      pos: {x: -64, y: -38, z: 0}
+    - serializedVersion: 2
+      pos: {x: -64, y: -63, z: 0}
+    indices: 110010000f000e000f0010000a000f000e000d000a000e000c000a000d0002000a000c0000000a00020009000a0000000b000a000900080006000700050007000600040005000600030005000400000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 128
+      height: 128
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 64
+    uvTransform: {x: 1, y: 64, z: 1, w: 64}

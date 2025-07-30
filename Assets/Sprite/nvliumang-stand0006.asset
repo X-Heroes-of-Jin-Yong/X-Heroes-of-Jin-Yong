@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: nvliumang-stand0006
+  m_Rect:
+    serializedVersion: 2
+    x: 243.07611
+    y: 0.026752472
+    width: 54.887596
+    height: 117.93034
+  m_Offset: {x: -3.5199158, y: -58.991924}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: ca8a70160a286f24b91acffbe04b1ed6, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 16, y: 118, z: 0}
+    - serializedVersion: 2
+      pos: {x: 31, y: 0, z: 0}
+    - serializedVersion: 2
+      pos: {x: 31, y: 99, z: 0}
+    - serializedVersion: 2
+      pos: {x: -24, y: 118, z: 0}
+    - serializedVersion: 2
+      pos: {x: -24, y: 0, z: 0}
+    indices: 040003000100000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 243.07611
+      y: 0.026752472
+      width: 54.887596
+      height: 117.93034
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 267, z: 1, w: 0}

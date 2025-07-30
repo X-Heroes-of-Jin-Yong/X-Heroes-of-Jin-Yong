@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: caoyuan-be0006
+  m_Rect:
+    serializedVersion: 2
+    x: 505.0761
+    y: 0.042907715
+    width: 92.89713
+    height: 127.93034
+  m_Offset: {x: 10.475314, y: -56.00808}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 02f9cad659db67f4c9d071262afed6e8, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -26, y: 120, z: 0}
+    - serializedVersion: 2
+      pos: {x: -35, y: 72, z: 0}
+    - serializedVersion: 2
+      pos: {x: -34, y: 77, z: 0}
+    - serializedVersion: 2
+      pos: {x: -37, y: 62, z: 0}
+    - serializedVersion: 2
+      pos: {x: -35, y: 66, z: 0}
+    - serializedVersion: 2
+      pos: {x: -46, y: 61, z: 0}
+    - serializedVersion: 2
+      pos: {x: -57, y: 96, z: 0}
+    - serializedVersion: 2
+      pos: {x: -57, y: 72, z: 0}
+    - serializedVersion: 2
+      pos: {x: 16, y: 100, z: 0}
+    - serializedVersion: 2
+      pos: {x: 36, y: -8, z: 0}
+    - serializedVersion: 2
+      pos: {x: 36, y: 31, z: 0}
+    - serializedVersion: 2
+      pos: {x: -6, y: 120, z: 0}
+    - serializedVersion: 2
+      pos: {x: -36, y: 54, z: 0}
+    - serializedVersion: 2
+      pos: {x: -57, y: 25, z: 0}
+    - serializedVersion: 2
+      pos: {x: -57, y: -8, z: 0}
+    indices: 0e000d0009000c0009000d00020009000c000000090002000b0009000000080009000b000a0009000800070006000500000005000600030005000000010003000000040003000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 505.0761
+      y: 0.042907715
+      width: 92.89713
+      height: 127.93034
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 562, z: 1, w: 8}

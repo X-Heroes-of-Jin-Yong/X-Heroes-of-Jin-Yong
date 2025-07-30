@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: guoxiang-be0000
+  m_Rect:
+    serializedVersion: 2
+    x: 76.04291
+    y: 0.024772644
+    width: 71.88097
+    height: 90.892815
+  m_Offset: {x: -11.983391, y: -39.37118}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: c05dd6e3a18fa84498523b92181c012a, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 48, y: 9.900002, z: 0}
+    - serializedVersion: 2
+      pos: {x: 46, y: -6.0999985, z: 0}
+    - serializedVersion: 2
+      pos: {x: 48, y: -2.0999985, z: 0}
+    - serializedVersion: 2
+      pos: {x: 39, y: 57.9, z: 0}
+    - serializedVersion: 2
+      pos: {x: 36, y: 59.9, z: 0}
+    - serializedVersion: 2
+      pos: {x: 8, y: 83.9, z: 0}
+    - serializedVersion: 2
+      pos: {x: -7, y: 84.9, z: 0}
+    - serializedVersion: 2
+      pos: {x: -20, y: -6.0999985, z: 0}
+    - serializedVersion: 2
+      pos: {x: -24, y: 84.9, z: 0}
+    - serializedVersion: 2
+      pos: {x: -24, y: 31.900002, z: 0}
+    indices: 090008000700060007000800010007000600050001000600040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 76.04291
+      y: 0.024772644
+      width: 71.88097
+      height: 90.892815
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 100, z: 1, w: 6.0999985}

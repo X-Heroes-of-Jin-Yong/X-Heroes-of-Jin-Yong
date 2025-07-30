@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: baiyinvxia-stand0006
+  m_Rect:
+    serializedVersion: 2
+    x: 74.01291
+    y: 122.076126
+    width: 71.910965
+    height: 119.84775
+  m_Offset: {x: -7.9683905, y: -55.999996}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 7ef711107ff7aa341817bd4fefc8d623, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 41, y: 62, z: 0}
+    - serializedVersion: 2
+      pos: {x: 24, y: 55, z: 0}
+    - serializedVersion: 2
+      pos: {x: 31, y: 54, z: 0}
+    - serializedVersion: 2
+      pos: {x: 21, y: 57, z: 0}
+    - serializedVersion: 2
+      pos: {x: 14, y: 72, z: 0}
+    - serializedVersion: 2
+      pos: {x: 9, y: 116, z: 0}
+    - serializedVersion: 2
+      pos: {x: 24, y: 54, z: 0}
+    - serializedVersion: 2
+      pos: {x: 44, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: 44, y: 28, z: 0}
+    - serializedVersion: 2
+      pos: {x: 20, y: 57, z: 0}
+    - serializedVersion: 2
+      pos: {x: -5, y: 116, z: 0}
+    - serializedVersion: 2
+      pos: {x: -23, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: -27, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: -28, y: 103, z: 0}
+    - serializedVersion: 2
+      pos: {x: -28, y: 4, z: 0}
+    - serializedVersion: 2
+      pos: {x: 20, y: 59, z: 0}
+    indices: 090004000f000e000d000c000a000c000d000b000c000a0007000b000a00040007000a00050004000a00090007000400060007000900080007000600050000000400030004000000010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 74.01291
+      y: 122.076126
+      width: 71.910965
+      height: 119.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 102, z: 1, w: 126}

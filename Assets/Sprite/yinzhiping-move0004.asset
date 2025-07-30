@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: yinzhiping-move0004
+  m_Rect:
+    serializedVersion: 2
+    x: 96.05763
+    y: 141.07613
+    width: 88.86624
+    height: 137.87256
+  m_Offset: {x: -4.490754, y: -63.0124}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: e0af2edce5fb41642a0513792c8dddc3, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 49, y: 78, z: 0}
+    - serializedVersion: 2
+      pos: {x: 41, y: 16, z: 0}
+    - serializedVersion: 2
+      pos: {x: 49, y: 45, z: 0}
+    - serializedVersion: 2
+      pos: {x: 34, y: 2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 41, y: 11, z: 0}
+    - serializedVersion: 2
+      pos: {x: 19, y: 131, z: 0}
+    - serializedVersion: 2
+      pos: {x: 39, y: -6, z: 0}
+    - serializedVersion: 2
+      pos: {x: 37, y: 1, z: 0}
+    - serializedVersion: 2
+      pos: {x: 17, y: 132, z: 0}
+    - serializedVersion: 2
+      pos: {x: 5, y: 132, z: 0}
+    - serializedVersion: 2
+      pos: {x: -19, y: 113, z: 0}
+    - serializedVersion: 2
+      pos: {x: -25, y: -6, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40, y: 73, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40, y: -1, z: 0}
+    indices: 0d000c000b000a000b000c0003000b000a0006000b000300090003000a00080003000900050003000800070006000300050000000300010003000000040003000100020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 96.05763
+      y: 141.07613
+      width: 88.86624
+      height: 137.87256
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 136, z: 1, w: 147}

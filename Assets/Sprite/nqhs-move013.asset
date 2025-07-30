@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: nqhs-move013
+  m_Rect:
+    serializedVersion: 2
+    x: 69.04291
+    y: 0.076122284
+    width: 78.92081
+    height: 112.91275
+  m_Offset: {x: 1.4966866, y: -54.532497}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: b1cf528cf914a25439aab91b193d51b7, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 27, y: 111, z: 0}
+    - serializedVersion: 2
+      pos: {x: 38, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: 38, y: 64, z: 0}
+    - serializedVersion: 2
+      pos: {x: -3, y: 111, z: 0}
+    - serializedVersion: 2
+      pos: {x: -8, y: 104, z: 0}
+    - serializedVersion: 2
+      pos: {x: -17, y: 65, z: 0}
+    - serializedVersion: 2
+      pos: {x: -19, y: -2, z: 0}
+    - serializedVersion: 2
+      pos: {x: -36, y: 3, z: 0}
+    - serializedVersion: 2
+      pos: {x: -41, y: 26, z: 0}
+    - serializedVersion: 2
+      pos: {x: -41, y: 18, z: 0}
+    indices: 090008000700050007000800060007000500010006000500040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 69.04291
+      y: 0.076122284
+      width: 78.92081
+      height: 112.91275
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 110, z: 1, w: 2}

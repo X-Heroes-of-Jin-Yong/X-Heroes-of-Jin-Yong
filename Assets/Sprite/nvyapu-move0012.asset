@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: nvyapu-move0012
+  m_Rect:
+    serializedVersion: 2
+    x: 106.02042
+    y: 348.0761
+    width: 43.903458
+    height: 120.897125
+  m_Offset: {x: -6.9721456, y: -55.524685}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: e92f7b8d540a00d4598b1e088f99e245, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 5, y: 116, z: 0}
+    - serializedVersion: 2
+      pos: {x: 29, y: -5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 29, y: 116, z: 0}
+    - serializedVersion: 2
+      pos: {x: -15, y: 99, z: 0}
+    - serializedVersion: 2
+      pos: {x: -15, y: -5, z: 0}
+    indices: 040003000100000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 106.02042
+      y: 348.0761
+      width: 43.903458
+      height: 120.897125
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 121, z: 1, w: 353}

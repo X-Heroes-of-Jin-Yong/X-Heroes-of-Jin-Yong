@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: taiji_blue-skill-8
+  m_Rect:
+    serializedVersion: 2
+    x: 468
+    y: 260
+    width: 114.97325
+    height: 128
+  m_Offset: {x: -2.8616266, y: -32.055557}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.6388889
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 175fec3cb8a39ba4ab060241690ef2d1, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 94.5, y: 35.91304, z: 0}
+    - serializedVersion: 2
+      pos: {x: 83.54348, y: -42.347828, z: 0}
+    - serializedVersion: 2
+      pos: {x: 94.5, y: -26.695654, z: 0}
+    - serializedVersion: 2
+      pos: {x: 53.804348, y: -50.173916, z: 0}
+    - serializedVersion: 2
+      pos: {x: 49.108696, y: 142.34782, z: 0}
+    - serializedVersion: 2
+      pos: {x: 25.630434, y: 150.1739, z: 0}
+    - serializedVersion: 2
+      pos: {x: -38.543476, y: 150.1739, z: 0}
+    - serializedVersion: 2
+      pos: {x: -58.891304, y: -50.173916, z: 0}
+    - serializedVersion: 2
+      pos: {x: -79.23913, y: 9.304345, z: 0}
+    - serializedVersion: 2
+      pos: {x: -80.804344, y: 13.999997, z: 0}
+    - serializedVersion: 2
+      pos: {x: -85.5, y: 9.304345, z: 0}
+    - serializedVersion: 2
+      pos: {x: -85.5, y: -28.260872, z: 0}
+    indices: 0b000a000700080007000a00090006000800070008000600030007000600050003000600040003000500000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 468
+      y: 260
+      width: 114.97325
+      height: 128
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.6388889, y: 522.625, z: 0.6388889, w: 292.05554}

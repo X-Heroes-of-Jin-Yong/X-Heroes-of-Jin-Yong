@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: guojing-be0000
+  m_Rect:
+    serializedVersion: 2
+    x: 548.0761
+    y: 242.04291
+    width: 107.89039
+    height: 117.94418
+  m_Offset: {x: -19.021313, y: -55.015}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 71de361663daf22499df75c4653e252c, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 65, y: 79, z: 0}
+    - serializedVersion: 2
+      pos: {x: 73, y: -4, z: 0}
+    - serializedVersion: 2
+      pos: {x: 73, y: 50, z: 0}
+    - serializedVersion: 2
+      pos: {x: 14, y: 108, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3, y: 114, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1, y: 114, z: 0}
+    - serializedVersion: 2
+      pos: {x: -24, y: 96, z: 0}
+    - serializedVersion: 2
+      pos: {x: -35, y: 68, z: 0}
+    - serializedVersion: 2
+      pos: {x: -35, y: -4, z: 0}
+    indices: 080007000100060001000700050001000600040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 548.0761
+      y: 242.04291
+      width: 107.89039
+      height: 117.94418
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 583, z: 1, w: 246}

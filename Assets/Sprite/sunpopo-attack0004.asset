@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: sunpopo-attack0004
+  m_Rect:
+    serializedVersion: 2
+    x: 254.07611
+    y: 320
+    width: 116.887596
+    height: 92.923874
+  m_Offset: {x: 7.480083, y: -35.461937}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: cf42b563cfeec8b44833979bfef4cc0c, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: -25, y: 82, z: 0}
+    - serializedVersion: 2
+      pos: {x: -39, y: 20, z: 0}
+    - serializedVersion: 2
+      pos: {x: -25, y: 28, z: 0}
+    - serializedVersion: 2
+      pos: {x: -64, y: 39, z: 0}
+    - serializedVersion: 2
+      pos: {x: -66, y: 52, z: 0}
+    - serializedVersion: 2
+      pos: {x: -66, y: 41, z: 0}
+    - serializedVersion: 2
+      pos: {x: 51, y: 60, z: 0}
+    - serializedVersion: 2
+      pos: {x: 38, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: 51, y: 21, z: 0}
+    - serializedVersion: 2
+      pos: {x: 20, y: 82, z: 0}
+    - serializedVersion: 2
+      pos: {x: 7, y: -11, z: 0}
+    - serializedVersion: 2
+      pos: {x: -28, y: -11, z: 0}
+    - serializedVersion: 2
+      pos: {x: -41, y: 12, z: 0}
+    - serializedVersion: 2
+      pos: {x: -47, y: 0, z: 0}
+    indices: 0d000c000b0002000b000c000a000b00020000000a00020009000a00000007000a000900060007000900080007000600050004000300000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 254.07611
+      y: 320
+      width: 116.887596
+      height: 92.923874
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 320, z: 1, w: 331}

@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: dabiaoxue-skill-4
+  m_Rect:
+    serializedVersion: 2
+    x: 147
+    y: 277
+    width: 81
+    height: 79
+  m_Offset: {x: 0, y: 0}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: e39c0d939e99a024c855fba2e5608b4d, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 0.5, y: 38.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5, y: 3.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 0.5, y: 35.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -1.5, y: 39.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 1.5, y: 39.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -8.5, y: 2.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -20.5, y: 2.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -27.5, y: 4.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40.5, y: 30.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -40.5, y: 10.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 7.5, y: 2.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 7.5, y: 3.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 24.5, y: 2.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 35.5, y: -39.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 35.5, y: 4.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 12.5, y: -39.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 9.5, y: 2.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 9.5, y: -20.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 35.5, y: 13.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 14.5, y: 13.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 10.5, y: 9.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 9.5, y: 7.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 34.5, y: 22.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 36.5, y: 24.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 27.5, y: 22.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 26.5, y: 25.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 37.5, y: 39.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 35.5, y: 27.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 28.5, y: 27.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 6.5, y: 39.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 6.5, y: 36.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.5, y: 33.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 2.5, y: 33.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 40.5, y: 29.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 38.5, y: 4.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 40.5, y: 9.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 8.5, y: -11.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 8.5, y: 0.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: 3.5, y: -16.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -6.5, y: -16.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -11.5, y: -4.5, z: 0}
+    - serializedVersion: 2
+      pos: {x: -12.5, y: -11.5, z: 0}
+    indices: 19001c001800160018001c001b0016001c00170016001b000200000020000400200000001d00200004001f0020001d001e001f001d002900280027000500270028000a0027000500260027000a00240026000a00250024000a000e00120022001700220012001a0022001700210022001a00230022002100010002000b0020000b0002001f000b0020001e000b001f001d000b001e0014000b001d001a0014001d0015000b0014000a000b00150010000a001500130014001a00190013001a001c0019001a001b001c001a0017001b001a00190018001300120013001800160012001800170012001600100015000c0014000c00150013000c00140012000c0013000e000c001200110010000f000c000f0010000d000f000c000e000d000c00050001000a000b000a000100090008000700030007000800060007000300050006000300010005000300000001000300040000000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 147
+      y: 277
+      width: 81
+      height: 79
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 187.5, z: 1, w: 316.5}

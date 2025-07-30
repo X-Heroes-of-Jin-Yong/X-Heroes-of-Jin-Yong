@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: limochou-move0022
+  m_Rect:
+    serializedVersion: 2
+    x: 499.0129
+    y: 0.076122284
+    width: 71.935776
+    height: 111.84775
+  m_Offset: {x: 1.019205, y: -52.999996}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: 7734d3685ae40b8439b819c25afc8e49, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 35, y: 47, z: 0}
+    - serializedVersion: 2
+      pos: {x: 28, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: 35, y: 6, z: 0}
+    - serializedVersion: 2
+      pos: {x: 10, y: 109, z: 0}
+    - serializedVersion: 2
+      pos: {x: -16, y: 109, z: 0}
+    - serializedVersion: 2
+      pos: {x: -20, y: 104, z: 0}
+    - serializedVersion: 2
+      pos: {x: -30, y: -3, z: 0}
+    - serializedVersion: 2
+      pos: {x: -37, y: 9, z: 0}
+    indices: 070005000600010006000500040001000500030001000400000001000300020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 499.0129
+      y: 0.076122284
+      width: 71.935776
+      height: 111.84775
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 1, y: 536, z: 1, w: 3}

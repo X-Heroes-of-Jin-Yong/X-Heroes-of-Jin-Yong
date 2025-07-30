@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: aoyi_fire-skill-4
+  m_Rect:
+    serializedVersion: 2
+    x: 231
+    y: 0
+    width: 256
+    height: 110
+  m_Offset: {x: 0, y: -0.11544049}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.3838081
+  m_Extrude: 1
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    texture: {fileID: 2800000, guid: ae23322ba9447ab4cbe2b0954322d612, type: 3}
+    alphaTexture: {fileID: 0}
+    vertices:
+    - serializedVersion: 2
+      pos: {x: 307.4453, y: 83.375, z: 0}
+    - serializedVersion: 2
+      pos: {x: 333.5, y: -26.054688, z: 0}
+    - serializedVersion: 2
+      pos: {x: 333.5, y: 67.74219, z: 0}
+    - serializedVersion: 2
+      pos: {x: 187.59375, y: -143.30078, z: 0}
+    - serializedVersion: 2
+      pos: {x: 140.69531, y: 143.30078, z: 0}
+    - serializedVersion: 2
+      pos: {x: -229.28125, y: -143.30078, z: 0}
+    - serializedVersion: 2
+      pos: {x: -268.36328, y: -112.03516, z: 0}
+    - serializedVersion: 2
+      pos: {x: -278.78516, y: 143.30078, z: 0}
+    - serializedVersion: 2
+      pos: {x: -333.5, y: 125.0625, z: 0}
+    - serializedVersion: 2
+      pos: {x: -333.5, y: -28.660156, z: 0}
+    indices: 090008000600070006000800040006000700050006000400030005000400000003000400010003000000020001000000
+    textureRect:
+      serializedVersion: 2
+      x: 231
+      y: 0
+      width: 256
+      height: 110
+    textureRectOffset: {x: 0, y: 0}
+    settingsRaw: 67
+    uvTransform: {x: 0.3838081, y: 359, z: 0.3838081, w: 55}
