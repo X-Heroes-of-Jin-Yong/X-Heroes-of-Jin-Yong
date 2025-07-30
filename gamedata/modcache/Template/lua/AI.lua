@@ -3,11 +3,11 @@
 
 ]]--
 
-local Tools = luanet.import_type('JyGame.Tools')
-local Debug = luanet.import_type('UnityEngine.Debug')
-local LuaTool = luanet.import_type('JyGame.LuaTool')
-local CommonSettings = luanet.import_type('JyGame.CommonSettings')
-local RuntimeData = luanet.import_type('JyGame.RuntimeData')
+local Tools = CS.JyGame.Tools
+local Debug = CS.UnityEngine.Debug
+local LuaTool = CS.JyGame.LuaTool
+local CommonSettings = CS.JyGame.CommonSettings
+local RuntimeData = CS.JyGame.RuntimeData
 
 --如果使用自定义AI，则return修改过的rst
 function AI_GetAIResult(battleLogic,rst)

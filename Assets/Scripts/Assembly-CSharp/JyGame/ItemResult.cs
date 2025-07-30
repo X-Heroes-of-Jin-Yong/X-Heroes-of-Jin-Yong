@@ -1,5 +1,6 @@
 using System.Collections.Generic;
-using LuaInterface;
+using XLua;
+
 
 namespace JyGame
 {

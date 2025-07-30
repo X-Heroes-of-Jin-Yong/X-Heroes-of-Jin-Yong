@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace JyGame
 {
-	[XmlType("skill")]
+	[XmlType("special_skill")]
 	public class SpecialSkillInstance : SkillBox
 	{
 		[XmlAttribute]

@@ -3,8 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using LuaInterface;
+
 using UnityEngine;
+using XLua;
 
 namespace JyGame
 {
@@ -14,11 +15,11 @@ namespace JyGame
 
 		private static bool _inited = false;
 
-		public static LuaScriptMgr _lua;
+		public static LuaEnv _lua;
 
 		private static Dictionary<string, object> _luaConfig;
 
-		public static byte[] JyGameLuaLoader(string path)
+		public static byte[] JyGameLuaLoader(ref string path)
 		{
 			if (CommonSettings.MOD_MODE)
 			{
@@ -38,7 +39,7 @@ namespace JyGame
 			}
 			string text3 = "TextAssets/lua/" + path;
 			Debug.Log("loading lua file : " + text3);
-			return Resource.GetBytes("TextAssets/lua/" + path, false);
+			return Resource.GetBytes("TextAssets/lua/jygame" + path, false);
 		}
 
 		public static void Reload()
@@ -54,22 +55,21 @@ namespace JyGame
 				_inited = false;
 				if (_lua != null)
 				{
-					_lua.Destroy();
+					_lua.Dispose();
 				}
 			}
 			if (_inited)
 			{
 				return;
 			}
-			_lua = new LuaScriptMgr();
-			_lua.Start();
+			_lua = new LuaEnv();
+			_lua.AddLoader(JyGameLuaLoader);
 			try
 			{
 				string[] array = files;
 				foreach (string text in array)
 				{
-					LuaStatic.Load = JyGameLuaLoader;
-					_lua.DoFile("jygame/" + text);
+					_lua.DoString($"require 'jygame/{text}'");
 				}
 			}
 			catch (Exception ex)
@@ -79,13 +79,13 @@ namespace JyGame
 				FileLogger.instance.LogError(ex.ToString());
 			}
 			_inited = true;
-			LuaTable luaTable = Call<LuaTable>("ROOT_getLuaFiles", new object[0]);
+			LuaTable luaTable = Call<LuaTable>("ROOT_getLuaFiles");
 			try
 			{
-				foreach (string value in luaTable.Values)
+				luaTable.ForEach(delegate(object key, object value)
 				{
-					_lua.DoFile("jygame/" + value);
-				}
+					_lua.DoString($"require 'jygame/{value}'");
+				});
 			}
 			catch (Exception ex2)
 			{
@@ -101,7 +101,7 @@ namespace JyGame
 			{
 				Init();
 			}
-			LuaFunction luaFunction = _lua.GetLuaFunction(functionName);
+			LuaFunction luaFunction = _lua.Global.Get<LuaFunction>(functionName);
 			if (luaFunction == null)
 			{
 				Debug.LogError("调用了未定义的lua 函数:" + functionName);
@@ -116,7 +116,7 @@ namespace JyGame
 			{
 				Init();
 			}
-			LuaFunction luaFunction = _lua.GetLuaFunction(functionName);
+			LuaFunction luaFunction = _lua.Global.Get<LuaFunction>(functionName);
 			if (luaFunction == null)
 			{
 				Debug.LogError("调用了未定义的lua 函数:" + functionName);
@@ -136,7 +136,7 @@ namespace JyGame
 			{
 				Init();
 			}
-			LuaFunction luaFunction = _lua.GetLuaFunction(functionName);
+			LuaFunction luaFunction = _lua.Global.Get<LuaFunction>(functionName);
 			if (luaFunction == null)
 			{
 				Debug.LogError("调用了未定义的lua 函数:" + functionName);
@@ -152,10 +152,11 @@ namespace JyGame
 			{
 				LuaTable luaTable = Call<LuaTable>("ROOT_getConfigList", new object[0]);
 				_luaConfig = new Dictionary<string, object>();
-				foreach (DictionaryEntry item in luaTable)
+				luaTable.ForEach(delegate(object key2, object value)
 				{
-					_luaConfig.Add(item.Key.ToString(), item.Value);
-				}
+					Debug.Log(key2 + " : " + value);
+					_luaConfig.Add(key2.ToString(), value);
+				});
 			}
 			object obj = _luaConfig[key];
 			return (T)obj;

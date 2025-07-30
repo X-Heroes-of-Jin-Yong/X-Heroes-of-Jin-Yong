@@ -3,13 +3,13 @@
  汉家松鼠工作室(http://www.jy-x.com)
 ]]--
 
-local Debug = luanet.import_type('UnityEngine.Debug')
-local Color = luanet.import_type('UnityEngine.Color')
-local Tools = luanet.import_type('JyGame.Tools')
-local LuaTool = luanet.import_type('JyGame.LuaTool')
-local AudioManager = luanet.import_type('JyGame.AudioManager')
-local logger = luanet.import_type('JyGame.FileLogger').instance
-local RuntimeData = luanet.import_type('JyGame.RuntimeData')
+local Debug = CS.UnityEngine.Debug
+local Color = CS.UnityEngine.Color
+local Tools = CS.JyGame.Tools
+local LuaTool = CS.JyGame.LuaTool
+local AudioManager = CS.JyGame.AudioManager
+local logger = CS.JyGame.FileLogger.instance
+local RuntimeData = CS.JyGame.RuntimeData
 
 --载入的LUA文件列表
 function ROOT_getLuaFiles()

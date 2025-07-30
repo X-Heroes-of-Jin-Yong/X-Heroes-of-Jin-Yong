@@ -149,7 +149,7 @@ public class MapLocationUI : MonoBehaviour, IPointerEnterHandler, IEventSystemHa
 				evt.type = "story";
 				evt.value = "original_新手任务无法进入";
 				evt.repeatValue = string.Empty;
-				evt.probabilityValue = 100;
+				evt.probability = 100;
 			}
 			storyTag.SetActive(false);
 		}

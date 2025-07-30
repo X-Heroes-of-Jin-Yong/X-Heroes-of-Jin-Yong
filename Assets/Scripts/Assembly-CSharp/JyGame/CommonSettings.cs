@@ -133,7 +133,7 @@ namespace JyGame
 		{
 			get
 			{
-				if (Application.isMobilePlatform || Application.isWebPlayer)
+				if (Application.isMobilePlatform || Application.platform == RuntimePlatform.WebGLPlayer)
 				{
 					return Application.persistentDataPath;
 				}

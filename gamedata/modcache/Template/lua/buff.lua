@@ -3,12 +3,12 @@
 
 ]]--
 
-local Tools = luanet.import_type('JyGame.Tools')
-local Debug = luanet.import_type('UnityEngine.Debug')
-local LuaTool = luanet.import_type('JyGame.LuaTool')
-local CommonSettings = luanet.import_type('JyGame.CommonSettings')
-local RuntimeData = luanet.import_type('JyGame.RuntimeData')
-local Color = luanet.import_type('UnityEngine.Color')
+local Tools = CS.JyGame.Tools
+local Debug = CS.UnityEngine.Debug
+local LuaTool = CS.JyGame.LuaTool
+local CommonSettings = CS.JyGame.CommonSettings
+local RuntimeData = CS.JyGame.RuntimeData
+local Color = CS.UnityEngine.Color
 
 --战斗中每回合执行的BUFF逻辑
 --如中毒、恢复、内伤等

@@ -3,14 +3,14 @@
 
 ]]--
 
-local Tools = luanet.import_type('JyGame.Tools')
-local Debug = luanet.import_type('UnityEngine.Debug')
-local LuaTool = luanet.import_type('JyGame.LuaTool')
-local CommonSettings = luanet.import_type('JyGame.CommonSettings')
-local RuntimeData = luanet.import_type('JyGame.RuntimeData')
-local ModData = luanet.import_type('JyGame.ModData')
-local AudioManager = luanet.import_type('JyGame.AudioManager')
-local LuaManager = luanet.import_type('JyGame.LuaManager')
+local Tools = CS.JyGame.Tools
+local Debug = CS.UnityEngine.Debug
+local LuaTool = CS.JyGame.LuaTool
+local CommonSettings = CS.JyGame.CommonSettings
+local RuntimeData = CS.JyGame.RuntimeData
+local ModData = CS.JyGame.ModData
+local AudioManager = CS.JyGame.AudioManager
+local LuaManager = CS.JyGame.LuaManager
 
 --控制台指令+游戏内的跳转指令
 function GameEngine_extendConsole(gameEngine,statusType,value)
@@ -63,7 +63,8 @@ function GameEngine_jianghuContent(this)
 	result = result .. "  存档：<color='red'>" .. ModData.GetParam(ModData.SAVE_KEY) .. "次</color>\n"
 	result = result .. "  击杀：<color='red'>" .. ModData.GetParam(ModData.TOTALKILL_KEY) .. "个</color>\n"
 	result = result .. "  通关次数：<color='red'>" .. ModData.GetParam(ModData.END_COUNT_KEY) .. "</color>\n"
-	result = result .. "  最高周目：<color='red'>" .. math.max(unpack({RuntimeData.Instance.Round, ModData.GetParam(ModData.MAX_ROUND_KEY)})) .. "</color>\n"
+	-- TODO：待修复
+	-- result = result .. "  最高周目：<color='red'>" .. math.max(unpack({RuntimeData.Instance.Round, ModData.GetParam(ModData.MAX_ROUND_KEY)})) .. "</color>\n"
 
 	return result
 

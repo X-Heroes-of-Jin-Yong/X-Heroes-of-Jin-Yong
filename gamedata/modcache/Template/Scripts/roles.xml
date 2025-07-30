@@ -1,8 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
 <root>
   <role level="1" wuxing="30" shenfa="30" bili="30" wuxue="50" gengu="30" fuyuan="30" key="主角" grow_template="主角" dingli="30" head="头像.主角" female="0" arena="no" quanzhang="20" animation="xiake" jianfa="20" talent="异世人" maxmp="200" qimen="20" name="小虾米" maxhp="200" daofa="20">
     <special_skills>
-      <skill name="打鸡血" />
-    </special_skills>
+      <special_skill name="打鸡血" /></special_skills>
     <skills>
       <skill level="1" name="野球拳" maxlevel="9" />
     </skills>
@@ -13,9 +13,7 @@
   </role>
   <role level="30" wuxing="100" shenfa="100" bili="100" wuxue="300" gengu="100" fuyuan="100" key="神级主角" grow_template="主角" dingli="100" head="头像.主角" female="0" arena="no" quanzhang="100" animation="xiake" jianfa="100" talent="异世人#乾坤大挪移奥义#斗转星移#清心#金钟罩#沾衣十八跌#碎裂的怒吼" maxmp="9999" qimen="100" name="小虾米" maxhp="9999" daofa="100">
     <special_skills>
-      <skill name="打鸡血" />
-      <skill name="凌波微步" />
-    </special_skills>
+      <special_skill name="打鸡血" /><special_skill name="凌波微步" /></special_skills>
     <skills>
       <skill level="10" name="野球拳" maxlevel="10" />
       <skill level="10" name="独孤九剑" maxlevel="10" />
@@ -101,8 +99,7 @@
   </role>
   <role level="15" wuxing="80" shenfa="60" bili="45" wuxue="-1" gengu="80" fuyuan="60" key="周芷若" grow_template="" dingli="50" head="头像.周芷若" female="1" arena="" quanzhang="100" animation="quanzhennv" jianfa="60" talent="" maxmp="2400" qimen="10" name="周芷若" maxhp="2400" daofa="10">
     <special_skills>
-      <skill name="沉鱼落雁" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /></special_skills>
     <skills>
       <skill level="10" name="佛光普照" maxlevel="10" />
       <skill level="10" name="峨眉剑法" maxlevel="10" />
@@ -127,8 +124,7 @@
   </role>
   <role level="2" wuxing="90" shenfa="90" bili="30" wuxue="-1" gengu="22" fuyuan="100" key="段誉" grow_template="段誉" dingli="22" head="头像.段誉" female="0" arena="" quanzhang="40" animation="sjgz" jianfa="5" talent="不稳定的六脉神剑#好色#轻功大师#大理世家" maxmp="150" qimen="5" name="段誉" maxhp="150" daofa="5">
     <special_skills>
-      <skill name="凌波微步" />
-    </special_skills>
+      <special_skill name="凌波微步" /></special_skills>
     <skills>
       <skill level="1" name="六脉神剑" maxlevel="10" />
     </skills>
@@ -139,8 +135,7 @@
   </role>
   <role level="30" wuxing="90" shenfa="110" bili="70" wuxue="-1" gengu="90" fuyuan="100" key="华山段誉" grow_template="段誉" dingli="50" head="头像.段誉" female="0" arena="" quanzhang="130" animation="sjgz" jianfa="5" talent="不稳定的六脉神剑#好色#轻功大师#大理世家#北冥真气#鲲跃北溟" maxmp="4800" qimen="5" name="段誉" maxhp="4800" daofa="5">
     <special_skills>
-      <skill name="凌波微步" />
-    </special_skills>
+      <special_skill name="凌波微步" /></special_skills>
     <skills>
       <skill level="10" name="六脉神剑" maxlevel="10" />
       <skill level="10" name="一阳指" maxlevel="10" />
@@ -242,8 +237,7 @@
   </role>
   <role level="15" wuxing="85" shenfa="90" bili="90" wuxue="-1" gengu="75" fuyuan="100" key="小龙女" grow_template="小龙女" dingli="100" head="头像.小龙女" female="1" arena="" quanzhang="100" animation="xiaolongnv" jianfa="100" talent="清心#灵心慧质#幽居" maxmp="2000" qimen="100" name="小龙女" maxhp="2000" daofa="10">
     <special_skills>
-      <skill name="沉鱼落雁" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /></special_skills>
     <skills>
       <skill level="10" name="玉女素心剑" maxlevel="10" />
       <skill level="10" name="玉女剑法" maxlevel="10" />
@@ -271,8 +265,7 @@
   </role>
   <role level="20" wuxing="60" shenfa="80" bili="80" wuxue="-1" gengu="60" fuyuan="80" key="李莫愁" grow_template="" dingli="70" head="头像.李莫愁" female="1" arena="" quanzhang="100" animation="limochou" jianfa="100" talent="毒系精通#大小姐#幽居" maxmp="2500" qimen="100" name="李莫愁" maxhp="3000" daofa="10">
     <special_skills>
-      <skill name="沉鱼落雁" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /></special_skills>
     <skills>
       <skill level="15" name="冰魄银针" maxlevel="10" />
       <skill level="15" name="五毒神掌" maxlevel="10" />
@@ -304,8 +297,7 @@
   </role>
   <role level="5" wuxing="60" shenfa="45" bili="40" wuxue="-1" gengu="30" fuyuan="60" key="木婉清" grow_template="" dingli="10" head="头像.木婉清2" female="1" arena="" quanzhang="40" animation="honglingbo" jianfa="40" talent="" maxmp="300" qimen="50" name="木婉清" maxhp="400" daofa="10">
     <special_skills>
-      <skill name="沉鱼落雁" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /></special_skills>
     <skills>
       <skill level="4" name="袖箭" maxlevel="10" />
     </skills>
@@ -910,8 +902,7 @@
   </role>
   <role level="4" wuxing="60" shenfa="35" bili="40" wuxue="-1" gengu="40" fuyuan="55" key="程灵素" grow_template="" dingli="60" head="头像.程灵素" female="1" arena="" quanzhang="15" animation="nvyapu" jianfa="10" talent="毒圣#妙手仁心#灵心慧质" maxmp="400" qimen="40" name="程灵素" maxhp="250" daofa="10">
     <special_skills>
-      <skill name="解毒" />
-    </special_skills>
+      <special_skill name="解毒" /></special_skills>
     <skills>
       <skill level="1" name="黑血神针" maxlevel="10" />
     </skills>
@@ -1007,8 +998,7 @@
   </role>
   <role level="4" wuxing="70" shenfa="60" bili="40" wuxue="-1" gengu="40" fuyuan="60" key="苗若兰" grow_template="" dingli="60" head="头像.苗若兰" female="1" arena="" quanzhang="40" animation="guofu" jianfa="40" talent="" maxmp="300" qimen="10" name="苗若兰" maxhp="300" daofa="40">
     <special_skills>
-      <skill name="沉鱼落雁" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /></special_skills>
     <skills>
       <skill level="5" name="如来千手法" maxlevel="9" />
     </skills>
@@ -1139,8 +1129,7 @@
   </role>
   <role level="8" wuxing="100" shenfa="40" bili="20" wuxue="-1" gengu="20" fuyuan="100" key="火枪兵" grow_template="" dingli="10" head="头像.杀手黑" female="0" arena="" quanzhang="0" animation="shibing" jianfa="0" talent="" maxmp="1000" qimen="0" name="火枪兵" maxhp="2000" daofa="0">
     <special_skills>
-      <skill name="火枪" />
-    </special_skills>
+      <special_skill name="火枪" /></special_skills>
     <skills>
       <skill level="8" name="野球拳" maxlevel="8" />
     </skills>
@@ -1161,8 +1150,7 @@
   </role>
   <role level="12" wuxing="100" shenfa="40" bili="20" wuxue="-1" gengu="20" fuyuan="100" key="士兵" grow_template="" dingli="10" head="头像.士兵" female="0" arena="" quanzhang="0" animation="shibing" jianfa="0" talent="" maxmp="1000" qimen="0" name="士兵" maxhp="2000" daofa="0">
     <special_skills>
-      <skill name="火枪" />
-    </special_skills>
+      <special_skill name="火枪" /></special_skills>
     <skills>
       <skill level="8" name="野球拳" maxlevel="8" />
     </skills>
@@ -1173,8 +1161,7 @@
   </role>
   <role level="12" wuxing="100" shenfa="40" bili="20" wuxue="-1" gengu="20" fuyuan="100" key="朱元璋近卫" grow_template="" dingli="10" head="头像.朱元璋近卫" female="0" arena="no" quanzhang="0" animation="wujiang" jianfa="0" talent="" maxmp="1000" qimen="0" name="朱元璋近卫" maxhp="2000" daofa="0">
     <special_skills>
-      <skill name="火枪" />
-    </special_skills>
+      <special_skill name="火枪" /></special_skills>
     <skills>
       <skill level="8" name="野球拳" maxlevel="8" />
     </skills>
@@ -1537,8 +1524,7 @@
   </role>
   <role level="25" wuxing="80" shenfa="95" bili="85" wuxue="-1" gengu="130" fuyuan="90" key="杨逍" grow_template="" dingli="130" head="头像.杨逍" female="0" arena="" quanzhang="100" animation="yinzhiping" jianfa="100" talent="乾坤大挪移#光明圣火阵" maxmp="3700" qimen="0" name="杨逍" maxhp="4200" daofa="0">
     <special_skills>
-      <skill name="一刀两断" />
-    </special_skills>
+      <special_skill name="一刀两断" /></special_skills>
     <skills>
       <skill level="10" name="弹指神通" maxlevel="10" />
       <skill level="10" name="青莲掌法" maxlevel="10" />
@@ -1551,8 +1537,7 @@
   </role>
   <role level="25" wuxing="80" shenfa="95" bili="85" wuxue="-1" gengu="90" fuyuan="90" key="范遥" grow_template="" dingli="150" head="头像.范遥" female="0" arena="" quanzhang="100" animation="jianke_lv" jianfa="100" talent="乾坤大挪移#光明圣火阵" maxmp="3700" qimen="0" name="范遥" maxhp="4200" daofa="0">
     <special_skills>
-      <skill name="一刀两断" />
-    </special_skills>
+      <special_skill name="一刀两断" /></special_skills>
     <skills>
       <skill level="14" name="须弥山掌" maxlevel="14" />
       <skill level="14" name="七星七绝剑" maxlevel="14" />
@@ -1647,9 +1632,7 @@
   </role>
   <role level="25" wuxing="120" shenfa="120" bili="120" wuxue="-1" gengu="120" fuyuan="140" key="神级任盈盈" grow_template="" dingli="140" head="头像.任盈盈" female="1" arena="" quanzhang="50" animation="heiyinv_gouzi" jianfa="60" talent="毒系精通#灵心慧质#吸星大法#清心" maxmp="4000" qimen="130" name="任盈盈" maxhp="5000" daofa="50">
     <special_skills>
-      <skill name="清心普善咒" />
-      <skill name="笑傲江湖曲" />
-    </special_skills>
+      <special_skill name="清心普善咒" /><special_skill name="笑傲江湖曲" /></special_skills>
     <skills>
       <skill level="10" name="日月鞭法" maxlevel="10" />
       <skill level="5" name="独孤九剑" maxlevel="10" />
@@ -1665,8 +1648,7 @@
   </role>
   <role level="18" wuxing="80" shenfa="80" bili="80" wuxue="-1" gengu="80" fuyuan="100" key="仪清" grow_template="" dingli="100" head="头像.仪清" female="1" arena="" quanzhang="50" animation="guofu" jianfa="60" talent="灵心慧质#救死扶伤#普照" maxmp="2000" qimen="100" name="仪清" maxhp="3000" daofa="50">
     <special_skills>
-      <skill name="清心普善咒" />
-    </special_skills>
+      <special_skill name="清心普善咒" /></special_skills>
     <skills>
       <skill level="20" name="恒山剑法" maxlevel="20" />
     </skills>
@@ -1697,9 +1679,7 @@
   </role>
   <role level="30" wuxing="100" shenfa="150" bili="140" wuxue="-1" gengu="100" fuyuan="100" key="不败令狐冲" grow_template="" dingli="150" head="头像.令狐冲" female="0" arena="no" quanzhang="100" animation="jianke_lv" jianfa="200" talent="琴胆剑心#嗜酒如命#浪子剑客#清心#吸星大法#孤独求败#破甲#心眼通明" maxmp="9999" qimen="100" name="令狐冲" maxhp="8000" daofa="100">
     <special_skills>
-      <skill name="一刀两断" />
-      <skill name="清心普善咒" />
-    </special_skills>
+      <special_skill name="一刀两断" /><special_skill name="清心普善咒" /></special_skills>
     <skills>
       <skill level="12" name="独孤九剑" maxlevel="12" />
       <skill level="12" name="玄铁剑法" maxlevel="12" />
@@ -1835,8 +1815,7 @@
   </role>
   <role level="25" wuxing="120" shenfa="120" bili="100" wuxue="-1" gengu="80" fuyuan="150" key="天关段誉" grow_template="段誉" dingli="40" head="头像.段誉" female="0" arena="" quanzhang="100" animation="sjgz" jianfa="5" talent="不稳定的六脉神剑#好色#轻功大师#大理世家" maxmp="9999" qimen="5" name="段誉" maxhp="3500" daofa="5">
     <special_skills>
-      <skill name="凌波微步" />
-    </special_skills>
+      <special_skill name="凌波微步" /></special_skills>
     <skills>
       <skill level="13" name="六脉神剑" maxlevel="13" />
     </skills>
@@ -1910,8 +1889,7 @@
   </role>
   <role level="30" wuxing="100" shenfa="100" bili="100" wuxue="300" gengu="100" fuyuan="100" key="太极主角" grow_template="主角" dingli="100" head="头像.主角" female="0" arena="no" quanzhang="100" animation="daxia" jianfa="100" talent="异世人#太极宗师#太极高手#刚柔并济#清心" maxmp="9999" qimen="100" name="小虾米" maxhp="9999" daofa="100">
     <special_skills>
-      <skill name="打鸡血" />
-    </special_skills>
+      <special_skill name="打鸡血" /></special_skills>
     <skills>
       <skill level="18" name="太极拳" maxlevel="18" />
       <skill level="18" name="太极剑" maxlevel="18" />
@@ -2392,8 +2370,7 @@
   </role>
   <role level="15" wuxing="90" shenfa="85" bili="55" wuxue="-1" gengu="70" fuyuan="80" key="黄蓉" grow_template="宗师" dingli="75" head="头像.黄蓉" female="1" arena="" quanzhang="70" animation="huangrong" jianfa="40" talent="奇门遁甲#玲珑璇玑#隔空取物" maxmp="2000" qimen="90" name="黄蓉" maxhp="1500" daofa="40">
     <special_skills>
-      <skill name="沉鱼落雁" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /></special_skills>
     <skills>
       <skill level="10" name="打狗棒法" maxlevel="10" />
       <skill level="10" name="落英神剑掌" maxlevel="10" />
@@ -2566,8 +2543,7 @@
   </role>
   <role level="30" wuxing="100" shenfa="100" bili="100" wuxue="-1" gengu="100" fuyuan="100" key="王重阳" grow_template="" dingli="100" head="头像.王重阳" female="0" arena="" quanzhang="100" animation="qiuchuji" jianfa="100" talent="孤独求败#普照#清心#沾衣十八跌#玄门罡气" maxmp="5000" qimen="100" name="王重阳" maxhp="8000" daofa="100">
     <special_skills>
-      <skill name="同归剑法" />
-    </special_skills>
+      <special_skill name="同归剑法" /></special_skills>
     <skills>
       <skill level="20" name="昊天掌" maxlevel="20" />
       <skill level="15" name="一阳指" maxlevel="15" />
@@ -2585,8 +2561,7 @@
   </role>
   <role level="30" wuxing="200" shenfa="200" bili="200" wuxue="-1" gengu="200" fuyuan="200" key="炼狱王重阳" grow_template="" dingli="200" head="头像.王重阳" female="0" arena="no" quanzhang="200" animation="qiuchuji" jianfa="200" talent="孤独求败#普照#清心#沾衣十八跌#玄门罡气" maxmp="10000" qimen="200" name="王重阳" maxhp="15000" daofa="200">
     <special_skills>
-      <skill name="同归剑法" />
-    </special_skills>
+      <special_skill name="同归剑法" /></special_skills>
     <skills>
       <skill level="20" name="昊天掌" maxlevel="20" />
       <skill level="20" name="一阳指" maxlevel="20" />
@@ -2604,8 +2579,7 @@
   </role>
   <role level="30" wuxing="100" shenfa="100" bili="100" wuxue="-1" gengu="100" fuyuan="100" key="林朝英" grow_template="" dingli="100" head="头像.林朝英" female="1" arena="" quanzhang="100" animation="honglingbo" jianfa="100" talent="普照#清心#沾衣十八跌#玄门罡气#寸长寸强" maxmp="5000" qimen="100" name="林朝英" maxhp="7000" daofa="100">
     <special_skills>
-      <skill name="同归剑法" />
-    </special_skills>
+      <special_skill name="同归剑法" /></special_skills>
     <skills>
       <skill level="15" name="玉女素心剑" maxlevel="15" />
       <skill level="15" name="玉女剑法" maxlevel="15" />
@@ -2621,8 +2595,7 @@
   </role>
   <role level="30" wuxing="150" shenfa="150" bili="150" wuxue="-1" gengu="150" fuyuan="150" key="炼狱林朝英" grow_template="" dingli="150" head="头像.林朝英" female="1" arena="no" quanzhang="150" animation="honglingbo" jianfa="150" talent="普照#清心#沾衣十八跌#玄门罡气#寸长寸强" maxmp="9000" qimen="150" name="林朝英" maxhp="9000" daofa="150">
     <special_skills>
-      <skill name="同归剑法" />
-    </special_skills>
+      <special_skill name="同归剑法" /></special_skills>
     <skills>
       <skill level="20" name="玉女素心剑" maxlevel="20" />
       <skill level="20" name="玉女剑法" maxlevel="20" />
@@ -2760,8 +2733,7 @@
   </role>
   <role level="4" wuxing="90" shenfa="60" bili="40" wuxue="-1" gengu="40" fuyuan="40" key="阿朱" grow_template="女子" dingli="80" head="头像.阿朱" female="1" arena="" quanzhang="40" animation="hongyinv" jianfa="30" talent="" maxmp="300" qimen="10" name="阿朱" maxhp="600" daofa="10">
     <special_skills>
-      <skill name="易容术" />
-    </special_skills>
+      <special_skill name="易容术" /></special_skills>
     <skills>
       <skill level="5" name="参合指" maxlevel="9" />
     </skills>
@@ -2772,8 +2744,7 @@
   </role>
   <role level="4" wuxing="70" shenfa="60" bili="40" wuxue="-1" gengu="40" fuyuan="60" key="阿碧" grow_template="女子" dingli="60" head="头像.阿碧" female="1" arena="" quanzhang="40" animation="chengying" jianfa="30" talent="" maxmp="300" qimen="10" name="阿碧" maxhp="600" daofa="10">
     <special_skills>
-      <skill name="沉鱼落雁" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /></special_skills>
     <skills>
       <skill level="5" name="参合指" maxlevel="9" />
     </skills>
@@ -3056,8 +3027,7 @@
   </role>
   <role level="25" wuxing="100" shenfa="120" bili="100" wuxue="-1" gengu="100" fuyuan="100" key="鸳鸯刀传人" grow_template="" dingli="100" head="头像.王语嫣" female="1" arena="no" quanzhang="100" animation="hongyinv" jianfa="100" talent="博览群书#武学奇才" maxmp="3000" qimen="100" name="鸳鸯刀传人" maxhp="3000" daofa="130">
     <special_skills>
-      <skill name="沉鱼落雁" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /></special_skills>
     <skills>
       <skill level="10" name="鸳鸯刀法" maxlevel="10" />
     </skills>
@@ -3068,8 +3038,7 @@
   </role>
   <role level="30" wuxing="100" shenfa="40" bili="40" wuxue="-1" gengu="40" fuyuan="100" key="王语嫣" grow_template="" dingli="100" head="头像.王语嫣" female="1" arena="no" quanzhang="5" animation="gongzhu" jianfa="5" talent="博览群书#武学奇才" maxmp="200" qimen="5" name="王语嫣" maxhp="200" daofa="5">
     <special_skills>
-      <skill name="沉鱼落雁" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /></special_skills>
     <skills>
       <skill level="1" name="降龙十八掌" maxlevel="10" />
       <skill level="1" name="独孤九剑" maxlevel="10" />
@@ -3083,8 +3052,7 @@
   </role>
   <role level="4" wuxing="70" shenfa="60" bili="40" wuxue="-1" gengu="40" fuyuan="60" key="阮星竹" grow_template="" dingli="60" head="头像.阮星竹" female="1" arena="" quanzhang="40" animation="quanzhennv" jianfa="30" talent="" maxmp="300" qimen="10" name="阮星竹" maxhp="300" daofa="10">
     <special_skills>
-      <skill name="沉鱼落雁" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /></special_skills>
     <skills>
       <skill level="1" name="野球拳" maxlevel="9" />
     </skills>
@@ -3095,8 +3063,7 @@
   </role>
   <role level="10" wuxing="60" shenfa="65" bili="60" wuxue="-1" gengu="30" fuyuan="60" key="秦红棉" grow_template="" dingli="70" head="头像.秦红棉" female="1" arena="" quanzhang="40" animation="quanzhennv" jianfa="40" talent="" maxmp="1000" qimen="70" name="秦红棉" maxhp="1500" daofa="10">
     <special_skills>
-      <skill name="沉鱼落雁" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /></special_skills>
     <skills>
       <skill level="10" name="袖箭" maxlevel="10" />
     </skills>
@@ -3107,8 +3074,7 @@
   </role>
   <role level="13" wuxing="70" shenfa="70" bili="70" wuxue="-1" gengu="70" fuyuan="60" key="李青萝" grow_template="" dingli="60" head="头像.李青萝" female="1" arena="" quanzhang="70" animation="nvliumang" jianfa="70" talent="博览群书" maxmp="1500" qimen="70" name="李青萝" maxhp="2000" daofa="70">
     <special_skills>
-      <skill name="沉鱼落雁" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /></special_skills>
     <skills>
       <skill level="5" name="天山六阳掌" maxlevel="9" />
       <skill level="4" name="降龙十八掌" maxlevel="9" />
@@ -3287,8 +3253,7 @@
   </role>
   <role level="30" wuxing="180" shenfa="150" bili="150" wuxue="-1" gengu="150" fuyuan="150" key="魔君" grow_template="" dingli="150" head="头像.魔君2" female="0" arena="no" quanzhang="200" animation="mojun" jianfa="200" talent="死生茫茫#黑天死炎#清心#孤独求败#倚天屠龙#墨家传人#乾坤大挪移#铁拳无双#沾衣十八跌" maxmp="200000" qimen="200" name="魔君" maxhp="200000" daofa="200">
     <special_skills>
-      <skill name="一刀两断" />
-    </special_skills>
+      <special_skill name="一刀两断" /></special_skills>
     <skills>
       <skill level="15" name="墨拳" maxlevel="15" />
       <skill level="15" name="墨剑" maxlevel="15" />
@@ -3698,9 +3663,7 @@
   </role>
   <role level="11" wuxing="100" shenfa="60" bili="60" wuxue="-1" gengu="60" fuyuan="100" key="令狐冲" grow_template="剑侠" dingli="60" head="头像.令狐冲" female="0" arena="" quanzhang="10" animation="jianke_lv" jianfa="80" talent="令狐冲的怪病#嗜酒如命#浪子剑客" maxmp="500" qimen="10" name="令狐冲" maxhp="1000" daofa="10">
     <special_skills>
-      <skill name="一刀两断" />
-      <skill name="清心普善咒" />
-    </special_skills>
+      <special_skill name="一刀两断" /><special_skill name="清心普善咒" /></special_skills>
     <skills>
       <skill level="6" name="独孤九剑" maxlevel="10" />
       <skill level="10" name="华山剑法" maxlevel="10" />
@@ -3714,9 +3677,7 @@
   </role>
   <role level="30" wuxing="100" shenfa="100" bili="100" wuxue="-1" gengu="100" fuyuan="120" key="黑木崖超级令狐冲" grow_template="剑侠" dingli="120" head="头像.令狐冲" female="0" arena="" quanzhang="10" animation="jianke_lv" jianfa="120" talent="孤独求败#清心#琴胆剑心#嗜酒如命#浪子剑客" maxmp="4000" qimen="10" name="令狐冲" maxhp="5500" daofa="10">
     <special_skills>
-      <skill name="一刀两断" />
-      <skill name="清心普善咒" />
-    </special_skills>
+      <special_skill name="一刀两断" /><special_skill name="清心普善咒" /></special_skills>
     <skills>
       <skill level="12" name="独孤九剑" maxlevel="12" />
       <skill level="12" name="玄铁剑法" maxlevel="12" />
@@ -3742,9 +3703,7 @@
   </role>
   <role level="10" wuxing="70" shenfa="60" bili="40" wuxue="-1" gengu="50" fuyuan="50" key="曲非烟" grow_template="奇门" dingli="50" head="头像.曲非烟" female="1" arena="" quanzhang="10" animation="nv_lv_quan" jianfa="10" talent="" maxmp="1200" qimen="75" name="曲非烟" maxhp="800" daofa="10">
     <special_skills>
-      <skill name="沉鱼落雁" />
-      <skill name="笑傲江湖曲" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /><special_skill name="笑傲江湖曲" /></special_skills>
     <skills>
       <skill level="6" name="日月鞭法" maxlevel="10" />
     </skills>
@@ -3755,9 +3714,7 @@
   </role>
   <role level="21" wuxing="100" shenfa="100" bili="120" wuxue="-1" gengu="120" fuyuan="100" key="疯狂曲非烟" grow_template="奇门" dingli="100" head="头像.曲非烟" female="1" arena="" quanzhang="100" animation="nv_lv_quan" jianfa="100" talent="琴胆剑心" maxmp="3000" qimen="120" name="曲非烟" maxhp="4000" daofa="100">
     <special_skills>
-      <skill name="沉鱼落雁" />
-      <skill name="笑傲江湖曲" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /><special_skill name="笑傲江湖曲" /></special_skills>
     <skills>
       <skill level="15" name="日月鞭法" maxlevel="15" />
     </skills>
@@ -3936,8 +3893,7 @@
   </role>
   <role level="7" wuxing="50" shenfa="30" bili="30" wuxue="-1" gengu="60" fuyuan="50" key="平一指" grow_template="医生" dingli="30" head="头像.平一指" female="0" arena="" quanzhang="30" animation="laotou_jian" jianfa="30" talent="医仙#妙手仁心#隔空取物" maxmp="2000" qimen="30" name="平一指" maxhp="800" daofa="30">
     <special_skills>
-      <skill name="华佗再世" />
-    </special_skills>
+      <special_skill name="华佗再世" /></special_skills>
     <skills>
       <skill level="1" name="日月鞭法" maxlevel="10" />
     </skills>
@@ -4023,9 +3979,7 @@
   </role>
   <role level="18" wuxing="80" shenfa="80" bili="80" wuxue="-1" gengu="80" fuyuan="100" key="任盈盈" grow_template="宗师" dingli="100" head="头像.任盈盈" female="1" arena="" quanzhang="50" animation="heiyinv_gouzi" jianfa="60" talent="毒系精通#灵心慧质" maxmp="2000" qimen="100" name="任盈盈" maxhp="2000" daofa="50">
     <special_skills>
-      <skill name="清心普善咒" />
-      <skill name="笑傲江湖曲" />
-    </special_skills>
+      <special_skill name="清心普善咒" /><special_skill name="笑傲江湖曲" /></special_skills>
     <skills>
       <skill level="10" name="日月鞭法" maxlevel="10" />
       <skill level="1" name="独孤九剑" maxlevel="10" />
@@ -4309,10 +4263,7 @@
   </role>
   <role level="16" wuxing="75" shenfa="60" bili="70" wuxue="-1" gengu="60" fuyuan="80" key="陈家洛" grow_template="大侠" dingli="70" head="头像.陈家洛" female="0" arena="" quanzhang="85" animation="lljk" jianfa="85" talent="金钟罩#飞向天际" maxmp="1200" qimen="10" name="陈家洛" maxhp="1500" daofa="10">
     <special_skills>
-      <skill name="打鸡血" />
-      <skill name="过肩摔" />
-      <skill name="神龙摆尾" />
-    </special_skills>
+      <special_skill name="打鸡血" /><special_skill name="过肩摔" /><special_skill name="神龙摆尾" /></special_skills>
     <skills>
       <skill level="10" name="百花错拳" maxlevel="10" />
       <skill level="10" name="庖丁解牛" maxlevel="10" />
@@ -4324,9 +4275,7 @@
   </role>
   <role level="1" wuxing="100" shenfa="40" bili="20" wuxue="-1" gengu="20" fuyuan="100" key="韦小宝" grow_template="韦小宝" dingli="10" head="头像.韦小宝" female="0" arena="" quanzhang="0" animation="dawu" jianfa="0" talent="隔空取物#好色" maxmp="100" qimen="0" name="韦小宝" maxhp="200" daofa="0">
     <special_skills>
-      <skill name="溜须拍马" />
-      <skill name="火枪" />
-    </special_skills>
+      <special_skill name="溜须拍马" /><special_skill name="火枪" /></special_skills>
     <skills>
       <skill level="1" name="野球拳" maxlevel="2" />
     </skills>
@@ -4407,8 +4356,7 @@
   </role>
   <role level="8" wuxing="60" shenfa="75" bili="40" wuxue="-1" gengu="40" fuyuan="40" key="阿珂" grow_template="女子" dingli="70" head="头像.阿珂" female="1" arena="" quanzhang="50" animation="guofu" jianfa="50" talent="" maxmp="400" qimen="50" name="阿珂" maxhp="650" daofa="50">
     <special_skills>
-      <skill name="沉鱼落雁" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /></special_skills>
     <skills>
       <skill level="5" name="铁剑剑法" maxlevel="10" />
       <skill level="5" name="如来千手法" maxlevel="10" />
@@ -4420,8 +4368,7 @@
   </role>
   <role level="20" wuxing="90" shenfa="100" bili="100" wuxue="-1" gengu="100" fuyuan="100" key="九难" grow_template="宗师" dingli="100" head="头像.九难" female="1" arena="" quanzhang="100" animation="limochou" jianfa="100" talent="清心#混元一气#神行百变#沾衣十八跌" maxmp="2500" qimen="100" name="九难" maxhp="2500" daofa="100">
     <special_skills>
-      <skill name="沉鱼落雁" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /></special_skills>
     <skills>
       <skill level="10" name="金蛇剑法" maxlevel="10" />
       <skill level="10" name="漫天花雨" maxlevel="10" />
@@ -4434,8 +4381,7 @@
   </role>
   <role level="10" wuxing="60" shenfa="75" bili="40" wuxue="-1" gengu="40" fuyuan="40" key="苏荃" grow_template="女子" dingli="70" head="头像.苏荃" female="1" arena="" quanzhang="70" animation="blnz" jianfa="30" talent="" maxmp="800" qimen="50" name="苏荃" maxhp="1050" daofa="30">
     <special_skills>
-      <skill name="沉鱼落雁" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /></special_skills>
     <skills>
       <skill level="10" name="如来千手法" maxlevel="10" />
       <skill level="10" name="化骨绵掌" maxlevel="10" />
@@ -4745,8 +4691,7 @@
   </role>
   <role level="30" wuxing="100" shenfa="100" bili="100" wuxue="-1" gengu="100" fuyuan="100" key="独孤求败" grow_template="" dingli="100" head="头像.独孤求败" female="0" arena="" quanzhang="100" animation="duguqiubai" jianfa="100" talent="孤独求败#轻功大师#清心#异世人#至空至明" maxmp="9999" qimen="100" name="独孤求败" maxhp="9999" daofa="100">
     <special_skills>
-      <skill name="一刀两断" />
-    </special_skills>
+      <special_skill name="一刀两断" /></special_skills>
     <skills>
       <skill level="13" name="独孤九剑" maxlevel="13" />
       <skill level="15" name="玄铁剑法" maxlevel="15" />
@@ -4758,8 +4703,7 @@
   </role>
   <role level="30" wuxing="200" shenfa="200" bili="200" wuxue="-1" gengu="200" fuyuan="200" key="炼狱独孤求败" grow_template="" dingli="200" head="头像.独孤求败" female="0" arena="no" quanzhang="200" animation="duguqiubai" jianfa="200" talent="孤独求败#轻功大师#清心#异世人#至空至明" maxmp="19000" qimen="200" name="独孤求败" maxhp="19000" daofa="200">
     <special_skills>
-      <skill name="一刀两断" />
-    </special_skills>
+      <special_skill name="一刀两断" /></special_skills>
     <skills>
       <skill level="20" name="独孤九剑" maxlevel="20" />
       <skill level="20" name="玄铁剑法" maxlevel="20" />
@@ -4847,8 +4791,7 @@
   </role>
   <role level="30" wuxing="100" shenfa="100" bili="100" wuxue="-1" gengu="100" fuyuan="150" key="松鼠黄蓉" grow_template="宗师" dingli="150" head="头像.黄蓉" female="1" arena="" quanzhang="100" animation="huangrong" jianfa="100" talent="奇门遁甲#玲珑璇玑#隔空取物" maxmp="4000" qimen="130" name="黄蓉" maxhp="4000" daofa="100">
     <special_skills>
-      <skill name="沉鱼落雁" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /></special_skills>
     <skills>
       <skill level="15" name="打狗棒法" maxlevel="15" />
       <skill level="15" name="落英神剑掌" maxlevel="15" />
@@ -4883,8 +4826,7 @@
   </role>
   <role level="30" wuxing="100" shenfa="150" bili="170" wuxue="-1" gengu="130" fuyuan="100" key="松鼠独孤求败" grow_template="" dingli="150" head="头像.独孤求败" female="0" arena="no" quanzhang="100" animation="duguqiubai" jianfa="200" talent="孤独求败#轻功大师#清心#异世人#飘然" maxmp="9999" qimen="100" name="独孤求败" maxhp="9999" daofa="100">
     <special_skills>
-      <skill name="一刀两断" />
-    </special_skills>
+      <special_skill name="一刀两断" /></special_skills>
     <skills>
       <skill level="20" name="独孤九剑" maxlevel="20" />
       <skill level="20" name="玄铁剑法" maxlevel="20" />
@@ -4912,9 +4854,7 @@
   </role>
   <role level="30" wuxing="100" shenfa="150" bili="140" wuxue="-1" gengu="100" fuyuan="100" key="松鼠令狐冲" grow_template="" dingli="150" head="头像.令狐冲" female="0" arena="no" quanzhang="100" animation="jianke_lv" jianfa="180" talent="琴胆剑心#嗜酒如命#浪子剑客" maxmp="4000" qimen="100" name="令狐冲" maxhp="4000" daofa="100">
     <special_skills>
-      <skill name="一刀两断" />
-      <skill name="清心普善咒" />
-    </special_skills>
+      <special_skill name="一刀两断" /><special_skill name="清心普善咒" /></special_skills>
     <skills>
       <skill level="15" name="独孤九剑" maxlevel="15" />
       <skill level="15" name="狂风快剑" maxlevel="15" />
@@ -4938,8 +4878,7 @@
   </role>
   <role level="30" wuxing="100" shenfa="150" bili="130" wuxue="-1" gengu="100" fuyuan="100" key="松鼠小龙女" grow_template="" dingli="180" head="头像.小龙女" female="1" arena="no" quanzhang="130" animation="xiaolongnv" jianfa="150" talent="清心#素心神剑#灵心慧质#幽居" maxmp="4500" qimen="100" name="小龙女" maxhp="4500" daofa="100">
     <special_skills>
-      <skill name="沉鱼落雁" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /></special_skills>
     <skills>
       <skill level="15" name="玉女素心剑" maxlevel="15" />
       <skill level="15" name="玉女剑法" maxlevel="15" />
@@ -4955,8 +4894,7 @@
   </role>
   <role level="30" wuxing="100" shenfa="150" bili="130" wuxue="-1" gengu="150" fuyuan="100" key="松鼠王重阳" grow_template="" dingli="220" head="头像.王重阳" female="0" arena="no" quanzhang="150" animation="qiuchuji" jianfa="150" talent="孤独求败#普照#清心#沾衣十八跌#玄门罡气" maxmp="9999" qimen="150" name="王重阳" maxhp="9999" daofa="150">
     <special_skills>
-      <skill name="同归剑法" />
-    </special_skills>
+      <special_skill name="同归剑法" /></special_skills>
     <skills>
       <skill level="20" name="一阳指" maxlevel="20" />
       <skill level="12" name="三花聚顶掌" maxlevel="12" />
@@ -5058,8 +4996,7 @@
   </role>
   <role level="18" wuxing="85" shenfa="90" bili="90" wuxue="-1" gengu="75" fuyuan="70" key="黄衫女子" grow_template="" dingli="100" head="头像.黄衫女子" female="1" arena="" quanzhang="100" animation="huangyinv_jian" jianfa="100" talent="清心#飘然#幽居" maxmp="2000" qimen="100" name="黄衫女子" maxhp="1500" daofa="10">
     <special_skills>
-      <skill name="沉鱼落雁" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /></special_skills>
     <skills>
       <skill level="10" name="天罗地网掌" maxlevel="10" />
       <skill level="10" name="玉蜂针" maxlevel="10" />
@@ -5074,8 +5011,7 @@
   </role>
   <role level="23" wuxing="85" shenfa="100" bili="100" wuxue="-1" gengu="100" fuyuan="100" key="黄衫女子强化" grow_template="" dingli="100" head="头像.黄衫女子" female="1" arena="no" quanzhang="100" animation="huangyinv_jian" jianfa="100" talent="清心#飘然#幽居" maxmp="2500" qimen="100" name="黄衫女子" maxhp="2500" daofa="100">
     <special_skills>
-      <skill name="沉鱼落雁" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /></special_skills>
     <skills>
       <skill level="12" name="天罗地网掌" maxlevel="12" />
       <skill level="12" name="玉蜂针" maxlevel="12" />
@@ -5090,8 +5026,7 @@
   </role>
   <role level="30" wuxing="85" shenfa="100" bili="120" wuxue="-1" gengu="120" fuyuan="100" key="黄衫女子再强化" grow_template="" dingli="100" head="头像.黄衫女子" female="1" arena="no" quanzhang="100" animation="huangyinv_jian" jianfa="120" talent="清心#飘然#幽居" maxmp="4500" qimen="100" name="黄衫女子" maxhp="4500" daofa="100">
     <special_skills>
-      <skill name="沉鱼落雁" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /></special_skills>
     <skills>
       <skill level="15" name="天罗地网掌" maxlevel="15" />
       <skill level="15" name="玉蜂针" maxlevel="15" />
@@ -5138,8 +5073,7 @@
   </role>
   <role level="8" wuxing="80" shenfa="60" bili="60" wuxue="-1" gengu="60" fuyuan="60" key="杨冰儿" grow_template="" dingli="100" head="头像.杨冰儿" female="1" arena="" quanzhang="60" animation="quanzhennv" jianfa="60" talent="清心#幽居" maxmp="600" qimen="10" name="杨冰儿" maxhp="600" daofa="10">
     <special_skills>
-      <skill name="沉鱼落雁" />
-    </special_skills>
+      <special_skill name="沉鱼落雁" /></special_skills>
     <skills>
       <skill level="5" name="天罗地网掌" maxlevel="10" />
       <skill level="5" name="玉蜂针" maxlevel="10" />
@@ -5279,8 +5213,7 @@
   </role>
   <role level="18" wuxing="80" shenfa="80" bili="70" wuxue="-1" gengu="70" fuyuan="50" key="马钰" grow_template="内家" dingli="80" head="头像.马钰" female="0" arena="" quanzhang="80" animation="mayu" jianfa="88" talent="清风" maxmp="2500" qimen="0" name="马钰" maxhp="2400" daofa="0">
     <special_skills>
-      <skill name="同归剑法" />
-    </special_skills>
+      <special_skill name="同归剑法" /></special_skills>
     <skills>
       <skill level="10" name="全真剑法" maxlevel="10" />
       <skill level="10" name="一剑化三清" maxlevel="10" />
@@ -5296,8 +5229,7 @@
   </role>
   <role level="17" wuxing="60" shenfa="70" bili="70" wuxue="-1" gengu="70" fuyuan="50" key="孙不二" grow_template="内家" dingli="80" head="头像.孙不二" female="1" arena="" quanzhang="80" animation="quanzhennv" jianfa="78" talent="清风" maxmp="2500" qimen="0" name="孙不二" maxhp="2200" daofa="0">
     <special_skills>
-      <skill name="同归剑法" />
-    </special_skills>
+      <special_skill name="同归剑法" /></special_skills>
     <skills>
       <skill level="10" name="全真剑法" maxlevel="10" />
       <skill level="10" name="一剑化三清" maxlevel="10" />
@@ -5312,8 +5244,7 @@
   </role>
   <role level="20" wuxing="60" shenfa="100" bili="100" wuxue="-1" gengu="100" fuyuan="50" key="丘处机" grow_template="内家" dingli="100" head="头像.丘处机" female="0" arena="" quanzhang="80" animation="qiuchuji" jianfa="100" talent="清风" maxmp="3500" qimen="0" name="丘处机" maxhp="3200" daofa="0">
     <special_skills>
-      <skill name="同归剑法" />
-    </special_skills>
+      <special_skill name="同归剑法" /></special_skills>
     <skills>
       <skill level="10" name="全真剑法" maxlevel="10" />
       <skill level="10" name="一剑化三清" maxlevel="10" />
@@ -5583,8 +5514,7 @@
   </role>
   <role level="30" wuxing="150" shenfa="150" bili="150" wuxue="-1" gengu="150" fuyuan="120" key="炼狱袁承志" grow_template="" dingli="120" head="头像.袁承志" female="0" arena="" quanzhang="120" animation="jianke_bai" jianfa="120" talent="混元一气#金蛇郎君#金蛇狂舞" maxmp="5000" qimen="120" name="袁承志" maxhp="7000" daofa="10">
     <special_skills>
-      <skill name="一刀两断" />
-    </special_skills>
+      <special_skill name="一刀两断" /></special_skills>
     <skills>
       <skill level="15" name="金蛇剑法" maxlevel="15" />
       <skill level="15" name="金蛇游身掌" maxlevel="15" />
@@ -5638,8 +5568,7 @@
   </role>
   <role level="30" wuxing="100" shenfa="160" bili="160" wuxue="-1" gengu="160" fuyuan="130" key="炼狱金蛇郎君" grow_template="" dingli="160" head="头像.金蛇郎君" female="0" arena="" quanzhang="10" animation="jianke" jianfa="150" talent="金蛇郎君#金蛇狂舞" maxmp="4000" qimen="150" name="金蛇郎君" maxhp="6500" daofa="10">
     <special_skills>
-      <skill name="一刀两断" />
-    </special_skills>
+      <special_skill name="一刀两断" /></special_skills>
     <skills>
       <skill level="15" name="金蛇剑法" maxlevel="15" />
       <skill level="15" name="金蛇游身掌" maxlevel="15" />
@@ -5882,8 +5811,7 @@
   </role>
   <role level="30" wuxing="150" shenfa="100" bili="100" wuxue="-1" gengu="100" fuyuan="100" key="血刀老祖3" grow_template="" dingli="150" head="头像.血刀老祖" female="0" arena="" quanzhang="50" animation="xuedaolaozu" jianfa="0" talent="嗜血狂魔#自我主义#清心" maxmp="5500" qimen="30" name="血刀老祖" maxhp="7500" daofa="200">
     <special_skills>
-      <skill name="一刀两断" />
-    </special_skills>
+      <special_skill name="一刀两断" /></special_skills>
     <skills>
       <skill level="20" name="血刀大法" maxlevel="20" />
     </skills>
@@ -5898,8 +5826,7 @@
   </role>
   <role level="30" wuxing="200" shenfa="200" bili="200" wuxue="-1" gengu="200" fuyuan="200" key="阿青" grow_template="" dingli="200" head="头像.阿青" female="1" arena="no" quanzhang="200" animation="huangyinv_jian" jianfa="200" talent="清心#至空至明#倚天屠龙#我就是神#无尽斗志#斗转星移#金钟罩#碎裂的怒吼#沾衣十八跌" maxmp="150000" qimen="200" name="阿青" maxhp="150000" daofa="200">
     <special_skills>
-      <skill name="一刀两断" />
-    </special_skills>
+      <special_skill name="一刀两断" /></special_skills>
     <skills>
       <skill level="20" name="两仪剑法" maxlevel="20" />
       <skill level="20" name="神门十三剑" maxlevel="20" />

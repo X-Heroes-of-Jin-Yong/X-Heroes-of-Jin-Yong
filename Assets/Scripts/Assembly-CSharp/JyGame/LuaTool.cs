@@ -1,5 +1,7 @@
 using System.Collections;
-using LuaInterface;
+using System.Collections.Generic;
+using XLua;
+
 
 namespace JyGame
 {
@@ -17,7 +19,7 @@ namespace JyGame
 		{
 			return delegate(string rst)
 			{
-				fun.call(new object[1] { rst }, null);
+				fun.Call(new object[1] { rst }, null);
 			};
 		}
 
@@ -25,7 +27,7 @@ namespace JyGame
 		{
 			return delegate(int rst)
 			{
-				fun.call(new object[1] { rst }, null);
+				fun.Call(new object[1] { rst }, null);
 			};
 		}
 
@@ -33,13 +35,19 @@ namespace JyGame
 		{
 			return delegate(object rst)
 			{
-				fun.call(new object[1] { rst }, null);
+				fun.Call(new object[1] { rst }, null);
 			};
 		}
 
 		public static string[] MakeStringArray(LuaTable table)
 		{
-			return table.ToArray<string>();
+			List<string> list = new List<string>();
+			table.ForEach(delegate(object key, object value)
+			{
+				list.Add(value.ToString());
+			});
+
+			return list.ToArray();
 		}
 
 		public static LuaTable CreateLuaTable()

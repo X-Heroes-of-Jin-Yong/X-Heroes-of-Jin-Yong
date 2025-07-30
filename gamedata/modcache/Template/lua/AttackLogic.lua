@@ -3,11 +3,11 @@
 
 ]]--
 
-local Tools = luanet.import_type('JyGame.Tools')
-local Debug = luanet.import_type('UnityEngine.Debug')
-local LuaTool = luanet.import_type('JyGame.LuaTool')
-local CommonSettings = luanet.import_type('JyGame.CommonSettings')
-local RuntimeData = luanet.import_type('JyGame.RuntimeData')
+local Tools = CS.JyGame.Tools
+local Debug = CS.UnityEngine.Debug
+local LuaTool = CS.JyGame.LuaTool
+local CommonSettings = CS.JyGame.CommonSettings
+local RuntimeData = CS.JyGame.RuntimeData
 
 --扩展特殊攻击
 function AttackLogic_extendSpecialSkill(result, skill, sourceSprite, targetSprite, bf)

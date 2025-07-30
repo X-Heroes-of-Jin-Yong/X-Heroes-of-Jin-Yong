@@ -3,13 +3,13 @@
 
 ]]--
 
-local AudioManager = luanet.import_type('JyGame.AudioManager')
-local LuaTool = luanet.import_type('JyGame.LuaTool')
-local Debug = luanet.import_type('UnityEngine.Debug')
-local Item = luanet.import_type('JyGame.Item')
-local CommonSettings = luanet.import_type('JyGame.CommonSettings')
-local RuntimeData = luanet.import_type('JyGame.RuntimeData')
-local Role = luanet.import_type('JyGame.Role')
+local AudioManager = CS.JyGame.AudioManager
+local LuaTool = CS.JyGame.LuaTool
+local Debug = CS.UnityEngine.Debug
+local Item = CS.JyGame.Item
+local CommonSettings = CS.JyGame.CommonSettings
+local RuntimeData = CS.JyGame.RuntimeData
+local Role = CS.JyGame.Role
 
 --开场问题
 local ROLLROLE_QUESTIONS = {
@@ -116,7 +116,7 @@ function ROLLROLE_Reset(this)
 	--显示按钮
 	this.RoleConfirmButtonObj:SetActive(true);
     this.RoleResetButtonObj:SetActive(true);
-    this.rolePanelObj.transform:FindChild("CancelButton").gameObject:SetActive(false);
+    this.rolePanelObj.transform:Find("CancelButton").gameObject:SetActive(false);
 	
 	--显示
 	this.rolePanel:Show(this.makeRole)
@@ -350,7 +350,7 @@ function ROLLROLE_MakeBeginningCondition(this)
 	end
 	
 	--选择你的游戏难度
-	if(table.getn(ROLLROLE_QUESTIONS[8].opts)==4) then
+	if(#ROLLROLE_QUESTIONS[8].opts==4) then
 		if(results[8]==0) then
 			RuntimeData.Instance.GameMode = "normal";
             RuntimeData.Instance.FriendlyFire = false;
@@ -368,11 +368,11 @@ function ROLLROLE_MakeBeginningCondition(this)
 			RuntimeData.Instance.FriendlyFire = true;
 			RuntimeData.Instance.AutoSaveOnly = true;
 		end
-	elseif(table.getn(ROLLROLE_QUESTIONS[8].opts)==1) then
+	elseif(#ROLLROLE_QUESTIONS[8].opts==1) then
 		RuntimeData.Instance.GameMode = "crazy";
 		RuntimeData.Instance.FriendlyFire = true;
 		RuntimeData.Instance.AutoSaveOnly = true;
-	elseif(table.getn(ROLLROLE_QUESTIONS[8].opts)==2) then
+	elseif(#ROLLROLE_QUESTIONS[8].opts==2) then
 		if(results[8]==0) then
 			RuntimeData.Instance.GameMode = "hard";
 			RuntimeData.Instance.FriendlyFire = true;
@@ -396,7 +396,7 @@ end
 function ROLLROLE_MakeRandomCondition(this)
 
 	local randomAttr = {"gengu","bili","fuyuan","shenfa","dingli","wuxing","quanzhang","jianfa","daofa","qimen"}
-	local randomAttrLength = table.getn(randomAttr)
+	local randomAttrLength = #randomAttr
 	for i=0,2,1
     do
         local rnd = math.random(0, randomAttrLength - 1)

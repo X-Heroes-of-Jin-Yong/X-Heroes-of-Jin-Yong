@@ -71,7 +71,7 @@ namespace Assets.Scripts.GameCore
 
 		public static string ReadResource(string file)
 		{
-			if (Application.platform == RuntimePlatform.WindowsWebPlayer)
+			if (Application.platform == RuntimePlatform.WebGLPlayer)
 			{
 				return null;
 			}

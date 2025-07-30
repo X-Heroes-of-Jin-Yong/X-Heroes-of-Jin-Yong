@@ -35,3 +35,431 @@
 7/30/2025 10:00:39 AM [error]System.NullReferenceException: Object reference not set to an instance of an object
   at JyGame.LuaManager.Init (Boolean forceReset) [0x000fc] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:85 
 7/30/2025 10:03:52 AM game started..
+2025/7/30 10:53:25 [error]============LUA语法错误！===========
+2025/7/30 10:53:25 [error]XLua.LuaException: [string "chunk"]:1: module 'main.lua' not found:
+	no field package.preload['main.lua']
+	no such builtin lib 'main.lua'
+	no such file 'main.lua' in CustomLoaders!
+	no such resource 'main/lua.lua'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\lua\main\lua.lua'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\lua\main\lua\init.lua'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\main\lua.lua'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\main\lua\init.lua'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\..\share\lua\5.3\main\lua.lua'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\..\share\lua\5.3\main\lua\init.lua'
+	no file '.\main\lua.lua'
+	no file '.\main\lua\init.lua'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\main\lua.dll'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\..\lib\lua\5.3\main\lua.dll'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\loadall.dll'
+	no file '.\main\lua.dll'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\main.dll'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\..\lib\lua\5.3\main.dll'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\loadall.dll'
+	no file '.\main.dll'
+	no such file 'main/lua.lua' in streamingAssetsPath!
+stack traceback:
+	[C]: in function 'require'
+	[string "chunk"]:1: in main chunk
+  at XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) [0x00034] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:441 
+  at XLua.LuaEnv.DoString (System.Byte[] chunk, System.String chunkName, XLua.LuaTable env) [0x0005b] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:274 
+  at XLua.LuaEnv.DoString (System.String chunk, System.String chunkName, XLua.LuaTable env) [0x0000c] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:288 
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x0003a] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:74 
+2025/7/30 10:53:25 [error]============LUA语法错误！===========
+2025/7/30 10:53:25 [error]System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000ae] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:87 
+2025/7/30 10:53:27 [error]============LUA语法错误！===========
+2025/7/30 10:53:27 [error]XLua.LuaException: [string "chunk"]:1: module 'main.lua' not found:
+	no field package.preload['main.lua']
+	no such builtin lib 'main.lua'
+	no such file 'main.lua' in CustomLoaders!
+	no such resource 'main/lua.lua'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\lua\main\lua.lua'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\lua\main\lua\init.lua'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\main\lua.lua'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\main\lua\init.lua'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\..\share\lua\5.3\main\lua.lua'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\..\share\lua\5.3\main\lua\init.lua'
+	no file '.\main\lua.lua'
+	no file '.\main\lua\init.lua'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\main\lua.dll'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\..\lib\lua\5.3\main\lua.dll'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\loadall.dll'
+	no file '.\main\lua.dll'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\main.dll'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\..\lib\lua\5.3\main.dll'
+	no file 'C:\Program Files\Unity\Hub\Editor\6000.0.53f1\Editor\loadall.dll'
+	no file '.\main.dll'
+	no such file 'main/lua.lua' in streamingAssetsPath!
+stack traceback:
+	[C]: in function 'require'
+	[string "chunk"]:1: in main chunk
+  at XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) [0x00034] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:441 
+  at XLua.LuaEnv.DoString (System.Byte[] chunk, System.String chunkName, XLua.LuaTable env) [0x0005b] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:274 
+  at XLua.LuaEnv.DoString (System.String chunk, System.String chunkName, XLua.LuaTable env) [0x0000c] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:288 
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x0003a] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:74 
+2025/7/30 10:53:27 [error]============LUA语法错误！===========
+2025/7/30 10:53:27 [error]System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000ae] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:87 
+2025/7/30 10:59:05 [error]============LUA语法错误！===========
+2025/7/30 10:59:05 [error]XLua.LuaException: c# exception in LoadFromCustomLoaders:System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.Resource.GetBytes (System.String path, System.Boolean loadFromAssetBundle) [0x00005] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\Resource.cs:181 
+  at JyGame.LuaManager.JyGameLuaLoader (System.String& path) [0x000a9] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:38 
+  at XLua.StaticLuaCallbacks.LoadFromCustomLoaders (System.IntPtr L) [0x0002e] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\StaticLuaCallbacks.cs:786 
+stack traceback:
+	[C]: in ?
+	[C]: in function 'require'
+	[string "chunk"]:1: in main chunk
+  at XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) [0x00034] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:441 
+  at XLua.LuaEnv.DoString (System.Byte[] chunk, System.String chunkName, XLua.LuaTable env) [0x0005b] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:274 
+  at XLua.LuaEnv.DoString (System.String chunk, System.String chunkName, XLua.LuaTable env) [0x0000c] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:288 
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00050] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:75 
+2025/7/30 10:59:05 [error]============LUA语法错误！===========
+2025/7/30 10:59:05 [error]System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000d3] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:88 
+2025/7/30 10:59:06 [error]============LUA语法错误！===========
+2025/7/30 10:59:06 [error]XLua.LuaException: c# exception in LoadFromCustomLoaders:System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.Resource.GetBytes (System.String path, System.Boolean loadFromAssetBundle) [0x00005] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\Resource.cs:181 
+  at JyGame.LuaManager.JyGameLuaLoader (System.String& path) [0x000a9] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:38 
+  at XLua.StaticLuaCallbacks.LoadFromCustomLoaders (System.IntPtr L) [0x0002e] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\StaticLuaCallbacks.cs:786 
+stack traceback:
+	[C]: in ?
+	[C]: in function 'require'
+	[string "chunk"]:1: in main chunk
+  at XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) [0x00034] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:441 
+  at XLua.LuaEnv.DoString (System.Byte[] chunk, System.String chunkName, XLua.LuaTable env) [0x0005b] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:274 
+  at XLua.LuaEnv.DoString (System.String chunk, System.String chunkName, XLua.LuaTable env) [0x0000c] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:288 
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00050] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:75 
+2025/7/30 10:59:06 [error]============LUA语法错误！===========
+2025/7/30 10:59:06 [error]System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000d3] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:88 
+2025/7/30 11:00:27 [error]============LUA语法错误！===========
+2025/7/30 11:00:27 [error]XLua.LuaException: c# exception in LoadFromCustomLoaders:System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.Resource.GetBytes (System.String path, System.Boolean loadFromAssetBundle) [0x00005] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\Resource.cs:181 
+  at JyGame.LuaManager.JyGameLuaLoader (System.String& path) [0x000a9] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:38 
+  at XLua.StaticLuaCallbacks.LoadFromCustomLoaders (System.IntPtr L) [0x0002e] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\StaticLuaCallbacks.cs:786 
+stack traceback:
+	[C]: in ?
+	[C]: in function 'require'
+	[string "chunk"]:1: in main chunk
+  at XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) [0x00034] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:441 
+  at XLua.LuaEnv.DoString (System.Byte[] chunk, System.String chunkName, XLua.LuaTable env) [0x0005b] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:274 
+  at XLua.LuaEnv.DoString (System.String chunk, System.String chunkName, XLua.LuaTable env) [0x0000c] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:288 
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00050] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:75 
+2025/7/30 11:00:27 [error]============LUA语法错误！===========
+2025/7/30 11:00:27 [error]System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000d3] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:88 
+2025/7/30 11:00:28 [error]============LUA语法错误！===========
+2025/7/30 11:00:28 [error]XLua.LuaException: c# exception in LoadFromCustomLoaders:System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.Resource.GetBytes (System.String path, System.Boolean loadFromAssetBundle) [0x00005] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\Resource.cs:181 
+  at JyGame.LuaManager.JyGameLuaLoader (System.String& path) [0x000a9] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:38 
+  at XLua.StaticLuaCallbacks.LoadFromCustomLoaders (System.IntPtr L) [0x0002e] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\StaticLuaCallbacks.cs:786 
+stack traceback:
+	[C]: in ?
+	[C]: in function 'require'
+	[string "chunk"]:1: in main chunk
+  at XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) [0x00034] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:441 
+  at XLua.LuaEnv.DoString (System.Byte[] chunk, System.String chunkName, XLua.LuaTable env) [0x0005b] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:274 
+  at XLua.LuaEnv.DoString (System.String chunk, System.String chunkName, XLua.LuaTable env) [0x0000c] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:288 
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00050] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:75 
+2025/7/30 11:00:28 [error]============LUA语法错误！===========
+2025/7/30 11:00:28 [error]System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000d3] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:88 
+2025/7/30 11:00:47 [error]============LUA语法错误！===========
+2025/7/30 11:00:47 [error]XLua.LuaException: c# exception in LoadFromCustomLoaders:System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.Resource.GetBytes (System.String path, System.Boolean loadFromAssetBundle) [0x00005] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\Resource.cs:181 
+  at JyGame.LuaManager.JyGameLuaLoader (System.String& path) [0x000a9] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:38 
+  at XLua.StaticLuaCallbacks.LoadFromCustomLoaders (System.IntPtr L) [0x0002e] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\StaticLuaCallbacks.cs:786 
+stack traceback:
+	[C]: in ?
+	[C]: in function 'require'
+	[string "chunk"]:1: in main chunk
+  at XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) [0x00034] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:441 
+  at XLua.LuaEnv.DoString (System.Byte[] chunk, System.String chunkName, XLua.LuaTable env) [0x0005b] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:274 
+  at XLua.LuaEnv.DoString (System.String chunk, System.String chunkName, XLua.LuaTable env) [0x0000c] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:288 
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00050] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:75 
+2025/7/30 11:00:47 [error]============LUA语法错误！===========
+2025/7/30 11:00:47 [error]System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000d3] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:88 
+2025/7/30 11:00:48 [error]============LUA语法错误！===========
+2025/7/30 11:00:48 [error]XLua.LuaException: c# exception in LoadFromCustomLoaders:System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.Resource.GetBytes (System.String path, System.Boolean loadFromAssetBundle) [0x00005] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\Resource.cs:181 
+  at JyGame.LuaManager.JyGameLuaLoader (System.String& path) [0x000a9] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:38 
+  at XLua.StaticLuaCallbacks.LoadFromCustomLoaders (System.IntPtr L) [0x0002e] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\StaticLuaCallbacks.cs:786 
+stack traceback:
+	[C]: in ?
+	[C]: in function 'require'
+	[string "chunk"]:1: in main chunk
+  at XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) [0x00034] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:441 
+  at XLua.LuaEnv.DoString (System.Byte[] chunk, System.String chunkName, XLua.LuaTable env) [0x0005b] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:274 
+  at XLua.LuaEnv.DoString (System.String chunk, System.String chunkName, XLua.LuaTable env) [0x0000c] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:288 
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00050] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:75 
+2025/7/30 11:00:48 [error]============LUA语法错误！===========
+2025/7/30 11:00:48 [error]System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000d3] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:88 
+2025/7/30 11:02:12 [error]============LUA语法错误！===========
+2025/7/30 11:02:12 [error]XLua.LuaException: c# exception in LoadFromCustomLoaders:System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.Resource.GetBytes (System.String path, System.Boolean loadFromAssetBundle) [0x00005] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\Resource.cs:181 
+  at JyGame.LuaManager.JyGameLuaLoader (System.String& path) [0x000a9] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:38 
+  at XLua.StaticLuaCallbacks.LoadFromCustomLoaders (System.IntPtr L) [0x0002e] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\StaticLuaCallbacks.cs:786 
+stack traceback:
+	[C]: in ?
+	[C]: in function 'require'
+	[string "chunk"]:1: in main chunk
+  at XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) [0x00034] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:441 
+  at XLua.LuaEnv.DoString (System.Byte[] chunk, System.String chunkName, XLua.LuaTable env) [0x0005b] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:274 
+  at XLua.LuaEnv.DoString (System.String chunk, System.String chunkName, XLua.LuaTable env) [0x0000c] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:288 
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00050] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:75 
+2025/7/30 11:02:12 [error]============LUA语法错误！===========
+2025/7/30 11:02:12 [error]System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000d3] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:88 
+2025/7/30 11:02:13 [error]============LUA语法错误！===========
+2025/7/30 11:02:13 [error]XLua.LuaException: c# exception in LoadFromCustomLoaders:System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.Resource.GetBytes (System.String path, System.Boolean loadFromAssetBundle) [0x00005] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\Resource.cs:181 
+  at JyGame.LuaManager.JyGameLuaLoader (System.String& path) [0x000a9] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:38 
+  at XLua.StaticLuaCallbacks.LoadFromCustomLoaders (System.IntPtr L) [0x0002e] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\StaticLuaCallbacks.cs:786 
+stack traceback:
+	[C]: in ?
+	[C]: in function 'require'
+	[string "chunk"]:1: in main chunk
+  at XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) [0x00034] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:441 
+  at XLua.LuaEnv.DoString (System.Byte[] chunk, System.String chunkName, XLua.LuaTable env) [0x0005b] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:274 
+  at XLua.LuaEnv.DoString (System.String chunk, System.String chunkName, XLua.LuaTable env) [0x0000c] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:288 
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00050] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:75 
+2025/7/30 11:02:13 [error]============LUA语法错误！===========
+2025/7/30 11:02:13 [error]System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000d3] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:88 
+2025/7/30 11:03:14 [error]============LUA语法错误！===========
+2025/7/30 11:03:14 [error]XLua.LuaException: c# exception in LoadFromCustomLoaders:System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.Resource.GetBytes (System.String path, System.Boolean loadFromAssetBundle) [0x00005] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\Resource.cs:181 
+  at JyGame.LuaManager.JyGameLuaLoader (System.String& path) [0x000a9] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:38 
+  at XLua.StaticLuaCallbacks.LoadFromCustomLoaders (System.IntPtr L) [0x0002e] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\StaticLuaCallbacks.cs:786 
+stack traceback:
+	[C]: in ?
+	[C]: in function 'require'
+	[string "chunk"]:1: in main chunk
+  at XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) [0x00034] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:441 
+  at XLua.LuaEnv.DoString (System.Byte[] chunk, System.String chunkName, XLua.LuaTable env) [0x0005b] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:274 
+  at XLua.LuaEnv.DoString (System.String chunk, System.String chunkName, XLua.LuaTable env) [0x0000c] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:288 
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00050] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:75 
+2025/7/30 11:03:14 [error]============LUA语法错误！===========
+2025/7/30 11:03:14 [error]System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000d3] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:88 
+2025/7/30 11:03:14 [error]============LUA语法错误！===========
+2025/7/30 11:03:14 [error]XLua.LuaException: c# exception in LoadFromCustomLoaders:System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.Resource.GetBytes (System.String path, System.Boolean loadFromAssetBundle) [0x00005] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\Resource.cs:181 
+  at JyGame.LuaManager.JyGameLuaLoader (System.String& path) [0x000a9] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:38 
+  at XLua.StaticLuaCallbacks.LoadFromCustomLoaders (System.IntPtr L) [0x0002e] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\StaticLuaCallbacks.cs:786 
+stack traceback:
+	[C]: in ?
+	[C]: in function 'require'
+	[string "chunk"]:1: in main chunk
+  at XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) [0x00034] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:441 
+  at XLua.LuaEnv.DoString (System.Byte[] chunk, System.String chunkName, XLua.LuaTable env) [0x0005b] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:274 
+  at XLua.LuaEnv.DoString (System.String chunk, System.String chunkName, XLua.LuaTable env) [0x0000c] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:288 
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00050] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:75 
+2025/7/30 11:03:14 [error]============LUA语法错误！===========
+2025/7/30 11:03:14 [error]System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000d3] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:88 
+2025/7/30 11:04:17 [error]============LUA语法错误！===========
+2025/7/30 11:04:17 [error]XLua.LuaException: c# exception in LoadFromCustomLoaders:System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.Resource.GetBytes (System.String path, System.Boolean loadFromAssetBundle) [0x00005] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\Resource.cs:181 
+  at JyGame.LuaManager.JyGameLuaLoader (System.String& path) [0x000b8] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:39 
+  at XLua.StaticLuaCallbacks.LoadFromCustomLoaders (System.IntPtr L) [0x0002e] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\StaticLuaCallbacks.cs:786 
+stack traceback:
+	[C]: in ?
+	[C]: in function 'require'
+	[string "chunk"]:1: in main chunk
+  at XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) [0x00034] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:441 
+  at XLua.LuaEnv.DoString (System.Byte[] chunk, System.String chunkName, XLua.LuaTable env) [0x0005b] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:274 
+  at XLua.LuaEnv.DoString (System.String chunk, System.String chunkName, XLua.LuaTable env) [0x0000c] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:288 
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00050] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:76 
+2025/7/30 11:04:17 [error]============LUA语法错误！===========
+2025/7/30 11:04:17 [error]System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000d3] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:89 
+2025/7/30 11:04:18 [error]============LUA语法错误！===========
+2025/7/30 11:04:18 [error]XLua.LuaException: c# exception in LoadFromCustomLoaders:System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.Resource.GetBytes (System.String path, System.Boolean loadFromAssetBundle) [0x00005] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\Resource.cs:181 
+  at JyGame.LuaManager.JyGameLuaLoader (System.String& path) [0x000b8] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:39 
+  at XLua.StaticLuaCallbacks.LoadFromCustomLoaders (System.IntPtr L) [0x0002e] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\StaticLuaCallbacks.cs:786 
+stack traceback:
+	[C]: in ?
+	[C]: in function 'require'
+	[string "chunk"]:1: in main chunk
+  at XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) [0x00034] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:441 
+  at XLua.LuaEnv.DoString (System.Byte[] chunk, System.String chunkName, XLua.LuaTable env) [0x0005b] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:274 
+  at XLua.LuaEnv.DoString (System.String chunk, System.String chunkName, XLua.LuaTable env) [0x0000c] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:288 
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00050] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:76 
+2025/7/30 11:04:18 [error]============LUA语法错误！===========
+2025/7/30 11:04:18 [error]System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000d3] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:89 
+2025/7/30 11:05:56 [error]============LUA语法错误！===========
+2025/7/30 11:05:56 [error]XLua.LuaException: c# exception in LoadFromCustomLoaders:System.IO.FileNotFoundException: Could not find file "C:\Users\84991\Desktop\1106\ExportedProject\gamedata\modcache\Template\lua\main"
+File name: 'C:\Users\84991\Desktop\1106\ExportedProject\gamedata\modcache\Template\lua\main'
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <4ea9c5843f6c401888efb0bdc93eda21>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <4ea9c5843f6c401888efb0bdc93eda21>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <4ea9c5843f6c401888efb0bdc93eda21>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x00007] in <4ea9c5843f6c401888efb0bdc93eda21>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <4ea9c5843f6c401888efb0bdc93eda21>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at JyGame.LuaManager.JyGameLuaLoader (System.String& path) [0x00058] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:31 
+  at XLua.StaticLuaCallbacks.LoadFromCustomLoaders (System.IntPtr L) [0x0002e] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\StaticLuaCallbacks.cs:786 
+stack traceback:
+	[C]: in ?
+	[C]: in function 'require'
+	[string "chunk"]:1: in main chunk
+  at XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) [0x00034] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:441 
+  at XLua.LuaEnv.DoString (System.Byte[] chunk, System.String chunkName, XLua.LuaTable env) [0x0005b] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:274 
+  at XLua.LuaEnv.DoString (System.String chunk, System.String chunkName, XLua.LuaTable env) [0x0000c] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:288 
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00050] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:76 
+2025/7/30 11:05:56 [error]============LUA语法错误！===========
+2025/7/30 11:05:56 [error]System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000dd] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:89 
+2025/7/30 11:05:57 [error]============LUA语法错误！===========
+2025/7/30 11:05:57 [error]XLua.LuaException: c# exception in LoadFromCustomLoaders:System.IO.FileNotFoundException: Could not find file "C:\Users\84991\Desktop\1106\ExportedProject\gamedata\modcache\Template\lua\main"
+File name: 'C:\Users\84991\Desktop\1106\ExportedProject\gamedata\modcache\Template\lua\main'
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <4ea9c5843f6c401888efb0bdc93eda21>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <4ea9c5843f6c401888efb0bdc93eda21>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <4ea9c5843f6c401888efb0bdc93eda21>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x00007] in <4ea9c5843f6c401888efb0bdc93eda21>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <4ea9c5843f6c401888efb0bdc93eda21>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at JyGame.LuaManager.JyGameLuaLoader (System.String& path) [0x00058] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:31 
+  at XLua.StaticLuaCallbacks.LoadFromCustomLoaders (System.IntPtr L) [0x0002e] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\StaticLuaCallbacks.cs:786 
+stack traceback:
+	[C]: in ?
+	[C]: in function 'require'
+	[string "chunk"]:1: in main chunk
+  at XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) [0x00034] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:441 
+  at XLua.LuaEnv.DoString (System.Byte[] chunk, System.String chunkName, XLua.LuaTable env) [0x0005b] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:274 
+  at XLua.LuaEnv.DoString (System.String chunk, System.String chunkName, XLua.LuaTable env) [0x0000c] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:288 
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00050] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:76 
+2025/7/30 11:05:57 [error]============LUA语法错误！===========
+2025/7/30 11:05:57 [error]System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000dd] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:89 
+2025/7/30 11:07:12 [error]============LUA语法错误！===========
+2025/7/30 11:07:12 [error]XLua.LuaException: jygame/main.lua:6: attempt to index a nil value (global 'luanet')
+stack traceback:
+	jygame/main.lua:6: in main chunk
+	[C]: in function 'require'
+	[string "chunk"]:1: in main chunk
+  at XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) [0x00034] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:441 
+  at XLua.LuaEnv.DoString (System.Byte[] chunk, System.String chunkName, XLua.LuaTable env) [0x0005b] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:274 
+  at XLua.LuaEnv.DoString (System.String chunk, System.String chunkName, XLua.LuaTable env) [0x0000c] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:288 
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00050] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:76 
+2025/7/30 11:07:12 [error]============LUA语法错误！===========
+2025/7/30 11:07:12 [error]System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000c4] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:89 
+2025/7/30 11:07:13 [error]============LUA语法错误！===========
+2025/7/30 11:07:13 [error]XLua.LuaException: jygame/main.lua:6: attempt to index a nil value (global 'luanet')
+stack traceback:
+	jygame/main.lua:6: in main chunk
+	[C]: in function 'require'
+	[string "chunk"]:1: in main chunk
+  at XLua.LuaEnv.ThrowExceptionFromError (System.Int32 oldTop) [0x00034] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:441 
+  at XLua.LuaEnv.DoString (System.Byte[] chunk, System.String chunkName, XLua.LuaTable env) [0x0005b] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:274 
+  at XLua.LuaEnv.DoString (System.String chunk, System.String chunkName, XLua.LuaTable env) [0x0000c] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\XLua\Src\LuaEnv.cs:288 
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00050] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:76 
+2025/7/30 11:07:13 [error]============LUA语法错误！===========
+2025/7/30 11:07:13 [error]System.NullReferenceException: Object reference not set to an instance of an object
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000c4] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:89 
+2025/7/30 11:09:37 [error]============LUA语法错误！===========
+2025/7/30 11:09:37 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000d3] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:89 
+2025/7/30 11:09:38 game started..
+2025/7/30 11:09:38 [error]============LUA语法错误！===========
+2025/7/30 11:09:38 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000d3] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:89 
+2025/7/30 11:10:34 [error]============LUA语法错误！===========
+2025/7/30 11:10:34 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000d3] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:89 
+2025/7/30 11:10:35 game started..
+2025/7/30 11:10:35 [error]============LUA语法错误！===========
+2025/7/30 11:10:35 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000d3] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:89 
+2025/7/30 11:12:42 [error]============LUA语法错误！===========
+2025/7/30 11:12:42 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000d3] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:89 
+2025/7/30 11:12:43 game started..
+2025/7/30 11:12:43 [error]============LUA语法错误！===========
+2025/7/30 11:12:43 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000d3] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:89 
+2025/7/30 11:14:38 [error]============LUA语法错误！===========
+2025/7/30 11:14:38 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000d3] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:89 
+2025/7/30 11:14:38 game started..
+2025/7/30 11:14:38 [error]============LUA语法错误！===========
+2025/7/30 11:14:38 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x000d3] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:89 
+2025/7/30 11:29:43 [error]============LUA语法错误！===========
+2025/7/30 11:29:43 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00101] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:86 
+2025/7/30 11:29:45 game started..
+2025/7/30 11:29:50 [error]============LUA语法错误！===========
+2025/7/30 11:29:50 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00101] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:86 
+2025/7/30 11:32:50 [error]============LUA语法错误！===========
+2025/7/30 11:32:50 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00101] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:86 
+2025/7/30 11:32:52 game started..
+2025/7/30 11:32:55 [error]============LUA语法错误！===========
+2025/7/30 11:32:55 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00101] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:86 
+2025/7/30 11:48:56 [error]============LUA语法错误！===========
+2025/7/30 11:48:56 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00101] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:86 
+2025/7/30 11:48:58 game started..
+2025/7/30 11:48:58 [error]============LUA语法错误！===========
+2025/7/30 11:48:58 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00101] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:86 
+2025/7/30 11:55:41 [error]============LUA语法错误！===========
+2025/7/30 11:55:41 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00101] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:86 
+2025/7/30 11:55:43 game started..
+2025/7/30 11:55:43 [error]============LUA语法错误！===========
+2025/7/30 11:55:43 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00101] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:86 
+2025/7/30 11:59:40 [error]============LUA语法错误！===========
+2025/7/30 11:59:40 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00101] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:85 
+2025/7/30 11:59:42 game started..
+2025/7/30 11:59:42 [error]============LUA语法错误！===========
+2025/7/30 11:59:42 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00101] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:85 
+2025/7/30 12:01:10 [error]============LUA语法错误！===========
+2025/7/30 12:01:10 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00101] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:85 
+2025/7/30 12:01:11 game started..
+2025/7/30 12:01:11 [error]============LUA语法错误！===========
+2025/7/30 12:01:11 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00101] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:85 
+2025/7/30 12:03:17 [error]============LUA语法错误！===========
+2025/7/30 12:03:17 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00101] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:85 
+2025/7/30 12:03:18 game started..
+2025/7/30 12:03:18 [error]============LUA语法错误！===========
+2025/7/30 12:03:18 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00101] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:85 
+2025/7/30 12:05:37 [error]============LUA语法错误！===========
+2025/7/30 12:05:37 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00101] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:85 
+2025/7/30 12:05:39 game started..
+2025/7/30 12:05:41 [error]============LUA语法错误！===========
+2025/7/30 12:05:41 [error]System.InvalidCastException: Specified cast is not valid.
+  at JyGame.LuaManager.Init (System.Boolean forceReset) [0x00101] in C:\Users\84991\Desktop\1106\ExportedProject\Assets\Scripts\Assembly-CSharp\JyGame\LuaManager.cs:85 
+2025/7/30 12:08:05 game started..
+2025/7/30 12:09:53 game started..
+2025/7/30 12:10:56 game started..
+2025/7/30 12:13:14 game started..
+2025/7/30 12:18:38 game started..
+2025/7/30 12:22:00 game started..
+2025/7/30 12:27:25 game started..
+2025/7/30 12:28:12 game started..
+2025/7/30 12:44:06 game started..
+2025/7/30 12:45:08 game started..
+2025/7/30 12:47:18 game started..
+2025/7/30 12:49:38 game started..
+2025/7/30 12:51:07 game started..
+2025/7/30 12:53:20 game started..

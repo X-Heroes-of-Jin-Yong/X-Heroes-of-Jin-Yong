@@ -16,7 +16,7 @@ namespace JyGame
 		public string image;
 
 		[XmlAttribute("probability")]
-		public int? probabilityValue;
+		public int probability = 100;
 
 		[XmlAttribute]
 		public int lv = -1;
@@ -29,26 +29,6 @@ namespace JyGame
 
 		[XmlElement("condition")]
 		public List<Condition> Conditions;
-
-		[XmlIgnore]
-		public int probability
-		{
-			get
-			{
-				int? num = probabilityValue;
-				int result;
-				if (!num.HasValue)
-				{
-					result = 100;
-				}
-				else
-				{
-					int? num2 = probabilityValue;
-					result = num2.Value;
-				}
-				return result;
-			}
-		}
 
 		public bool IsRepeatOnce
 		{

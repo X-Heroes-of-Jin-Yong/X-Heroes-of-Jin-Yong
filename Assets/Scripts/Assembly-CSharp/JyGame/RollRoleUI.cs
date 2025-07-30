@@ -1,10 +1,12 @@
 using System.Collections.Generic;
-using LuaInterface;
+
 using UnityEngine;
 using UnityEngine.UI;
+using XLua;
 
 namespace JyGame
 {
+	[LuaCallCSharp]
 	public class RollRoleUI : MonoBehaviour
 	{
 		public GameObject rolePanelObj;
@@ -81,10 +83,10 @@ namespace JyGame
 		public void LoadSelection(string title, LuaTable opts, LuaFunction callback)
 		{
 			List<string> list = new List<string>();
-			foreach (object value in opts.Values)
+			opts.ForEach(delegate(object key, object value)
 			{
-				list.Add((string)value);
-			}
+				list.Add(value.ToString());
+			});
 			LoadSelection(title, list, LuaTool.MakeIntCallBack(callback));
 		}
 

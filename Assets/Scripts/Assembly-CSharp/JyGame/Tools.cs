@@ -7,6 +7,7 @@ using System.Threading;
 using System.Xml;
 using System.Xml.Serialization;
 using UnityEngine;
+using Object = UnityEngine.Object;
 
 namespace JyGame
 {
@@ -172,7 +173,7 @@ namespace JyGame
 			if (string.IsNullOrEmpty(www.error))
 			{
 				string response = www.text;
-				callback(MiniJSON.jsonDecode(response));
+				callback(JsonUtility.FromJson<Object>(response));
 				yield return response;
 			}
 			www.Dispose();
@@ -181,7 +182,7 @@ namespace JyGame
 
 		public static void openURL(string url)
 		{
-			if (Application.isWebPlayer)
+			if (Application.platform == RuntimePlatform.WebGLPlayer)
 			{
 				Application.ExternalEval("window.open('" + url + "');");
 			}

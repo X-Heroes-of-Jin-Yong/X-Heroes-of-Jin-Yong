@@ -79,7 +79,7 @@ namespace JyGame
 				{
 					return "file://" + Application.dataPath + "/StreamingAssets/";
 				}
-				if (Application.isWebPlayer)
+				if (Application.platform == RuntimePlatform.WebGLPlayer)
 				{
 					return "StreamingAssets/";
 				}
