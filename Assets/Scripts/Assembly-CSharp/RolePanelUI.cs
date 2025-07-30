@@ -73,7 +73,7 @@ public class RolePanelUI : MonoBehaviour
 	{
 		get
 		{
-			return base.transform.FindChild("NameText").GetComponent<Text>();
+			return base.transform.Find("NameText").GetComponent<Text>();
 		}
 	}
 
@@ -89,7 +89,7 @@ public class RolePanelUI : MonoBehaviour
 	{
 		get
 		{
-			return base.transform.FindChild("TextRoleDetail").GetComponent<Text>();
+			return base.transform.Find("TextRoleDetail").GetComponent<Text>();
 		}
 	}
 
@@ -144,31 +144,31 @@ public class RolePanelUI : MonoBehaviour
 			text = "-/-";
 		}
 		roleDetail.text = string.Format("等级 {2}\n生命 {4}/{5}\n内力 {6}/{7}\n经验 {3}\n攻击 {0}\n韧性 {1}", (int)role.Attack, (int)role.Defence, role.level, text, role.hp, role.maxhp, role.mp, role.maxmp);
-		ShuxingPanel.transform.FindChild("HpSlider").GetComponent<Slider>().value = (float)role.hp / (float)role.maxhp;
-		ShuxingPanel.transform.FindChild("MpSlider").GetComponent<Slider>().value = (float)role.mp / (float)role.maxmp;
+		ShuxingPanel.transform.Find("HpSlider").GetComponent<Slider>().value = (float)role.hp / (float)role.maxhp;
+		ShuxingPanel.transform.Find("MpSlider").GetComponent<Slider>().value = (float)role.mp / (float)role.maxmp;
 		HpMaskObj.transform.localPosition = new Vector3(HpMaskObj.transform.localPosition.x, (float)role.hp / (float)role.maxhp * 100f - 90f);
 		MpMaskObj.transform.localPosition = new Vector3(MpMaskObj.transform.localPosition.x, (float)role.mp / (float)role.maxmp * 100f - 90f);
-		ShuxingPanel.transform.FindChild("TextHp").GetComponent<Text>().text = string.Format("{0}/{1}", role.hp, role.maxhp);
-		ShuxingPanel.transform.FindChild("TextMp").GetComponent<Text>().text = string.Format("{0}/{1}", role.mp, role.maxmp);
-		ShuxingPanel.transform.FindChild("Quanfa").FindChild("InfoText").GetComponent<Text>()
+		ShuxingPanel.transform.Find("TextHp").GetComponent<Text>().text = string.Format("{0}/{1}", role.hp, role.maxhp);
+		ShuxingPanel.transform.Find("TextMp").GetComponent<Text>().text = string.Format("{0}/{1}", role.mp, role.maxmp);
+		ShuxingPanel.transform.Find("Quanfa").Find("InfoText").GetComponent<Text>()
 			.text = role.GetAttributeString("quanzhang");
-		ShuxingPanel.transform.FindChild("Jianfa").FindChild("InfoText").GetComponent<Text>()
+		ShuxingPanel.transform.Find("Jianfa").Find("InfoText").GetComponent<Text>()
 			.text = role.GetAttributeString("jianfa");
-		ShuxingPanel.transform.FindChild("Daofa").FindChild("InfoText").GetComponent<Text>()
+		ShuxingPanel.transform.Find("Daofa").Find("InfoText").GetComponent<Text>()
 			.text = role.GetAttributeString("daofa");
-		ShuxingPanel.transform.FindChild("Qimen").FindChild("InfoText").GetComponent<Text>()
+		ShuxingPanel.transform.Find("Qimen").Find("InfoText").GetComponent<Text>()
 			.text = role.GetAttributeString("qimen");
-		ShuxingPanel.transform.FindChild("Bili").FindChild("InfoText").GetComponent<Text>()
+		ShuxingPanel.transform.Find("Bili").Find("InfoText").GetComponent<Text>()
 			.text = role.GetAttributeString("bili");
-		ShuxingPanel.transform.FindChild("Wuxing").FindChild("InfoText").GetComponent<Text>()
+		ShuxingPanel.transform.Find("Wuxing").Find("InfoText").GetComponent<Text>()
 			.text = role.GetAttributeString("wuxing");
-		ShuxingPanel.transform.FindChild("Shenfa").FindChild("InfoText").GetComponent<Text>()
+		ShuxingPanel.transform.Find("Shenfa").Find("InfoText").GetComponent<Text>()
 			.text = role.GetAttributeString("shenfa");
-		ShuxingPanel.transform.FindChild("Fuyuan").FindChild("InfoText").GetComponent<Text>()
+		ShuxingPanel.transform.Find("Fuyuan").Find("InfoText").GetComponent<Text>()
 			.text = role.GetAttributeString("fuyuan");
-		ShuxingPanel.transform.FindChild("Gengu").FindChild("InfoText").GetComponent<Text>()
+		ShuxingPanel.transform.Find("Gengu").Find("InfoText").GetComponent<Text>()
 			.text = role.GetAttributeString("gengu");
-		ShuxingPanel.transform.FindChild("Dingli").FindChild("InfoText").GetComponent<Text>()
+		ShuxingPanel.transform.Find("Dingli").Find("InfoText").GetComponent<Text>()
 			.text = role.GetAttributeString("dingli");
 		string text2 = ((role.leftpoint != 0) ? string.Format("<color='green'>{0}</color>", role.leftpoint) : "0");
 		LeftPointTextObj.GetComponent<Text>().text = text2;

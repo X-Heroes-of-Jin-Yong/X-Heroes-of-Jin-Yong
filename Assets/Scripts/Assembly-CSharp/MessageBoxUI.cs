@@ -9,10 +9,10 @@ public class MessageBoxUI : MonoBehaviour
 	public void Show(string title, string text, Color color, CommonSettings.VoidCallBack callback = null, string confirmText = "确认")
 	{
 		base.gameObject.SetActive(true);
-		base.transform.FindChild("TitleText").GetComponent<Text>().text = title;
-		base.transform.FindChild("Text").GetComponent<Text>().text = text;
-		base.transform.FindChild("Text").GetComponent<Text>().color = color;
-		base.transform.FindChild("Button").FindChild("Text").GetComponent<Text>()
+		base.transform.Find("TitleText").GetComponent<Text>().text = title;
+		base.transform.Find("Text").GetComponent<Text>().text = text;
+		base.transform.Find("Text").GetComponent<Text>().color = color;
+		base.transform.Find("Button").Find("Text").GetComponent<Text>()
 			.text = confirmText;
 		_callback = callback;
 	}

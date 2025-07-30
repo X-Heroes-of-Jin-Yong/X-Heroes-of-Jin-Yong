@@ -24,7 +24,7 @@ public class TeamRoleItemUI : MonoBehaviour
 	{
 		get
 		{
-			return base.transform.FindChild("_bgColor").FindChild("HeadImage").GetComponent<Image>();
+			return base.transform.Find("_bgColor").Find("HeadImage").GetComponent<Image>();
 		}
 	}
 
@@ -32,7 +32,7 @@ public class TeamRoleItemUI : MonoBehaviour
 	{
 		get
 		{
-			return base.transform.FindChild("NameText").GetComponent<Text>();
+			return base.transform.Find("NameText").GetComponent<Text>();
 		}
 	}
 
@@ -40,7 +40,7 @@ public class TeamRoleItemUI : MonoBehaviour
 	{
 		get
 		{
-			return base.transform.FindChild("InfoText").GetComponent<Text>();
+			return base.transform.Find("InfoText").GetComponent<Text>();
 		}
 	}
 
@@ -48,7 +48,7 @@ public class TeamRoleItemUI : MonoBehaviour
 	{
 		get
 		{
-			return base.transform.FindChild("ZhuangbeiPanel").FindChild("_bg1").FindChild("ItemWuqi")
+			return base.transform.Find("ZhuangbeiPanel").Find("_bg1").Find("ItemWuqi")
 				.GetComponent<ItemUI>();
 		}
 	}
@@ -57,7 +57,7 @@ public class TeamRoleItemUI : MonoBehaviour
 	{
 		get
 		{
-			return base.transform.FindChild("ZhuangbeiPanel").FindChild("_bg2").FindChild("ItemFangju")
+			return base.transform.Find("ZhuangbeiPanel").Find("_bg2").Find("ItemFangju")
 				.GetComponent<ItemUI>();
 		}
 	}
@@ -66,7 +66,7 @@ public class TeamRoleItemUI : MonoBehaviour
 	{
 		get
 		{
-			return base.transform.FindChild("ZhuangbeiPanel").FindChild("_bg3").FindChild("ItemShipin")
+			return base.transform.Find("ZhuangbeiPanel").Find("_bg3").Find("ItemShipin")
 				.GetComponent<ItemUI>();
 		}
 	}
@@ -75,7 +75,7 @@ public class TeamRoleItemUI : MonoBehaviour
 	{
 		get
 		{
-			return base.transform.FindChild("ZhuangbeiPanel").FindChild("_bg4").FindChild("ItemJingshu")
+			return base.transform.Find("ZhuangbeiPanel").Find("_bg4").Find("ItemJingshu")
 				.GetComponent<ItemUI>();
 		}
 	}
@@ -84,7 +84,7 @@ public class TeamRoleItemUI : MonoBehaviour
 	{
 		get
 		{
-			return base.transform.FindChild("UpButton").GetComponent<Button>();
+			return base.transform.Find("UpButton").GetComponent<Button>();
 		}
 	}
 
@@ -92,7 +92,7 @@ public class TeamRoleItemUI : MonoBehaviour
 	{
 		get
 		{
-			return base.transform.FindChild("DownButton").GetComponent<Button>();
+			return base.transform.Find("DownButton").GetComponent<Button>();
 		}
 	}
 
@@ -142,13 +142,13 @@ public class TeamRoleItemUI : MonoBehaviour
 		}
 		if (_role.Female)
 		{
-			base.transform.FindChild("MaleTag").gameObject.SetActive(false);
-			base.transform.FindChild("FemaleTag").gameObject.SetActive(true);
+			base.transform.Find("MaleTag").gameObject.SetActive(false);
+			base.transform.Find("FemaleTag").gameObject.SetActive(true);
 		}
 		else
 		{
-			base.transform.FindChild("MaleTag").gameObject.SetActive(true);
-			base.transform.FindChild("FemaleTag").gameObject.SetActive(false);
+			base.transform.Find("MaleTag").gameObject.SetActive(true);
+			base.transform.Find("FemaleTag").gameObject.SetActive(false);
 		}
 	}
 
@@ -180,7 +180,7 @@ public class TeamRoleItemUI : MonoBehaviour
 	{
 		for (int i = 1; i <= 4; i++)
 		{
-			Transform transform = ZhuangbeiPanel.transform.FindChild("_bg" + i).FindChild(path);
+			Transform transform = ZhuangbeiPanel.transform.Find("_bg" + i).Find(path);
 			if (transform != null)
 			{
 				return transform.gameObject;

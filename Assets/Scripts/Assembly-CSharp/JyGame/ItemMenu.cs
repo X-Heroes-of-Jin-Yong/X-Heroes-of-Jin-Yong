@@ -66,7 +66,7 @@ namespace JyGame
 		private void Refresh()
 		{
 			ItemPreviewPanelObj.SetActive(false);
-			base.transform.FindChild("TitleText").GetComponent<Text>().text = _title;
+			base.transform.Find("TitleText").GetComponent<Text>().text = _title;
 			selectMenu.Clear();
 			List<KeyValuePair<ItemInstance, int>> list = new List<KeyValuePair<ItemInstance, int>>();
 			foreach (KeyValuePair<ItemInstance, int> item2 in _items)

@@ -25,7 +25,7 @@ public class MapRoleUI : MonoBehaviour, IPointerEnterHandler, IEventSystemHandle
 	{
 		get
 		{
-			return base.transform.FindChild("ToolTipPanel").gameObject;
+			return base.transform.Find("ToolTipPanel").gameObject;
 		}
 	}
 
@@ -96,22 +96,22 @@ public class MapRoleUI : MonoBehaviour, IPointerEnterHandler, IEventSystemHandle
 			}
 		}
 		_sprite = Resource.GetImage(text);
-		base.transform.FindChild("_mask").FindChild("HeadImage").GetComponent<Image>()
+		base.transform.Find("_mask").Find("HeadImage").GetComponent<Image>()
 			.sprite = _sprite;
 		if (text.StartsWith("地图"))
 		{
-			base.transform.FindChild("_mask").FindChild("HeadImage").transform.localScale = new Vector3(1.7777778f, 1f);
+			base.transform.Find("_mask").Find("HeadImage").transform.localScale = new Vector3(1.7777778f, 1f);
 		}
 		base.transform.localPosition = new Vector3(-398 + index * 200, 90f, 0f);
-		base.transform.FindChild("StoryTag").gameObject.SetActive(active);
-		base.transform.FindChild("NameText").GetComponent<Text>().text = mapRoleName;
+		base.transform.Find("StoryTag").gameObject.SetActive(active);
+		base.transform.Find("NameText").GetComponent<Text>().text = mapRoleName;
 		if (RuntimeData.Instance.hasTask())
 		{
-			base.transform.FindChild("StoryTag").gameObject.SetActive(false);
+			base.transform.Find("StoryTag").gameObject.SetActive(false);
 		}
 		if (RuntimeData.Instance.isLocationInTask(role.Name))
 		{
-			base.transform.FindChild("StoryTag").gameObject.SetActive(true);
+			base.transform.Find("StoryTag").gameObject.SetActive(true);
 		}
 	}
 
@@ -134,7 +134,7 @@ public class MapRoleUI : MonoBehaviour, IPointerEnterHandler, IEventSystemHandle
 	private void ShowToolTip()
 	{
 		ToolTipPanel.SetActive(true);
-		ToolTipPanel.transform.FindChild("Text").GetComponent<Text>().text = desc;
+		ToolTipPanel.transform.Find("Text").GetComponent<Text>().text = desc;
 	}
 
 	private void HideToolTip()

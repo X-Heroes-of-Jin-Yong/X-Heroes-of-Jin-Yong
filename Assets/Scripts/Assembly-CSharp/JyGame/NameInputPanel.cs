@@ -13,7 +13,7 @@ namespace JyGame
 		{
 			get
 			{
-				return base.transform.FindChild("NameInputField").FindChild("Text").GetComponent<Text>();
+				return base.transform.Find("NameInputField").Find("Text").GetComponent<Text>();
 			}
 		}
 
@@ -21,7 +21,7 @@ namespace JyGame
 		{
 			get
 			{
-				return base.transform.FindChild("NameInputField").GetComponent<InputField>();
+				return base.transform.Find("NameInputField").GetComponent<InputField>();
 			}
 		}
 

@@ -45,59 +45,59 @@ public class SystemPanelUI : MonoBehaviour
 
 	public void OnAutoBattle()
 	{
-		bool isOn = base.transform.FindChild("Toggles").FindChild("AutoBattleToggle").GetComponent<Toggle>()
+		bool isOn = base.transform.Find("Toggles").Find("AutoBattleToggle").GetComponent<Toggle>()
 			.isOn;
 		Configer.IsAutoBattle = isOn;
 	}
 
 	public void OnAutoSave()
 	{
-		bool isOn = base.transform.FindChild("Toggles").FindChild("AutoSaveToggle").GetComponent<Toggle>()
+		bool isOn = base.transform.Find("Toggles").Find("AutoSaveToggle").GetComponent<Toggle>()
 			.isOn;
 		Configer.IsAutoSave = isOn;
 	}
 
 	public void OnMusic()
 	{
-		bool isOn = base.transform.FindChild("Toggles").FindChild("MusicToggle").GetComponent<Toggle>()
+		bool isOn = base.transform.Find("Toggles").Find("MusicToggle").GetComponent<Toggle>()
 			.isOn;
 		Configer.IsMusicOn = isOn;
 	}
 
 	public void OnEffect()
 	{
-		bool isOn = base.transform.FindChild("Toggles").FindChild("EffectToggle").GetComponent<Toggle>()
+		bool isOn = base.transform.Find("Toggles").Find("EffectToggle").GetComponent<Toggle>()
 			.isOn;
 		Configer.IsEffectOn = isOn;
 	}
 
 	public void OnScaleBigMap()
 	{
-		bool isOn = base.transform.FindChild("Toggles").FindChild("ScaleBigMapToggle").GetComponent<Toggle>()
+		bool isOn = base.transform.Find("Toggles").Find("ScaleBigMapToggle").GetComponent<Toggle>()
 			.isOn;
 		Configer.IsBigmapFullScreen = isOn;
 	}
 
 	public void OnBattleTip()
 	{
-		bool isOn = base.transform.FindChild("Toggles").FindChild("BattleTipToggle").GetComponent<Toggle>()
+		bool isOn = base.transform.Find("Toggles").Find("BattleTipToggle").GetComponent<Toggle>()
 			.isOn;
 		Configer.IsBattleTipShow = isOn;
 	}
 
 	private void Refresh()
 	{
-		base.transform.FindChild("Toggles").FindChild("AutoBattleToggle").GetComponent<Toggle>()
+		base.transform.Find("Toggles").Find("AutoBattleToggle").GetComponent<Toggle>()
 			.isOn = Configer.IsAutoBattle;
-		base.transform.FindChild("Toggles").FindChild("MusicToggle").GetComponent<Toggle>()
+		base.transform.Find("Toggles").Find("MusicToggle").GetComponent<Toggle>()
 			.isOn = Configer.IsMusicOn;
-		base.transform.FindChild("Toggles").FindChild("EffectToggle").GetComponent<Toggle>()
+		base.transform.Find("Toggles").Find("EffectToggle").GetComponent<Toggle>()
 			.isOn = Configer.IsEffectOn;
-		base.transform.FindChild("Toggles").FindChild("AutoSaveToggle").GetComponent<Toggle>()
+		base.transform.Find("Toggles").Find("AutoSaveToggle").GetComponent<Toggle>()
 			.isOn = Configer.IsAutoSave;
-		base.transform.FindChild("Toggles").FindChild("ScaleBigMapToggle").GetComponent<Toggle>()
+		base.transform.Find("Toggles").Find("ScaleBigMapToggle").GetComponent<Toggle>()
 			.isOn = Configer.IsBigmapFullScreen;
-		base.transform.FindChild("Toggles").FindChild("BattleTipToggle").GetComponent<Toggle>()
+		base.transform.Find("Toggles").Find("BattleTipToggle").GetComponent<Toggle>()
 			.isOn = Configer.IsBattleTipShow;
 	}
 
@@ -110,8 +110,8 @@ public class SystemPanelUI : MonoBehaviour
 	private void Start()
 	{
 		consolePanelObj.gameObject.SetActive(CommonSettings.DEBUG_CONSOLE);
-		base.transform.FindChild("_hotKeySuggestText").gameObject.SetActive(!CommonSettings.TOUCH_MODE);
-		base.transform.FindChild("Toggles").FindChild("ScaleBigMapToggle").gameObject.SetActive(CommonSettings.TOUCH_MODE);
+		base.transform.Find("_hotKeySuggestText").gameObject.SetActive(!CommonSettings.TOUCH_MODE);
+		base.transform.Find("Toggles").Find("ScaleBigMapToggle").gameObject.SetActive(CommonSettings.TOUCH_MODE);
 	}
 
 	private void Update()

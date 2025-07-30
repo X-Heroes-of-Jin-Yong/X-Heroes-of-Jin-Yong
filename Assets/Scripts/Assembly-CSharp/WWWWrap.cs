@@ -260,7 +260,7 @@ public class WWWWrap
 				LuaDLL.luaL_error(L, "attempt to index audioClip on a nil value");
 			}
 		}
-		LuaScriptMgr.Push(L, wWW.audioClip);
+		LuaScriptMgr.Push(L, wWW.GetAudioClip());
 		return 1;
 	}
 

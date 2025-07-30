@@ -8,7 +8,7 @@ public class ConfirmPanel : MonoBehaviour
 
 	public void Show(string info, CommonSettings.VoidCallBack confirmCallback)
 	{
-		base.transform.FindChild("Text").GetComponent<Text>().text = info;
+		base.transform.Find("Text").GetComponent<Text>().text = info;
 		base.gameObject.SetActive(true);
 		callback = confirmCallback;
 	}

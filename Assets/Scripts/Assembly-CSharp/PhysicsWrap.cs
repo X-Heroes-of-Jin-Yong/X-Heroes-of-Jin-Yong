@@ -106,7 +106,7 @@ public class PhysicsWrap
 	[MonoPInvokeCallback(typeof(LuaCSFunction))]
 	private static int get_solverIterationCount(IntPtr L)
 	{
-		LuaScriptMgr.Push(L, Physics.solverIterationCount);
+		LuaScriptMgr.Push(L, Physics.defaultSolverIterations);
 		return 1;
 	}
 
@@ -148,7 +148,7 @@ public class PhysicsWrap
 	[MonoPInvokeCallback(typeof(LuaCSFunction))]
 	private static int set_solverIterationCount(IntPtr L)
 	{
-		Physics.solverIterationCount = (int)LuaScriptMgr.GetNumber(L, 3);
+		Physics.defaultSolverIterations = (int)LuaScriptMgr.GetNumber(L, 3);
 		return 0;
 	}
 

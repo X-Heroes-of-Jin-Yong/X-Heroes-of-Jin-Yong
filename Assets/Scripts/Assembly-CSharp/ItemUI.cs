@@ -17,42 +17,42 @@ public class ItemUI : MonoBehaviour, IPointerEnterHandler, IEventSystemHandler, 
 		{
 			if (!isActiveCallback(item))
 			{
-				base.transform.FindChild("CrossImage").gameObject.SetActive(true);
+				base.transform.Find("CrossImage").gameObject.SetActive(true);
 			}
 			else
 			{
-				base.transform.FindChild("CrossImage").gameObject.SetActive(false);
+				base.transform.Find("CrossImage").gameObject.SetActive(false);
 			}
 		}
 		else
 		{
-			base.transform.FindChild("CrossImage").gameObject.SetActive(false);
+			base.transform.Find("CrossImage").gameObject.SetActive(false);
 		}
-		base.transform.FindChild("Text").GetComponent<Text>().text = item.Name;
+		base.transform.Find("Text").GetComponent<Text>().text = item.Name;
 		Color color = item.GetColor();
 		color.a = 0.3f;
-		base.transform.FindChild("_textBg").GetComponent<Image>().color = color;
+		base.transform.Find("_textBg").GetComponent<Image>().color = color;
 		if (count == 1 || count == -1)
 		{
-			base.transform.FindChild("NumberText").GetComponent<Text>().text = string.Empty;
+			base.transform.Find("NumberText").GetComponent<Text>().text = string.Empty;
 		}
 		else
 		{
-			base.transform.FindChild("NumberText").GetComponent<Text>().text = count.ToString();
+			base.transform.Find("NumberText").GetComponent<Text>().text = count.ToString();
 		}
 		GetComponent<Button>().onClick.RemoveAllListeners();
 		GetComponent<Button>().onClick.AddListener(delegate
 		{
 			callback();
 		});
-		if (base.transform.FindChild("_mask") != null && base.transform.FindChild("_mask").FindChild("Image") != null)
+		if (base.transform.Find("_mask") != null && base.transform.Find("_mask").Find("Image") != null)
 		{
-			base.transform.FindChild("_mask").FindChild("Image").GetComponent<Image>()
+			base.transform.Find("_mask").Find("Image").GetComponent<Image>()
 				.sprite = Resource.GetImage(item.pic);
 		}
-		else if (base.transform.FindChild("Image") != null)
+		else if (base.transform.Find("Image") != null)
 		{
-			base.transform.FindChild("Image").GetComponent<Image>().sprite = Resource.GetImage(item.pic);
+			base.transform.Find("Image").GetComponent<Image>().sprite = Resource.GetImage(item.pic);
 		}
 		else
 		{

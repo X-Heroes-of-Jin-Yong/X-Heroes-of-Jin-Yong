@@ -1141,7 +1141,7 @@ public class TransformWrap
 		LuaScriptMgr.CheckArgsCount(L, 2);
 		Transform transform = (Transform)LuaScriptMgr.GetUnityObjectSelf(L, 1, "Transform");
 		string luaString = LuaScriptMgr.GetLuaString(L, 2);
-		Transform obj = transform.FindChild(luaString);
+		Transform obj = transform.Find(luaString);
 		LuaScriptMgr.Push(L, obj);
 		return 1;
 	}

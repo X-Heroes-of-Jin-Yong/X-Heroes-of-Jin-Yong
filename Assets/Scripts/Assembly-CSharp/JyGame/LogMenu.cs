@@ -11,7 +11,7 @@ namespace JyGame
 		{
 			get
 			{
-				return base.transform.FindChild("SelectPanel").FindChild("LogText").GetComponent<Text>();
+				return base.transform.Find("SelectPanel").Find("LogText").GetComponent<Text>();
 			}
 		}
 

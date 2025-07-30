@@ -69,7 +69,7 @@ public class AchievementPanelUI : MonoBehaviour
 
 	private void RefreshWuxue()
 	{
-		SelectMenu component = TabWuxue.transform.FindChild("SelectMenu").GetComponent<SelectMenu>();
+		SelectMenu component = TabWuxue.transform.Find("SelectMenu").GetComponent<SelectMenu>();
 		component.Clear();
 		foreach (KeyValuePair<string, int> skillMaxLevel in ModData.SkillMaxLevels)
 		{
@@ -86,9 +86,9 @@ public class AchievementPanelUI : MonoBehaviour
 				if ((_filter != WuxueFilter.QUAN || skill.Type == 0) && (_filter != WuxueFilter.JIAN || skill.Type == 1) && (_filter != WuxueFilter.DAO || skill.Type == 2) && (_filter != WuxueFilter.QIMEN || skill.Type == 3) && _filter != WuxueFilter.NEIGONG)
 				{
 					GameObject gameObject = UnityEngine.Object.Instantiate(SkillSelectItemObj);
-					gameObject.transform.FindChild("NameText").GetComponent<Text>().text = skillName;
-					gameObject.transform.FindChild("IconImage").GetComponent<Image>().sprite = Resource.GetIcon(skill.icon);
-					gameObject.transform.FindChild("LevelText").GetComponent<Text>().text = string.Format("{0}", maxLevel);
+					gameObject.transform.Find("NameText").GetComponent<Text>().text = skillName;
+					gameObject.transform.Find("IconImage").GetComponent<Image>().sprite = Resource.GetIcon(skill.icon);
+					gameObject.transform.Find("LevelText").GetComponent<Text>().text = string.Format("{0}", maxLevel);
 					gameObject.GetComponent<Button>().onClick.AddListener(delegate
 					{
 						SkillInstance skillInstance = new SkillInstance
@@ -105,9 +105,9 @@ public class AchievementPanelUI : MonoBehaviour
 			else if (internalSkill != null && (_filter == WuxueFilter.ALL || _filter == WuxueFilter.NEIGONG))
 			{
 				GameObject gameObject2 = UnityEngine.Object.Instantiate(SkillSelectItemObj);
-				gameObject2.transform.FindChild("NameText").GetComponent<Text>().text = skillName;
-				gameObject2.transform.FindChild("IconImage").GetComponent<Image>().sprite = Resource.GetIcon(internalSkill.icon);
-				gameObject2.transform.FindChild("LevelText").GetComponent<Text>().text = string.Format("{0}", maxLevel);
+				gameObject2.transform.Find("NameText").GetComponent<Text>().text = skillName;
+				gameObject2.transform.Find("IconImage").GetComponent<Image>().sprite = Resource.GetIcon(internalSkill.icon);
+				gameObject2.transform.Find("LevelText").GetComponent<Text>().text = string.Format("{0}", maxLevel);
 				gameObject2.GetComponent<Button>().onClick.AddListener(delegate
 				{
 					InternalSkillInstance internalSkillInstance = new InternalSkillInstance

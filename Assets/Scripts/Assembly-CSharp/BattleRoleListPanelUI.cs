@@ -19,9 +19,9 @@ public class BattleRoleListPanelUI : MonoBehaviour
 		{
 			Role role = sprite.Role;
 			GameObject gameObject = Object.Instantiate(RoleItemObj);
-			gameObject.transform.FindChild("Head").GetComponent<Image>().sprite = Resource.GetImage(sprite.Role.Head);
-			gameObject.transform.FindChild("Text").GetComponent<Text>().text = sprite.Role.Name;
-			gameObject.transform.FindChild("Text").GetComponent<Text>().color = ((sprite.Team != 1) ? Color.red : Color.yellow);
+			gameObject.transform.Find("Head").GetComponent<Image>().sprite = Resource.GetImage(sprite.Role.Head);
+			gameObject.transform.Find("Text").GetComponent<Text>().text = sprite.Role.Name;
+			gameObject.transform.Find("Text").GetComponent<Text>().color = ((sprite.Team != 1) ? Color.red : Color.yellow);
 			gameObject.GetComponent<Button>().onClick.AddListener(delegate
 			{
 				RolePanelObj.GetComponent<RolePanelUI>().Show(role, null, false);

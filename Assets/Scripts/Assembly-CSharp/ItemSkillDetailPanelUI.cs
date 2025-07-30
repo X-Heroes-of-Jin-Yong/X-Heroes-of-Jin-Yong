@@ -14,7 +14,7 @@ public class ItemSkillDetailPanelUI : MonoBehaviour
 	{
 		get
 		{
-			return base.transform.FindChild("ConfirmButton").gameObject;
+			return base.transform.Find("ConfirmButton").gameObject;
 		}
 	}
 
@@ -22,7 +22,7 @@ public class ItemSkillDetailPanelUI : MonoBehaviour
 	{
 		get
 		{
-			return base.transform.FindChild("ConfirmButton2").gameObject;
+			return base.transform.Find("ConfirmButton2").gameObject;
 		}
 	}
 
@@ -30,7 +30,7 @@ public class ItemSkillDetailPanelUI : MonoBehaviour
 	{
 		get
 		{
-			return base.transform.FindChild("ConfirmButton").FindChild("Text").GetComponent<Text>();
+			return base.transform.Find("ConfirmButton").Find("Text").GetComponent<Text>();
 		}
 	}
 
@@ -38,7 +38,7 @@ public class ItemSkillDetailPanelUI : MonoBehaviour
 	{
 		get
 		{
-			return base.transform.FindChild("SelectPanel").FindChild("Text").GetComponent<Text>();
+			return base.transform.Find("SelectPanel").Find("Text").GetComponent<Text>();
 		}
 	}
 
@@ -47,10 +47,10 @@ public class ItemSkillDetailPanelUI : MonoBehaviour
 		_confirmCallback = confirmCallback;
 		_cancelCallback = cancelCallback;
 		base.gameObject.SetActive(true);
-		base.transform.FindChild("Icon").GetComponent<Image>().sprite = Resource.GetIcon(skill.Icon);
-		base.transform.FindChild("NameText").GetComponent<Text>().text = skill.Name;
-		base.transform.FindChild("NameText").GetComponent<Text>().color = skill.Color;
-		base.transform.FindChild("TypeText").GetComponent<Text>().text = skill.GetSkillTypeChinese();
+		base.transform.Find("Icon").GetComponent<Image>().sprite = Resource.GetIcon(skill.Icon);
+		base.transform.Find("NameText").GetComponent<Text>().text = skill.Name;
+		base.transform.Find("NameText").GetComponent<Text>().color = skill.Color;
+		base.transform.Find("TypeText").GetComponent<Text>().text = skill.GetSkillTypeChinese();
 		confirmButtonObj.SetActive(false);
 		confirmButton2Obj.SetActive(false);
 		contentText.text = skill.DescriptionInRichtextBlackBg;
@@ -62,10 +62,10 @@ public class ItemSkillDetailPanelUI : MonoBehaviour
 		_cancelCallback = cancelCallback;
 		_confirm2Callback = confirm2Callback;
 		base.gameObject.SetActive(true);
-		base.transform.FindChild("Icon").GetComponent<Image>().sprite = Resource.GetImage(item.pic);
-		base.transform.FindChild("NameText").GetComponent<Text>().text = item.Name;
-		base.transform.FindChild("NameText").GetComponent<Text>().color = item.GetColor();
-		base.transform.FindChild("TypeText").GetComponent<Text>().text = item.GetTypeStr() + item.GetLevelStr();
+		base.transform.Find("Icon").GetComponent<Image>().sprite = Resource.GetImage(item.pic);
+		base.transform.Find("NameText").GetComponent<Text>().text = item.Name;
+		base.transform.Find("NameText").GetComponent<Text>().color = item.GetColor();
+		base.transform.Find("TypeText").GetComponent<Text>().text = item.GetTypeStr() + item.GetLevelStr();
 		confirmButton2Obj.SetActive(false);
 		switch (mode)
 		{
@@ -100,7 +100,7 @@ public class ItemSkillDetailPanelUI : MonoBehaviour
 			if (num > 1)
 			{
 				confirmButton2Obj.SetActive(true);
-				confirmButton2Obj.transform.FindChild("Text").GetComponent<Text>().text = "全部卖出";
+				confirmButton2Obj.transform.Find("Text").GetComponent<Text>().text = "全部卖出";
 			}
 			else
 			{

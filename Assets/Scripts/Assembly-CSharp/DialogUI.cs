@@ -26,11 +26,11 @@ public class DialogUI : MonoBehaviour
 		string roleKey = array[0];
 		string roleName = CommonSettings.getRoleName(roleKey);
 		string text = array[1];
-		base.transform.FindChild("NameText").GetComponent<Text>().text = roleName;
+		base.transform.Find("NameText").GetComponent<Text>().text = roleName;
 		text = text.Replace("$MALE$", RuntimeData.Instance.maleName).Replace("$FEMALE$", RuntimeData.Instance.femaleName).Replace("$ZHENLONG_LEVEL$", (ModData.ZhenlongqijuLevel + 1).ToString());
 		text = text.Replace("[[red:", "<color='red'>").Replace("[[yellow:", "<color='yellow'>").Replace("]]", "</color>");
-		base.transform.FindChild("ContentText").GetComponent<Text>().text = text;
-		base.transform.FindChild("_mask").FindChild("HeadImage").GetComponent<Image>()
+		base.transform.Find("ContentText").GetComponent<Text>().text = text;
+		base.transform.Find("_mask").Find("HeadImage").GetComponent<Image>()
 			.sprite = Resource.GetImage(CommonSettings.getRoleHead(roleKey));
 	}
 

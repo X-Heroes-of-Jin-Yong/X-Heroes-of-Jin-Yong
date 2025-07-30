@@ -6,21 +6,21 @@ public class SuggestPanelUI : MonoBehaviour
 {
 	public void Show(Sprite image, string title, string text, int timeCost)
 	{
-		base.transform.FindChild("TitleText").GetComponent<Text>().text = title;
+		base.transform.Find("TitleText").GetComponent<Text>().text = title;
 		string text2 = string.Empty;
 		if (timeCost > 0)
 		{
 			text2 = string.Format("\n<color='red'>\n消耗时间:{0}</color>", CommonSettings.HourToChineseTime(timeCost));
 		}
-		base.transform.FindChild("Text").GetComponent<Text>().text = text + text2;
+		base.transform.Find("Text").GetComponent<Text>().text = text + text2;
 		if (image == null)
 		{
-			base.transform.FindChild("Image").gameObject.SetActive(false);
+			base.transform.Find("Image").gameObject.SetActive(false);
 		}
 		else
 		{
-			base.transform.FindChild("Image").gameObject.SetActive(true);
-			base.transform.FindChild("Image").GetComponent<Image>().sprite = image;
+			base.transform.Find("Image").gameObject.SetActive(true);
+			base.transform.Find("Image").GetComponent<Image>().sprite = image;
 		}
 		Vector3 vector = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 		base.transform.localPosition = new Vector3(vector.x + 30f, vector.y);

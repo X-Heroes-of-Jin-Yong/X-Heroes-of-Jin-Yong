@@ -13,9 +13,9 @@ public class EventConfirmPanel : MonoBehaviour
 	public void Show(Sprite image, MapEvent evt, string name, string desc, int timeCost)
 	{
 		_timeCost = timeCost;
-		base.transform.FindChild("Image").GetComponent<Image>().sprite = image;
-		base.transform.FindChild("TitleText").GetComponent<Text>().text = name;
-		base.transform.FindChild("DescText").GetComponent<Text>().text = desc + string.Format("<color='red'>\n消耗时间:{0}</color>", CommonSettings.HourToChineseTime(timeCost));
+		base.transform.Find("Image").GetComponent<Image>().sprite = image;
+		base.transform.Find("TitleText").GetComponent<Text>().text = name;
+		base.transform.Find("DescText").GetComponent<Text>().text = desc + string.Format("<color='red'>\n消耗时间:{0}</color>", CommonSettings.HourToChineseTime(timeCost));
 		if (evt.lv != -1)
 		{
 			string text = "战斗难度： ";
@@ -23,11 +23,11 @@ public class EventConfirmPanel : MonoBehaviour
 			{
 				text += "★";
 			}
-			base.transform.FindChild("LvText").GetComponent<Text>().text = text;
+			base.transform.Find("LvText").GetComponent<Text>().text = text;
 		}
 		else
 		{
-			base.transform.FindChild("LvText").GetComponent<Text>().text = string.Empty;
+			base.transform.Find("LvText").GetComponent<Text>().text = string.Empty;
 		}
 		base.gameObject.SetActive(true);
 		_evt = evt;

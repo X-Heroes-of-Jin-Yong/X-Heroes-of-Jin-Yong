@@ -85,7 +85,7 @@ public class RoleSelectMenu : MonoBehaviour
 		{
 			FriendToBeSelectedCountObj.SetActive(false);
 			FriendToBeSelectedCurrentCountObj.SetActive(false);
-			base.transform.FindChild("ConfrmPanel").gameObject.SetActive(false);
+			base.transform.Find("ConfrmPanel").gameObject.SetActive(false);
 		}
 		selectMenu.Show(delegate
 		{
@@ -117,7 +117,7 @@ public class RoleSelectMenu : MonoBehaviour
 		{
 			FriendToBeSelectedCountObj.SetActive(true);
 			FriendToBeSelectedCurrentCountObj.SetActive(true);
-			base.transform.FindChild("ConfrmPanel").gameObject.SetActive(true);
+			base.transform.Find("ConfrmPanel").gameObject.SetActive(true);
 			FriendToBeSelectedCount.text = "可选择" + FriendToBeFillRoles.Count + "人";
 			FriendToBeSelectedCurrentCount.text = "已选择" + _selectedKeys.Count + "人";
 			if (FriendToBeFillRoles.Count == 0)
@@ -139,19 +139,19 @@ public class RoleSelectMenu : MonoBehaviour
 		string roleKey = role.Key;
 		GameObject item = Object.Instantiate(RoleSelectItemObj);
 		item.gameObject.SetActive(true);
-		item.transform.FindChild("Text").GetComponent<Text>().text = CommonSettings.getRoleName(roleKey);
-		item.transform.FindChild("IconImage").GetComponent<Image>().sprite = Resource.GetImage(role.Head);
+		item.transform.Find("Text").GetComponent<Text>().text = CommonSettings.getRoleName(roleKey);
+		item.transform.Find("IconImage").GetComponent<Image>().sprite = Resource.GetImage(role.Head);
 		if (isRoleActiveCallback != null && !isRoleActiveCallback(role))
 		{
-			item.transform.FindChild("IconImage").GetComponent<Image>().color = Color.black;
+			item.transform.Find("IconImage").GetComponent<Image>().color = Color.black;
 		}
 		if (_forbiddenKeys.Contains(roleKey))
 		{
-			item.transform.FindChild("StatusCross").gameObject.SetActive(true);
+			item.transform.Find("StatusCross").gameObject.SetActive(true);
 		}
 		else if (_mustKeys.Contains(roleKey))
 		{
-			item.transform.FindChild("StatusSelected").gameObject.SetActive(true);
+			item.transform.Find("StatusSelected").gameObject.SetActive(true);
 			_selectedKeys.Add(roleKey);
 		}
 		else if (Mode == RoleSelectMenuMode.BattleSelectMode)
@@ -162,12 +162,12 @@ public class RoleSelectMenu : MonoBehaviour
 				{
 					if (_selectedKeys.Contains(roleKey) && !_mustKeys.Contains(roleKey))
 					{
-						item.transform.FindChild("StatusSelected").gameObject.SetActive(false);
+						item.transform.Find("StatusSelected").gameObject.SetActive(false);
 						_selectedKeys.Remove(roleKey);
 					}
 					else if (_selectedKeys.Count < FriendToBeFillRoles.Count)
 					{
-						item.transform.FindChild("StatusSelected").gameObject.SetActive(true);
+						item.transform.Find("StatusSelected").gameObject.SetActive(true);
 						_selectedKeys.Add(roleKey);
 					}
 					FriendToBeSelectedCurrentCount.text = "已选择" + _selectedKeys.Count + "人";

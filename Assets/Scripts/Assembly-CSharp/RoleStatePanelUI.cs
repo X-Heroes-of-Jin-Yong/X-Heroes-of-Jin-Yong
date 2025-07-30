@@ -12,10 +12,10 @@ public class RoleStatePanelUI : MonoBehaviour
 		{
 			RoleHeadObj.GetComponent<Image>().sprite = Resource.GetZhujueHead();
 		}
-		base.transform.FindChild("HardIcon").GetComponent<HardIconScript>().HideSuggestInfo();
-		base.transform.FindChild("HardIcon").FindChild("NickText").GetComponent<Text>()
+		base.transform.Find("HardIcon").GetComponent<HardIconScript>().HideSuggestInfo();
+		base.transform.Find("HardIcon").Find("NickText").GetComponent<Text>()
 			.text = RuntimeData.Instance.CurrentNick;
-		Text component = base.transform.FindChild("HardIcon").FindChild("ZhoumuText").GetComponent<Text>();
+		Text component = base.transform.Find("HardIcon").Find("ZhoumuText").GetComponent<Text>();
 		if (RuntimeData.Instance.GameMode == "normal")
 		{
 			component.text = "简单:周目" + RuntimeData.Instance.Round;

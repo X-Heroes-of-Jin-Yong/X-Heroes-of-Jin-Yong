@@ -12,7 +12,7 @@ public class SelectMenu : MonoBehaviour
 	{
 		get
 		{
-			return base.transform.FindChild("SelectPanel").FindChild("SelectContent").transform;
+			return base.transform.Find("SelectPanel").Find("SelectContent").transform;
 		}
 	}
 
@@ -20,7 +20,7 @@ public class SelectMenu : MonoBehaviour
 	{
 		get
 		{
-			return base.transform.FindChild("SelectPanel").GetComponent<ScrollRect>();
+			return base.transform.Find("SelectPanel").GetComponent<ScrollRect>();
 		}
 	}
 
@@ -45,7 +45,7 @@ public class SelectMenu : MonoBehaviour
 		base.gameObject.SetActive(true);
 		if (cancelCallback != null)
 		{
-			base.transform.FindChild("CancelButton").gameObject.SetActive(true);
+			base.transform.Find("CancelButton").gameObject.SetActive(true);
 		}
 	}
 

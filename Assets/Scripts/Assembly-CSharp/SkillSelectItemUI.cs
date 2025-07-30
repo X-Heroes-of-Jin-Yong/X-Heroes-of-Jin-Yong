@@ -71,47 +71,47 @@ public class SkillSelectItemUI : MonoBehaviour, IPointerEnterHandler, IEventSyst
 		{
 			if ((skill as UniqueSkillInstance)._parent is InternalSkillInstance)
 			{
-				base.transform.FindChild("NameText").GetComponent<Text>().text = string.Format("<color='magenta'>{0}</color>", (skill as UniqueSkillInstance)._parent.Name);
+				base.transform.Find("NameText").GetComponent<Text>().text = string.Format("<color='magenta'>{0}</color>", (skill as UniqueSkillInstance)._parent.Name);
 			}
 			else
 			{
-				base.transform.FindChild("NameText").GetComponent<Text>().text = string.Format("<color='white'>{0}</color>", (skill as UniqueSkillInstance)._parent.Name);
+				base.transform.Find("NameText").GetComponent<Text>().text = string.Format("<color='white'>{0}</color>", (skill as UniqueSkillInstance)._parent.Name);
 			}
-			Text component = base.transform.FindChild("NameText").GetComponent<Text>();
+			Text component = base.transform.Find("NameText").GetComponent<Text>();
 			component.text = component.text + "\n" + skill.Name.Replace(".", string.Empty).Replace((skill as UniqueSkillInstance)._parent.Name, string.Empty);
-			base.transform.FindChild("NameText").GetComponent<Text>().color = skill.Color;
+			base.transform.Find("NameText").GetComponent<Text>().color = skill.Color;
 		}
 		else
 		{
-			base.transform.FindChild("NameText").GetComponent<Text>().text = skill.Name;
-			base.transform.FindChild("NameText").GetComponent<Text>().color = skill.Color;
+			base.transform.Find("NameText").GetComponent<Text>().text = skill.Name;
+			base.transform.Find("NameText").GetComponent<Text>().color = skill.Color;
 		}
 		if (skill.IsSpecial || skill.IsUnique)
 		{
-			base.transform.FindChild("LevelText").GetComponent<Text>().text = string.Empty;
+			base.transform.Find("LevelText").GetComponent<Text>().text = string.Empty;
 			if (skill.IsUnique)
 			{
-				base.transform.FindChild("IsUseToggle").gameObject.SetActive(false);
+				base.transform.Find("IsUseToggle").gameObject.SetActive(false);
 			}
 		}
 		else
 		{
-			base.transform.FindChild("LevelText").GetComponent<Text>().text = string.Format("{0}", skill.Level);
+			base.transform.Find("LevelText").GetComponent<Text>().text = string.Format("{0}", skill.Level);
 		}
-		base.transform.FindChild("IconImage").GetComponent<Image>().sprite = Resource.GetIcon(skill.Icon);
+		base.transform.Find("IconImage").GetComponent<Image>().sprite = Resource.GetIcon(skill.Icon);
 		IsOn(skill.IsUsed);
-		base.transform.FindChild("IsUseToggle").GetComponent<Toggle>().interactable = isActive;
+		base.transform.Find("IsUseToggle").GetComponent<Toggle>().interactable = isActive;
 	}
 
 	public void IsOn(bool isOn)
 	{
-		base.transform.FindChild("IsUseToggle").GetComponent<Toggle>().isOn = isOn;
+		base.transform.Find("IsUseToggle").GetComponent<Toggle>().isOn = isOn;
 	}
 
 	public void OnToggleValuedChanged()
 	{
 		SkillBox skill = _skill;
-		bool isOn = base.transform.FindChild("IsUseToggle").GetComponent<Toggle>().isOn;
+		bool isOn = base.transform.Find("IsUseToggle").GetComponent<Toggle>().isOn;
 		if (skill.IsInternal)
 		{
 			if (!isOn)

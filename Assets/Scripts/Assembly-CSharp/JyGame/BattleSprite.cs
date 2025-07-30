@@ -511,10 +511,10 @@ namespace JyGame
 
 		private IEnumerator Say2(string content)
 		{
-			GameObject dialogObj = base.transform.FindChild("Canvas").FindChild("Dialog").gameObject;
+			GameObject dialogObj = base.transform.Find("Canvas").Find("Dialog").gameObject;
 			dialogObj.SetActive(true);
-			dialogObj.transform.FindChild("Text").GetComponent<Text>().text = content;
-			dialogObj.transform.FindChild("Head").GetComponent<Image>().sprite = Resource.GetImage(Role.Head);
+			dialogObj.transform.Find("Text").GetComponent<Text>().text = content;
+			dialogObj.transform.Find("Head").GetComponent<Image>().sprite = Resource.GetImage(Role.Head);
 			yield return new WaitForSeconds(2f);
 			dialogObj.gameObject.SetActive(false);
 		}
@@ -751,7 +751,7 @@ namespace JyGame
 
 		public void Refresh()
 		{
-			Text component = base.transform.FindChild("Canvas").FindChild("BuffText").GetComponent<Text>();
+			Text component = base.transform.Find("Canvas").Find("BuffText").GetComponent<Text>();
 			string text = string.Empty;
 			foreach (BuffInstance buff in Buffs)
 			{
@@ -873,7 +873,7 @@ namespace JyGame
 			IsDead = true;
 			if (isUserDefinedAnimation)
 			{
-				spriteObj.transform.FindChild("sprite").GetComponent<SpriteRenderer>().material.DOFade(0f, 1.5f).OnComplete(delegate
+				spriteObj.transform.Find("sprite").GetComponent<SpriteRenderer>().material.DOFade(0f, 1.5f).OnComplete(delegate
 				{
 					Object.Destroy(base.gameObject);
 				});

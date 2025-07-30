@@ -1204,7 +1204,7 @@ namespace JyGame
 				SkillBox cs = avaliableSkill;
 				GameObject gameObject = UnityEngine.Object.Instantiate(skillSelectItemObj);
 				gameObject.GetComponent<BattleSkillSelectItemUI>().Bind(cs, currentSprite);
-				gameObject.transform.FindChild("Button").GetComponent<Button>().onClick.AddListener(delegate
+				gameObject.transform.Find("Button").GetComponent<Button>().onClick.AddListener(delegate
 				{
 					if (cs.Status == SkillStatus.Ok)
 					{
@@ -1242,7 +1242,7 @@ namespace JyGame
 			currentSprite.Status = BattleSpriteStatus.Standing;
 			actionBarRoleHeadObj.GetComponent<Image>().sprite = Resource.GetImage(currentSprite.Role.Head);
 			spriteActionMenu.SetActive(true);
-			spriteActionMenu.transform.FindChild("SuggestKeyText").gameObject.SetActive(!CommonSettings.TOUCH_MODE);
+			spriteActionMenu.transform.Find("SuggestKeyText").gameObject.SetActive(!CommonSettings.TOUCH_MODE);
 			SkillSelectPanelObj.GetComponent<BattleSkillSelectPanelUI>().SetCurrent(currentSprite.CurrentSkill);
 		}
 
@@ -1573,10 +1573,10 @@ namespace JyGame
 
 		public void Log(string msg)
 		{
-			string text = logPanelObj.transform.FindChild("SelectPanel").FindChild("LogText").GetComponent<Text>()
+			string text = logPanelObj.transform.Find("SelectPanel").Find("LogText").GetComponent<Text>()
 				.text;
 			text = msg + "\n" + text;
-			logPanelObj.transform.FindChild("SelectPanel").FindChild("LogText").GetComponent<Text>()
+			logPanelObj.transform.Find("SelectPanel").Find("LogText").GetComponent<Text>()
 				.text = text;
 		}
 
@@ -1991,23 +1991,23 @@ namespace JyGame
 		{
 			if (win)
 			{
-				battleResultObj.transform.FindChild("ResultText").GetComponent<Text>().text = "战斗胜利";
+				battleResultObj.transform.Find("ResultText").GetComponent<Text>().text = "战斗胜利";
 				BonusLogic bonusLogic = new BonusLogic(_battle);
-				battleResultObj.transform.FindChild("DetailText").GetComponent<Text>().text = "获得金钱：" + bonusLogic.Money + "           获得经验：" + bonusLogic.Exp + "/每人" + ((bonusLogic.Yuanbao != 0) ? ("          获得元宝:" + bonusLogic.Yuanbao) : string.Empty);
-				battleResultObj.transform.FindChild("ItemMenu").GetComponent<ItemMenu>().Show(string.Empty, bonusLogic.Items, delegate(object ret)
+				battleResultObj.transform.Find("DetailText").GetComponent<Text>().text = "获得金钱：" + bonusLogic.Money + "           获得经验：" + bonusLogic.Exp + "/每人" + ((bonusLogic.Yuanbao != 0) ? ("          获得元宝:" + bonusLogic.Yuanbao) : string.Empty);
+				battleResultObj.transform.Find("ItemMenu").GetComponent<ItemMenu>().Show(string.Empty, bonusLogic.Items, delegate(object ret)
 				{
 					ItemInstance item = ret as ItemInstance;
 					itemDetailPanel.Show(item, ItemDetailMode.Disable);
 				});
-				battleResultObj.transform.FindChild("DetailText").gameObject.SetActive(true);
-				battleResultObj.transform.FindChild("ItemMenu").gameObject.SetActive(true);
+				battleResultObj.transform.Find("DetailText").gameObject.SetActive(true);
+				battleResultObj.transform.Find("ItemMenu").gameObject.SetActive(true);
 				bonusLogic.Run();
 			}
 			else
 			{
-				battleResultObj.transform.FindChild("DetailText").gameObject.SetActive(false);
-				battleResultObj.transform.FindChild("ItemMenu").gameObject.SetActive(false);
-				battleResultObj.transform.FindChild("ResultText").GetComponent<Text>().text = "战斗失败";
+				battleResultObj.transform.Find("DetailText").gameObject.SetActive(false);
+				battleResultObj.transform.Find("ItemMenu").gameObject.SetActive(false);
+				battleResultObj.transform.Find("ResultText").GetComponent<Text>().text = "战斗失败";
 			}
 			_win = win;
 			battleResultObj.SetActive(true);

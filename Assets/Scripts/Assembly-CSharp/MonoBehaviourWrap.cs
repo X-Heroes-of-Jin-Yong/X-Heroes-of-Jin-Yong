@@ -199,7 +199,7 @@ public class MonoBehaviourWrap
 		LuaScriptMgr.CheckArgsCount(L, 2);
 		MonoBehaviour monoBehaviour = (MonoBehaviour)LuaScriptMgr.GetUnityObjectSelf(L, 1, "MonoBehaviour");
 		IEnumerator routine = (IEnumerator)LuaScriptMgr.GetNetObject(L, 2, typeof(IEnumerator));
-		Coroutine o = monoBehaviour.StartCoroutine_Auto(routine);
+		Coroutine o = monoBehaviour.StartCoroutine(routine);
 		LuaScriptMgr.PushObject(L, o);
 		return 1;
 	}

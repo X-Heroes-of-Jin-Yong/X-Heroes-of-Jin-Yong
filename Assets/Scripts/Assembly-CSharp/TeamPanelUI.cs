@@ -14,7 +14,7 @@ public class TeamPanelUI : MonoBehaviour
 	{
 		get
 		{
-			return base.transform.FindChild("SelectMenu").GetComponent<SelectMenu>();
+			return base.transform.Find("SelectMenu").GetComponent<SelectMenu>();
 		}
 	}
 

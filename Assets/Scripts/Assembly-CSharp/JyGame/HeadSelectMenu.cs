@@ -32,20 +32,20 @@ namespace JyGame
 				string head = text;
 				GameObject item = Object.Instantiate(ItemPrefab);
 				item.gameObject.SetActive(true);
-				item.transform.FindChild("IconImage").GetComponent<Image>().sprite = Resource.GetImage(head);
+				item.transform.Find("IconImage").GetComponent<Image>().sprite = Resource.GetImage(head);
 				item.GetComponent<Button>().onClick.AddListener(delegate
 				{
 					foreach (Transform item2 in selectMenu.selectContent)
 					{
 						Transform transform2 = item2;
-						item2.FindChild("StatusSelected").gameObject.SetActive(false);
+						item2.Find("StatusSelected").gameObject.SetActive(false);
 					}
-					item.transform.FindChild("StatusSelected").gameObject.SetActive(true);
+					item.transform.Find("StatusSelected").gameObject.SetActive(true);
 					currentSelection = head;
 				});
 				if (text.Equals(heads[0]))
 				{
-					item.transform.FindChild("StatusSelected").gameObject.SetActive(true);
+					item.transform.Find("StatusSelected").gameObject.SetActive(true);
 				}
 				selectMenu.AddItem(item);
 			}

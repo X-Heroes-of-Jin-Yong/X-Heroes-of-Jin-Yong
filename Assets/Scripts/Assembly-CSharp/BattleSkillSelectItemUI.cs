@@ -14,42 +14,42 @@ public class BattleSkillSelectItemUI : MonoBehaviour, IPointerEnterHandler, IEve
 	{
 		get
 		{
-			return base.transform.FindChild("Toggle").GetComponent<Toggle>().isOn;
+			return base.transform.Find("Toggle").GetComponent<Toggle>().isOn;
 		}
 		set
 		{
-			base.transform.FindChild("Toggle").GetComponent<Toggle>().isOn = value;
+			base.transform.Find("Toggle").GetComponent<Toggle>().isOn = value;
 		}
 	}
 
 	public void Bind(SkillBox skill, BattleSprite currentSprite)
 	{
 		Skill = skill;
-		base.transform.FindChild("IconImage").GetComponent<Image>().sprite = Resource.GetIcon(skill.Icon);
+		base.transform.Find("IconImage").GetComponent<Image>().sprite = Resource.GetIcon(skill.Icon);
 		if (skill.SkillType == SkillType.Unique)
 		{
-			base.transform.FindChild("Text").GetComponent<Text>().color = (skill as UniqueSkillInstance)._parent.Color;
-			base.transform.FindChild("Text").GetComponent<Text>().text = (skill as UniqueSkillInstance)._parent.Name;
-			base.transform.FindChild("TextUnique").GetComponent<Text>().color = skill.Color;
-			base.transform.FindChild("TextUnique").GetComponent<Text>().text = skill.Name.Replace(".", string.Empty).Replace((skill as UniqueSkillInstance)._parent.Name, string.Empty);
+			base.transform.Find("Text").GetComponent<Text>().color = (skill as UniqueSkillInstance)._parent.Color;
+			base.transform.Find("Text").GetComponent<Text>().text = (skill as UniqueSkillInstance)._parent.Name;
+			base.transform.Find("TextUnique").GetComponent<Text>().color = skill.Color;
+			base.transform.Find("TextUnique").GetComponent<Text>().text = skill.Name.Replace(".", string.Empty).Replace((skill as UniqueSkillInstance)._parent.Name, string.Empty);
 		}
 		else
 		{
-			base.transform.FindChild("Text").GetComponent<Text>().color = skill.Color;
-			base.transform.FindChild("Text").GetComponent<Text>().text = skill.Name;
-			base.transform.FindChild("TextUnique").gameObject.SetActive(false);
+			base.transform.Find("Text").GetComponent<Text>().color = skill.Color;
+			base.transform.Find("Text").GetComponent<Text>().text = skill.Name;
+			base.transform.Find("TextUnique").gameObject.SetActive(false);
 		}
-		base.transform.FindChild("Toggle").GetComponent<Toggle>().isOn = currentSprite.CurrentSkill == skill;
+		base.transform.Find("Toggle").GetComponent<Toggle>().isOn = currentSprite.CurrentSkill == skill;
 		if (skill.Status == SkillStatus.NoBalls || skill.Status == SkillStatus.NoMp || skill.Status == SkillStatus.Error)
 		{
-			base.transform.FindChild("IconImage").GetComponent<Image>().color = new Color(1f, 1f, 1f, 0.2f);
+			base.transform.Find("IconImage").GetComponent<Image>().color = new Color(1f, 1f, 1f, 0.2f);
 		}
 		if (skill.Status == SkillStatus.NoCd && skill.CurrentCd != 0 && skill.Cd != 0)
 		{
-			base.transform.FindChild("IconImage").FindChild("CoolDownImage").GetComponent<Image>()
+			base.transform.Find("IconImage").Find("CoolDownImage").GetComponent<Image>()
 				.fillAmount = (float)skill.CurrentCd / (float)skill.Cd;
 		}
-		base.transform.FindChild("IconImage").FindChild("SealTag").gameObject.SetActive(skill.Status == SkillStatus.Seal);
+		base.transform.Find("IconImage").Find("SealTag").gameObject.SetActive(skill.Status == SkillStatus.Seal);
 	}
 
 	public void OnPointerEnter(PointerEventData data)
@@ -79,7 +79,7 @@ public class BattleSkillSelectItemUI : MonoBehaviour, IPointerEnterHandler, IEve
 
 	private void RefreshToolTip()
 	{
-		base.transform.GetComponent<ToolTipUI>().TooltipObj.transform.FindChild("Text").GetComponent<Text>().text = Skill.Name + "\n" + Skill.DescriptionInRichtextBlackBg;
+		base.transform.GetComponent<ToolTipUI>().TooltipObj.transform.Find("Text").GetComponent<Text>().text = Skill.Name + "\n" + Skill.DescriptionInRichtextBlackBg;
 	}
 
 	private void Start()

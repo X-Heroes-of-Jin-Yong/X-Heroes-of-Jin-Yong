@@ -50,14 +50,14 @@ public class SceneSelectMenu : MonoBehaviour
 	{
 		GameObject item = Object.Instantiate(TowerItemObj);
 		item.gameObject.SetActive(true);
-		item.transform.FindChild("Text").GetComponent<Text>().text = towerKey;
+		item.transform.Find("Text").GetComponent<Text>().text = towerKey;
 		item.GetComponent<Button>().onClick.AddListener(delegate
 		{
 			foreach (Transform item2 in selectMenu.selectContent)
 			{
-				item2.FindChild("TextSelectedSign").gameObject.SetActive(false);
+				item2.Find("TextSelectedSign").gameObject.SetActive(false);
 			}
-			item.transform.FindChild("TextSelectedSign").gameObject.SetActive(true);
+			item.transform.Find("TextSelectedSign").gameObject.SetActive(true);
 			currentSelection = towerKey;
 		});
 		selectMenu.AddItem(item);

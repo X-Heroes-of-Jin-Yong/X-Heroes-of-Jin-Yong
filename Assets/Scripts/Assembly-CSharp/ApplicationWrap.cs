@@ -225,7 +225,7 @@ public class ApplicationWrap
 	[MonoPInvokeCallback(typeof(LuaCSFunction))]
 	private static int get_bundleIdentifier(IntPtr L)
 	{
-		LuaScriptMgr.Push(L, Application.bundleIdentifier);
+		LuaScriptMgr.Push(L, Application.identifier);
 		return 1;
 	}
 

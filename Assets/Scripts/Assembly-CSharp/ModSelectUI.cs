@@ -103,7 +103,7 @@ public class ModSelectUI : MonoBehaviour
 					gameObject.GetComponent<ModItemUI>().Bind(item, this, false);
 					if (File.Exists(item.LocalXmlPath))
 					{
-						gameObject.GetComponent<ModItemUI>().downloadBtn.transform.FindChild("Text").GetComponent<Text>().text = "更新";
+						gameObject.GetComponent<ModItemUI>().downloadBtn.transform.Find("Text").GetComponent<Text>().text = "更新";
 						gameObject.GetComponent<ModItemUI>().downloadBtn.GetComponent<Image>().color = Color.green;
 					}
 					selectMenu.AddItem(gameObject);

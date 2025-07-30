@@ -43,7 +43,7 @@ public class SceneSelectUI : MonoBehaviour
 			}
 			GameObject gameObject = Object.Instantiate(SelectMenuItem);
 			gameObject.gameObject.SetActive(true);
-			gameObject.transform.FindChild("Text").GetComponent<Text>().text = item.Key.Replace("arena_", string.Empty);
+			gameObject.transform.Find("Text").GetComponent<Text>().text = item.Key.Replace("arena_", string.Empty);
 			string battleKey = item.Key;
 			gameObject.GetComponent<Button>().onClick.AddListener(delegate
 			{
@@ -56,7 +56,7 @@ public class SceneSelectUI : MonoBehaviour
 					string text = levelList[i];
 					GameObject gameObject2 = Object.Instantiate(SelectMenuItem);
 					gameObject2.gameObject.SetActive(true);
-					gameObject2.transform.FindChild("Text").GetComponent<Text>().text = text;
+					gameObject2.transform.Find("Text").GetComponent<Text>().text = text;
 					int hard = i + 1;
 					gameObject2.GetComponent<Button>().onClick.AddListener(delegate
 					{
@@ -94,7 +94,7 @@ public class SceneSelectUI : MonoBehaviour
 			string towerKey = tower2.Key;
 			GameObject gameObject = Object.Instantiate(SelectMenuItem);
 			gameObject.gameObject.SetActive(true);
-			gameObject.transform.FindChild("Text").GetComponent<Text>().text = towerKey;
+			gameObject.transform.Find("Text").GetComponent<Text>().text = towerKey;
 			gameObject.GetComponent<Button>().onClick.AddListener(delegate
 			{
 				Tower tower3 = ResourceManager.Get<Tower>(towerKey);

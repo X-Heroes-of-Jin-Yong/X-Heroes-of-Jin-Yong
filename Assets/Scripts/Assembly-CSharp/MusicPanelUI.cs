@@ -18,7 +18,7 @@ public class MusicPanelUI : MonoBehaviour
 			{
 				string key = item.Key;
 				GameObject gameObject = Object.Instantiate(selectItemPrefab);
-				gameObject.transform.FindChild("Text").GetComponent<Text>().text = item.Key.Replace("音乐.", string.Empty);
+				gameObject.transform.Find("Text").GetComponent<Text>().text = item.Key.Replace("音乐.", string.Empty);
 				gameObject.GetComponent<Button>().onClick.AddListener(delegate
 				{
 					AudioManager.Instance.Play(key);

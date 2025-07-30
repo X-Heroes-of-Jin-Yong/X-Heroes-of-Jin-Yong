@@ -258,7 +258,7 @@ public class RenderTextureWrap
 				LuaDLL.luaL_error(L, "attempt to index generateMips on a nil value");
 			}
 		}
-		LuaScriptMgr.Push(L, renderTexture.generateMips);
+		LuaScriptMgr.Push(L, renderTexture.autoGenerateMips);
 		return 1;
 	}
 
@@ -559,7 +559,7 @@ public class RenderTextureWrap
 				LuaDLL.luaL_error(L, "attempt to index generateMips on a nil value");
 			}
 		}
-		renderTexture.generateMips = LuaScriptMgr.GetBoolean(L, 3);
+		renderTexture.autoGenerateMips = LuaScriptMgr.GetBoolean(L, 3);
 		return 0;
 	}
 

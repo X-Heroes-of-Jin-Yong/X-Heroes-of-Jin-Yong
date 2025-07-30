@@ -102,7 +102,7 @@ public class MapUI : MonoBehaviour
 	{
 		get
 		{
-			return SelectPanel.transform.FindChild("SelectMenu").GetComponent<SelectMenu>();
+			return SelectPanel.transform.Find("SelectMenu").GetComponent<SelectMenu>();
 		}
 	}
 
@@ -118,7 +118,7 @@ public class MapUI : MonoBehaviour
 	{
 		get
 		{
-			return LogPanel.transform.FindChild("LogMenu").GetComponent<LogMenu>();
+			return LogPanel.transform.Find("LogMenu").GetComponent<LogMenu>();
 		}
 	}
 
@@ -134,7 +134,7 @@ public class MapUI : MonoBehaviour
 	{
 		get
 		{
-			return RoleSelectPanelObj.transform.FindChild("RoleMenu").GetComponent<RoleSelectMenu>();
+			return RoleSelectPanelObj.transform.Find("RoleMenu").GetComponent<RoleSelectMenu>();
 		}
 	}
 
@@ -233,21 +233,21 @@ public class MapUI : MonoBehaviour
 		string text = array[0];
 		if (text == "主角")
 		{
-			SelectPanel.transform.FindChild("HeadImage").GetComponent<Image>().sprite = Resource.GetZhujueHead();
+			SelectPanel.transform.Find("HeadImage").GetComponent<Image>().sprite = Resource.GetZhujueHead();
 		}
 		else
 		{
-			SelectPanel.transform.FindChild("HeadImage").GetComponent<Image>().sprite = Resource.GetImage(ResourceManager.Get<Role>(text).Head);
+			SelectPanel.transform.Find("HeadImage").GetComponent<Image>().sprite = Resource.GetImage(ResourceManager.Get<Role>(text).Head);
 		}
 		string text2 = array[1];
-		SelectPanel.transform.FindChild("TitleText").GetComponent<Text>().text = text2;
+		SelectPanel.transform.Find("TitleText").GetComponent<Text>().text = text2;
 		for (int i = 2; i < array.Length; i++)
 		{
 			int index = i - 2;
 			GameObject gameObject = UnityEngine.Object.Instantiate(MultiSelectItemObj);
 			string text3 = array[i];
 			text3 = text3.Replace("[[red:", "<color='red'>").Replace("[[yellow:", "<color='yellow'>").Replace("]]", "</color>");
-			gameObject.transform.FindChild("Text").GetComponent<Text>().text = text3;
+			gameObject.transform.Find("Text").GetComponent<Text>().text = text3;
 			gameObject.GetComponent<Button>().onClick.AddListener(delegate
 			{
 				SelectPanel.SetActive(false);
@@ -333,21 +333,21 @@ public class MapUI : MonoBehaviour
 			string text27 = array[0];
 			if (text27 == "主角")
 			{
-				SelectPanel.transform.FindChild("HeadImage").GetComponent<Image>().sprite = Resource.GetZhujueHead();
+				SelectPanel.transform.Find("HeadImage").GetComponent<Image>().sprite = Resource.GetZhujueHead();
 			}
 			else
 			{
-				SelectPanel.transform.FindChild("HeadImage").GetComponent<Image>().sprite = Resource.GetImage(ResourceManager.Get<Role>(text27).Head);
+				SelectPanel.transform.Find("HeadImage").GetComponent<Image>().sprite = Resource.GetImage(ResourceManager.Get<Role>(text27).Head);
 			}
 			string text28 = array[1];
-			SelectPanel.transform.FindChild("TitleText").GetComponent<Text>().text = text28;
+			SelectPanel.transform.Find("TitleText").GetComponent<Text>().text = text28;
 			for (int num17 = 2; num17 < array.Length; num17++)
 			{
 				int index = num17 - 2;
 				GameObject gameObject = UnityEngine.Object.Instantiate(MultiSelectItemObj);
 				string text29 = array[num17];
 				text29 = text29.Replace("[[red:", "<color='red'>").Replace("[[yellow:", "<color='yellow'>").Replace("]]", "</color>");
-				gameObject.transform.FindChild("Text").GetComponent<Text>().text = text29;
+				gameObject.transform.Find("Text").GetComponent<Text>().text = text29;
 				gameObject.GetComponent<Button>().onClick.AddListener(delegate
 				{
 					SelectPanel.SetActive(false);
@@ -1555,7 +1555,7 @@ public class MapUI : MonoBehaviour
 			BigMapPanel.SetActive(false);
 			MapPanel.SetActive(true);
 			SetBackground(Resource.GetImage(map.Pic), alpha);
-			Text descText = MapDescriptionPanelObj.transform.FindChild("DescText").GetComponent<Text>();
+			Text descText = MapDescriptionPanelObj.transform.Find("DescText").GetComponent<Text>();
 			descText.text = map.Desc;
 			MapDescriptionPanelObj.SetActive(true);
 		}
@@ -1632,7 +1632,7 @@ public class MapUI : MonoBehaviour
 			double num2 = Math.Sqrt((currentLocation.x - location.x) * (currentLocation.x - location.x) + (currentLocation.y - location.y) * (currentLocation.y - location.y));
 			num += (int)(num2 / 50.0 * 10.0);
 		}
-		gameObject.transform.SetParent(BigMap.transform.FindChild("MapLocationContainer"));
+		gameObject.transform.SetParent(BigMap.transform.Find("MapLocationContainer"));
 		gameObject.GetComponent<MapLocationUI>().Bind(this, location, num);
 	}
 
@@ -1651,11 +1651,11 @@ public class MapUI : MonoBehaviour
 
 	private void Clear()
 	{
-		foreach (Transform item in BigMap.transform.FindChild("MapLocationContainer"))
+		foreach (Transform item in BigMap.transform.Find("MapLocationContainer"))
 		{
 			UnityEngine.Object.Destroy(item.gameObject);
 		}
-		BigMap.transform.FindChild("MapLocationContainer").DetachChildren();
+		BigMap.transform.Find("MapLocationContainer").DetachChildren();
 		foreach (Transform item2 in MapRolePanel.transform)
 		{
 			UnityEngine.Object.Destroy(item2.gameObject);

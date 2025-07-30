@@ -84,7 +84,7 @@ namespace JyGame
 					GameObject original = Resources.Load<GameObject>("UI/UserDefineAnimation");
 					GameObject gameObject = Object.Instantiate(original);
 					UserDefinedAnimation userDefinedAnimation = gameObject.AddComponent<UserDefinedAnimation>();
-					userDefinedAnimation.bindImage = gameObject.transform.FindChild("sprite").GetComponent<SpriteRenderer>();
+					userDefinedAnimation.bindImage = gameObject.transform.Find("sprite").GetComponent<SpriteRenderer>();
 					userDefinedAnimtionData.FillAnimation(userDefinedAnimation);
 					return gameObject;
 				}

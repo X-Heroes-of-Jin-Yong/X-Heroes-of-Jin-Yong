@@ -16,13 +16,13 @@ public class BattleConfigUI : MonoBehaviour
 
 	public void OnAutoBattle()
 	{
-		bool isOn = base.transform.FindChild("AutoBattleToggle").GetComponent<Toggle>().isOn;
+		bool isOn = base.transform.Find("AutoBattleToggle").GetComponent<Toggle>().isOn;
 		battleField.OnAuttoBattleSet(isOn);
 	}
 
 	public void OnSpeedUp()
 	{
-		if (Configer.IsSpeedUp = base.transform.FindChild("SpeedUpToggle").GetComponent<Toggle>().isOn)
+		if (Configer.IsSpeedUp = base.transform.Find("SpeedUpToggle").GetComponent<Toggle>().isOn)
 		{
 			Time.timeScale = (float)(1.7999999523162842 * LuaManager.GetConfigDouble("BATTLE_SPEEDUP_RATE"));
 		}
@@ -34,8 +34,8 @@ public class BattleConfigUI : MonoBehaviour
 
 	private void Start()
 	{
-		base.transform.FindChild("SpeedUpToggle").GetComponent<Toggle>().isOn = Configer.IsSpeedUp;
-		base.transform.FindChild("AutoBattleToggle").GetComponent<Toggle>().isOn = Configer.IsAutoBattle;
+		base.transform.Find("SpeedUpToggle").GetComponent<Toggle>().isOn = Configer.IsSpeedUp;
+		base.transform.Find("AutoBattleToggle").GetComponent<Toggle>().isOn = Configer.IsAutoBattle;
 		if (Configer.IsSpeedUp)
 		{
 			Time.timeScale = (float)(1.7999999523162842 * LuaManager.GetConfigDouble("BATTLE_SPEEDUP_RATE"));

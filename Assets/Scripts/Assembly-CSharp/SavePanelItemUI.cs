@@ -11,26 +11,26 @@ public class SavePanelItemUI : MonoBehaviour
 		_callback = callback;
 		if (string.IsNullOrEmpty(saveContent))
 		{
-			base.transform.FindChild("Image").GetComponent<Image>().sprite = null;
-			base.transform.FindChild("Image").gameObject.SetActive(false);
-			base.transform.FindChild("Text").GetComponent<Text>().text = "<color='white'>空存档</color>";
+			base.transform.Find("Image").GetComponent<Image>().sprite = null;
+			base.transform.Find("Image").gameObject.SetActive(false);
+			base.transform.Find("Text").GetComponent<Text>().text = "<color='white'>空存档</color>";
 		}
 		else
 		{
 			GameSave gameSave = BasePojo.Create<GameSave>(saveContent);
 			if (gameSave == null)
 			{
-				base.transform.FindChild("Image").GetComponent<Image>().sprite = null;
-				base.transform.FindChild("Image").gameObject.SetActive(false);
-				base.transform.FindChild("Text").GetComponent<Text>().text = "<color='red'>损坏的存档</color>";
+				base.transform.Find("Image").GetComponent<Image>().sprite = null;
+				base.transform.Find("Image").gameObject.SetActive(false);
+				base.transform.Find("Text").GetComponent<Text>().text = "<color='red'>损坏的存档</color>";
 			}
 			else
 			{
-				base.transform.FindChild("Image").GetComponent<Image>().sprite = Resource.GetImage(gameSave.Roles[0].head);
-				base.transform.FindChild("Text").GetComponent<Text>().text = gameSave.ToString();
+				base.transform.Find("Image").GetComponent<Image>().sprite = Resource.GetImage(gameSave.Roles[0].head);
+				base.transform.Find("Text").GetComponent<Text>().text = gameSave.ToString();
 			}
 		}
-		base.transform.FindChild("Text").GetComponent<Text>().text = "<color='cyan'>" + title + "</color>\n" + base.transform.FindChild("Text").GetComponent<Text>().text;
+		base.transform.Find("Text").GetComponent<Text>().text = "<color='cyan'>" + title + "</color>\n" + base.transform.Find("Text").GetComponent<Text>().text;
 	}
 
 	public void OnClicked()

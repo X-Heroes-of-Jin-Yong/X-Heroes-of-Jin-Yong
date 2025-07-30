@@ -13,7 +13,7 @@ public class SkillSelectPanelUI : MonoBehaviour
 	{
 		get
 		{
-			return base.transform.FindChild("SelectMenu").GetComponent<SelectMenu>();
+			return base.transform.Find("SelectMenu").GetComponent<SelectMenu>();
 		}
 	}
 
@@ -34,7 +34,7 @@ public class SkillSelectPanelUI : MonoBehaviour
 		GameObject gameObject = Object.Instantiate(SkillSelectItemObj);
 		gameObject.GetComponent<SkillSelectItemUI>().Bind(s);
 		gameObject.GetComponent<SkillSelectItemUI>().SetMode(SelectItemMode.NONE);
-		gameObject.transform.FindChild("IsUseToggle").gameObject.SetActive(false);
+		gameObject.transform.Find("IsUseToggle").gameObject.SetActive(false);
 		gameObject.GetComponent<Button>().onClick.RemoveAllListeners();
 		gameObject.GetComponent<Button>().onClick.AddListener(delegate
 		{

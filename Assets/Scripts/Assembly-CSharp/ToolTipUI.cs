@@ -46,7 +46,7 @@ public class ToolTipUI : MonoBehaviour, IPointerEnterHandler, IEventSystemHandle
 	{
 		if (TooltipObj == null)
 		{
-			base.transform.FindChild("_tooltip").gameObject.SetActive(true);
+			base.transform.Find("_tooltip").gameObject.SetActive(true);
 			return;
 		}
 		TooltipObj.SetActive(true);
@@ -64,7 +64,7 @@ public class ToolTipUI : MonoBehaviour, IPointerEnterHandler, IEventSystemHandle
 	{
 		if (TooltipObj == null)
 		{
-			base.transform.FindChild("_tooltip").gameObject.SetActive(false);
+			base.transform.Find("_tooltip").gameObject.SetActive(false);
 			return;
 		}
 		TooltipObj.SetActive(false);

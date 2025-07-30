@@ -50,7 +50,7 @@ namespace JyGame
 		{
 			get
 			{
-				return headSelectPanelObj.transform.FindChild("HeadMenu").GetComponent<HeadSelectMenu>();
+				return headSelectPanelObj.transform.Find("HeadMenu").GetComponent<HeadSelectMenu>();
 			}
 		}
 
@@ -66,7 +66,7 @@ namespace JyGame
 		{
 			get
 			{
-				return selectPanelObj.transform.FindChild("TitleText").GetComponent<Text>();
+				return selectPanelObj.transform.Find("TitleText").GetComponent<Text>();
 			}
 		}
 
@@ -74,7 +74,7 @@ namespace JyGame
 		{
 			get
 			{
-				return selectPanelObj.transform.FindChild("SelectMenu").GetComponent<SelectMenu>();
+				return selectPanelObj.transform.Find("SelectMenu").GetComponent<SelectMenu>();
 			}
 		}
 
@@ -112,7 +112,7 @@ namespace JyGame
 			{
 				int index = i - 2;
 				GameObject gameObject = Object.Instantiate(MultiSelectItemObj);
-				gameObject.transform.FindChild("Text").GetComponent<Text>().text = array[i];
+				gameObject.transform.Find("Text").GetComponent<Text>().text = array[i];
 				gameObject.GetComponent<Button>().onClick.AddListener(delegate
 				{
 					selectPanelObj.SetActive(false);
@@ -280,7 +280,7 @@ namespace JyGame
 		{
 			RoleConfirmButtonObj.SetActive(true);
 			RoleResetButtonObj.SetActive(true);
-			rolePanelObj.transform.FindChild("CancelButton").gameObject.SetActive(false);
+			rolePanelObj.transform.Find("CancelButton").gameObject.SetActive(false);
 			MakeBeginningCondition();
 			MakeRandomCondition();
 			ShowBeginningCondition();

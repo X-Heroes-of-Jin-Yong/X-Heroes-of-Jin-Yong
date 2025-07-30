@@ -155,11 +155,11 @@ public class DodgeUI : MonoBehaviour
 		string roleKey = array[0];
 		string roleName = CommonSettings.getRoleName(roleKey);
 		string text = array[1];
-		dialogPanel.transform.FindChild("NameText").GetComponent<Text>().text = roleName;
+		dialogPanel.transform.Find("NameText").GetComponent<Text>().text = roleName;
 		text = text.Replace("$MALE$", RuntimeData.Instance.maleName).Replace("$FEMALE$", RuntimeData.Instance.femaleName);
 		text = text.Replace("[[red:", "<color='red'>").Replace("[[yellow:", "<color='yellow'>").Replace("]]", "</color>");
-		dialogPanel.transform.FindChild("ContentText").GetComponent<Text>().text = text;
-		dialogPanel.transform.FindChild("HeadImage").GetComponent<Image>().sprite = Resource.GetImage(CommonSettings.getRoleHead(roleKey));
+		dialogPanel.transform.Find("ContentText").GetComponent<Text>().text = text;
+		dialogPanel.transform.Find("HeadImage").GetComponent<Image>().sprite = Resource.GetImage(CommonSettings.getRoleHead(roleKey));
 	}
 
 	public void OnClicked()

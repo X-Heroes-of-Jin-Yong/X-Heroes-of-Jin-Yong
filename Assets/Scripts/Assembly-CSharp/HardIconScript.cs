@@ -25,16 +25,16 @@ public class HardIconScript : MonoBehaviour, IPointerEnterHandler, IEventSystemH
 
 	public void HideSuggestInfo()
 	{
-		base.transform.FindChild("_bg").gameObject.SetActive(false);
-		base.transform.FindChild("NickText").gameObject.SetActive(false);
-		base.transform.FindChild("ZhoumuText").gameObject.SetActive(false);
+		base.transform.Find("_bg").gameObject.SetActive(false);
+		base.transform.Find("NickText").gameObject.SetActive(false);
+		base.transform.Find("ZhoumuText").gameObject.SetActive(false);
 	}
 
 	public void ShowSuggestInfo()
 	{
-		base.transform.FindChild("_bg").gameObject.SetActive(true);
-		base.transform.FindChild("NickText").gameObject.SetActive(true);
-		base.transform.FindChild("ZhoumuText").gameObject.SetActive(true);
+		base.transform.Find("_bg").gameObject.SetActive(true);
+		base.transform.Find("NickText").gameObject.SetActive(true);
+		base.transform.Find("ZhoumuText").gameObject.SetActive(true);
 	}
 
 	private void Start()
