@@ -68,6 +68,7 @@ namespace JyGame
 				string[] array = files;
 				foreach (string text in array)
 				{
+					LuaStatic.Load = JyGameLuaLoader;
 					_lua.DoFile("jygame/" + text);
 				}
 			}
