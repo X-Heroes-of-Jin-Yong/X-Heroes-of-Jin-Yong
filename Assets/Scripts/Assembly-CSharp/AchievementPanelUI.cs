@@ -125,7 +125,7 @@ public class AchievementPanelUI : MonoBehaviour
 
 	private void Refresh()
 	{
-		string text = LuaManager.Call<string>("GameEngine_jianghuContent", new object[1] { this });
+		string text = GameEngineExt.GetJianghuContent();
 		Text component = JianghuLilianTextObj.GetComponent<Text>();
 		component.text = text;
 		string text2 = string.Empty;

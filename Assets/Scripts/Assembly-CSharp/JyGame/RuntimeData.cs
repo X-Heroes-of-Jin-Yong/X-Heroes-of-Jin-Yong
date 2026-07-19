@@ -136,7 +136,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfigInt("MAX_XIANGZI_ITEM_COUNT");
+				return 8 + RuntimeData.Instance.Round * 6;
 			}
 		}
 

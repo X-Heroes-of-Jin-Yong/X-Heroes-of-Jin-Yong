@@ -6,19 +6,8 @@ namespace JyGame
 {
 	public class TriggerLogic
 	{
-		private static List<string> luaExtensionConditions;
-
 		public static bool judge(Condition condition)
 		{
-			if (luaExtensionConditions == null)
-			{
-				luaExtensionConditions = new List<string>();
-				string[] array = LuaManager.Call<string[]>("TriggerLogic_getExtensionConditions", new object[0]);
-				foreach (string item in array)
-				{
-					luaExtensionConditions.Add(item);
-				}
-			}
 			if (condition.type.StartsWith("!"))
 			{
 				Condition condition2 = new Condition();
@@ -33,10 +22,13 @@ namespace JyGame
 
 		public static bool judgeCondition(Condition condition)
 		{
-			if (luaExtensionConditions.Contains(condition.type))
+			// 原 Lua TriggerLogic_pluginConditions 扩展条件
+			// is_zhujue_name：判断主角名字是否等于指定值
+			if (condition.type == "is_zhujue_name")
 			{
-				return LuaManager.Call<bool>("TriggerLogic_judge", new object[1] { condition });
+				return RuntimeData.Instance.Team[0].Name == condition.value;
 			}
+
 			if (condition.type == "in_team" && !RuntimeData.Instance.NameInTeam(condition.value))
 			{
 				return false;

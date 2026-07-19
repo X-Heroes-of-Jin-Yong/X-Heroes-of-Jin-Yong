@@ -1047,7 +1047,7 @@ namespace JyGame
 				target.Sp -= randomInt2;
 				attackResult.AddAttackInfo(target, "-集气 " + randomInt2, Color.yellow);
 			}
-			LuaManager.Call("AttackLogic_extendTalents2", source, target, skill, bf, attackResult);
+			AttackLogicExt.ExtendTalents2(source, target, skill, bf, attackResult);
 			if (attackResult.Mp != 0)
 			{
 				string info3 = string.Empty;
@@ -1385,7 +1385,7 @@ namespace JyGame
 				{
 					attackResult.AddCastInfo(sourceSprite, new string[1] { "将在谋，不在勇，吾万人敌" });
 				}
-				return LuaManager.Call<AttackResult>("AttackLogic_extendSpecialSkill", new object[5] { attackResult, skill, sourceSprite, targetSprite, bf });
+				return AttackLogicExt.ExtendSpecialSkill(attackResult, skill, sourceSprite, targetSprite, bf);
 			}
 			int num5 = 0;
 			switch (skill.Type)
@@ -1925,7 +1925,7 @@ namespace JyGame
 			attackFormula.attackUp = num10;
 			attackFormula.criticalHit = num11;
 			attackFormula.defence = num12;
-			LuaManager.Call("AttackLogic_extendTalents3", sourceSprite, targetSprite, skill, bf, attackResult, attackFormula);
+			AttackLogicExt.ExtendTalents3(sourceSprite, targetSprite, skill, bf, attackResult, attackFormula);
 			num9 = attackFormula.attackLow;
 			num10 = attackFormula.attackUp;
 			num11 = attackFormula.criticalHit;
@@ -2189,7 +2189,7 @@ namespace JyGame
 					attackResult.Hp /= 4;
 				}
 			}
-			LuaManager.Call("AttackLogic_extendTalents", sourceSprite, targetSprite, skill, bf, attackResult);
+			AttackLogicExt.ExtendTalents(sourceSprite, targetSprite, skill, bf, attackResult);
 			if (attackResult.Hp > 0)
 			{
 				double num31 = (double)attackResult.Hp / (double)role2.Attributes["maxhp"];

@@ -96,7 +96,7 @@ namespace JyGame
 					if (role != null)
 					{
 						num += (double)role.Level / 3.0;
-						if (role.Level >= LuaManager.GetConfigInt("MAX_LEVEL"))
+						if (role.Level >= GameConfig.MAX_LEVEL)
 						{
 							num = 99999.0;
 						}
@@ -104,11 +104,11 @@ namespace JyGame
 					double num2 = 0.0;
 					if (RuntimeData.Instance.GameMode == "hard")
 					{
-						num2 = LuaManager.GetConfigDouble("HARD_MODE_CANZHANG_DROPRATE");
+						num2 = GameConfig.HARD_MODE_CANZHANG_DROPRATE;
 					}
 					else if (RuntimeData.Instance.GameMode == "crazy")
 					{
-						num2 = LuaManager.GetConfigDouble("CRAZY_MODE_CANZHANG_DROPRATE") + (double)(RuntimeData.Instance.Round - 1) * LuaManager.GetConfigDouble("CRAZY_MODE_CANZHANG_DROPRATE_PER_ROUND");
+						num2 = GameConfig.CRAZY_MODE_CANZHANG_DROPRATE + (double)(RuntimeData.Instance.Round - 1) * GameConfig.CRAZY_MODE_CANZHANG_DROPRATE_PER_ROUND;
 					}
 					if (Tools.ProbabilityTest(num2))
 					{
@@ -118,7 +118,7 @@ namespace JyGame
 						{
 							num3++;
 							skill = ResourceManager.GetRandom<Skill>();
-							if ((role != null && role.Level >= 30 && skill.Hard < 5f) || (role != null && role.Level >= 20 && skill.Hard < 3f) || skill.Hard >= (float)LuaManager.GetConfigInt("CANZHANG_MAX_HARD_SKILL") || !((double)skill.Hard < num))
+							if ((role != null && role.Level >= 30 && skill.Hard < 5f) || (role != null && role.Level >= 20 && skill.Hard < 3f) || skill.Hard >= (float)GameConfig.CANZHANG_MAX_HARD_SKILL || !((double)skill.Hard < num))
 							{
 								continue;
 							}
@@ -126,14 +126,14 @@ namespace JyGame
 						}
 						Items.Add(Item.GetItem(skill.Name + "残章").Generate());
 					}
-					if (Tools.ProbabilityTest(num2 / LuaManager.GetConfigDouble("CANZHANG_DROP_RATE_INTERNAL_RATE")))
+					if (Tools.ProbabilityTest(num2 / GameConfig.CANZHANG_DROP_RATE_INTERNAL_RATE))
 					{
 						InternalSkill internalSkill = null;
 						do
 						{
 							internalSkill = ResourceManager.GetRandom<InternalSkill>();
 						}
-						while (internalSkill.Hard >= (float)LuaManager.GetConfigInt("CANZHANG_MAX_HARD_INTERNALSKILL") || !((double)internalSkill.Hard < num));
+						while (internalSkill.Hard >= (float)GameConfig.CANZHANG_MAX_HARD_INTERNALSKILL || !((double)internalSkill.Hard < num));
 						Items.Add(Item.GetItem(internalSkill.Name + "残章").Generate());
 					}
 				}

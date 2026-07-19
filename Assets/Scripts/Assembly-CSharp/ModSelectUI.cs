@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Reflection;
 using System.Xml;
 using JyGame;
 using UnityEngine;
@@ -27,6 +29,16 @@ public class ModSelectUI : MonoBehaviour
 
 	private void Start()
 	{
+#if !UNITY_EDITOR
+		// Editor环境下，HotUpdate.dll.bytes已经被自动加载，不需要加载，重复加载反而会出问题。
+        Assembly hotUpdateAss = Assembly.Load(File.ReadAllBytes($"{Application.streamingAssetsPath}/HotUpdate.dll.bytes"));
+#else
+		// Editor下无需加载，直接查找获得HotUpdate程序集
+        Assembly hotUpdateAss = System.AppDomain.CurrentDomain.GetAssemblies().First(a => a.GetName().Name == "HotUpdate");
+#endif
+    
+        Type type = hotUpdateAss.GetType("Hello");
+        type.GetMethod("Run").Invoke(null, null);
 		Refresh();
 		OnGonggao();
 		closeBtn.gameObject.SetActive(AssetBundleManager.IsInited);

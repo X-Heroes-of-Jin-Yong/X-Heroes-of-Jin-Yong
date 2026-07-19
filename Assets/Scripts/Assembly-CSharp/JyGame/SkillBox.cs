@@ -359,7 +359,7 @@ namespace JyGame
 			{
 				num++;
 			}
-			return LuaManager.CallWithIntReturn("SKILL_getSize", this, Owner, num);
+			return num;
 		}
 
 		private int GetCastSize()
@@ -385,7 +385,7 @@ namespace JyGame
 					}
 				}
 			}
-			return LuaManager.CallWithIntReturn("SKILL_getCastSize", this, Owner, num);
+			return num;
 		}
 
 		public virtual bool TryAddExp(int exp)

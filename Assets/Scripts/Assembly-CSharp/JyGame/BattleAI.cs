@@ -176,7 +176,7 @@ namespace JyGame
 		public AIResult GetAIResult()
 		{
 			AIResult aIResult = new AIResult();
-			AIResult aIResult2 = LuaManager.Call<AIResult>("AI_GetAIResult", new object[2] { this, aIResult });
+			AIResult aIResult2 = null; // 原 Lua AI_GetAIResult 始终返回 nil
 			if (aIResult2 != null)
 			{
 				return aIResult2;

@@ -118,10 +118,31 @@ namespace JyGame
 				}
 				break;
 			default:
-				LuaManager.Call("BUFF_OnRoundBuff", this, roundBuffResult);
+				// 内联原 Lua BUFF_OnRoundBuff 逻辑
+				ExecuteLuaBuff(this, roundBuffResult);
 				break;
 			}
 			return roundBuffResult;
 		}
+
+	/// <summary>
+	/// 自定义 Buff 逻辑（原 Lua BUFF_OnRoundBuff）
+	/// 先检查 Mod DLL 是否提供覆写，否则使用内置实现
+	/// </summary>
+	private static void ExecuteLuaBuff(BuffInstance buff, RoundBuffResult result)
+	{
+		if (ModScriptManager.TryCallVoid("BUFF_OnRoundBuff", buff, result))
+			return;
+
+		BattleSprite owner = buff.Owner;
+
+		// 诅咒：每回合掉当前生命的 1% * level
+		if (buff.Name == "诅咒")
+		{
+			int deschp = (int)Math.Ceiling(owner.Hp * 0.01 * buff.Level);
+			owner.Hp -= deschp;
+			owner.AttackInfo("诅咒 -" + deschp, UnityEngine.Color.red);
+			owner.Refresh();
+		}
 	}
-}
+}}

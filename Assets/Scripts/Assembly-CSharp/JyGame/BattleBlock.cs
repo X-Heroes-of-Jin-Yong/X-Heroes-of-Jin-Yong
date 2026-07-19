@@ -12,7 +12,7 @@ namespace JyGame
 		{
 			get
 			{
-				return Convert.ToSingle(LuaManager.GetConfigDouble("BATTLE_MOVEBLOCK_SCALE"));
+				return (float)GameConfig.BATTLE_MOVEBLOCK_SCALE;
 			}
 		}
 

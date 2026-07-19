@@ -152,12 +152,12 @@ public class MainMenu : MonoBehaviour
 		{
 			RuntimeData.Instance.Init();
 		}
-		string config = LuaManager.GetConfig("MAINMENU_BG");
+		string config = GameConfig.MAINMENU_BG;
 		if (!string.IsNullOrEmpty(config) && Resource.GetImage(config) != null)
 		{
 			backgroundImage.sprite = Resource.GetImage(config);
 		}
-		string config2 = LuaManager.GetConfig("MAINMENU_MUSIC");
+		string config2 = GameConfig.MAINMENU_MUSIC;
 		AudioManager.Instance.Play(config2);
 	}
 

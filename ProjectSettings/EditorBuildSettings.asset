@@ -2,34 +2,51 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1045 &1
 EditorBuildSettings:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
+  serializedVersion: 2
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/ModSelect.unity
+    guid: 3dcee67dcdd8e8b418fecf3f657db20b
   - enabled: 1
     path: Assets/Scenes/Loading.unity
+    guid: 45bbee6f86be6674894916c35c6f3a39
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
+    guid: b018ddd6706c4b2459072f216214301c
   - enabled: 1
     path: Assets/Scenes/Map.unity
+    guid: 6b891d9504204954cbb8250576760b45
   - enabled: 1
     path: Assets/Scenes/Battle.unity
+    guid: 4639bfb50091ad04f8ad216855b50913
   - enabled: 1
     path: Assets/Scenes/BattleSelectRole.unity
+    guid: 4952c1f7659811747b52dd3f2dcc346d
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
+    guid: 6178682de82c34b4f890cd08d46e7bde
   - enabled: 1
     path: Assets/Scenes/BattleSelectScene.unity
+    guid: 344694e9dde27124bbec6e2d20538e82
   - enabled: 1
     path: Assets/Scenes/RollRole.unity
+    guid: 2d9b1067cbbf5c94481bd681b988dc61
   - enabled: 1
     path: Assets/Scenes/Shop.unity
+    guid: 20b93fbdb31cac642952aca758b4525d
   - enabled: 1
     path: Assets/Scenes/Menpai.unity
+    guid: 34f01e41cd971b44a8b47d67dcf0fa2c
   - enabled: 1
     path: Assets/Scenes/GameFin.unity
+    guid: b8e3a156001a6f8439c0bccd89010f21
   - enabled: 1
     path: Assets/Scenes/Dodge.unity
+    guid: 7762f06206e511d4b8c395df76af2552
   - enabled: 1
     path: Assets/Scenes/WhacAMole.unity
+    guid: d674afc0c58799449af39b8bc36bad63
+  m_configObjects:
+    com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f,
+      type: 2}

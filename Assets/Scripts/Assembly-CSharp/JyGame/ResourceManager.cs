@@ -75,9 +75,9 @@ namespace JyGame
 				LoadResource<Menpai>("menpai.xml", "root/menpai");
 				LoadResource<Task>("newbie.xml", "root/task");
 				_inited = true;
-				LuaManager.Call("ROOT_onInitedResources");
+				FileLogger.instance.Log("game started..");
+				}
 			}
-		}
 
 		public static IEnumerator Init2(CommonSettings.VoidCallBack callback)
 		{
@@ -149,7 +149,7 @@ namespace JyGame
 			LoadResource<Menpai>("menpai.xml", "root/menpai");
 			LoadResource<Task>("newbie.xml", "root/task");
 			_inited = true;
-			LuaManager.Call("ROOT_onInitedResources");
+			FileLogger.instance.Log("game started..");
 			if (callback != null)
 			{
 				callback();

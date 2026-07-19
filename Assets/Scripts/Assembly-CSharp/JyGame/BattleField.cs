@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using XLua;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -172,7 +171,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfigInt("BATTLE_MOVEBLOCK_MAX_X");
+				return GameConfig.BATTLE_MOVEBLOCK_MAX_X;
 			}
 		}
 
@@ -180,7 +179,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfigInt("BATTLE_MOVEBLOCK_MAX_Y");
+				return GameConfig.BATTLE_MOVEBLOCK_MAX_Y;
 			}
 		}
 
@@ -195,7 +194,7 @@ namespace JyGame
 			}
 		}
 
-		public LuaTable SpritesTable
+		public Dictionary<string, object> SpritesTable
 		{
 			get
 			{
@@ -560,12 +559,12 @@ namespace JyGame
 
 		public static int ToScreenX(int x)
 		{
-			return (x - LuaManager.GetConfigInt("BATTLE_MOVEBLOCK_MARGIN_RIGHT")) * LuaManager.GetConfigInt("BATTLE_MOVEBLOCK_LENGTH");
+			return (x - GameConfig.BATTLE_MOVEBLOCK_MARGIN_RIGHT) * GameConfig.BATTLE_MOVEBLOCK_LENGTH;
 		}
 
 		public static int ToScreenY(int y)
 		{
-			return (y - LuaManager.GetConfigInt("BATTLE_MOVEBLOCK_MARGIN_TOP")) * LuaManager.GetConfigInt("BATTLE_MOVEBLOCK_WIDTH");
+			return (y - GameConfig.BATTLE_MOVEBLOCK_MARGIN_TOP) * GameConfig.BATTLE_MOVEBLOCK_WIDTH;
 		}
 
 		public BattleSprite GetSprite(int x, int y)
@@ -1035,7 +1034,7 @@ namespace JyGame
 						return;
 					}
 				}
-				LuaManager.Call("BATTLE_BeforeRoleAction", this, currentSprite);
+				BattleFieldExt.BeforeRoleAction(this, currentSprite);
 				RoleAction(currentSprite);
 			}
 			else
@@ -1309,13 +1308,13 @@ namespace JyGame
 					currentSkill = new AoyiInstance(currentSkill, aoyi);
 					if (currentSprite.Role.Female)
 					{
-						AudioManager.Instance.PlayRandomEffect(LuaManager.GetConfig<string[]>("AOYI_SOUND_FEMALE"));
-						AudioManager.Instance.PlayRandomEffect(LuaManager.GetConfig<string[]>("AOYI_EFFECT"));
+						AudioManager.Instance.PlayRandomEffect(GameConfig.AOYI_SOUND_FEMALE);
+						AudioManager.Instance.PlayRandomEffect(GameConfig.AOYI_EFFECT);
 					}
 					else
 					{
-						AudioManager.Instance.PlayRandomEffect(LuaManager.GetConfig<string[]>("AOYI_SOUND_MALE"));
-						AudioManager.Instance.PlayRandomEffect(LuaManager.GetConfig<string[]>("AOYI_EFFECT"));
+						AudioManager.Instance.PlayRandomEffect(GameConfig.AOYI_SOUND_MALE);
+						AudioManager.Instance.PlayRandomEffect(GameConfig.AOYI_EFFECT);
 					}
 				}
 			}
@@ -1460,7 +1459,7 @@ namespace JyGame
 							}
 						}
 					}
-					LuaManager.Call("BATTLE_AfterSkillAnimation", this, currentSprite, skillBox, hitNumber);
+					BattleFieldExt.AfterSkillAnimation(this, currentSprite, skillBox, hitNumber);
 					Status = BattleStatus.NextActivePersonAction;
 				});
 				if (battleSprite != null && battleSprite.Team != currentSprite.Team)
@@ -1470,7 +1469,7 @@ namespace JyGame
 				}
 			}
 			currentSprite.DisplayHpMpBar();
-			LuaManager.Call("BATTLE_BeforeSkillAnimation", this, currentSprite, currentSkill, hitNumber);
+			BattleFieldExt.BeforeSkillAnimation(this, currentSprite, currentSkill, hitNumber);
 			if (hitNumber > 0)
 			{
 				double num = 0.5 + (double)((float)currentSprite.Role.fuyuan / 200f) * 0.2;
@@ -1582,7 +1581,7 @@ namespace JyGame
 
 		private void Die(BattleSprite sp, AttackResult result)
 		{
-			if (!LuaManager.Call<bool>("BATTLE_Die", new object[3] { this, sp, result }))
+			if (!BattleFieldExt.Die(this, sp, result))
 			{
 				if (sp.Role.HasTalent("百足之虫") && Tools.ProbabilityTest(0.2))
 				{
@@ -1782,7 +1781,13 @@ namespace JyGame
 				AudioManager.Instance.PlayEffect("音效.恢复3");
 				target.Refresh();
 			}
-			LuaManager.Call("ITEM_OnItemResultRun", itemResult, target, this);
+			// 内联原 Lua ITEM_OnItemResultRun 逻辑：清除所有BUFF
+			if (itemResult.data.TryGetValue("clearbuffs", out var clearbuffs) && clearbuffs is bool && (bool)clearbuffs)
+			{
+				target.Buffs.Clear();
+				target.AttackInfo("清除所有BUFF", Color.red);
+				target.Refresh();
+			}
 			if (flag)
 			{
 				AudioManager.Instance.PlayEffect("音效.恢复类物品");
@@ -1860,7 +1865,7 @@ namespace JyGame
 				num4 = 0;
 				Log(currentSprite.Role.Name + "由于被封穴，无法恢复内力");
 			}
-			string text = LuaManager.Call<string>("BATTLE_Rest", new object[4] { this, currentSprite, num3, num4 });
+			string text = BattleFieldExt.Rest(this, currentSprite, num3, num4);
 			num3 = Convert.ToInt32(text.Split(',')[0]);
 			num4 = Convert.ToInt32(text.Split(',')[1]);
 			if (num3 + currentSprite.Hp > currentSprite.Role.Attributes["maxhp"])

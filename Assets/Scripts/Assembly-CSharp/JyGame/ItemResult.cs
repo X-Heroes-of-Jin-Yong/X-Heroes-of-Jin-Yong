@@ -1,6 +1,4 @@
 using System.Collections.Generic;
-using XLua;
-
 
 namespace JyGame
 {
@@ -26,6 +24,7 @@ namespace JyGame
 
 		public IEnumerable<Buff> Buffs;
 
-		public LuaTable data = LuaTool.CreateLuaTable();
+		/// <summary>物品扩展数据（替代原 LuaTable，存储 Lua 自定义的键值对）</summary>
+		public Dictionary<string, object> data = new Dictionary<string, object>();
 	}
 }

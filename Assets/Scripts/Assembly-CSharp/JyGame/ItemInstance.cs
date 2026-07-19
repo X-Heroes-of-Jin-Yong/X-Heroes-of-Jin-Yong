@@ -622,8 +622,15 @@ namespace JyGame
 				case "AddBuff":
 					itemResult.Buffs = Buff.Parse(trigger.Argvs[0]);
 					continue;
+				case "提升定力":
+					itemResult.data["dingli"] = int.Parse(trigger.Argvs[0]);
+					continue;
+				case "清除所有BUFF":
+					itemResult.data["clearbuffs"] = true;
+					continue;
 				}
-				LuaManager.Call("ITEM_OnTryUse", source, target, trigger, itemResult);
+				// 未知的触发器，原来是委托给 Lua 的 ITEM_OnTryUse 处理
+				// 迁移至 HybridCLR 后，新触发器需在此处添加 case
 				Debug.Log("error item trigger " + trigger.Name);
 			}
 			return itemResult;

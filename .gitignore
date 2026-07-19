@@ -179,4 +179,9 @@ sysinfo.txt
 .history
 .ionide
 
+### HybridCLR ###
+# HybridCLR generated files (produced during build, should not be committed)
+/HybridCLRData/
+/HybridCLRGenerate/
+
 # End of https://www.toptal.com/developers/gitignore/api/unity,jetbrains+iml,visualstudiocode

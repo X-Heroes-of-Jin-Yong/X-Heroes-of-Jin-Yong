@@ -123,7 +123,7 @@ namespace JyGame
 			{
 				if (MOD_MODE)
 				{
-					return LuaManager.GetConfig<bool>("CONSOLE");
+					return GameConfig.CONSOLE;
 				}
 				return (Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.OSXEditor) ? true : false;
 			}
@@ -162,7 +162,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfigInt("DEFAULT_MAX_GAME_SPTIME");
+				return GameConfig.DEFAULT_MAX_GAME_SPTIME;
 			}
 		}
 
@@ -170,7 +170,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfigInt("PER_MAXLEVEL_ADD_BY_ZHOUMU");
+				return GameConfig.PER_MAXLEVEL_ADD_BY_ZHOUMU;
 			}
 		}
 
@@ -178,7 +178,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfigDouble("ZHOUMU_ATTACK_ADD");
+				return GameConfig.ZHOUMU_ATTACK_ADD;
 			}
 		}
 
@@ -186,7 +186,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfigDouble("ZHOUMU_DEFENCE_ADD");
+				return GameConfig.ZHOUMU_DEFENCE_ADD;
 			}
 		}
 
@@ -194,7 +194,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfigDouble("ZHOUMU_HP_ADD");
+				return GameConfig.ZHOUMU_HP_ADD;
 			}
 		}
 
@@ -202,7 +202,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfigDouble("ZHOUMU_MP_ADD");
+				return GameConfig.ZHOUMU_MP_ADD;
 			}
 		}
 
@@ -210,7 +210,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfigInt("MAX_INTERNALSKILL_COUNT");
+				return GameConfig.MAX_INTERNALSKILL_COUNT;
 			}
 		}
 
@@ -218,7 +218,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfigInt("MAX_SKILL_COUNT");
+				return GameConfig.MAX_SKILL_COUNT;
 			}
 		}
 
@@ -226,7 +226,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfigInt("MAX_ATTRIBUTE");
+				return GameConfig.MAX_ATTRIBUTE;
 			}
 		}
 
@@ -234,7 +234,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfigInt("MAX_SKILL_LEVEL");
+				return GameConfig.MAX_SKILL_LEVEL;
 			}
 		}
 
@@ -242,7 +242,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfigInt("MAX_INTERNALSKILL_LEVEL");
+				return GameConfig.MAX_INTERNALSKILL_LEVEL;
 			}
 		}
 
@@ -250,7 +250,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfigDouble("YUANBAO_DROP_RATE");
+				return GameConfig.YUANBAO_DROP_RATE;
 			}
 		}
 
@@ -258,7 +258,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfigInt("MAX_HPMP") + (RuntimeData.Instance.Round - 1) * LuaManager.GetConfigInt("MAX_HPMP_PER_ROUND");
+				return GameConfig.MAX_HPMP + (RuntimeData.Instance.Round - 1) * GameConfig.MAX_HPMP_PER_ROUND;
 			}
 		}
 
@@ -266,7 +266,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfigInt("MAX_LEVEL");
+				return GameConfig.MAX_LEVEL;
 			}
 		}
 
@@ -274,7 +274,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfig<string[]>("randomBattleMusics");
+				return GameConfig.randomBattleMusics;
 			}
 		}
 
@@ -282,7 +282,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfig<string[]>("EnemyRandomTalentsList");
+				return GameConfig.EnemyRandomTalentsList;
 			}
 		}
 
@@ -290,7 +290,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfig<string[]>("EnemyRandomTalentListCrazy1");
+				return GameConfig.EnemyRandomTalentListCrazy1;
 			}
 		}
 
@@ -298,7 +298,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfig<string[]>("EnemyRandomTalentListCrazy2");
+				return GameConfig.EnemyRandomTalentListCrazy2;
 			}
 		}
 
@@ -306,7 +306,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfig<string[]>("EnemyRandomTalentListCrazy3");
+				return GameConfig.EnemyRandomTalentListCrazy3;
 			}
 		}
 
@@ -314,7 +314,7 @@ namespace JyGame
 		{
 			get
 			{
-				return LuaManager.GetConfigInt("SMALLGAME_MAX_ATTRIBUTE");
+				return GameConfig.SMALLGAME_MAX_ATTRIBUTE;
 			}
 		}
 

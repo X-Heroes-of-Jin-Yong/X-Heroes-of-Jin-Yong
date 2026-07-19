@@ -2,11 +2,9 @@ using System.Collections.Generic;
 
 using UnityEngine;
 using UnityEngine.UI;
-using XLua;
 
 namespace JyGame
 {
-	[LuaCallCSharp]
 	public class RollRoleUI : MonoBehaviour
 	{
 		public GameObject rolePanelObj;
@@ -80,13 +78,9 @@ namespace JyGame
 			}
 		}
 
-		public void LoadSelection(string title, LuaTable opts, LuaFunction callback)
+		public void LoadSelection(string title, IEnumerable<string> opts, System.Action<int> callback)
 		{
-			List<string> list = new List<string>();
-			opts.ForEach(delegate(object key, object value)
-			{
-				list.Add(value.ToString());
-			});
+			List<string> list = new List<string>(opts);
 			LoadSelection(title, list, LuaTool.MakeIntCallBack(callback));
 		}
 
@@ -657,56 +651,8 @@ namespace JyGame
 				Item item = makeItem;
 				RuntimeData.Instance.addItem(item);
 			}
-			List<string> list = new List<string>();
-			list.Clear();
-			switch (RuntimeData.Instance.Round)
-			{
-			case 1:
-			{
-				string[] array2 = LuaManager.Call<string[]>("ROLLROLE_getBonusRole", new object[1] { 0 });
-				foreach (string item3 in array2)
-				{
-					list.Add(item3);
-				}
-				break;
-			}
-			case 2:
-			{
-				string[] array4 = LuaManager.Call<string[]>("ROLLROLE_getBonusRole", new object[1] { 1 });
-				foreach (string item5 in array4)
-				{
-					list.Add(item5);
-				}
-				break;
-			}
-			case 3:
-			{
-				string[] array5 = LuaManager.Call<string[]>("ROLLROLE_getBonusRole", new object[1] { 2 });
-				foreach (string item6 in array5)
-				{
-					list.Add(item6);
-				}
-				break;
-			}
-			case 4:
-			{
-				string[] array3 = LuaManager.Call<string[]>("ROLLROLE_getBonusRole", new object[1] { 3 });
-				foreach (string item4 in array3)
-				{
-					list.Add(item4);
-				}
-				break;
-			}
-			default:
-			{
-				string[] array = LuaManager.Call<string[]>("ROLLROLE_getBonusRole", new object[1] { 4 });
-				foreach (string item2 in array)
-				{
-					list.Add(item2);
-				}
-				break;
-			}
-			}
+			string[] bonusRoles = GameConfig.GetBonusRoles(RuntimeData.Instance.Round);
+			List<string> list = new List<string>(bonusRoles);
 			if (list.Count > 0)
 			{
 				RuntimeData.Instance.Team.Add(ResourceManager.Get<Role>(list[Tools.GetRandomInt(0, list.Count) % list.Count]).Clone());
@@ -730,12 +676,12 @@ namespace JyGame
 		public void resetButton_Click()
 		{
 			AudioManager.Instance.PlayEffect("音效.装备");
-			LuaManager.Call("ROLLROLE_Reset", this);
+			Reset();
 		}
 
 		private void Start()
 		{
-			LuaManager.Call("ROLLROLE_start", this);
+			Show();
 		}
 
 		private void Update()

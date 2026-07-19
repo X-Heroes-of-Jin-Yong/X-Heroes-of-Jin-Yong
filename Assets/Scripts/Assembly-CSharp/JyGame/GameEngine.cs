@@ -109,19 +109,19 @@ namespace JyGame
 		public void NewGame()
 		{
 			RuntimeData.Instance.KeyValues["original_主角之家.开场"] = "0";
-			RuntimeData.Instance.SetLocation("大地图", LuaManager.GetConfig("gamestart_location"));
+			RuntimeData.Instance.SetLocation("大地图", GameConfig.gamestart_location);
 			RuntimeData.Instance.TrialRoles = string.Empty;
 			RuntimeData.Instance.Rank = -1;
-			string config = LuaManager.GetConfig("gamestart_story");
+			string config = GameConfig.gamestart_story;
 			SwitchGameScene("story", config);
 		}
 
 		public void NewGameJump()
 		{
 			RuntimeData.Instance.KeyValues["original_主角之家.开场"] = "0";
-			RuntimeData.Instance.SetLocation("大地图", LuaManager.GetConfig("gamestart_location"));
+			RuntimeData.Instance.SetLocation("大地图", GameConfig.gamestart_location);
 			RuntimeData.Instance.TrialRoles = string.Empty;
-			string config = LuaManager.GetConfig("gamestart_story");
+			string config = GameConfig.gamestart_story;
 			SwitchGameScene("story", config);
 		}
 
@@ -540,7 +540,7 @@ namespace JyGame
 				LuaManager.Reload();
 				return;
 			}
-			if (!LuaManager.Call<bool>("GameEngine_extendConsole", new object[3] { this, type, value }))
+			if (!GameEngineExt.ExtendConsole(this, type, value))
 			{
 				string currentBigMap = RuntimeData.Instance.CurrentBigMap;
 				CurrentSceneType = "map";

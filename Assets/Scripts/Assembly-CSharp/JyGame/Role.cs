@@ -890,7 +890,7 @@ namespace JyGame
 		public void addRoundSkillLevel()
 		{
 			int round = RuntimeData.Instance.Round;
-			int num = round / LuaManager.GetConfigInt("NPC_SKILL_LEVEL_ADD_BY_ZHOUMU");
+			int num = round / GameConfig.NPC_SKILL_LEVEL_ADD_BY_ZHOUMU;
 			if (num <= 0)
 			{
 				return;

@@ -5,11 +5,11 @@ namespace JyGame
 {
 	public class ZhenlongqijuLogic
 	{
-		private static string[] randomWuqiName = LuaManager.GetConfig<string[]>("ZHENLONG_WUQI");
+		private static string[] randomWuqiName = GameConfig.ZHENLONG_WUQI;
 
-		private static string[] randomFangju = LuaManager.GetConfig<string[]>("ZHENLONG_FANGJU");
+		private static string[] randomFangju = GameConfig.ZHENLONG_FANGJU;
 
-		private static string[] randomShipin = LuaManager.GetConfig<string[]>("ZHENLONG_SHIPIN");
+		private static string[] randomShipin = GameConfig.ZHENLONG_SHIPIN;
 
 		public static void CalcItems(List<ItemInstance> items)
 		{

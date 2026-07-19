@@ -1451,7 +1451,7 @@ public class MapUI : MonoBehaviour
 			break;
 		}
 		default:
-			if (!LuaManager.Call<bool>("GameEngine_extendStoryAction", new object[4] { this, action, array, callback }))
+			if (!GameEngineExt.ExtendStoryAction(this, action, array, callback))
 			{
 				Debug.LogError("invalid story action type:" + action.type);
 				ExecuteNextStoryAction(callback);
@@ -1941,7 +1941,11 @@ public class MapUI : MonoBehaviour
 					role.mp = role.Attributes["maxmp"];
 					dialogs.Add(StoryAction.CreateDialog(role, "内力上限增加了【" + itemResult.MaxMp + "】！"));
 				}
-				LuaManager.Call("ITEM_OnUseUpgradeItem", itemResult, role);
+				// 内联原 Lua ITEM_OnUseUpgradeItem 逻辑：提升定力
+				if (itemResult.data.TryGetValue("dingli", out var dingliObj))
+				{
+					role.dingli += (int)dingliObj;
+				}
 				RuntimeData.Instance.addItem(item, -1);
 				AudioManager.Instance.PlayEffect("音效.升级");
 			}

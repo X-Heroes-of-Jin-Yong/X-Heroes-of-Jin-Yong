@@ -28,7 +28,15 @@ namespace JyGame
 			AssetBundleManager.IsInited = false;
 			GlobalData.CurrentMod = mod;
 			ModData.Load();
-			LuaManager.Init(true);
+			// HybridCLR: 加载 Mod 的 C# DLL（替代原 XLua 的 Lua 脚本加载）
+			if (mod != null)
+			{
+				ModScriptManager.LoadMod(mod.key);
+			}
+			else
+			{
+				ModScriptManager.UnloadMod();
+			}
 		}
 	}
 }

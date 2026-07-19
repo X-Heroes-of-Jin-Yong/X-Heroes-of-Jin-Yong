@@ -4,9 +4,9 @@ namespace JyGame
 {
 	public class Buff
 	{
-		public static string[] BuffNames = LuaManager.GetConfig<string[]>("BUFF_LIST");
+		public static string[] BuffNames = GameConfig.BUFF_LIST;
 
-		public static string[] DebuffNames = LuaManager.GetConfig<string[]>("DEBUFF_LIST");
+		public static string[] DebuffNames = GameConfig.DEBUFF_LIST;
 
 		public string Name;
 

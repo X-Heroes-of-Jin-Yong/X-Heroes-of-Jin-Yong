@@ -24,7 +24,7 @@ public class BattleConfigUI : MonoBehaviour
 	{
 		if (Configer.IsSpeedUp = base.transform.Find("SpeedUpToggle").GetComponent<Toggle>().isOn)
 		{
-			Time.timeScale = (float)(1.7999999523162842 * LuaManager.GetConfigDouble("BATTLE_SPEEDUP_RATE"));
+			Time.timeScale = (float)(1.7999999523162842 * GameConfig.BATTLE_SPEEDUP_RATE);
 		}
 		else
 		{
@@ -38,7 +38,7 @@ public class BattleConfigUI : MonoBehaviour
 		base.transform.Find("AutoBattleToggle").GetComponent<Toggle>().isOn = Configer.IsAutoBattle;
 		if (Configer.IsSpeedUp)
 		{
-			Time.timeScale = (float)(1.7999999523162842 * LuaManager.GetConfigDouble("BATTLE_SPEEDUP_RATE"));
+			Time.timeScale = (float)(1.7999999523162842 * GameConfig.BATTLE_SPEEDUP_RATE);
 		}
 		else
 		{
