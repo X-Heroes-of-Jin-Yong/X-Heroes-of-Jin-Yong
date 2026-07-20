@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="Unity.AI.Generators.UI" elementFormDefault="qualified" targetNamespace="Unity.AI.Generators.UI" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="UnityEngine.UIElements.xsd" namespace="UnityEngine.UIElements" />
+  <xs:complexType name="GridViewType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="UnityEngine.UIElements" base="q1:VisualElementType">
+        <xs:choice />
+        <xs:attribute default="120" name="fixed-item-height" type="xs:float" />
+        <xs:attribute default="120" name="fixed-item-width" type="xs:float" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GridView" xmlns:q2="UnityEngine.UIElements" substitutionGroup="q2:VisualElement" type="tns:GridViewType" />
+  <xs:complexType name="CarouselViewType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q3="UnityEngine.UIElements" base="q3:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CarouselView" xmlns:q4="UnityEngine.UIElements" substitutionGroup="q4:VisualElement" type="tns:CarouselViewType" />
+  <xs:complexType name="MultiSliderType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q5="UnityEngine.UIElements" base="q5:VisualElementType">
+        <xs:choice />
+        <xs:attribute default="3" name="control-count" type="xs:int" />
+        <xs:attribute default="0.025" name="minimum-gap" type="xs:float" />
+        <xs:attribute default="0" name="highlight-start" type="xs:float" />
+        <xs:attribute default="0" name="highlight-end" type="xs:float" />
+        <xs:attribute default="rgb(0, 255, 0)" name="highlight-color" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MultiSlider" xmlns:q6="UnityEngine.UIElements" substitutionGroup="q6:VisualElement" type="tns:MultiSliderType" />
+  <xs:complexType name="SplitterType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q7="UnityEngine.UIElements" base="q7:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Splitter" xmlns:q8="UnityEngine.UIElements" substitutionGroup="q8:VisualElement" type="tns:SplitterType" />
+</xs:schema>

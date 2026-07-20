@@ -10,7 +10,7 @@ namespace JyGame
 		{
 			get
 			{
-				return "file:///" + CommonSettings.persistentDataPath + "/modcache/" + GlobalData.CurrentMod.key + "/";
+				return "file://" + CommonSettings.persistentDataPath + "modcache/" + GlobalData.CurrentMod.key + "/";
 			}
 		}
 
@@ -18,7 +18,7 @@ namespace JyGame
 		{
 			get
 			{
-				return CommonSettings.persistentDataPath + "/modcache/" + GlobalData.CurrentMod.key + "/";
+				return CommonSettings.persistentDataPath + "modcache/" + GlobalData.CurrentMod.key + "/";
 			}
 		}
 

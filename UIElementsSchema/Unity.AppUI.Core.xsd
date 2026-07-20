@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="Unity.AppUI.Core" elementFormDefault="qualified" targetNamespace="Unity.AppUI.Core" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="DirType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Ltr" />
+      <xs:enumeration value="Rtl" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

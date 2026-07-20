@@ -1,9 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using DG.Tweening;
+using PrimeTween;
 using JyGame;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class MapUI : MonoBehaviour
@@ -324,7 +325,7 @@ public class MapUI : MonoBehaviour
 			RuntimeData.Instance.StoryFinish(_story.Name, "0");
 			break;
 		case "SHAKE":
-			Camera.main.transform.DOShakePosition(0.5f, 10f);
+			Tween.ShakeLocalPosition(Camera.main.transform, new Vector3(10f, 10f, 0f), 0.5f);
 			ExecuteNextStoryAction(callback);
 			break;
 		case "SELECT":
@@ -1748,19 +1749,19 @@ public class MapUI : MonoBehaviour
 
 	private void Update()
 	{
-		if (Input.GetKeyDown(KeyCode.F1) && !DialogPanel.activeSelf && !SelectPanel.activeSelf && !RuntimeData.Instance.AutoSaveOnly)
+		if (Keyboard.current.f1Key.wasPressedThisFrame && !DialogPanel.activeSelf && !SelectPanel.activeSelf && !RuntimeData.Instance.AutoSaveOnly)
 		{
 			string content = RuntimeData.Instance.Save();
 			SaveManager.SetSave("fastsave", content);
 			AudioManager.Instance.PlayEffect("音效.装备");
 		}
-		else if (Input.GetKeyDown(KeyCode.F2) && !DialogPanel.activeSelf && !SelectPanel.activeSelf && !RuntimeData.Instance.AutoSaveOnly)
+		else if (Keyboard.current.f2Key.wasPressedThisFrame && !DialogPanel.activeSelf && !SelectPanel.activeSelf && !RuntimeData.Instance.AutoSaveOnly)
 		{
 			string save = SaveManager.GetSave("fastsave");
 			RuntimeData.Instance.Load(save);
 			RuntimeData.Instance.gameEngine.SwitchGameScene("map", RuntimeData.Instance.CurrentBigMap);
 		}
-		else if (Input.GetKeyDown(KeyCode.Escape) || Input.GetMouseButtonDown(1))
+		else if (Keyboard.current.escapeKey.wasPressedThisFrame || Mouse.current.rightButton.wasPressedThisFrame)
 		{
 			TeamPanelObj.SetActive(false);
 			RolePanel.SetActive(false);
@@ -1770,7 +1771,7 @@ public class MapUI : MonoBehaviour
 			LogPanel.SetActive(false);
 			ItemPanel.SetActive(false);
 		}
-		else if (Input.GetKeyDown(KeyCode.F9))
+		else if (Keyboard.current.f9Key.wasPressedThisFrame)
 		{
 			LuaManager.Reload();
 		}

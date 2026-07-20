@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="UnityEngine.UIElements.xsd" namespace="UnityEngine.UIElements" />
+  <xs:complexType name="StyleType">
+    <xs:complexContent mixed="false">
+      <xs:restriction xmlns:q1="UnityEngine.UIElements" base="q1:VisualElementType">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="q1:VisualElement" />
+        </xs:choice>
+        <xs:attribute name="name" type="xs:string" />
+        <xs:attribute name="path" type="xs:string" />
+        <xs:attribute name="src" type="xs:string" />
+        <xs:anyAttribute processContents="lax" />
+      </xs:restriction>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Style" xmlns:q2="UnityEngine.UIElements" substitutionGroup="q2:VisualElement" type="StyleType" />
+  <xs:complexType name="TemplateType">
+    <xs:complexContent mixed="false">
+      <xs:restriction xmlns:q3="UnityEngine.UIElements" base="q3:VisualElementType">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="q3:VisualElement" />
+        </xs:choice>
+        <xs:attribute name="name" type="xs:string" />
+        <xs:attribute name="path" type="xs:string" />
+        <xs:attribute name="src" type="xs:string" />
+        <xs:anyAttribute processContents="lax" />
+      </xs:restriction>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Template" xmlns:q4="UnityEngine.UIElements" substitutionGroup="q4:VisualElement" type="TemplateType" />
+  <xs:complexType name="AttributeOverridesType">
+    <xs:complexContent mixed="false">
+      <xs:restriction xmlns:q5="UnityEngine.UIElements" base="q5:VisualElementType">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="q5:VisualElement" />
+        </xs:choice>
+        <xs:attribute name="element-name" type="xs:string" use="required" />
+        <xs:anyAttribute processContents="lax" />
+      </xs:restriction>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="AttributeOverrides" xmlns:q6="UnityEngine.UIElements" substitutionGroup="q6:VisualElement" type="AttributeOverridesType" />
+</xs:schema>

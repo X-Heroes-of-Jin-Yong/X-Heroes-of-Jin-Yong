@@ -47,7 +47,7 @@ public class ModInfo : BasePojo
 	{
 		get
 		{
-			return CommonSettings.persistentDataPath + "/modcache/" + key + ".xml";
+			return CommonSettings.persistentDataPath + "modcache/" + key + ".xml";
 		}
 	}
 
@@ -56,7 +56,7 @@ public class ModInfo : BasePojo
 	{
 		get
 		{
-			return CommonSettings.persistentDataPath + "/modcache/" + key + "/";
+			return CommonSettings.persistentDataPath + "modcache/" + key + "/";
 		}
 	}
 }

@@ -27,17 +27,23 @@ public class ModDownloadPanelUI : MonoBehaviour
 	public void Bind(ModItemUI modItem)
 	{
 		_modItem = modItem;
-		modUI.image.sprite = modItem.image.sprite;
-		modUI.text.text = modItem.text.text;
-		modUI.desc.text = modItem.desc.text;
-		startButton.gameObject.SetActive(false);
+		if (modUI != null && modItem != null)
+		{
+			if (modUI.image != null && modItem.image != null)
+				modUI.image.sprite = modItem.image.sprite;
+			if (modUI.text != null && modItem.text != null)
+				modUI.text.text = modItem.text.text;
+			if (modUI.desc != null && modItem.desc != null)
+				modUI.desc.text = modItem.desc.text;
+		}
+		if (startButton != null) startButton.gameObject.SetActive(false);
 	}
 
 	public void Show(float progress, string info)
 	{
 		base.gameObject.SetActive(true);
-		slider.value = progress;
-		text.text = info;
+		if (slider != null) slider.value = progress;
+		if (text != null) text.text = info;
 	}
 
 	public void Hide()
@@ -47,23 +53,19 @@ public class ModDownloadPanelUI : MonoBehaviour
 
 	public void DownloadFinished()
 	{
-		text.text = "下载完成!";
-		startButton.gameObject.SetActive(true);
+		if (text != null) text.text = "下载完成!";
+		if (startButton != null) startButton.gameObject.SetActive(true);
 	}
 
 	public void OnCancel()
 	{
 		Hide();
-		_modItem.AbortDownload();
-		if (_modItem._parent != null)
-		{
-			_modItem._parent.OnLocalMod();
-		}
+		if (_modItem != null) _modItem.AbortDownload();
 	}
 
 	public void OnStartGame()
 	{
-		ModManager.SetCurrentMod(_modItem._mod);
+		if (_modItem != null) ModManager.SetCurrentMod(_modItem._mod);
 		LoadingUI.Load("MainMenu");
 	}
 }

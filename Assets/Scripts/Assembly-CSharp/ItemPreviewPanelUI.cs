@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class ItemPreviewPanelUI : MonoBehaviour
@@ -7,7 +8,7 @@ public class ItemPreviewPanelUI : MonoBehaviour
 	{
 		base.gameObject.SetActive(true);
 		base.transform.Find("Text").GetComponent<Text>().text = text;
-		Vector3 vector = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+		Vector3 vector = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
 		base.transform.localPosition = new Vector3(vector.x + 80f, vector.y);
 		if (base.transform.localPosition.x > 200f)
 		{

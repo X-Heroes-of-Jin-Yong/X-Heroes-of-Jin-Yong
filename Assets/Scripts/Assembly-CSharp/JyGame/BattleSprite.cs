@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using DG.Tweening;
+using PrimeTween;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -808,7 +808,7 @@ namespace JyGame
 			if (moved >= MoveWay.Count)
 			{
 				moved = 1;
-				base.transform.DOKill();
+				Tween.StopAll(transform);
 				moveCallback();
 				return;
 			}
@@ -833,39 +833,37 @@ namespace JyGame
 
 		public void MoveTo(int x, int y)
 		{
-			Vector3 vector = new Vector3(BattleField.ToScreenX(x), BattleField.ToScreenY(y), -1f);
-			Tween t = null;
 			if (x == X)
 			{
-				t = base.transform.DOMoveY(BattleField.ToScreenY(y), 0.3f);
+				Tween.PositionY(transform, BattleField.ToScreenY(y), 0.3f, Ease.Linear)
+					.OnComplete(this, target => OnMoveComplete(target, x, y));
 			}
 			else if (y == Y)
 			{
-				t = base.transform.DOMoveX(BattleField.ToScreenX(x), 0.3f);
+				Tween.PositionX(transform, BattleField.ToScreenX(x), 0.3f, Ease.Linear)
+					.OnComplete(this, target => OnMoveComplete(target, x, y));
 			}
-			t.SetUpdate(false);
-			t.SetEase(Ease.Linear);
-			t.OnComplete(delegate
+		}
+
+		private void OnMoveComplete(BattleSprite target, int x, int y)
+		{
+			target.moved++;
+			target.Pos = new Vector2(x, y);
+			if (target.moved < target.MoveWay.Count)
 			{
-				moved++;
-				Pos = new Vector2(x, y);
-				if (moved < MoveWay.Count)
-				{
-					Move(moved);
-				}
-				else
-				{
-					moved = 1;
-					base.transform.DOKill();
-					moveCallback();
-				}
-			});
-			t.Play();
+				target.Move(target.moved);
+			}
+			else
+			{
+				target.moved = 1;
+				Tween.StopAll(target.transform);
+				target.moveCallback();
+			}
 		}
 
 		public void Shake()
 		{
-			base.transform.DOShakePosition(0.5f, 4f);
+			Tween.ShakeLocalPosition(transform, new Vector3(4f, 4f, 0f), 0.5f);
 		}
 
 		public void Die()
@@ -873,17 +871,19 @@ namespace JyGame
 			IsDead = true;
 			if (isUserDefinedAnimation)
 			{
-				spriteObj.transform.Find("sprite").GetComponent<SpriteRenderer>().material.DOFade(0f, 1.5f).OnComplete(delegate
-				{
-					Object.Destroy(base.gameObject);
-				});
+				var sr = spriteObj.transform.Find("sprite").GetComponent<SpriteRenderer>();
+				var mat = sr.material;
+				var col = mat.color;
+				Tween.MaterialColor(mat, Shader.PropertyToID("_Color"), new Color(col.r, col.g, col.b, 0), 1.5f)
+					.OnComplete(this, target => Destroy(target.gameObject));
 			}
 			else
 			{
-				spriteObj.GetComponent<Renderer>().material.DOFade(0f, 1.5f).OnComplete(delegate
-				{
-					Object.Destroy(base.gameObject);
-				});
+				var ren = spriteObj.GetComponent<Renderer>();
+				var mat = ren.material;
+				var col = mat.color;
+				Tween.MaterialColor(mat, Shader.PropertyToID("_Color"), new Color(col.r, col.g, col.b, 0), 1.5f)
+					.OnComplete(this, target => Destroy(target.gameObject));
 			}
 		}
 	}

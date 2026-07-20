@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using DG.Tweening;
 using UnityEngine;
 
 namespace JyGame
@@ -97,7 +96,6 @@ namespace JyGame
 		public GameEngine()
 		{
 			Init();
-			DOTween.Init();
 		}
 
 		public void Init()

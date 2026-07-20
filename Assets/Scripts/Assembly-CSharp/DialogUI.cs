@@ -1,5 +1,6 @@
 using JyGame;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class DialogUI : MonoBehaviour
@@ -52,7 +53,7 @@ public class DialogUI : MonoBehaviour
 
 	private void Update()
 	{
-		if (Input.GetKey(KeyCode.Space))
+		if (Keyboard.current.spaceKey.isPressed)
 		{
 			_timeCount += Time.deltaTime;
 			if (_timeCount > 0.3f)
@@ -60,11 +61,11 @@ public class DialogUI : MonoBehaviour
 				OnClicked();
 			}
 		}
-		else if (Input.GetKeyUp(KeyCode.Space))
+		else if (Keyboard.current.spaceKey.wasReleasedThisFrame)
 		{
 			OnClicked();
 		}
-		else if (Input.GetMouseButtonDown(0))
+		else if (Mouse.current.leftButton.wasPressedThisFrame)
 		{
 			OnClicked();
 		}

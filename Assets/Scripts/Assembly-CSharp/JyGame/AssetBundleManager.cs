@@ -94,14 +94,14 @@ namespace JyGame
 			Clear();
 			if (CommonSettings.MOD_MODE)
 			{
-				LoadUserDefinedAnimations(delegate
-				{
+				// LoadUserDefinedAnimations(delegate
+				// {
 					LoadModResources(delegate
 					{
 						ResourceManager.detail = "正在载入本地资源..";
 						LoadAssetBundles();
 					});
-				});
+				// });
 			}
 			else
 			{

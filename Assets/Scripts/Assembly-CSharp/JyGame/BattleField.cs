@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 namespace JyGame
@@ -390,24 +391,24 @@ namespace JyGame
 			});
 			if (Status == BattleStatus.UISelectAction)
 			{
-				if (Input.GetKeyDown(KeyCode.Q))
+				if (Keyboard.current.qKey.wasPressedThisFrame)
 				{
 					RoleListButtonClicked();
 				}
-				else if (Input.GetKeyDown(KeyCode.W))
+				else if (Keyboard.current.wKey.wasPressedThisFrame)
 				{
 					OnMoveButtonClicked();
 				}
-				else if (Input.GetKeyDown(KeyCode.E))
+				else if (Keyboard.current.eKey.wasPressedThisFrame)
 				{
 					OnItemButtonClicked();
 				}
-				else if (Input.GetKeyDown(KeyCode.R))
+				else if (Keyboard.current.rKey.wasPressedThisFrame)
 				{
 					OnRestButtonClicked();
 				}
 			}
-			if (Input.GetKeyDown(KeyCode.Escape) || Input.GetMouseButton(1))
+			if (Keyboard.current.escapeKey.wasPressedThisFrame || Mouse.current.rightButton.isPressed)
 			{
 				if (Status == BattleStatus.UISelectAction && (currentSprite.X != rollbackCurrentX || currentSprite.Y != rollbackCurrentY))
 				{
@@ -432,14 +433,14 @@ namespace JyGame
 					rolePanelObj.GetComponent<RolePanelUI>().Hide();
 				}
 			}
-			if (Input.GetKeyDown(KeyCode.Tab))
+			if (Keyboard.current.tabKey.wasPressedThisFrame)
 			{
 				foreach (BattleSprite sprite2 in Sprites)
 				{
 					sprite2.ShowHpMpSpBar();
 				}
 			}
-			if (!Input.GetKeyUp(KeyCode.Tab))
+			if (!Keyboard.current.tabKey.wasReleasedThisFrame)
 			{
 				return;
 			}
@@ -455,11 +456,11 @@ namespace JyGame
 			{
 				return;
 			}
-			if (Input.GetMouseButtonDown(0))
+			if (Mouse.current.leftButton.wasPressedThisFrame)
 			{
 				selectingBlock = true;
 			}
-			if (Input.GetMouseButtonUp(0))
+			if (Mouse.current.leftButton.wasReleasedThisFrame)
 			{
 				if (!selectingBlock)
 				{
@@ -471,7 +472,7 @@ namespace JyGame
 					onClearFocusBlock(currentBlock);
 					currentBlock = null;
 				}
-				Vector3 vector = mainCamera.ScreenToWorldPoint(Input.mousePosition);
+				Vector3 vector = mainCamera.ScreenToWorldPoint(Mouse.current.position.ReadValue());
 				int num = ToLogicX(vector.x);
 				int num2 = ToLogicY(vector.y);
 				if (num != -1 && num2 != -1 && _blocks[num, num2].GetComponent<BattleBlock>().IsActive)
@@ -485,7 +486,7 @@ namespace JyGame
 			{
 				return;
 			}
-			Vector3 vector2 = mainCamera.ScreenToWorldPoint(Input.mousePosition);
+			Vector3 vector2 = mainCamera.ScreenToWorldPoint(Mouse.current.position.ReadValue());
 			int num3 = ToLogicX(vector2.x);
 			int num4 = ToLogicY(vector2.y);
 			if (num3 != -1 && num4 != -1 && _blocks[num3, num4].GetComponent<BattleBlock>().IsActive)

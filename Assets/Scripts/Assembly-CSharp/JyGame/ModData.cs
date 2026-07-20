@@ -68,7 +68,7 @@ namespace JyGame
 				{
 					return CommonSettings.persistentDataPath + "/moddata.xml";
 				}
-				return CommonSettings.persistentDataPath + "/modcache/" + GlobalData.CurrentMod.key + "/moddata.xml";
+				return CommonSettings.persistentDataPath + "modcache/" + GlobalData.CurrentMod.key + "/moddata.xml";
 			}
 		}
 

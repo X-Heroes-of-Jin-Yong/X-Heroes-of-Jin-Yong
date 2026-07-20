@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="Unity.AI.Assistant.UI.Editor.Scripts.Components" elementFormDefault="qualified" targetNamespace="Unity.AI.Assistant.UI.Editor.Scripts.Components" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="UnityEngine.UIElements.xsd" namespace="UnityEngine.UIElements" />
+  <xs:complexType name="ConfigureDefaultPermissionsViewType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="UnityEngine.UIElements" base="q1:TemplateContainerType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ConfigureDefaultPermissionsView" xmlns:q2="UnityEngine.UIElements" substitutionGroup="q2:TemplateContainer" type="tns:ConfigureDefaultPermissionsViewType" />
+  <xs:complexType name="ProviderEnvironmentariablesUIType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q3="UnityEngine.UIElements" base="q3:TemplateContainerType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ProviderEnvironmentariablesUI" xmlns:q4="UnityEngine.UIElements" substitutionGroup="q4:TemplateContainer" type="tns:ProviderEnvironmentariablesUIType" />
+  <xs:complexType name="AssistantSkillsSettingsViewType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q5="UnityEngine.UIElements" base="q5:TemplateContainerType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="AssistantSkillsSettingsView" xmlns:q6="UnityEngine.UIElements" substitutionGroup="q6:TemplateContainer" type="tns:AssistantSkillsSettingsViewType" />
+  <xs:complexType name="ChatElementFeedbackType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q7="UnityEngine.UIElements" base="q7:TemplateContainerType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ChatElementFeedback" xmlns:q8="UnityEngine.UIElements" substitutionGroup="q8:TemplateContainer" type="tns:ChatElementFeedbackType" />
+  <xs:complexType name="LoadingSpinnerType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q9="UnityEngine.UIElements" base="q9:ImageType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="LoadingSpinner" xmlns:q10="UnityEngine.UIElements" substitutionGroup="q10:Image" type="tns:LoadingSpinnerType" />
+  <xs:complexType name="ConfigureCheckpointSettingsViewType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q11="UnityEngine.UIElements" base="q11:TemplateContainerType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ConfigureCheckpointSettingsView" xmlns:q12="UnityEngine.UIElements" substitutionGroup="q12:TemplateContainer" type="tns:ConfigureCheckpointSettingsViewType" />
+  <xs:complexType name="ChatElementCheckpointType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q13="UnityEngine.UIElements" base="q13:TemplateContainerType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ChatElementCheckpoint" xmlns:q14="UnityEngine.UIElements" substitutionGroup="q14:TemplateContainer" type="tns:ChatElementCheckpointType" />
+</xs:schema>

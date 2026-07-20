@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="Unity.AI.Assistant.Editor.SessionBanner" elementFormDefault="qualified" targetNamespace="Unity.AI.Assistant.Editor.SessionBanner" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="Unity.AI.Toolkit.Accounts.Components.xsd" namespace="Unity.AI.Toolkit.Accounts.Components" />
+  <xs:complexType name="SessionBannerType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="Unity.AI.Toolkit.Accounts.Components" base="q1:AssistantSessionStatusBannerType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SessionBanner" xmlns:q2="Unity.AI.Toolkit.Accounts.Components" substitutionGroup="q2:AssistantSessionStatusBanner" type="tns:SessionBannerType" />
+</xs:schema>

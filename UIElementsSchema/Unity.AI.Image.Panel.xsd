@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="Unity.AI.Image.Panel" elementFormDefault="qualified" targetNamespace="Unity.AI.Image.Panel" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="UnityEngine.UIElements.xsd" namespace="UnityEngine.UIElements" />
+  <xs:complexType name="AIPanelType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="UnityEngine.UIElements" base="q1:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="AIPanel" xmlns:q2="UnityEngine.UIElements" substitutionGroup="q2:VisualElement" type="tns:AIPanelType" />
+  <xs:complexType name="UpscalePanelType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q3="UnityEngine.UIElements" base="q3:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="UpscalePanel" xmlns:q4="UnityEngine.UIElements" substitutionGroup="q4:VisualElement" type="tns:UpscalePanelType" />
+  <xs:complexType name="RemoveBackgroundPanelType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q5="UnityEngine.UIElements" base="q5:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="RemoveBackgroundPanel" xmlns:q6="UnityEngine.UIElements" substitutionGroup="q6:VisualElement" type="tns:RemoveBackgroundPanelType" />
+  <xs:complexType name="GeneratePanelType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q7="UnityEngine.UIElements" base="q7:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GeneratePanel" xmlns:q8="UnityEngine.UIElements" substitutionGroup="q8:VisualElement" type="tns:GeneratePanelType" />
+  <xs:complexType name="RecolorPanelType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q9="UnityEngine.UIElements" base="q9:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="RecolorPanel" xmlns:q10="UnityEngine.UIElements" substitutionGroup="q10:VisualElement" type="tns:RecolorPanelType" />
+  <xs:complexType name="PixelatePanelType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q11="UnityEngine.UIElements" base="q11:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PixelatePanel" xmlns:q12="UnityEngine.UIElements" substitutionGroup="q12:VisualElement" type="tns:PixelatePanelType" />
+  <xs:complexType name="SpritesheetPanelType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q13="UnityEngine.UIElements" base="q13:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SpritesheetPanel" xmlns:q14="UnityEngine.UIElements" substitutionGroup="q14:VisualElement" type="tns:SpritesheetPanelType" />
+</xs:schema>

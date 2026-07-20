@@ -1,5 +1,6 @@
 using JyGame;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class SuggestPanelUI : MonoBehaviour
@@ -22,7 +23,7 @@ public class SuggestPanelUI : MonoBehaviour
 			base.transform.Find("Image").gameObject.SetActive(true);
 			base.transform.Find("Image").GetComponent<Image>().sprite = image;
 		}
-		Vector3 vector = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+		Vector3 vector = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
 		base.transform.localPosition = new Vector3(vector.x + 30f, vector.y);
 		if (base.transform.localPosition.x > 200f)
 		{

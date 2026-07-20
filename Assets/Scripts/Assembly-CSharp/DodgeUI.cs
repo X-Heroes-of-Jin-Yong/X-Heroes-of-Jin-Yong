@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using JyGame;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class DodgeUI : MonoBehaviour
@@ -116,7 +117,7 @@ public class DodgeUI : MonoBehaviour
 		if (!flag)
 		{
 			lastFastTime = (startTime = Time.time);
-			zhu.GetComponent<Rigidbody2D>().position = ScreenToWorld(Input.mousePosition);
+			zhu.GetComponent<Rigidbody2D>().position = ScreenToWorld(Mouse.current.position.ReadValue());
 			flag = true;
 		}
 	}
@@ -125,7 +126,7 @@ public class DodgeUI : MonoBehaviour
 	{
 		if (mouseFlag)
 		{
-			zhu.GetComponent<Rigidbody2D>().position = ScreenToWorld(Input.mousePosition);
+			zhu.GetComponent<Rigidbody2D>().position = ScreenToWorld(Mouse.current.position.ReadValue());
 		}
 	}
 

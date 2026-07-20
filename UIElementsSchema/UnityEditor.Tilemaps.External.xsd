@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="UnityEditor.Tilemaps.External" elementFormDefault="qualified" targetNamespace="UnityEditor.Tilemaps.External" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="UnityEngine.UIElements.xsd" namespace="UnityEngine.UIElements" />
+  <xs:complexType name="GridViewType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="UnityEngine.UIElements" base="q1:BindableElementType">
+        <xs:choice />
+        <xs:attribute default="30" name="item-height" type="xs:int" />
+        <xs:attribute default="Multiple" name="selection-type" type="q1:SelectionTypeType" />
+        <xs:attribute default="false" name="show-border" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GridView" xmlns:q2="UnityEngine.UIElements" substitutionGroup="q2:BindableElement" type="tns:GridViewType" />
+</xs:schema>

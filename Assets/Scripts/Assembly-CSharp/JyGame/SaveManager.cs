@@ -12,7 +12,7 @@ namespace JyGame
 			get
 			{
 				string empty = string.Empty;
-				empty = ((GlobalData.CurrentMod != null) ? (CommonSettings.persistentDataPath + "/modcache/" + GlobalData.CurrentMod.key + "/saves/") : (CommonSettings.persistentDataPath + "/saves/"));
+				empty = ((GlobalData.CurrentMod != null) ? (CommonSettings.persistentDataPath + "modcache/" + GlobalData.CurrentMod.key + "/saves/") : (CommonSettings.persistentDataPath + "/saves/"));
 				if (!Directory.Exists(empty))
 				{
 					Directory.CreateDirectory(empty);

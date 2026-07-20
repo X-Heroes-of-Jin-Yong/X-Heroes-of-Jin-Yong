@@ -184,7 +184,7 @@ public static class ModEntry
     /// <summary>江湖历练面板内容</summary>
     public static string GameEngine_jianghuContent()
     {
-        string result = "";
+        string result = "<color='yellow'>大事记</color>\n";
         result += "道德：<color='red'>" + RuntimeData.Instance.Daode + "</color>\n";
         result += "女主角好感：<color='red'>" + RuntimeData.Instance.getHaogan() + "</color>\n";
         result += "本周目生命、内力上限：<color='red'>" + CommonSettings.MAX_HPMP + "</color>\n";

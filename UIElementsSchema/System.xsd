@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="System" elementFormDefault="qualified" targetNamespace="System" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="DayOfWeekType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Sunday" />
+      <xs:enumeration value="Monday" />
+      <xs:enumeration value="Tuesday" />
+      <xs:enumeration value="Wednesday" />
+      <xs:enumeration value="Thursday" />
+      <xs:enumeration value="Friday" />
+      <xs:enumeration value="Saturday" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

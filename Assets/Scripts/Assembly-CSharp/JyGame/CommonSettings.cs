@@ -25,7 +25,6 @@ namespace JyGame
 
 		public const string FORUM_URL = "http://tieba.baidu.com/f?ie=utf-8&kw=%E6%B1%89%E5%AE%B6%E6%9D%BE%E9%BC%A0";
 
-		public const string APPSTORE_PINGLUN_URL = "itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=1021093037";
 
 		public const string GAME_VERSION = "1.1.0.6";
 

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="Unity.AI.Pbr.Components" elementFormDefault="qualified" targetNamespace="Unity.AI.Pbr.Components" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="UnityEngine.UIElements.xsd" namespace="UnityEngine.UIElements" />
+  <xs:complexType name="GenerationSelectorType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="UnityEngine.UIElements" base="q1:VisualElementType">
+        <xs:choice />
+        <xs:attribute default="true" name="asset-monitor" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GenerationSelector" xmlns:q2="UnityEngine.UIElements" substitutionGroup="q2:VisualElement" type="tns:GenerationSelectorType" />
+  <xs:complexType name="AssetTitleCardType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q3="UnityEngine.UIElements" base="q3:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="AssetTitleCard" xmlns:q4="UnityEngine.UIElements" substitutionGroup="q4:VisualElement" type="tns:AssetTitleCardType" />
+  <xs:complexType name="SelectedAssetTitleCardType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:AssetTitleCardType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SelectedAssetTitleCard" substitutionGroup="tns:AssetTitleCard" type="tns:SelectedAssetTitleCardType" />
+  <xs:complexType name="ModelSelectorButtonType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q5="UnityEngine.UIElements" base="q5:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ModelSelectorButton" xmlns:q6="UnityEngine.UIElements" substitutionGroup="q6:VisualElement" type="tns:ModelSelectorButtonType" />
+  <xs:complexType name="GenerationTileType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q7="UnityEngine.UIElements" base="q7:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GenerationTile" xmlns:q8="UnityEngine.UIElements" substitutionGroup="q8:VisualElement" type="tns:GenerationTileType" />
+  <xs:complexType name="PatternImageReferenceType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q9="UnityEngine.UIElements" base="q9:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PatternImageReference" xmlns:q10="UnityEngine.UIElements" substitutionGroup="q10:VisualElement" type="tns:PatternImageReferenceType" />
+  <xs:complexType name="PromptImageReferenceType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q11="UnityEngine.UIElements" base="q11:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PromptImageReference" xmlns:q12="UnityEngine.UIElements" substitutionGroup="q12:VisualElement" type="tns:PromptImageReferenceType" />
+  <xs:complexType name="GenerateButtonType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q13="UnityEngine.UIElements" base="q13:VisualElementType">
+        <xs:choice />
+        <xs:attribute default="Generate" name="text" type="xs:string" />
+        <xs:attribute default="true" name="quote-monitor" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GenerateButton" xmlns:q14="UnityEngine.UIElements" substitutionGroup="q14:VisualElement" type="tns:GenerateButtonType" />
+  <xs:complexType name="PreviewSizeSliderType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q15="UnityEngine.UIElements" base="q15:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PreviewSizeSlider" xmlns:q16="UnityEngine.UIElements" substitutionGroup="q16:VisualElement" type="tns:PreviewSizeSliderType" />
+  <xs:complexType name="RefinementModeTabViewType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q17="UnityEngine.UIElements" base="q17:TabViewType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="RefinementModeTabView" xmlns:q18="UnityEngine.UIElements" substitutionGroup="q18:TabView" type="tns:RefinementModeTabViewType" />
+  <xs:complexType name="TexturePropertyFieldType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q19="UnityEngine.UIElements" base="q19:BindableElementType">
+        <xs:choice />
+        <xs:attribute name="label" type="xs:string" />
+        <xs:attribute name="value" type="xs:string" />
+        <xs:attribute name="map-type" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TexturePropertyField" xmlns:q20="UnityEngine.UIElements" substitutionGroup="q20:BindableElement" type="tns:TexturePropertyFieldType" />
+  <xs:complexType name="BaseImageReferenceType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q21="UnityEngine.UIElements" base="q21:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="BaseImageReference" xmlns:q22="UnityEngine.UIElements" substitutionGroup="q22:VisualElement" type="tns:BaseImageReferenceType" />
+  <xs:complexType name="PromptType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q23="UnityEngine.UIElements" base="q23:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Prompt" xmlns:q24="UnityEngine.UIElements" substitutionGroup="q24:VisualElement" type="tns:PromptType" />
+  <xs:complexType name="MappingAutoButtonType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q25="UnityEngine.UIElements" base="q25:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MappingAutoButton" xmlns:q26="UnityEngine.UIElements" substitutionGroup="q26:VisualElement" type="tns:MappingAutoButtonType" />
+  <xs:complexType name="SelectedModelTitleCardType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q27="UnityEngine.UIElements" base="q27:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SelectedModelTitleCard" xmlns:q28="UnityEngine.UIElements" substitutionGroup="q28:VisualElement" type="tns:SelectedModelTitleCardType" />
+  <xs:complexType name="GenerateVariationsSliderType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q29="UnityEngine.UIElements" base="q29:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GenerateVariationsSlider" xmlns:q30="UnityEngine.UIElements" substitutionGroup="q30:VisualElement" type="tns:GenerateVariationsSliderType" />
+  <xs:complexType name="ModelTitleCardType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q31="UnityEngine.UIElements" base="q31:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ModelTitleCard" xmlns:q32="UnityEngine.UIElements" substitutionGroup="q32:VisualElement" type="tns:ModelTitleCardType" />
+  <xs:complexType name="GenerationOptionsType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q33="UnityEngine.UIElements" base="q33:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GenerationOptions" xmlns:q34="UnityEngine.UIElements" substitutionGroup="q34:VisualElement" type="tns:GenerationOptionsType" />
+  <xs:complexType name="DimensionsDropDownType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q35="UnityEngine.UIElements" base="q35:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DimensionsDropDown" xmlns:q36="UnityEngine.UIElements" substitutionGroup="q36:VisualElement" type="tns:DimensionsDropDownType" />
+</xs:schema>

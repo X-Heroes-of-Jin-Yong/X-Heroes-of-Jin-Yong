@@ -1,0 +1,2051 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="Unity.AppUI.UI" elementFormDefault="qualified" targetNamespace="Unity.AppUI.UI" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="UnityEngine.UIElements.xsd" namespace="UnityEngine.UIElements" />
+  <xs:import schemaLocation="System.xsd" namespace="System" />
+  <xs:import schemaLocation="Unity.AppUI.Core.xsd" namespace="Unity.AppUI.Core" />
+  <xs:import schemaLocation="UnityEngine.xsd" namespace="UnityEngine" />
+  <xs:complexType name="MenuTriggerType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="UnityEngine.UIElements" base="q1:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="true" name="close-on-selection" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MenuTrigger" xmlns:q2="UnityEngine.UIElements" substitutionGroup="q2:VisualElement" type="tns:MenuTriggerType" />
+  <xs:complexType name="TextType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:LocalizedTextElementType">
+        <xs:choice />
+        <xs:attribute default="true" name="primary" type="xs:boolean" />
+        <xs:attribute default="M" name="size" type="tns:TextSizeType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="LocalizedTextElementType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q3="UnityEngine.UIElements" base="q3:TextElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="LocalizedTextElement" xmlns:q4="UnityEngine.UIElements" substitutionGroup="q4:TextElement" type="tns:LocalizedTextElementType" />
+  <xs:simpleType name="TextSizeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="XXS" />
+      <xs:enumeration value="XS" />
+      <xs:enumeration value="S" />
+      <xs:enumeration value="M" />
+      <xs:enumeration value="L" />
+      <xs:enumeration value="XL" />
+      <xs:enumeration value="XXL" />
+      <xs:enumeration value="XXXL" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Text" substitutionGroup="tns:LocalizedTextElement" type="tns:TextType" />
+  <xs:complexType name="DateFieldType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ExVisualElementType">
+        <xs:choice />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+        <xs:attribute default="07/19/2026 00:00:00" name="value" type="xs:string" />
+        <xs:attribute default="yyyy-MM-dd" name="format-string" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="ExVisualElementType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q5="UnityEngine.UIElements" base="q5:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ExVisualElement" xmlns:q6="UnityEngine.UIElements" substitutionGroup="q6:VisualElement" type="tns:ExVisualElementType" />
+  <xs:simpleType name="SizeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="S" />
+      <xs:enumeration value="M" />
+      <xs:enumeration value="L" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="DateField" substitutionGroup="tns:ExVisualElement" type="tns:DateFieldType" />
+  <xs:complexType name="Vector3FieldType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q7="UnityEngine.UIElements" base="q7:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="0,0,0" name="value" type="xs:string" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+        <xs:attribute name="format-string" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Vector3Field" xmlns:q8="UnityEngine.UIElements" substitutionGroup="q8:VisualElement" type="tns:Vector3FieldType" />
+  <xs:complexType name="BaseDatePickerType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q9="UnityEngine.UIElements" base="q9:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="Days" name="display-mode" type="tns:BaseDatePicker_DisplayModeType" />
+        <xs:attribute default="Sunday" name="first-day-of-week" xmlns:q10="System" type="q10:DayOfWeekType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="BaseDatePicker_DisplayModeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Years" />
+      <xs:enumeration value="Months" />
+      <xs:enumeration value="Days" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="BaseDatePicker" xmlns:q11="UnityEngine.UIElements" substitutionGroup="q11:VisualElement" type="tns:BaseDatePickerType" />
+  <xs:complexType name="RadioGroupType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q12="UnityEngine.UIElements" base="q12:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute name="value" type="xs:string" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="RadioGroup" xmlns:q13="UnityEngine.UIElements" substitutionGroup="q13:VisualElement" type="tns:RadioGroupType" />
+  <xs:complexType name="AccordionType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q14="UnityEngine.UIElements" base="q14:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="false" name="is-exclusive" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Accordion" xmlns:q15="UnityEngine.UIElements" substitutionGroup="q15:VisualElement" type="tns:AccordionType" />
+  <xs:complexType name="RangeSliderFloatType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ExVisualElementType">
+        <xs:choice />
+        <xs:attribute default="g7" name="format-string" type="xs:string" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+        <xs:attribute default="Horizontal" name="orientation" type="tns:DirectionType" />
+        <xs:attribute default="false" name="swap-thumbs" type="xs:boolean" />
+        <xs:attribute default="false" name="show-marks" type="xs:boolean" />
+        <xs:attribute default="false" name="show-marks-label" type="xs:boolean" />
+        <xs:attribute default="Off" name="display-value-label" type="tns:ValueDisplayModeType" />
+        <xs:attribute default="None" name="restricted-values" type="tns:RestrictedValuesPolicyType" />
+        <xs:attribute default="Off" name="track" type="tns:TrackDisplayTypeType" />
+        <xs:attribute default="false" name="show-input-field" type="xs:boolean" />
+        <xs:attribute default="0.1" name="step" type="xs:float" />
+        <xs:attribute default="1" name="shift-step" type="xs:float" />
+        <xs:attribute default="0" name="low-value" type="xs:float" />
+        <xs:attribute default="100" name="high-value" type="xs:float" />
+        <xs:attribute default="0" name="min-value" type="xs:float" />
+        <xs:attribute default="100" name="max-value" type="xs:float" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="DirectionType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Horizontal" />
+      <xs:enumeration value="Vertical" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="ValueDisplayModeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Off" />
+      <xs:enumeration value="On" />
+      <xs:enumeration value="Auto" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="RestrictedValuesPolicyType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="Step" />
+      <xs:enumeration value="CustomMarks" />
+      <xs:enumeration value="CtrlStep" />
+      <xs:enumeration value="CtrlCustomMarks" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="TrackDisplayTypeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Off" />
+      <xs:enumeration value="On" />
+      <xs:enumeration value="Inverted" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="RangeSliderFloat" substitutionGroup="tns:ExVisualElement" type="tns:RangeSliderFloatType" />
+  <xs:complexType name="SearchBarType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:TextFieldType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="TextFieldType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ExVisualElementType">
+        <xs:choice />
+        <xs:attribute default="false" name="is-password" type="xs:boolean" />
+        <xs:attribute default="false" name="is-read-only" type="xs:boolean" />
+        <xs:attribute default="*" name="mask-char" type="xs:string" />
+        <xs:attribute default="-1" name="max-length" type="xs:int" />
+        <xs:attribute name="placeholder" type="xs:string" />
+        <xs:attribute name="trailing-icon-name" type="xs:string" />
+        <xs:attribute name="leading-icon-name" type="xs:string" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+        <xs:attribute name="value" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TextField" substitutionGroup="tns:ExVisualElement" type="tns:TextFieldType" />
+  <xs:element name="SearchBar" substitutionGroup="tns:TextField" type="tns:SearchBarType" />
+  <xs:complexType name="QuoteType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q16="UnityEngine.UIElements" base="q16:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute name="color" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Quote" xmlns:q17="UnityEngine.UIElements" substitutionGroup="q17:VisualElement" type="tns:QuoteType" />
+  <xs:complexType name="DateRangePickerType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseDatePickerType">
+        <xs:choice />
+        <xs:attribute default="2026-07-19,2026-07-20" name="value" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DateRangePicker" substitutionGroup="tns:BaseDatePicker" type="tns:DateRangePickerType" />
+  <xs:complexType name="StepperType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ExVisualElementType">
+        <xs:choice />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="0" name="value" type="xs:int" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Stepper" substitutionGroup="tns:ExVisualElement" type="tns:StepperType" />
+  <xs:complexType name="MenuItemType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q18="UnityEngine.UIElements" base="q18:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute name="label" type="xs:string" />
+        <xs:attribute name="shortcut" type="xs:string" />
+        <xs:attribute name="icon" type="xs:string" />
+        <xs:attribute default="false" name="value" type="xs:boolean" />
+        <xs:attribute default="false" name="selectable" type="xs:boolean" />
+        <xs:attribute default="false" name="active" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MenuItem" xmlns:q19="UnityEngine.UIElements" substitutionGroup="q19:VisualElement" type="tns:MenuItemType" />
+  <xs:complexType name="DatePickerType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseDatePickerType">
+        <xs:choice />
+        <xs:attribute default="07/19/2026 00:00:00" name="value" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DatePicker" substitutionGroup="tns:BaseDatePicker" type="tns:DatePickerType" />
+  <xs:complexType name="CanvasType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q20="UnityEngine.UIElements" base="q20:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute name="frame-container" type="xs:string" />
+        <xs:attribute default="2" name="scroll-speed" type="xs:float" />
+        <xs:attribute default="0.1" name="min-zoom" type="xs:float" />
+        <xs:attribute default="100" name="max-zoom" type="xs:float" />
+        <xs:attribute default="0.075" name="zoom-speed" type="xs:float" />
+        <xs:attribute default="2" name="zoom-multiplier" type="xs:float" />
+        <xs:attribute default="3" name="pan-multiplier" type="xs:float" />
+        <xs:attribute default="1" name="zoom" type="xs:float" />
+        <xs:attribute default="750" name="damping-effect-duration" type="xs:int" />
+        <xs:attribute default="12" name="frame-margin" type="xs:float" />
+        <xs:attribute default="true" name="use-space-bar" type="xs:boolean" />
+        <xs:attribute default="Modern" name="control-scheme" type="tns:CanvasControlSchemeType" />
+        <xs:attribute default="None" name="primary-manipulator" type="tns:CanvasManipulatorType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="CanvasControlSchemeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Editor" />
+      <xs:enumeration value="Modern" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="CanvasManipulatorType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="Pan" />
+      <xs:enumeration value="Zoom" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Canvas" xmlns:q21="UnityEngine.UIElements" substitutionGroup="q21:VisualElement" type="tns:CanvasType" />
+  <xs:complexType name="RectIntFieldType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q22="UnityEngine.UIElements" base="q22:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="0,0,0,0" name="value" type="xs:string" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="RectIntField" xmlns:q23="UnityEngine.UIElements" substitutionGroup="q23:VisualElement" type="tns:RectIntFieldType" />
+  <xs:complexType name="ToolbarType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q24="UnityEngine.UIElements" base="q24:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="Floating" name="dock-mode" type="tns:ToolbarDockModeType" />
+        <xs:attribute default="false" name="draggable" type="xs:boolean" />
+        <xs:attribute default="Horizontal" name="direction" type="tns:DirectionType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="ToolbarDockModeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Floating" />
+      <xs:enumeration value="Top" />
+      <xs:enumeration value="Bottom" />
+      <xs:enumeration value="Left" />
+      <xs:enumeration value="Right" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Toolbar" xmlns:q25="UnityEngine.UIElements" substitutionGroup="q25:VisualElement" type="tns:ToolbarType" />
+  <xs:complexType name="TouchSliderIntType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ExVisualElementType">
+        <xs:choice />
+        <xs:attribute default="#######0" name="format-string" type="xs:string" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+        <xs:attribute default="Horizontal" name="orientation" type="tns:DirectionType" />
+        <xs:attribute default="false" name="swap-thumbs" type="xs:boolean" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute name="label" type="xs:string" />
+        <xs:attribute default="1" name="step" type="xs:int" />
+        <xs:attribute default="10" name="shift-step" type="xs:int" />
+        <xs:attribute default="0" name="low-value" type="xs:int" />
+        <xs:attribute default="1" name="high-value" type="xs:int" />
+        <xs:attribute default="0" name="value" type="xs:int" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TouchSliderInt" substitutionGroup="tns:ExVisualElement" type="tns:TouchSliderIntType" />
+  <xs:complexType name="ColorSwatchType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q26="UnityEngine.UIElements" base="q26:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute name="value" type="xs:string" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="false" name="round" type="xs:boolean" />
+        <xs:attribute default="Horizontal" name="orientation" type="tns:DirectionType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ColorSwatch" xmlns:q27="UnityEngine.UIElements" substitutionGroup="q27:VisualElement" type="tns:ColorSwatchType" />
+  <xs:complexType name="MenuSectionType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q28="UnityEngine.UIElements" base="q28:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute name="title" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MenuSection" xmlns:q29="UnityEngine.UIElements" substitutionGroup="q29:VisualElement" type="tns:MenuSectionType" />
+  <xs:complexType name="DividerType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q30="UnityEngine.UIElements" base="q30:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="Horizontal" name="direction" type="tns:DirectionType" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="M" name="spacing" type="tns:SpacingType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="SpacingType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="S" />
+      <xs:enumeration value="M" />
+      <xs:enumeration value="L" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Divider" xmlns:q31="UnityEngine.UIElements" substitutionGroup="q31:VisualElement" type="tns:DividerType" />
+  <xs:complexType name="TabsType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q32="UnityEngine.UIElements" base="q32:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="Horizontal" name="direction" type="tns:DirectionType" />
+        <xs:attribute default="false" name="emphasized" type="xs:boolean" />
+        <xs:attribute default="false" name="justified" type="xs:boolean" />
+        <xs:attribute default="-1" name="value" type="xs:int" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Tabs" xmlns:q33="UnityEngine.UIElements" substitutionGroup="q33:VisualElement" type="tns:TabsType" />
+  <xs:complexType name="ActionButtonType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ExVisualElementType">
+        <xs:choice />
+        <xs:attribute name="label" type="xs:string" />
+        <xs:attribute name="icon" type="xs:string" />
+        <xs:attribute name="trailing-icon" type="xs:string" />
+        <xs:attribute default="Regular" name="icon-variant" type="tns:IconVariantType" />
+        <xs:attribute default="Regular" name="trailing-icon-variant" type="tns:IconVariantType" />
+        <xs:attribute default="false" name="selected" type="xs:boolean" />
+        <xs:attribute default="false" name="quiet" type="xs:boolean" />
+        <xs:attribute default="false" name="accent" type="xs:boolean" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="IconVariantType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Regular" />
+      <xs:enumeration value="Bold" />
+      <xs:enumeration value="DuoTone" />
+      <xs:enumeration value="Light" />
+      <xs:enumeration value="Fill" />
+      <xs:enumeration value="Thin" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ActionButton" substitutionGroup="tns:ExVisualElement" type="tns:ActionButtonType" />
+  <xs:complexType name="BadgeType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q34="UnityEngine.UIElements" base="q34:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute name="background-color" type="xs:string" />
+        <xs:attribute name="color" type="xs:string" />
+        <xs:attribute default="Default" name="variant" type="tns:BadgeVariantType" />
+        <xs:attribute default="Rectangular" name="overlap-type" type="tns:BadgeOverlapTypeType" />
+        <xs:attribute default="Right" name="horizontal-anchor" type="tns:HorizontalAnchorType" />
+        <xs:attribute default="Top" name="vertical-anchor" type="tns:VerticalAnchorType" />
+        <xs:attribute default="0" name="content" type="xs:int" />
+        <xs:attribute default="2147483647" name="max" type="xs:int" />
+        <xs:attribute default="false" name="show-zero" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="BadgeVariantType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Default" />
+      <xs:enumeration value="Dot" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="BadgeOverlapTypeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Rectangular" />
+      <xs:enumeration value="Circular" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="HorizontalAnchorType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Left" />
+      <xs:enumeration value="Right" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="VerticalAnchorType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Top" />
+      <xs:enumeration value="Bottom" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Badge" xmlns:q35="UnityEngine.UIElements" substitutionGroup="q35:VisualElement" type="tns:BadgeType" />
+  <xs:complexType name="BoundsIntFieldType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q36="UnityEngine.UIElements" base="q36:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="0,0,0,0,0,0" name="value" type="xs:string" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="BoundsIntField" xmlns:q37="UnityEngine.UIElements" substitutionGroup="q37:VisualElement" type="tns:BoundsIntFieldType" />
+  <xs:complexType name="StackViewType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q38="UnityEngine.UIElements" base="q38:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="StackView" xmlns:q39="UnityEngine.UIElements" substitutionGroup="q39:VisualElement" type="tns:StackViewType" />
+  <xs:complexType name="ToggleType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q40="UnityEngine.UIElements" base="q40:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute name="label" type="xs:string" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+        <xs:attribute default="false" name="value" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Toggle" xmlns:q41="UnityEngine.UIElements" substitutionGroup="q41:VisualElement" type="tns:ToggleType" />
+  <xs:complexType name="ColorPickerType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q42="UnityEngine.UIElements" base="q42:VisualElementType">
+        <xs:choice />
+        <xs:attribute default="rgba(0, 0, 0, 0)" name="value" type="xs:string" />
+        <xs:attribute default="rgba(0, 0, 0, 0)" name="previous-value" type="xs:string" />
+        <xs:attribute default="false" name="show-alpha" type="xs:boolean" />
+        <xs:attribute default="false" name="hdr" type="xs:boolean" />
+        <xs:attribute default="false" name="show-toolbar" type="xs:boolean" />
+        <xs:attribute default="true" name="show-hex" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ColorPicker" xmlns:q43="UnityEngine.UIElements" substitutionGroup="q43:VisualElement" type="tns:ColorPickerType" />
+  <xs:complexType name="AvatarType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q44="UnityEngine.UIElements" base="q44:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="Circular" name="variant" type="tns:AvatarVariantType" />
+        <xs:attribute name="src" type="xs:string" />
+        <xs:attribute name="background-color" type="xs:string" />
+        <xs:attribute default="2" name="outline-width" type="xs:string" />
+        <xs:attribute name="outline-color" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="AvatarVariantType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Square" />
+      <xs:enumeration value="Rounded" />
+      <xs:enumeration value="Circular" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Avatar" xmlns:q45="UnityEngine.UIElements" substitutionGroup="q45:VisualElement" type="tns:AvatarType" />
+  <xs:complexType name="TabItemType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q46="UnityEngine.UIElements" base="q46:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute name="label" type="xs:string" />
+        <xs:attribute name="icon" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TabItem" xmlns:q47="UnityEngine.UIElements" substitutionGroup="q47:VisualElement" type="tns:TabItemType" />
+  <xs:complexType name="BottomNavBarType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q48="UnityEngine.UIElements" base="q48:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="BottomNavBar" xmlns:q49="UnityEngine.UIElements" substitutionGroup="q49:VisualElement" type="tns:BottomNavBarType" />
+  <xs:complexType name="SliderIntType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ExVisualElementType">
+        <xs:choice />
+        <xs:attribute default="#######0" name="format-string" type="xs:string" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+        <xs:attribute default="Horizontal" name="orientation" type="tns:DirectionType" />
+        <xs:attribute default="false" name="swap-thumbs" type="xs:boolean" />
+        <xs:attribute default="false" name="show-marks" type="xs:boolean" />
+        <xs:attribute default="false" name="show-marks-label" type="xs:boolean" />
+        <xs:attribute default="Off" name="display-value-label" type="tns:ValueDisplayModeType" />
+        <xs:attribute default="None" name="restricted-values" type="tns:RestrictedValuesPolicyType" />
+        <xs:attribute default="Off" name="track" type="tns:TrackDisplayTypeType" />
+        <xs:attribute default="false" name="show-input-field" type="xs:boolean" />
+        <xs:attribute default="1" name="step" type="xs:int" />
+        <xs:attribute default="10" name="shift-step" type="xs:int" />
+        <xs:attribute default="0" name="low-value" type="xs:int" />
+        <xs:attribute default="100" name="high-value" type="xs:int" />
+        <xs:attribute default="0" name="value" type="xs:int" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SliderInt" substitutionGroup="tns:ExVisualElement" type="tns:SliderIntType" />
+  <xs:complexType name="IntFieldType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ExVisualElementType">
+        <xs:choice />
+        <xs:attribute default="#######0" name="format-string" type="xs:string" />
+        <xs:attribute name="unit" type="xs:string" />
+        <xs:attribute name="low-value" type="xs:string" />
+        <xs:attribute name="high-value" type="xs:string" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="0" name="value" type="xs:int" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="IntField" substitutionGroup="tns:ExVisualElement" type="tns:IntFieldType" />
+  <xs:complexType name="DialogType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q50="UnityEngine.UIElements" base="q50:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute name="title" type="xs:string" />
+        <xs:attribute name="description" type="xs:string" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="false" name="dismissable" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Dialog" xmlns:q51="UnityEngine.UIElements" substitutionGroup="q51:VisualElement" type="tns:DialogType" />
+  <xs:complexType name="RangeSliderIntType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ExVisualElementType">
+        <xs:choice />
+        <xs:attribute default="#######0" name="format-string" type="xs:string" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+        <xs:attribute default="Horizontal" name="orientation" type="tns:DirectionType" />
+        <xs:attribute default="false" name="swap-thumbs" type="xs:boolean" />
+        <xs:attribute default="false" name="show-marks" type="xs:boolean" />
+        <xs:attribute default="false" name="show-marks-label" type="xs:boolean" />
+        <xs:attribute default="Off" name="display-value-label" type="tns:ValueDisplayModeType" />
+        <xs:attribute default="None" name="restricted-values" type="tns:RestrictedValuesPolicyType" />
+        <xs:attribute default="Off" name="track" type="tns:TrackDisplayTypeType" />
+        <xs:attribute default="false" name="show-input-field" type="xs:boolean" />
+        <xs:attribute default="1" name="step" type="xs:int" />
+        <xs:attribute default="10" name="shift-step" type="xs:int" />
+        <xs:attribute default="0" name="low-value" type="xs:int" />
+        <xs:attribute default="100" name="high-value" type="xs:int" />
+        <xs:attribute default="0" name="min-value" type="xs:int" />
+        <xs:attribute default="100" name="max-value" type="xs:int" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="RangeSliderInt" substitutionGroup="tns:ExVisualElement" type="tns:RangeSliderIntType" />
+  <xs:complexType name="HeadingType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:LocalizedTextElementType">
+        <xs:choice />
+        <xs:attribute default="true" name="primary" type="xs:boolean" />
+        <xs:attribute default="M" name="size" type="tns:HeadingSizeType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="HeadingSizeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="XXS" />
+      <xs:enumeration value="XS" />
+      <xs:enumeration value="S" />
+      <xs:enumeration value="M" />
+      <xs:enumeration value="L" />
+      <xs:enumeration value="XL" />
+      <xs:enumeration value="XXL" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Heading" substitutionGroup="tns:LocalizedTextElement" type="tns:HeadingType" />
+  <xs:complexType name="FloatingActionButtonType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ExVisualElementType">
+        <xs:choice />
+        <xs:attribute default="12" name="elevation" type="xs:int" />
+        <xs:attribute default="false" name="accent" type="xs:boolean" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="FloatingActionButton" substitutionGroup="tns:ExVisualElement" type="tns:FloatingActionButtonType" />
+  <xs:complexType name="MaskType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q52="UnityEngine.UIElements" base="q52:ImageType">
+        <xs:choice />
+        <xs:attribute default="rgb(255, 255, 255)" name="inner-mask-color" type="xs:string" />
+        <xs:attribute default="rgb(0, 0, 0)" name="outer-mask-color" type="xs:string" />
+        <xs:attribute default="20,20,20,20" name="mask-rect" type="xs:string" />
+        <xs:attribute default="0" name="radius" type="xs:float" />
+        <xs:attribute default="0" name="blur" type="xs:float" />
+        <xs:attribute default="false" name="use-normalized-mask-rect" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Mask" xmlns:q53="UnityEngine.UIElements" substitutionGroup="q53:Image" type="tns:MaskType" />
+  <xs:complexType name="SplitViewType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q54="UnityEngine.UIElements" base="q54:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="false" name="show-expand-buttons" type="xs:boolean" />
+        <xs:attribute default="Horizontal" name="direction" type="tns:DirectionType" />
+        <xs:attribute default="true" name="realtime-resize" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SplitView" xmlns:q55="UnityEngine.UIElements" substitutionGroup="q55:VisualElement" type="tns:SplitViewType" />
+  <xs:complexType name="PreloaderType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q56="UnityEngine.UIElements" base="q56:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Preloader" xmlns:q57="UnityEngine.UIElements" substitutionGroup="q57:VisualElement" type="tns:PreloaderType" />
+  <xs:complexType name="PanelType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q58="UnityEngine.UIElements" base="q58:VisualElementType">
+        <xs:choice />
+        <xs:attribute default="en" name="lang" type="xs:string" />
+        <xs:attribute default="medium" name="scale" type="xs:string" />
+        <xs:attribute default="dark" name="theme" type="xs:string" />
+        <xs:attribute default="Ltr" name="layout-direction" xmlns:q59="Unity.AppUI.Core" type="q59:DirType" />
+        <xs:attribute default="Bottom" name="preferred-tooltip-placement" type="tns:PopoverPlacementType" />
+        <xs:attribute default="750" name="tooltip-delay-ms" type="xs:int" />
+        <xs:attribute default="false" name="force-use-tooltip-system" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="PopoverPlacementType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Bottom" />
+      <xs:enumeration value="BottomLeft" />
+      <xs:enumeration value="BottomRight" />
+      <xs:enumeration value="BottomStart" />
+      <xs:enumeration value="BottomEnd" />
+      <xs:enumeration value="Top" />
+      <xs:enumeration value="TopLeft" />
+      <xs:enumeration value="TopRight" />
+      <xs:enumeration value="TopStart" />
+      <xs:enumeration value="TopEnd" />
+      <xs:enumeration value="Left" />
+      <xs:enumeration value="LeftTop" />
+      <xs:enumeration value="LeftBottom" />
+      <xs:enumeration value="Start" />
+      <xs:enumeration value="StartTop" />
+      <xs:enumeration value="StartBottom" />
+      <xs:enumeration value="Right" />
+      <xs:enumeration value="RightTop" />
+      <xs:enumeration value="RightBottom" />
+      <xs:enumeration value="End" />
+      <xs:enumeration value="EndTop" />
+      <xs:enumeration value="EndBottom" />
+      <xs:enumeration value="InsideTopStart" />
+      <xs:enumeration value="InsideTopLeft" />
+      <xs:enumeration value="InsideTop" />
+      <xs:enumeration value="InsideTopEnd" />
+      <xs:enumeration value="InsideBottomStart" />
+      <xs:enumeration value="InsideBottom" />
+      <xs:enumeration value="InsideBottomEnd" />
+      <xs:enumeration value="InsideStart" />
+      <xs:enumeration value="InsideEnd" />
+      <xs:enumeration value="InsideCenter" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Panel" xmlns:q60="UnityEngine.UIElements" substitutionGroup="q60:VisualElement" type="tns:PanelType" />
+  <xs:complexType name="NavigationRailItemType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q61="UnityEngine.UIElements" base="q61:VisualElementType">
+        <xs:choice />
+        <xs:attribute default="false" name="selected" type="xs:boolean" />
+        <xs:attribute name="icon" type="xs:string" />
+        <xs:attribute name="label" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="NavigationRailItem" xmlns:q62="UnityEngine.UIElements" substitutionGroup="q62:VisualElement" type="tns:NavigationRailItemType" />
+  <xs:complexType name="DoubleFieldType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ExVisualElementType">
+        <xs:choice />
+        <xs:attribute default="R" name="format-string" type="xs:string" />
+        <xs:attribute name="unit" type="xs:string" />
+        <xs:attribute name="low-value" type="xs:string" />
+        <xs:attribute name="high-value" type="xs:string" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="0" name="value" type="xs:double" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DoubleField" substitutionGroup="tns:ExVisualElement" type="tns:DoubleFieldType" />
+  <xs:complexType name="Vector3IntFieldType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q63="UnityEngine.UIElements" base="q63:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="0,0,0" name="value" type="xs:string" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+        <xs:attribute name="format-string" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Vector3IntField" xmlns:q64="UnityEngine.UIElements" substitutionGroup="q64:VisualElement" type="tns:Vector3IntFieldType" />
+  <xs:complexType name="AccordionItemType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q65="UnityEngine.UIElements" base="q65:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute name="leading-content-template" type="xs:string" />
+        <xs:attribute name="trailing-content-template" type="xs:string" />
+        <xs:attribute default="End" name="indicator-position" type="tns:FlexPositionType" />
+        <xs:attribute default="Header" name="title" type="xs:string" />
+        <xs:attribute default="false" name="value" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="FlexPositionType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Start" />
+      <xs:enumeration value="End" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="AccordionItem" xmlns:q66="UnityEngine.UIElements" substitutionGroup="q66:VisualElement" type="tns:AccordionItemType" />
+  <xs:complexType name="ButtonType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ExVisualElementType">
+        <xs:choice />
+        <xs:attribute default="Default" name="variant" type="tns:ButtonVariantType" />
+        <xs:attribute default="false" name="quiet" type="xs:boolean" />
+        <xs:attribute name="title" type="xs:string" />
+        <xs:attribute name="subtitle" type="xs:string" />
+        <xs:attribute name="leading-icon" type="xs:string" />
+        <xs:attribute name="trailing-icon" type="xs:string" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="ButtonVariantType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Default" />
+      <xs:enumeration value="Accent" />
+      <xs:enumeration value="Destructive" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Button" substitutionGroup="tns:ExVisualElement" type="tns:ButtonType" />
+  <xs:complexType name="BoundsFieldType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q67="UnityEngine.UIElements" base="q67:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="0,0,0,0,0,0" name="value" type="xs:string" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="BoundsField" xmlns:q68="UnityEngine.UIElements" substitutionGroup="q68:VisualElement" type="tns:BoundsFieldType" />
+  <xs:complexType name="BreadcrumbsType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q69="UnityEngine.UIElements" base="q69:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Breadcrumbs" xmlns:q70="UnityEngine.UIElements" substitutionGroup="q70:VisualElement" type="tns:BreadcrumbsType" />
+  <xs:complexType name="MasonryGridViewType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q71="UnityEngine.UIElements" base="q71:BindableElementType">
+        <xs:choice />
+        <xs:attribute default="Single" name="selection-type" type="q71:SelectionTypeType" />
+        <xs:attribute default="true" name="allow-no-selection" type="xs:boolean" />
+        <xs:attribute default="false" name="pack" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MasonryGridView" xmlns:q72="UnityEngine.UIElements" substitutionGroup="q72:BindableElement" type="tns:MasonryGridViewType" />
+  <xs:complexType name="MenuType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q73="UnityEngine.UIElements" base="q73:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Menu" xmlns:q74="UnityEngine.UIElements" substitutionGroup="q74:VisualElement" type="tns:MenuType" />
+  <xs:complexType name="AssetTargetFieldType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q75="UnityEngine.UIElements" base="q75:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="AssetTargetField" xmlns:q76="UnityEngine.UIElements" substitutionGroup="q76:VisualElement" type="tns:AssetTargetFieldType" />
+  <xs:complexType name="PaneType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q77="UnityEngine.UIElements" base="q77:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="16" name="compact-threshold" type="xs:float" />
+        <xs:attribute default="0" name="stretch-factor" type="xs:float" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Pane" xmlns:q78="UnityEngine.UIElements" substitutionGroup="q78:VisualElement" type="tns:PaneType" />
+  <xs:complexType name="FloatFieldType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ExVisualElementType">
+        <xs:choice />
+        <xs:attribute default="g7" name="format-string" type="xs:string" />
+        <xs:attribute name="unit" type="xs:string" />
+        <xs:attribute name="low-value" type="xs:string" />
+        <xs:attribute name="high-value" type="xs:string" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="0" name="value" type="xs:float" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="FloatField" substitutionGroup="tns:ExVisualElement" type="tns:FloatFieldType" />
+  <xs:complexType name="CheckboxType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q79="UnityEngine.UIElements" base="q79:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="false" name="emphasized" type="xs:boolean" />
+        <xs:attribute name="label" type="xs:string" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+        <xs:attribute default="Unchecked" name="value" type="tns:CheckboxStateType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="CheckboxStateType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Unchecked" />
+      <xs:enumeration value="Intermediate" />
+      <xs:enumeration value="Checked" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Checkbox" xmlns:q80="UnityEngine.UIElements" substitutionGroup="q80:VisualElement" type="tns:CheckboxType" />
+  <xs:complexType name="ColorFieldType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ExVisualElementType">
+        <xs:choice />
+        <xs:attribute default="Default" name="color-picker-type" type="tns:ColorPickerTypeType" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="S" name="swatch-size" type="tns:SizeType" />
+        <xs:attribute default="false" name="swatch-only" type="xs:boolean" />
+        <xs:attribute default="true" name="show-text" type="xs:boolean" />
+        <xs:attribute default="false" name="inline-picker" type="xs:boolean" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+        <xs:attribute default="rgba(0, 0, 0, 0)" name="value" type="xs:string" />
+        <xs:attribute default="true" name="show-alpha" type="xs:boolean" />
+        <xs:attribute default="false" name="hdr" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="ColorPickerTypeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Default" />
+      <xs:enumeration value="UnityEditor" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ColorField" substitutionGroup="tns:ExVisualElement" type="tns:ColorFieldType" />
+  <xs:complexType name="DropZoneType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q81="UnityEngine.UIElements" base="q81:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DropZone" xmlns:q82="UnityEngine.UIElements" substitutionGroup="q82:VisualElement" type="tns:DropZoneType" />
+  <xs:complexType name="FieldLabelType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q83="UnityEngine.UIElements" base="q83:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="false" name="required" type="xs:boolean" />
+        <xs:attribute default="Asterisk" name="indicator-type" type="tns:IndicatorTypeType" />
+        <xs:attribute default="(Required)" name="required-text" type="xs:string" />
+        <xs:attribute name="label" type="xs:string" />
+        <xs:attribute default="Ellipsis" name="label-overflow" type="tns:TextOverflowType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="IndicatorTypeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="Asterisk" />
+      <xs:enumeration value="Text" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="TextOverflowType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Ellipsis" />
+      <xs:enumeration value="Normal" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="FieldLabel" xmlns:q84="UnityEngine.UIElements" substitutionGroup="q84:VisualElement" type="tns:FieldLabelType" />
+  <xs:complexType name="TouchSliderFloatType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ExVisualElementType">
+        <xs:choice />
+        <xs:attribute default="g7" name="format-string" type="xs:string" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+        <xs:attribute default="Horizontal" name="orientation" type="tns:DirectionType" />
+        <xs:attribute default="false" name="swap-thumbs" type="xs:boolean" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute name="label" type="xs:string" />
+        <xs:attribute default="0.1" name="step" type="xs:float" />
+        <xs:attribute default="1" name="shift-step" type="xs:float" />
+        <xs:attribute default="0" name="low-value" type="xs:float" />
+        <xs:attribute default="1" name="high-value" type="xs:float" />
+        <xs:attribute default="0" name="value" type="xs:float" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TouchSliderFloat" substitutionGroup="tns:ExVisualElement" type="tns:TouchSliderFloatType" />
+  <xs:complexType name="IconType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q85="UnityEngine.UIElements" base="q85:ImageType">
+        <xs:choice />
+        <xs:attribute default="true" name="primary" type="xs:boolean" />
+        <xs:attribute default="M" name="size" type="tns:IconSizeType" />
+        <xs:attribute default="info" name="icon-name" type="xs:string" />
+        <xs:attribute default="Regular" name="variant" type="tns:IconVariantType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="IconSizeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="XXS" />
+      <xs:enumeration value="XS" />
+      <xs:enumeration value="S" />
+      <xs:enumeration value="M" />
+      <xs:enumeration value="L" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Icon" xmlns:q86="UnityEngine.UIElements" substitutionGroup="q86:Image" type="tns:IconType" />
+  <xs:complexType name="GridViewType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q87="UnityEngine.UIElements" base="q87:BindableElementType">
+        <xs:choice />
+        <xs:attribute default="Single" name="selection-type" type="q87:SelectionTypeType" />
+        <xs:attribute default="true" name="allow-no-selection" type="xs:boolean" />
+        <xs:attribute default="30" name="item-height" type="xs:int" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GridView" xmlns:q88="UnityEngine.UIElements" substitutionGroup="q88:BindableElement" type="tns:GridViewType" />
+  <xs:complexType name="IconButtonType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ExVisualElementType">
+        <xs:choice />
+        <xs:attribute default="false" name="primary" type="xs:boolean" />
+        <xs:attribute default="false" name="quiet" type="xs:boolean" />
+        <xs:attribute name="icon" type="xs:string" />
+        <xs:attribute default="Regular" name="variant" type="tns:IconVariantType" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="IconButton" substitutionGroup="tns:ExVisualElement" type="tns:IconButtonType" />
+  <xs:complexType name="BreadcrumbSeparatorType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q89="UnityEngine.UIElements" base="q89:TextElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="BreadcrumbSeparator" xmlns:q90="UnityEngine.UIElements" substitutionGroup="q90:TextElement" type="tns:BreadcrumbSeparatorType" />
+  <xs:complexType name="BottomNavBarItemType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q91="UnityEngine.UIElements" base="q91:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute name="icon" type="xs:string" />
+        <xs:attribute name="label" type="xs:string" />
+        <xs:attribute default="false" name="is-selected" type="xs:boolean" />
+        <xs:attribute default="Regular" name="icon-variant" type="tns:IconVariantType" />
+        <xs:attribute default="Regular" name="selected-icon-variant" type="tns:IconVariantType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="BottomNavBarItem" xmlns:q92="UnityEngine.UIElements" substitutionGroup="q92:VisualElement" type="tns:BottomNavBarItemType" />
+  <xs:complexType name="InputLabelType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q93="UnityEngine.UIElements" base="q93:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute name="label" type="xs:string" />
+        <xs:attribute default="Horizontal" name="direction" type="tns:DirectionType" />
+        <xs:attribute default="Ellipsis" name="label-overflow" type="tns:TextOverflowType" />
+        <xs:attribute default="Stretch" name="input-alignment" type="q93:AlignType" />
+        <xs:attribute default="false" name="required" type="xs:boolean" />
+        <xs:attribute default="Asterisk" name="indicator-type" type="tns:IndicatorTypeType" />
+        <xs:attribute default="(Required)" name="required-text" type="xs:string" />
+        <xs:attribute name="help-message" type="xs:string" />
+        <xs:attribute default="Destructive" name="help-variant" type="tns:HelpTextVariantType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="HelpTextVariantType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Default" />
+      <xs:enumeration value="Warning" />
+      <xs:enumeration value="Destructive" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="InputLabel" xmlns:q94="UnityEngine.UIElements" substitutionGroup="q94:VisualElement" type="tns:InputLabelType" />
+  <xs:complexType name="LinearProgressType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q95="UnityEngine.UIElements" base="q95:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="true" name="rounded-progress-corners" type="xs:boolean" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="Indeterminate" name="variant" type="tns:Progress_VariantType" />
+        <xs:attribute default="0.1" name="buffer-opacity" type="xs:float" />
+        <xs:attribute default="rgb(209, 209, 209)" name="color-override" type="xs:string" />
+        <xs:attribute default="0" name="value" type="xs:float" />
+        <xs:attribute default="0" name="buffer-value" type="xs:float" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="Progress_VariantType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Indeterminate" />
+      <xs:enumeration value="Determinate" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="LinearProgress" xmlns:q96="UnityEngine.UIElements" substitutionGroup="q96:VisualElement" type="tns:LinearProgressType" />
+  <xs:complexType name="SwipeViewItemType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q97="UnityEngine.UIElements" base="q97:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SwipeViewItem" xmlns:q98="UnityEngine.UIElements" substitutionGroup="q98:VisualElement" type="tns:SwipeViewItemType" />
+  <xs:complexType name="HelpTextType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:LocalizedTextElementType">
+        <xs:choice />
+        <xs:attribute default="Default" name="variant" type="tns:HelpTextVariantType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="HelpText" substitutionGroup="tns:LocalizedTextElement" type="tns:HelpTextType" />
+  <xs:complexType name="AvatarGroupType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q99="UnityEngine.UIElements" base="q99:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="5" name="max" type="xs:int" />
+        <xs:attribute default="M" name="spacing" type="tns:AvatarGroupSpacingType" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="Circular" name="variant" type="tns:AvatarVariantType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="AvatarGroupSpacingType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="S" />
+      <xs:enumeration value="M" />
+      <xs:enumeration value="L" />
+      <xs:enumeration value="NoOverlap" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="AvatarGroup" xmlns:q100="UnityEngine.UIElements" substitutionGroup="q100:VisualElement" type="tns:AvatarGroupType" />
+  <xs:complexType name="PickerItemType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q101="UnityEngine.UIElements" base="q101:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PickerItem" xmlns:q102="UnityEngine.UIElements" substitutionGroup="q102:VisualElement" type="tns:PickerItemType" />
+  <xs:complexType name="RectFieldType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q103="UnityEngine.UIElements" base="q103:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="0,0,0,0" name="value" type="xs:string" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="RectField" xmlns:q104="UnityEngine.UIElements" substitutionGroup="q104:VisualElement" type="tns:RectFieldType" />
+  <xs:complexType name="CircularProgressType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q105="UnityEngine.UIElements" base="q105:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="true" name="rounded-progress-corners" type="xs:boolean" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="Indeterminate" name="variant" type="tns:Progress_VariantType" />
+        <xs:attribute default="0.1" name="buffer-opacity" type="xs:float" />
+        <xs:attribute default="rgb(209, 209, 209)" name="color-override" type="xs:string" />
+        <xs:attribute default="0" name="value" type="xs:float" />
+        <xs:attribute default="0" name="buffer-value" type="xs:float" />
+        <xs:attribute default="0.38" name="inner-radius" type="xs:float" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CircularProgress" xmlns:q106="UnityEngine.UIElements" substitutionGroup="q106:VisualElement" type="tns:CircularProgressType" />
+  <xs:complexType name="ChipType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q107="UnityEngine.UIElements" base="q107:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="x" name="delete-icon" type="xs:string" />
+        <xs:attribute default="Filled" name="variant" type="tns:Chip_VariantType" />
+        <xs:attribute name="label" type="xs:string" />
+        <xs:attribute default="false" name="deletable" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="Chip_VariantType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Filled" />
+      <xs:enumeration value="Outlined" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Chip" xmlns:q108="UnityEngine.UIElements" substitutionGroup="q108:VisualElement" type="tns:ChipType" />
+  <xs:complexType name="ActionGroupType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q109="UnityEngine.UIElements" base="q109:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="false" name="quiet" type="xs:boolean" />
+        <xs:attribute default="false" name="compact" type="xs:boolean" />
+        <xs:attribute default="Horizontal" name="direction" type="tns:DirectionType" />
+        <xs:attribute default="false" name="justified" type="xs:boolean" />
+        <xs:attribute default="None" name="selection-type" type="q109:SelectionTypeType" />
+        <xs:attribute default="true" name="close-on-selection" type="xs:boolean" />
+        <xs:attribute default="true" name="allow-no-selection" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ActionGroup" xmlns:q110="UnityEngine.UIElements" substitutionGroup="q110:VisualElement" type="tns:ActionGroupType" />
+  <xs:complexType name="PageViewType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q111="UnityEngine.UIElements" base="q111:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="0.5" name="snap-animation-speed" type="xs:float" />
+        <xs:attribute default="2" name="skip-animation-threshold" type="xs:int" />
+        <xs:attribute default="false" name="wrap" type="xs:boolean" />
+        <xs:attribute default="-1" name="auto-play-duration" type="xs:int" />
+        <xs:attribute default="Horizontal" name="direction" type="tns:DirectionType" />
+        <xs:attribute default="1" name="visibility-count" type="xs:int" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PageView" xmlns:q112="UnityEngine.UIElements" substitutionGroup="q112:VisualElement" type="tns:PageViewType" />
+  <xs:complexType name="SwipeViewType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q113="UnityEngine.UIElements" base="q113:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="0.5" name="snap-animation-speed" type="xs:float" />
+        <xs:attribute default="5" name="start-swipe-threshold" type="xs:float" />
+        <xs:attribute default="ShortestPath" name="go-to-strategy" type="tns:GoToStrategyType" />
+        <xs:attribute default="1" name="visible-item-count" type="xs:int" />
+        <xs:attribute default="-1" name="auto-play-duration" type="xs:int" />
+        <xs:attribute default="Horizontal" name="direction" type="tns:DirectionType" />
+        <xs:attribute default="false" name="wrap" type="xs:boolean" />
+        <xs:attribute default="-1" name="value" type="xs:int" />
+        <xs:attribute default="1" name="resistance" type="xs:float" />
+        <xs:attribute default="true" name="swipeable" type="xs:boolean" />
+        <xs:attribute default="2" name="skip-animation-threshold" type="xs:int" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="GoToStrategyType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Forward" />
+      <xs:enumeration value="Backward" />
+      <xs:enumeration value="ShortestPath" />
+      <xs:enumeration value="LongestPath" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="SwipeView" xmlns:q114="UnityEngine.UIElements" substitutionGroup="q114:VisualElement" type="tns:SwipeViewType" />
+  <xs:complexType name="TextAreaType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ExVisualElementType">
+        <xs:choice />
+        <xs:attribute name="placeholder" type="xs:string" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+        <xs:attribute default="false" name="is-read-only" type="xs:boolean" />
+        <xs:attribute default="-1" name="max-length" type="xs:int" />
+        <xs:attribute default="false" name="auto-resize" type="xs:boolean" />
+        <xs:attribute default="false" name="auto-shrink" type="xs:boolean" />
+        <xs:attribute default="false" name="submit-on-enter" type="xs:boolean" />
+        <xs:attribute default="None" name="submit-modifiers" xmlns:q115="UnityEngine" type="q115:EventModifiersType" />
+        <xs:attribute name="value" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TextArea" substitutionGroup="tns:ExVisualElement" type="tns:TextAreaType" />
+  <xs:complexType name="SVSquareType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q116="UnityEngine.UIElements" base="q116:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="0" name="brightness" type="xs:float" />
+        <xs:attribute default="0" name="reference-hue" type="xs:float" />
+        <xs:attribute default="0" name="saturation" type="xs:float" />
+        <xs:attribute default="0.01" name="increment-factor" type="xs:float" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SVSquare" xmlns:q117="UnityEngine.UIElements" substitutionGroup="q117:VisualElement" type="tns:SVSquareType" />
+  <xs:complexType name="ColorWheelType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q118="UnityEngine.UIElements" base="q118:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="0" name="value" type="xs:float" />
+        <xs:attribute default="1" name="opacity" type="xs:float" />
+        <xs:attribute default="1" name="brightness" type="xs:float" />
+        <xs:attribute default="1" name="saturation" type="xs:float" />
+        <xs:attribute default="0.4" name="inner-radius" type="xs:float" />
+        <xs:attribute default="4" name="checker-size" type="xs:int" />
+        <xs:attribute default="rgba(0, 0, 0, 0)" name="checker-color1" type="xs:string" />
+        <xs:attribute default="rgba(0, 0, 0, 0)" name="checker-color2" type="xs:string" />
+        <xs:attribute default="0.01" name="increment-factor" type="xs:float" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ColorWheel" xmlns:q119="UnityEngine.UIElements" substitutionGroup="q119:VisualElement" type="tns:ColorWheelType" />
+  <xs:complexType name="ContextProviderType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q120="UnityEngine.UIElements" base="q120:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ContextProvider" xmlns:q121="UnityEngine.UIElements" substitutionGroup="q121:VisualElement" type="tns:ContextProviderType" />
+  <xs:complexType name="RadioType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q122="UnityEngine.UIElements" base="q122:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute name="key" type="xs:string" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="false" name="emphasized" type="xs:boolean" />
+        <xs:attribute name="label" type="xs:string" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+        <xs:attribute default="false" name="value" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Radio" xmlns:q123="UnityEngine.UIElements" substitutionGroup="q123:VisualElement" type="tns:RadioType" />
+  <xs:complexType name="EnumFieldType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:DropdownType">
+        <xs:choice />
+        <xs:attribute name="enum-type" type="xs:string" />
+        <xs:attribute name="enum-value" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="DropdownType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ExVisualElementType">
+        <xs:choice />
+        <xs:attribute default="true" name="close-on-selection" type="xs:boolean" />
+        <xs:attribute default="Select" name="default-message" type="xs:string" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="false" name="emphasized" type="xs:boolean" />
+        <xs:attribute default="Single" name="selection-type" type="tns:PickerSelectionTypeType" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="PickerSelectionTypeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Single" />
+      <xs:enumeration value="Multiple" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Dropdown" substitutionGroup="tns:ExVisualElement" type="tns:DropdownType" />
+  <xs:element name="EnumField" substitutionGroup="tns:Dropdown" type="tns:EnumFieldType" />
+  <xs:complexType name="ActionBarType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q124="UnityEngine.UIElements" base="q124:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="{0} Selected item(s)" name="message" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ActionBar" xmlns:q125="UnityEngine.UIElements" substitutionGroup="q125:VisualElement" type="tns:ActionBarType" />
+  <xs:complexType name="BreadcrumbItemType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:LinkType">
+        <xs:choice />
+        <xs:attribute default="false" name="is-current" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="LinkType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:LocalizedTextElementType">
+        <xs:choice />
+        <xs:attribute default="M" name="size" type="tns:TextSizeType" />
+        <xs:attribute name="url" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Link" substitutionGroup="tns:LocalizedTextElement" type="tns:LinkType" />
+  <xs:element name="BreadcrumbItem" substitutionGroup="tns:Link" type="tns:BreadcrumbItemType" />
+  <xs:complexType name="LongFieldType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ExVisualElementType">
+        <xs:choice />
+        <xs:attribute default="#######0" name="format-string" type="xs:string" />
+        <xs:attribute name="unit" type="xs:string" />
+        <xs:attribute name="low-value" type="xs:string" />
+        <xs:attribute name="high-value" type="xs:string" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="0" name="value" type="xs:long" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="LongField" substitutionGroup="tns:ExVisualElement" type="tns:LongFieldType" />
+  <xs:complexType name="NavigationRailType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q126="UnityEngine.UIElements" base="q126:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="Start" name="anchor" type="tns:NavigationRailAnchorType" />
+        <xs:attribute default="All" name="label-type" type="tns:LabelTypeType" />
+        <xs:attribute default="Start" name="group-alignment" type="tns:GroupAlignmentType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="NavigationRailAnchorType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Start" />
+      <xs:enumeration value="End" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="LabelTypeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="All" />
+      <xs:enumeration value="Selected" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="GroupAlignmentType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Start" />
+      <xs:enumeration value="Center" />
+      <xs:enumeration value="End" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="NavigationRail" xmlns:q127="UnityEngine.UIElements" substitutionGroup="q127:VisualElement" type="tns:NavigationRailType" />
+  <xs:complexType name="SpacerType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q128="UnityEngine.UIElements" base="q128:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="M" name="spacing" type="tns:SpacerSpacingType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="SpacerSpacingType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Null" />
+      <xs:enumeration value="XS" />
+      <xs:enumeration value="S" />
+      <xs:enumeration value="M" />
+      <xs:enumeration value="L" />
+      <xs:enumeration value="XL" />
+      <xs:enumeration value="Expand" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Spacer" xmlns:q129="UnityEngine.UIElements" substitutionGroup="q129:VisualElement" type="tns:SpacerType" />
+  <xs:complexType name="ColorSliderType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:SliderFloatType">
+        <xs:choice />
+        <xs:attribute default="Blend:{0,#FF0000FF};{1,#FF0000FF}+{0,0};{1,1}" name="color-range" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="SliderFloatType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ExVisualElementType">
+        <xs:choice />
+        <xs:attribute default="g7" name="format-string" type="xs:string" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+        <xs:attribute default="Horizontal" name="orientation" type="tns:DirectionType" />
+        <xs:attribute default="false" name="swap-thumbs" type="xs:boolean" />
+        <xs:attribute default="false" name="show-marks" type="xs:boolean" />
+        <xs:attribute default="false" name="show-marks-label" type="xs:boolean" />
+        <xs:attribute default="Off" name="display-value-label" type="tns:ValueDisplayModeType" />
+        <xs:attribute default="None" name="restricted-values" type="tns:RestrictedValuesPolicyType" />
+        <xs:attribute default="Off" name="track" type="tns:TrackDisplayTypeType" />
+        <xs:attribute default="false" name="show-input-field" type="xs:boolean" />
+        <xs:attribute default="0.1" name="step" type="xs:float" />
+        <xs:attribute default="1" name="shift-step" type="xs:float" />
+        <xs:attribute default="0" name="low-value" type="xs:float" />
+        <xs:attribute default="100" name="high-value" type="xs:float" />
+        <xs:attribute default="0" name="value" type="xs:float" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SliderFloat" substitutionGroup="tns:ExVisualElement" type="tns:SliderFloatType" />
+  <xs:element name="ColorSlider" substitutionGroup="tns:SliderFloat" type="tns:ColorSliderType" />
+  <xs:complexType name="AlertDialogType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q130="UnityEngine.UIElements" base="q130:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute name="title" type="xs:string" />
+        <xs:attribute name="description" type="xs:string" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="Default" name="variant" type="tns:AlertSemanticType" />
+        <xs:attribute default="false" name="is-primary-action-disabled" type="xs:boolean" />
+        <xs:attribute default="false" name="is-secondary-action-disabled" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="AlertSemanticType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Default" />
+      <xs:enumeration value="Confirmation" />
+      <xs:enumeration value="Information" />
+      <xs:enumeration value="Destructive" />
+      <xs:enumeration value="Error" />
+      <xs:enumeration value="Warning" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="AlertDialog" xmlns:q131="UnityEngine.UIElements" substitutionGroup="q131:VisualElement" type="tns:AlertDialogType" />
+  <xs:complexType name="MaskFieldType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:DropdownType">
+        <xs:choice />
+        <xs:attribute default="0" name="mask-value" type="xs:int" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MaskField" substitutionGroup="tns:Dropdown" type="tns:MaskFieldType" />
+  <xs:complexType name="DrawerType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q132="UnityEngine.UIElements" base="q132:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="0.33" name="backdrop-final-opacity" type="xs:float" />
+        <xs:attribute default="true" name="swipeable" type="xs:boolean" />
+        <xs:attribute default="150" name="transition-duration-ms" type="xs:int" />
+        <xs:attribute default="true" name="backdrop-transition-enabled" type="xs:boolean" />
+        <xs:attribute default="false" name="hide-backdrop" type="xs:boolean" />
+        <xs:attribute default="16" name="swipe-area-width" type="xs:float" />
+        <xs:attribute default="8" name="hysteresis" type="xs:float" />
+        <xs:attribute default="16" name="elevation" type="xs:float" />
+        <xs:attribute default="Left" name="anchor" type="tns:DrawerAnchorType" />
+        <xs:attribute default="Temporary" name="variant" type="tns:DrawerVariantType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="DrawerAnchorType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Left" />
+      <xs:enumeration value="Right" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="DrawerVariantType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Temporary" />
+      <xs:enumeration value="Permanent" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Drawer" xmlns:q133="UnityEngine.UIElements" substitutionGroup="q133:VisualElement" type="tns:DrawerType" />
+  <xs:complexType name="MenuDividerType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:DividerType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MenuDivider" substitutionGroup="tns:Divider" type="tns:MenuDividerType" />
+  <xs:complexType name="Vector2IntFieldType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q134="UnityEngine.UIElements" base="q134:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="0,0" name="value" type="xs:string" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+        <xs:attribute name="format-string" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Vector2IntField" xmlns:q135="UnityEngine.UIElements" substitutionGroup="q135:VisualElement" type="tns:Vector2IntFieldType" />
+  <xs:complexType name="TreeViewItemType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q136="UnityEngine.UIElements" base="q136:VisualElementType">
+        <xs:choice />
+        <xs:attribute default="false" name="show-caret" type="xs:boolean" />
+        <xs:attribute name="label" type="xs:string" />
+        <xs:attribute default="false" name="expanded" type="xs:boolean" />
+        <xs:attribute default="false" name="selected" type="xs:boolean" />
+        <xs:attribute default="0" name="depth" type="xs:int" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TreeViewItem" xmlns:q137="UnityEngine.UIElements" substitutionGroup="q137:VisualElement" type="tns:TreeViewItemType" />
+  <xs:complexType name="ResizeHandleType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q138="UnityEngine.UIElements" base="q138:VisualElementType">
+        <xs:choice />
+        <xs:attribute default="Vertical" name="drag-direction" type="tns:Draggable_DragDirectionType" />
+        <xs:attribute default="1" name="threshold" type="xs:float" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="Draggable_DragDirectionType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Horizontal" />
+      <xs:enumeration value="Vertical" />
+      <xs:enumeration value="Free" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ResizeHandle" xmlns:q139="UnityEngine.UIElements" substitutionGroup="q139:VisualElement" type="tns:ResizeHandleType" />
+  <xs:complexType name="DateRangeFieldType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ExVisualElementType">
+        <xs:choice />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+        <xs:attribute default="2026-07-19,2026-07-20" name="value" type="xs:string" />
+        <xs:attribute default="yyyy-MM-dd" name="format-string" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="DateRangeField" substitutionGroup="tns:ExVisualElement" type="tns:DateRangeFieldType" />
+  <xs:complexType name="PageIndicatorType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q140="UnityEngine.UIElements" base="q140:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="0" name="count" type="xs:int" />
+        <xs:attribute default="0" name="value" type="xs:int" />
+        <xs:attribute default="Horizontal" name="direction" type="tns:DirectionType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PageIndicator" xmlns:q141="UnityEngine.UIElements" substitutionGroup="q141:VisualElement" type="tns:PageIndicatorType" />
+  <xs:complexType name="DialogTriggerType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q142="UnityEngine.UIElements" base="q142:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="Modal" name="type" type="tns:PopupPresentationTypeType" />
+        <xs:attribute default="Bottom" name="tray-position" type="tns:TrayPositionType" />
+        <xs:attribute default="150" name="transition-duration" type="xs:int" />
+        <xs:attribute default="false" name="hide-arrow" type="xs:boolean" />
+        <xs:attribute default="Modal" name="mobile-type" type="tns:MobilePopupPresentationTypeType" />
+        <xs:attribute default="0" name="container-padding" type="xs:int" />
+        <xs:attribute default="0" name="offset" type="xs:int" />
+        <xs:attribute default="0" name="cross-offset" type="xs:int" />
+        <xs:attribute default="true" name="should-flip" type="xs:boolean" />
+        <xs:attribute default="true" name="keyboard-dismiss-enabled" type="xs:boolean" />
+        <xs:attribute default="true" name="outside-click-dismiss-enabled" type="xs:boolean" />
+        <xs:attribute default="false" name="modal-backdrop" type="xs:boolean" />
+        <xs:attribute default="Top" name="placement" type="tns:PopoverPlacementType" />
+        <xs:attribute default="false" name="resizable" type="xs:boolean" />
+        <xs:attribute default="Vertical" name="resize-direction" type="tns:Draggable_DragDirectionType" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="PopupPresentationTypeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Modal" />
+      <xs:enumeration value="Popover" />
+      <xs:enumeration value="Tray" />
+      <xs:enumeration value="FullScreen" />
+      <xs:enumeration value="FullScreenTakeOver" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="TrayPositionType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Left" />
+      <xs:enumeration value="Right" />
+      <xs:enumeration value="Bottom" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="MobilePopupPresentationTypeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Modal" />
+      <xs:enumeration value="Tray" />
+      <xs:enumeration value="FullScreen" />
+      <xs:enumeration value="FullScreenTakeOver" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="DialogTrigger" xmlns:q143="UnityEngine.UIElements" substitutionGroup="q143:VisualElement" type="tns:DialogTriggerType" />
+  <xs:complexType name="Vector2FieldType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q144="UnityEngine.UIElements" base="q144:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="0,0" name="value" type="xs:string" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+        <xs:attribute name="format-string" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Vector2Field" xmlns:q145="UnityEngine.UIElements" substitutionGroup="q145:VisualElement" type="tns:Vector2FieldType" />
+  <xs:complexType name="AppBarType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:ExVisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="AppBar" substitutionGroup="tns:ExVisualElement" type="tns:AppBarType" />
+  <xs:complexType name="Vector4FieldType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q146="UnityEngine.UIElements" base="q146:VisualElementType">
+        <xs:choice />
+        <xs:attribute name="scale" type="xs:string" />
+        <xs:attribute name="theme" type="xs:string" />
+        <xs:attribute name="lang" type="xs:string" />
+        <xs:attribute name="dir" type="xs:string" />
+        <xs:attribute name="preferred-tooltip-placement" type="xs:string" />
+        <xs:attribute name="tooltip-delay-ms" type="xs:string" />
+        <xs:attribute default="M" name="size" type="tns:SizeType" />
+        <xs:attribute default="0,0,0,0" name="value" type="xs:string" />
+        <xs:attribute default="false" name="invalid" type="xs:boolean" />
+        <xs:attribute name="format-string" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Vector4Field" xmlns:q147="UnityEngine.UIElements" substitutionGroup="q147:VisualElement" type="tns:Vector4FieldType" />
+</xs:schema>
