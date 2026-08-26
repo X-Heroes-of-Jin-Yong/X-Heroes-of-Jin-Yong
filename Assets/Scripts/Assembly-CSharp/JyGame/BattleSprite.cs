@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using DG.Tweening;
+using PrimeTween;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -808,7 +808,7 @@ namespace JyGame
 			if (moved >= MoveWay.Count)
 			{
 				moved = 1;
-				base.transform.DOKill();
+				Tween.StopAll(base.transform);
 				moveCallback();
 				return;
 			}
@@ -834,17 +834,9 @@ namespace JyGame
 		public void MoveTo(int x, int y)
 		{
 			Vector3 vector = new Vector3(BattleField.ToScreenX(x), BattleField.ToScreenY(y), -1f);
-			Tween t = null;
-			if (x == X)
-			{
-				t = base.transform.DOMoveY(BattleField.ToScreenY(y), 0.3f);
-			}
-			else if (y == Y)
-			{
-				t = base.transform.DOMoveX(BattleField.ToScreenX(x), 0.3f);
-			}
-			t.SetUpdate(false);
-			t.SetEase(Ease.Linear);
+			Tween t = x == X
+				? Tween.PositionY(base.transform, BattleField.ToScreenY(y), 0.3f, Ease.Linear)
+				: Tween.PositionX(base.transform, BattleField.ToScreenX(x), 0.3f, Ease.Linear);
 			t.OnComplete(delegate
 			{
 				moved++;
@@ -856,16 +848,15 @@ namespace JyGame
 				else
 				{
 					moved = 1;
-					base.transform.DOKill();
+					Tween.StopAll(base.transform);
 					moveCallback();
 				}
 			});
-			t.Play();
 		}
 
 		public void Shake()
 		{
-			base.transform.DOShakePosition(0.5f, 4f);
+			Tween.ShakeLocalPosition(base.transform, Vector3.one * 4f, 0.5f);
 		}
 
 		public void Die()
@@ -873,14 +864,14 @@ namespace JyGame
 			IsDead = true;
 			if (isUserDefinedAnimation)
 			{
-				spriteObj.transform.Find("sprite").GetComponent<SpriteRenderer>().material.DOFade(0f, 1.5f).OnComplete(delegate
+				Tween.MaterialAlpha(spriteObj.transform.Find("sprite").GetComponent<SpriteRenderer>().material, 0f, 1.5f).OnComplete(delegate
 				{
 					Object.Destroy(base.gameObject);
 				});
 			}
 			else
 			{
-				spriteObj.GetComponent<Renderer>().material.DOFade(0f, 1.5f).OnComplete(delegate
+				Tween.MaterialAlpha(spriteObj.GetComponent<Renderer>().material, 0f, 1.5f).OnComplete(delegate
 				{
 					Object.Destroy(base.gameObject);
 				});

@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using DG.Tweening;
 using UnityEngine;
 
 namespace JyGame
@@ -97,7 +96,6 @@ namespace JyGame
 		public GameEngine()
 		{
 			Init();
-			DOTween.Init();
 		}
 
 		public void Init()
@@ -140,7 +138,7 @@ namespace JyGame
 			switch (type)
 			{
 			case "story":
-				if (Application.loadedLevelName == "Map")
+				if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Map")
 				{
 					RuntimeData.Instance.mapUI.LoadStory(value);
 				}
@@ -158,7 +156,7 @@ namespace JyGame
 					RuntimeData.Instance.mapUI.LoadStory(text);
 					return;
 				}
-				if (Application.loadedLevelName == "Map")
+				if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Map")
 				{
 					RuntimeData.Instance.mapUI.LoadMap(value);
 				}
@@ -174,7 +172,7 @@ namespace JyGame
 				return;
 			}
 			case "runtimestory":
-				if (Application.loadedLevelName == "Map")
+				if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Map")
 				{
 					RuntimeData.Instance.mapUI.LoadStory(RuntimeStory, RuntimeCallback);
 				}
@@ -209,20 +207,20 @@ namespace JyGame
 						SwitchGameScene("gameOver", string.Empty);
 					}
 				};
-				Application.LoadLevel("BattleSelectRole");
+				UnityEngine.SceneManagement.SceneManager.LoadScene("BattleSelectRole");
 				return;
 			case "arena":
 				battleType = BattleType.Arena;
 				BattleSelectRole_CurrentForbbidenKeys.Clear();
 				BattleSelectRole_CurrentCancelCallback = delegate
 				{
-					Application.LoadLevel("Map");
+					UnityEngine.SceneManagement.SceneManager.LoadScene("Map");
 				};
 				BattleSelectRole_BattleCallback = delegate
 				{
 					SwitchGameScene("map", RuntimeData.Instance.CurrentBigMap);
 				};
-				Application.LoadLevel("BattleSelectScene");
+				UnityEngine.SceneManagement.SceneManager.LoadScene("BattleSelectScene");
 				return;
 			case "trial":
 			{
@@ -274,7 +272,7 @@ namespace JyGame
 						SwitchGameScene("story", "original_试炼之地.失败");
 					}
 				};
-				Application.LoadLevel("BattleSelectRole");
+				UnityEngine.SceneManagement.SceneManager.LoadScene("BattleSelectRole");
 				return;
 			}
 			case "tower":
@@ -284,7 +282,7 @@ namespace JyGame
 				{
 					LoadingUI.Load("Map");
 				};
-				Application.LoadLevel("BattleSelectScene");
+				UnityEngine.SceneManagement.SceneManager.LoadScene("BattleSelectScene");
 				return;
 			case "nextTower":
 			{
@@ -293,7 +291,7 @@ namespace JyGame
 				TowerMap towerMap3 = currentTower.Maps[CurrentTowerIndex];
 				Battle battle3 = ResourceManager.Get<Battle>(towerMap3.Key);
 				CurrentSceneValue = battle3.Key;
-				Application.LoadLevel("BattleSelectRole");
+				UnityEngine.SceneManagement.SceneManager.LoadScene("BattleSelectRole");
 				return;
 			}
 			case "huashan":
@@ -316,7 +314,7 @@ namespace JyGame
 						SwitchGameScene("gameOver", string.Empty);
 					}
 				};
-				Application.LoadLevel("BattleSelectRole");
+				UnityEngine.SceneManagement.SceneManager.LoadScene("BattleSelectRole");
 				return;
 			}
 			case "nextHuashan":
@@ -327,7 +325,7 @@ namespace JyGame
 					TowerMap towerMap = currentTower.Maps[CurrentTowerIndex];
 					Battle battle = ResourceManager.Get<Battle>(towerMap.Key);
 					CurrentSceneValue = battle.Key;
-					Application.LoadLevel("BattleSelectRole");
+					UnityEngine.SceneManagement.SceneManager.LoadScene("BattleSelectRole");
 				}
 				else
 				{
@@ -355,10 +353,10 @@ namespace JyGame
 				return;
 			}
 			case "gameOver":
-				Application.LoadLevel("GameOver");
+				UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
 				return;
 			case "gameFin":
-				Application.LoadLevel("GameFin");
+				UnityEngine.SceneManagement.SceneManager.LoadScene("GameFin");
 				return;
 			case "shop":
 			{
@@ -367,7 +365,7 @@ namespace JyGame
 				{
 					ShopUI.CurrentShop = shop;
 					ShopUI.Type = ShopType.SHOP;
-					Application.LoadLevel("Shop");
+					UnityEngine.SceneManagement.SceneManager.LoadScene("Shop");
 				}
 				return;
 			}
@@ -375,14 +373,14 @@ namespace JyGame
 				PlaySmallGame(value);
 				return;
 			case "mainmenu":
-				Application.LoadLevel("MainMenu");
+				UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
 				return;
 			case "menpai":
 				LoadingUI.Load("Menpai");
 				return;
 			case "xiangzi":
 				ShopUI.Type = ShopType.XIANGZI;
-				Application.LoadLevel("Shop");
+				UnityEngine.SceneManagement.SceneManager.LoadScene("Shop");
 				return;
 			case "item":
 				if (value.Split('#').Length > 1)
@@ -417,7 +415,7 @@ namespace JyGame
 				return;
 			case "clearall":
 				PlayerPrefs.DeleteAll();
-				Application.LoadLevel("MainMenu");
+				UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
 				return;
 			case "join":
 				RuntimeData.Instance.addTeamMember(value);
@@ -443,7 +441,7 @@ namespace JyGame
 						SwitchGameScene("story", "珍珑棋局_失败");
 					}
 				};
-				Application.LoadLevel("BattleSelectRole");
+				UnityEngine.SceneManagement.SceneManager.LoadScene("BattleSelectRole");
 				return;
 			}
 			case "zhenlonglevel":
@@ -546,7 +544,7 @@ namespace JyGame
 				CurrentSceneType = "map";
 				CurrentSceneValue = currentBigMap;
 				RuntimeData.Instance.ResetTeam();
-				if (Application.loadedLevelName == "Map")
+				if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "Map")
 				{
 					RuntimeData.Instance.mapUI.LoadMap(currentBigMap);
 				}

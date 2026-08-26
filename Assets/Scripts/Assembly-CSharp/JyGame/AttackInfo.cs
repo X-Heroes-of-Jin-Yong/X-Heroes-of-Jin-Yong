@@ -1,4 +1,4 @@
-using DG.Tweening;
+using PrimeTween;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,7 +12,7 @@ namespace JyGame
 			base.gameObject.GetComponent<Text>().color = c;
 			base.transform.SetParent(parent);
 			base.transform.position = new Vector3(BattleField.ToScreenX(x), BattleField.ToScreenY(y) + 90, 0f);
-			base.transform.DOMove(new Vector3(BattleField.ToScreenX(x) + Tools.GetRandomInt(-50, 50), BattleField.ToScreenY(y) + 150 + Tools.GetRandomInt(0, 50)), 1.5f).SetEase(Ease.OutElastic).OnComplete(delegate
+			Tween.Position(base.transform, new Vector3(BattleField.ToScreenX(x) + Tools.GetRandomInt(-50, 50), BattleField.ToScreenY(y) + 150 + Tools.GetRandomInt(0, 50)), 1.5f, Ease.OutElastic).OnComplete(delegate
 			{
 				Object.Destroy(base.gameObject);
 				if (callback != null)
@@ -20,7 +20,7 @@ namespace JyGame
 					callback();
 				}
 			});
-			base.transform.DOScale(new Vector3(1.3f, 1.3f), 1.5f).SetEase(Ease.OutExpo);
+			Tween.Scale(base.transform, new Vector3(1.3f, 1.3f), 1.5f, Ease.OutExpo);
 		}
 
 		public void DisplayPopinfo(string text, Color c, Transform parent)
@@ -30,7 +30,7 @@ namespace JyGame
 			base.gameObject.GetComponent<Text>().fontSize = 30;
 			base.transform.SetParent(parent);
 			base.transform.position = new Vector3(0f, 0f);
-			base.transform.DOMoveY(100f, 2f).OnComplete(delegate
+			Tween.PositionY(base.transform, 100f, 2f).OnComplete(delegate
 			{
 				Object.Destroy(base.gameObject);
 			});

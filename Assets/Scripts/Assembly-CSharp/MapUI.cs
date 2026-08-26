@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using DG.Tweening;
+using PrimeTween;
 using JyGame;
 using UnityEngine;
 using UnityEngine.UI;
@@ -324,7 +324,7 @@ public class MapUI : MonoBehaviour
 			RuntimeData.Instance.StoryFinish(_story.Name, "0");
 			break;
 		case "SHAKE":
-			Camera.main.transform.DOShakePosition(0.5f, 10f);
+			Tween.ShakeLocalPosition(Camera.main.transform, Vector3.one * 10f, 0.5f);
 			ExecuteNextStoryAction(callback);
 			break;
 		case "SELECT":
@@ -395,7 +395,7 @@ public class MapUI : MonoBehaviour
 					callback();
 				}
 			};
-			Application.LoadLevel("BattleSelectRole");
+			UnityEngine.SceneManagement.SceneManager.LoadScene("BattleSelectRole");
 			break;
 		case "SELECT_MENPAI":
 			RuntimeData.Instance.gameEngine.SwitchGameScene("menpai", string.Empty);
@@ -1507,7 +1507,7 @@ public class MapUI : MonoBehaviour
 		}
 		if (_storyResult == "lose")
 		{
-			Application.LoadLevel("GameOver");
+			UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
 		}
 		else
 		{
