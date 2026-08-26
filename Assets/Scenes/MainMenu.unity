@@ -361,7 +361,6 @@ GameObject:
   m_Component:
   - component: {fileID: 90}
   - component: {fileID: 274}
-  - component: {fileID: 275}
   m_Layer: 0
   m_Name: MainMenu
   m_TagString: Untagged
@@ -4561,18 +4560,6 @@ MonoBehaviour:
   backgroundImage: {fileID: 298}
   ClearAllConfirmPanelObj: {fileID: 46}
   sharePanelObj: {fileID: 36}
---- !u!114 &275
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 20}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &276
 MonoBehaviour:
   m_ObjectHideFlags: 0

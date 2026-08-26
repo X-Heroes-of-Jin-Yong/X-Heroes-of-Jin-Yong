@@ -68,7 +68,6 @@ namespace JyGame
 
 		public int CostMp(float power, int size)
 		{
-			int num = 0;
 			switch (_type)
 			{
 			case SkillCoverType.NORMAL:

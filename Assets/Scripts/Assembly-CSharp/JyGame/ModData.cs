@@ -115,7 +115,6 @@ namespace JyGame
 		public static int GetSkillMaxLevel(string skillName)
 		{
 			int num = RuntimeData.Instance.Round / CommonSettings.PER_MAXLEVEL_ADD_BY_ZHOUMU;
-			int num2 = 0;
 			return Math.Min(val2: (!SkillMaxLevels.Keys.Contains(skillName)) ? (10 + num) : (SkillMaxLevels[skillName] + num), val1: CommonSettings.MAX_SKILL_LEVEL);
 		}
 

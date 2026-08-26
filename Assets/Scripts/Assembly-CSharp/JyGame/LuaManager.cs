@@ -11,7 +11,7 @@ namespace JyGame
 {
 	public static class LuaManager
 	{
-		private static string[] files = new string[2] { "main.lua", "test.lua" };
+		private static readonly string[] files = { "main.lua" };
 
 		private static bool _inited = false;
 
@@ -33,13 +33,13 @@ namespace JyGame
 						return new UTF8Encoding(true).GetBytes(s);
 					}
 				}
-				string text2 = "TextAssets/lua/" + path;
+				string text2 = "textassets/lua/" + path;
 				Debug.Log("loading lua file : " + text2);
-				return Resource.GetBytes("TextAssets/lua/" + path, false);
+				return Resource.GetBytes(text2, false);
 			}
-			string text3 = "TextAssets/lua/" + path;
-			Debug.Log("loading lua file : " + text3);
-			return Resource.GetBytes("TextAssets/lua/jygame" + path, false);
+			string resourcePath = "textassets/lua/" + path;
+			Debug.Log("loading lua file : " + resourcePath);
+			return Resource.GetBytes(resourcePath, false);
 		}
 
 		public static void Reload()
