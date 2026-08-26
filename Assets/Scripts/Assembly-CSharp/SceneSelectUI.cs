@@ -61,7 +61,7 @@ public class SceneSelectUI : MonoBehaviour
 					gameObject2.GetComponent<Button>().onClick.AddListener(delegate
 					{
 						gm.ArenaHardLevel = hard;
-						Application.LoadLevel("BattleSelectRole");
+						UnityEngine.SceneManagement.SceneManager.LoadScene("BattleSelectRole");
 					});
 					selectMenu.AddItem(gameObject2);
 				}
@@ -114,7 +114,7 @@ public class SceneSelectUI : MonoBehaviour
 				gameEngine.CurrentTowerIndex = num;
 				bonuses.Clear();
 				gameEngine.CurrentSceneValue = battle.Key;
-				Application.LoadLevel("BattleSelectRole");
+				UnityEngine.SceneManagement.SceneManager.LoadScene("BattleSelectRole");
 			});
 			selectMenu.AddItem(gameObject);
 		}

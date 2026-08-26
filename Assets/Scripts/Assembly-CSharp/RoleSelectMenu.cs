@@ -310,7 +310,7 @@ public class RoleSelectMenu : MonoBehaviour
 		}
 		RuntimeData.Instance.gameEngine.BattleSelectRole_GeneratedBattle = battle;
 		LoadingUI.LoadingLevel = "Battle";
-		Application.LoadLevel("Loading");
+		UnityEngine.SceneManagement.SceneManager.LoadScene("Loading");
 	}
 
 	public BattleRole GenerateRandomRole(BattleRole r)

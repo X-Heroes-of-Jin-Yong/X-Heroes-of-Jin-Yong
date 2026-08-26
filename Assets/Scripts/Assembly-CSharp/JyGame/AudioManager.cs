@@ -53,7 +53,7 @@ namespace JyGame
 
 		private void Update()
 		{
-			if (audioMgr.clip != null && !audioMgr.isPlaying && audioMgr.clip.isReadyToPlay)
+			if (audioMgr.clip != null && !audioMgr.isPlaying && audioMgr.clip.loadState == AudioDataLoadState.Loaded)
 			{
 				audioMgr.Play();
 			}

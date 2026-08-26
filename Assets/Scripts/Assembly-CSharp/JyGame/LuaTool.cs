@@ -61,7 +61,7 @@ namespace JyGame
 			int num = 0;
 			foreach (object obj in objs)
 			{
-				luaTable[num.ToString()] = obj;
+				luaTable.Set(num.ToString(), obj);
 				num++;
 			}
 			return luaTable;
@@ -73,7 +73,7 @@ namespace JyGame
 			int num = 0;
 			foreach (object obj in objs)
 			{
-				luaTable[num.ToString()] = obj;
+				luaTable.Set(num.ToString(), obj);
 				num++;
 			}
 			return luaTable;
@@ -84,7 +84,7 @@ namespace JyGame
 			LuaTable luaTable = CreateLuaTable();
 			foreach (object key in objs.Keys)
 			{
-				luaTable[key] = objs[key];
+				luaTable.Set(key, objs[key]);
 			}
 			return luaTable;
 		}

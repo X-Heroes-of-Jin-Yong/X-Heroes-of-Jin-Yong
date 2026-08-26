@@ -3,10 +3,10 @@ using System.Collections;
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading;
 using System.Xml;
 using System.Xml.Serialization;
 using UnityEngine;
+using UnityEngine.Networking;
 using Object = UnityEngine.Object;
 
 namespace JyGame
@@ -154,42 +154,34 @@ namespace JyGame
 				{
 					if (i > 0)
 					{
-						buffer.AppendFormat("&{0}={1}", key, WWW.EscapeURL(paramTable[key] as string));
+						buffer.AppendFormat("&{0}={1}", key, UnityWebRequest.EscapeURL(paramTable[key] as string));
 					}
 					else
 					{
-						buffer.AppendFormat("?{0}={1}", key, WWW.EscapeURL(paramTable[key] as string));
+						buffer.AppendFormat("?{0}={1}", key, UnityWebRequest.EscapeURL(paramTable[key] as string));
 					}
 					i++;
 				}
 			}
-			WWW www = new WWW(path + buffer.ToString());
-			yield return www;
-			int timeout = 100;
-			while (!www.isDone && timeout-- > 0)
+			using (UnityWebRequest request = UnityWebRequest.Get(path + buffer.ToString()))
 			{
-				Thread.Sleep(100);
+				request.timeout = 10;
+				yield return request.SendWebRequest();
+				if (request.result == UnityWebRequest.Result.Success)
+				{
+					string response = request.downloadHandler.text;
+					callback(JsonUtility.FromJson<Object>(response));
+				}
+				else
+				{
+					Debug.LogError(request.error);
+				}
 			}
-			if (string.IsNullOrEmpty(www.error))
-			{
-				string response = www.text;
-				callback(JsonUtility.FromJson<Object>(response));
-				yield return response;
-			}
-			www.Dispose();
-			yield return null;
 		}
 
 		public static void openURL(string url)
 		{
-			if (Application.platform == RuntimePlatform.WebGLPlayer)
-			{
-				Application.ExternalEval("window.open('" + url + "');");
-			}
-			else
-			{
-				Application.OpenURL(url);
-			}
+			Application.OpenURL(url);
 		}
 
 		public static void getFileContentFromUrl(MonoBehaviour parent, string url, CommonSettings.StringCallBack callback, CommonSettings.VoidCallBack failCallback = null)
@@ -199,90 +191,84 @@ namespace JyGame
 
 		public static IEnumerator DownloadFile(string url, CommonSettings.StringCallBack callback, CommonSettings.VoidCallBack failCallback = null)
 		{
-			WWW www = new WWW(url);
-			Debug.Log("downloading file:" + url);
-			yield return www;
-			if (!string.IsNullOrEmpty(www.error))
+			using (UnityWebRequest request = UnityWebRequest.Get(url))
 			{
-				Debug.LogError(www.error);
-				if (failCallback != null)
+				Debug.Log("downloading file:" + url);
+				yield return request.SendWebRequest();
+				if (request.result != UnityWebRequest.Result.Success)
 				{
-					failCallback();
+					Debug.LogError(request.error);
+					failCallback?.Invoke();
 				}
-				www.Dispose();
-			}
-			else
-			{
-				string text = www.text;
-				www.Dispose();
-				callback(text);
+				else
+				{
+					callback(request.downloadHandler.text);
+				}
 			}
 		}
 
 		public static IEnumerator DownloadImage(string url, CommonSettings.ObjectCallBack callback, CommonSettings.VoidCallBack failCallback, Vector2 pivot, float pixerPerUnit = 1f)
 		{
-			WWW www = new WWW(url);
-			Debug.Log("downloading file:" + url);
-			yield return www;
-			if (!string.IsNullOrEmpty(www.error))
+			using (UnityWebRequest request = UnityWebRequestTexture.GetTexture(url))
 			{
-				Debug.LogError(www.error);
-				if (failCallback != null)
+				Debug.Log("downloading file:" + url);
+				yield return request.SendWebRequest();
+				if (request.result != UnityWebRequest.Result.Success)
 				{
-					failCallback();
+					Debug.LogError(request.error);
+					failCallback?.Invoke();
 				}
-			}
-			else
-			{
-				Sprite tmp = Sprite.Create(www.texture, new Rect(0f, 0f, www.texture.width, www.texture.height), pivot, pixerPerUnit);
-				tmp.texture.Compress(true);
-				tmp.texture.mipMapBias = 0f;
-				www.Dispose();
-				callback(tmp);
+				else
+				{
+					Texture2D texture = DownloadHandlerTexture.GetContent(request);
+					Sprite tmp = Sprite.Create(texture, new Rect(0f, 0f, texture.width, texture.height), pivot, pixerPerUnit);
+					tmp.texture.Compress(true);
+					tmp.texture.mipMapBias = 0f;
+					callback(tmp);
+				}
 			}
 		}
 
 		public static IEnumerator Download(string url, string savepath, CommonSettings.VoidCallBack callback, CommonSettings.VoidCallBack failCallback)
 		{
-			WWW www = new WWW(url);
-			Debug.Log("downloading file:" + url);
-			yield return www;
-			if (!string.IsNullOrEmpty(www.error))
+			using (UnityWebRequest request = UnityWebRequest.Get(url))
 			{
-				Debug.LogError(www.error);
-				www.Dispose();
-				if (failCallback != null)
+				Debug.Log("downloading file:" + url);
+				yield return request.SendWebRequest();
+				if (request.result != UnityWebRequest.Result.Success)
 				{
-					failCallback();
+					Debug.LogError(request.error);
+					failCallback?.Invoke();
 				}
-			}
-			else
-			{
-				using (FileStream fs = new FileStream(savepath, FileMode.OpenOrCreate))
+				else
 				{
-					fs.Write(www.bytes, 0, www.bytes.Length);
+					File.WriteAllBytes(savepath, request.downloadHandler.data);
+					callback();
 				}
-				www.Dispose();
-				callback();
 			}
 		}
 
 		public static IEnumerator DownloadIntoTexture(Texture2D t, string url, Action callback)
 		{
-			WWW www = new WWW(url);
-			yield return www;
-			try
+			using (UnityWebRequest request = UnityWebRequest.Get(url))
 			{
-				www.LoadImageIntoTexture(t);
-				callback();
-			}
-			catch
-			{
-				foreach (Texture2D tt in ModEditorResourceManager.textureCache.Values)
+				yield return request.SendWebRequest();
+				try
 				{
-					UnityEngine.Object.DestroyImmediate(tt);
+					if (request.result != UnityWebRequest.Result.Success || !t.LoadImage(request.downloadHandler.data))
+					{
+						throw new InvalidDataException(request.error ?? "Unable to decode image");
+					}
+					callback();
 				}
-				ModEditorResourceManager.textureCache.Clear();
+				catch
+				{
+					foreach (Texture2D tt in ModEditorResourceManager.textureCache.Values)
+					{
+						UnityEngine.Object.DestroyImmediate(tt);
+					}
+					ModEditorResourceManager.textureCache.Clear();
+				}
 			}
 		}
 

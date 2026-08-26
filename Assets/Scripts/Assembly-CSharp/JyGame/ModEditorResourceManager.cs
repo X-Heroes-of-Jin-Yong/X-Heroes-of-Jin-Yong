@@ -2,13 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 namespace JyGame
 {
 	public class ModEditorResourceManager
 	{
-		private static AudioClip acCache = null;
-
 		public static Dictionary<string, string> sprites = new Dictionary<string, string>();
 
 		public static Dictionary<string, string> audios = new Dictionary<string, string>();
@@ -72,22 +71,23 @@ namespace JyGame
 
 		public static IEnumerator LoadXml(LoadingUI ui, string path, CommonSettings.VoidCallBack callback)
 		{
-			WWW www = new WWW(ModManager.ModBaseUrl + path);
-			yield return www;
-			if (!string.IsNullOrEmpty(www.error))
+			using (UnityWebRequest request = UnityWebRequest.Get(ModManager.ModBaseUrl + path))
 			{
-				Debug.LogError(www.error);
-			}
-			else
-			{
-				string key = path.Split('.')[0];
-				if (!xmls.ContainsKey(key))
+				yield return request.SendWebRequest();
+				if (request.result != UnityWebRequest.Result.Success)
 				{
-					xmls.Add(key, www.text);
+					Debug.LogError(request.error);
 				}
-				callback();
+				else
+				{
+					string key = path.Split('.')[0];
+					if (!xmls.ContainsKey(key))
+					{
+						xmls.Add(key, request.downloadHandler.text);
+					}
+					callback();
+				}
 			}
-			www.Dispose();
 		}
 
 		public static Sprite LoadSprite(string path)
@@ -122,9 +122,25 @@ namespace JyGame
 			{
 				path = path.Replace(".mp3", ".ogg");
 			}
-			WWW wWW = new WWW(ModManager.ModBaseUrl + path);
-			AudioClip audioClip = wWW.GetAudioClip(true, true);
-			callback(audioClip);
+			AudioManager.Instance.StartCoroutine(LoadAudioAsync(ModManager.ModBaseUrl + path, callback));
+		}
+
+		private static IEnumerator LoadAudioAsync(string url, Action<AudioClip> callback)
+		{
+			AudioType audioType = url.EndsWith(".mp3", StringComparison.OrdinalIgnoreCase) ? AudioType.MPEG : AudioType.OGGVORBIS;
+			using (UnityWebRequest request = UnityWebRequestMultimedia.GetAudioClip(url, audioType))
+			{
+				yield return request.SendWebRequest();
+				if (request.result == UnityWebRequest.Result.Success)
+				{
+					callback(DownloadHandlerAudioClip.GetContent(request));
+				}
+				else
+				{
+					Debug.LogError(request.error);
+					callback(null);
+				}
+			}
 		}
 	}
 }

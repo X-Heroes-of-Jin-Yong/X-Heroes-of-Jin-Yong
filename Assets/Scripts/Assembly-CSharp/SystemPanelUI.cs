@@ -39,7 +39,7 @@ public class SystemPanelUI : MonoBehaviour
 	{
 		confirmPanelObj.GetComponent<ConfirmPanel>().Show("提示，若当前没有存档将丢失目前进度，确认吗？", delegate
 		{
-			Application.LoadLevel("MainMenu");
+			UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
 		});
 	}
 

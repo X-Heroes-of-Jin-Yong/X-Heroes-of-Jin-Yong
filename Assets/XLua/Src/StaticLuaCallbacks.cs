@@ -720,27 +720,29 @@ namespace XLua
                 string filename = LuaAPI.lua_tostring(L, 1).Replace('.', '/') + ".lua";
                 var filepath = UnityEngine.Application.streamingAssetsPath + "/" + filename;
 #if UNITY_ANDROID && !UNITY_EDITOR
-                UnityEngine.WWW www = new UnityEngine.WWW(filepath);
-                while (true)
+                using (var request = UnityEngine.Networking.UnityWebRequest.Get(filepath))
                 {
-                    if (www.isDone || !string.IsNullOrEmpty(www.error))
+                    request.downloadHandler = new UnityEngine.Networking.DownloadHandlerBuffer();
+                    var operation = request.SendWebRequest();
+                    while (!operation.isDone)
                     {
-                        System.Threading.Thread.Sleep(50); //�Ƚ�hacker������
-                        if (!string.IsNullOrEmpty(www.error))
+                        System.Threading.Thread.Sleep(1);
+                    }
+
+                    if (request.result != UnityEngine.Networking.UnityWebRequest.Result.Success)
+                    {
+                        LuaAPI.lua_pushstring(L, string.Format(
+                           "\n\tno such file '{0}' in streamingAssetsPath!", filename));
+                    }
+                    else
+                    {
+                        UnityEngine.Debug.LogWarning("load lua file from StreamingAssets is obsolete, filename:" + filename);
+                        var bytes = request.downloadHandler.data;
+                        if (LuaAPI.xluaL_loadbuffer(L, bytes, bytes.Length, "@" + filename) != 0)
                         {
-                            LuaAPI.lua_pushstring(L, string.Format(
-                               "\n\tno such file '{0}' in streamingAssetsPath!", filename));
+                            return LuaAPI.luaL_error(L, String.Format("error loading module {0} from streamingAssetsPath, {1}",
+                                LuaAPI.lua_tostring(L, 1), LuaAPI.lua_tostring(L, -1)));
                         }
-                        else
-                        {
-                            UnityEngine.Debug.LogWarning("load lua file from StreamingAssets is obsolete, filename:" + filename);
-                            if (LuaAPI.xluaL_loadbuffer(L, www.bytes, www.bytes.Length , "@" + filename) != 0)
-                            {
-                                return LuaAPI.luaL_error(L, String.Format("error loading module {0} from streamingAssetsPath, {1}",
-                                    LuaAPI.lua_tostring(L, 1), LuaAPI.lua_tostring(L, -1)));
-                            }
-                        }
-                        break;
                     }
                 }
 #else

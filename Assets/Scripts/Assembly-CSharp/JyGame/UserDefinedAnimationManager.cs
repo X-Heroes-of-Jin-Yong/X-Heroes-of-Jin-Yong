@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.Networking;
 
 namespace JyGame
 {
@@ -141,20 +142,22 @@ namespace JyGame
 			FileInfo file = new FileInfo("Mod/Animations/" + sp.file);
 			ResourceManager.progress = 0f;
 			ResourceManager.detail = "正在载入MOD定义动画文件..." + sp.file;
-			WWW www = new WWW("file://" + file.FullName);
-			yield return www;
-			if (!string.IsNullOrEmpty(www.error))
+			using (UnityWebRequest request = UnityWebRequestTexture.GetTexture("file://" + file.FullName))
 			{
-				Debug.LogError(www.error);
+				yield return request.SendWebRequest();
+				if (request.result != UnityWebRequest.Result.Success)
+				{
+					Debug.LogError(request.error);
+				}
+				else
+				{
+					Texture2D texture = DownloadHandlerTexture.GetContent(request);
+					Sprite tmp = Sprite.Create(texture, new Rect(0f, 0f, texture.width, texture.height), new Vector2(sp.x, sp.y), 1f / sp.scale);
+					sp.sprite = tmp;
+					_loadIndex++;
+					LoadNext();
+				}
 			}
-			else
-			{
-				Sprite tmp = Sprite.Create(www.texture, new Rect(0f, 0f, www.texture.width, www.texture.height), new Vector2(sp.x, sp.y), 1f / sp.scale);
-				sp.sprite = tmp;
-				_loadIndex++;
-				LoadNext();
-			}
-			www.Dispose();
 		}
 	}
 }

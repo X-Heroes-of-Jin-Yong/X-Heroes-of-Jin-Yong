@@ -13,7 +13,7 @@ public class GameOverUI : MonoBehaviour
 		int param = ModData.GetParam("last_save_index");
 		if (param == 0)
 		{
-			Application.LoadLevel("MainMenu");
+			UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
 			return;
 		}
 		string empty = string.Empty;

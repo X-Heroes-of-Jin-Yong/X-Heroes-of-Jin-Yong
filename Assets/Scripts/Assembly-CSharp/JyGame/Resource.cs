@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Serialization;
 using UnityEngine;
+using UnityEngine.Networking;
 
 namespace JyGame
 {
@@ -108,12 +109,13 @@ namespace JyGame
 
 		private IEnumerator LoadTextureFromURL(string url, Action<Texture2D> cb)
 		{
-			WWW www = new WWW(url);
-			yield return www;
-			if (string.IsNullOrEmpty(www.error))
+			using (UnityWebRequest request = UnityWebRequestTexture.GetTexture(url))
 			{
-				cb(www.texture);
-				www.Dispose();
+				yield return request.SendWebRequest();
+				if (request.result == UnityWebRequest.Result.Success)
+				{
+					cb(DownloadHandlerTexture.GetContent(request));
+				}
 			}
 		}
 
@@ -178,7 +180,13 @@ namespace JyGame
 			{
 				return null;
 			}
-			return Resources.Load<TextAsset>(path).bytes;
+			TextAsset textAsset = Resources.Load<TextAsset>(path);
+			if (textAsset == null)
+			{
+				Debug.LogError($"TextAsset not found in Resources: {path}");
+				return null;
+			}
+			return textAsset.bytes;
 		}
 
 		public static string GetTalentInfo(string name, bool displayCost = true)

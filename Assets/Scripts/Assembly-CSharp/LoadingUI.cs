@@ -57,7 +57,7 @@ public class LoadingUI : MonoBehaviour
 	public static void Load(string sceneName)
 	{
 		LoadingLevel = sceneName;
-		Application.LoadLevel("Loading");
+		UnityEngine.SceneManagement.SceneManager.LoadScene("Loading");
 	}
 
 	private void Start()
@@ -136,14 +136,14 @@ public class LoadingUI : MonoBehaviour
 
 	private IEnumerator LoadScene()
 	{
-		async = Application.LoadLevelAsync(LoadingLevel);
+		async = UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(LoadingLevel);
 		yield return async;
 	}
 
 	private IEnumerator LoadSceneWithProgress()
 	{
 		DetailText.text = "正在努力为您加载..";
-		AsyncOperation op = Application.LoadLevelAsync(LoadingLevel);
+		AsyncOperation op = UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(LoadingLevel);
 		while (!op.isDone)
 		{
 			ProgressSlider.value = op.progress;
@@ -172,7 +172,9 @@ public class LoadingUI : MonoBehaviour
 				return;
 			}
 			DetailText.text = "正在载入" + AssetBundleManager.CurrentLoadingAssetsInfo + "资源包...（首次进入游戏可能比较慢，请耐心等待）";
-			num = AssetBundleManager.CurrentWWW.progress;
+			num = AssetBundleManager.CurrentWWW != null
+				? AssetBundleManager.CurrentWWW.downloadProgress
+				: 0f;
 			ProgressText.text = string.Format("{0:F0}%", num * 100f);
 			ProgressSlider.value = num;
 		}

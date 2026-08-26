@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Xml.Serialization;
 using UnityEngine;
+using UnityEngine.Networking;
 
 namespace JyGame
 {
@@ -41,7 +42,7 @@ namespace JyGame
 
 		public static AssetBundle CGAssets = null;
 
-		public static WWW CurrentWWW = null;
+		public static UnityWebRequest CurrentWWW = null;
 
 		public static string CurrentLoadingAssetsInfo = string.Empty;
 
@@ -241,36 +242,39 @@ namespace JyGame
 			string path = Path.Combine(baseUrl, name);
 			bool flag = name == "xml";
 			Debug.Log("downloading " + path);
-			WWW www = (CurrentWWW = WWW.LoadFromCacheOrDownload(path, 0));
+			UnityWebRequest request = (CurrentWWW = UnityWebRequestAssetBundle.GetAssetBundle(path, 0));
 			CurrentLoadingAssetsInfo = info;
-			yield return www;
-			if (!string.IsNullOrEmpty(www.error))
+			yield return request.SendWebRequest();
+			if (request.result != UnityWebRequest.Result.Success)
 			{
-				Debug.LogError(www.error);
+				Debug.LogError(request.error);
 				if (failCallback != null)
 				{
 					failCallback();
 				}
+				request.Dispose();
 				yield break;
 			}
+			AssetBundle loadedBundle = DownloadHandlerAssetBundle.GetContent(request);
 			switch (name)
 			{
 			case "maps":
-				MapAssets = www.assetBundle;
+				MapAssets = loadedBundle;
 				break;
 			case "battlebg":
-				BattleAssets = www.assetBundle;
+				BattleAssets = loadedBundle;
 				break;
 			case "audios":
-				AudioAssets = www.assetBundle;
+				AudioAssets = loadedBundle;
 				break;
 			case "xml":
-				XmlAssets = www.assetBundle;
+				XmlAssets = loadedBundle;
 				break;
 			case "cgs":
-				CGAssets = www.assetBundle;
+				CGAssets = loadedBundle;
 				break;
 			}
+			request.Dispose();
 			if (callback != null)
 			{
 				callback();
