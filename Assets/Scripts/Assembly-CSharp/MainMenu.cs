@@ -50,6 +50,11 @@ public class MainMenu : MonoBehaviour
 
 	public void OnNewGame()
 	{
+		if (!CommonSettings.MOD_MODE)
+		{
+			UnityEngine.SceneManagement.SceneManager.LoadScene("ModSelect");
+			return;
+		}
 		RuntimeData.Instance.Init();
 		LoadingUI.Load("RollRole");
 	}
@@ -71,12 +76,12 @@ public class MainMenu : MonoBehaviour
 
 	public void OnMod()
 	{
-		Application.LoadLevel("ModSelect");
+		UnityEngine.SceneManagement.SceneManager.LoadScene("ModSelect");
 	}
 
 	public void OnGameFinButton()
 	{
-		Application.LoadLevel("MainMenu");
+		UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
 	}
 
 	public void OnDebugClearAll()
@@ -107,6 +112,11 @@ public class MainMenu : MonoBehaviour
 
 	private void Start()
 	{
+		if (!CommonSettings.MOD_MODE)
+		{
+			UnityEngine.SceneManagement.SceneManager.LoadScene("ModSelect");
+			return;
+		}
 		LuaManager.Reload();
 		if (CommonSettings.MOD_MODE)
 		{
@@ -177,15 +187,14 @@ public class MainMenu : MonoBehaviour
 	{
 		string uuid = SystemInfo.operatingSystem + "_" + SystemInfo.deviceUniqueIdentifier + "_" + SystemInfo.deviceName + "_1.1.0.6";
 		uuid = uuid.Replace(" ", string.Empty);
-		string url = "http://www.jy-x.com/jygame/touchserver/touch.php?id=" + WWW.EscapeURL(uuid);
+		string url = "http://www.jy-x.com/jygame/touchserver/touch.php?id=" + UnityEngine.Networking.UnityWebRequest.EscapeURL(uuid);
 		Debug.Log(url);
-		WWW www = new WWW(url);
+		UnityEngine.Networking.UnityWebRequest request = UnityEngine.Networking.UnityWebRequest.Get(url);
 		Touched = true;
-		yield return www;
-		if (string.IsNullOrEmpty(www.error))
+		yield return request.SendWebRequest();
+		if (request.result == UnityEngine.Networking.UnityWebRequest.Result.Success)
 		{
-			callback(www.text);
-			www.Dispose();
+			callback(request.downloadHandler.text);
 		}
 		else
 		{
@@ -193,6 +202,7 @@ public class MainMenu : MonoBehaviour
 			confirmButtonObj.gameObject.SetActive(true);
 			StartCoroutine(TouchServer(JudgeVersion));
 		}
+		request.Dispose();
 	}
 
 	public void ErrorConfirmButtonClicked()

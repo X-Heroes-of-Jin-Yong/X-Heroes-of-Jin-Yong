@@ -1,11 +1,7 @@
-using System.Collections.Generic;
-
 namespace JyGame
 {
 	public class ModManager
 	{
-		public static List<ModInfo> mods;
-
 		public static string ModBaseUrl
 		{
 			get

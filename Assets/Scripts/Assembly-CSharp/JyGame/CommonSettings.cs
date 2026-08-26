@@ -29,8 +29,6 @@ namespace JyGame
 
 		public const string GAME_VERSION = "1.1.0.6";
 
-		public const string MOD_BASE_URL = "http://www.hanjiasongshu.com/jygamemod/";
-
 		public const string XML_UPDATE_URL = "http://www.jy-x.com/jygame/assetbundle/xml";
 
 		public const string XML_UPDATE_URL_ANDROID = "http://www.jy-x.com/jygame/assetbundle/xml-android";

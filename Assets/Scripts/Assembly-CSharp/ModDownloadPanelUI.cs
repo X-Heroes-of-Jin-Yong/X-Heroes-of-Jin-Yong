@@ -16,14 +16,6 @@ public class ModDownloadPanelUI : MonoBehaviour
 
 	private ModItemUI _modItem;
 
-	private void Start()
-	{
-	}
-
-	private void Update()
-	{
-	}
-
 	public void Bind(ModItemUI modItem)
 	{
 		_modItem = modItem;
@@ -54,7 +46,6 @@ public class ModDownloadPanelUI : MonoBehaviour
 	public void OnCancel()
 	{
 		Hide();
-		_modItem.AbortDownload();
 		if (_modItem._parent != null)
 		{
 			_modItem._parent.OnLocalMod();

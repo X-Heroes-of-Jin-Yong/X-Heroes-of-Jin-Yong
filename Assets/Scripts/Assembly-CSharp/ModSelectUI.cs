@@ -1,8 +1,8 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.IO;
 using System.Xml;
+using Cysharp.Threading.Tasks;
 using JyGame;
 using UnityEngine;
 using UnityEngine.UI;
@@ -23,35 +23,10 @@ public class ModSelectUI : MonoBehaviour
 
 	public Button closeBtn;
 
-	private bool isLocal;
-
 	private void Start()
 	{
-		Refresh();
-		OnGonggao();
+		OnLocalMod();
 		closeBtn.gameObject.SetActive(AssetBundleManager.IsInited);
-	}
-
-	private void Update()
-	{
-	}
-
-	public List<ModInfo> LoadXml(string xml)
-	{
-		List<ModInfo> list = new List<ModInfo>();
-		XmlDocument xmlDocument = new XmlDocument();
-		xmlDocument.LoadXml(xml);
-		foreach (XmlNode item2 in xmlDocument.SelectNodes("root/mod"))
-		{
-			ModInfo item = BasePojo.Create<ModInfo>(item2.OuterXml);
-			list.Add(item);
-		}
-		foreach (XmlNode item3 in xmlDocument.SelectNodes("root/gonggao"))
-		{
-			GonggaoInfo gonggaoInfo = BasePojo.Create<GonggaoInfo>(item3.OuterXml);
-			gonggaoText.text = gonggaoInfo.text;
-		}
-		return list;
 	}
 
 	public ModInfo LoadSingleModInfo(string xml)
@@ -78,46 +53,53 @@ public class ModSelectUI : MonoBehaviour
 		return null;
 	}
 
-	public void NoMod()
+	public void ImportMod()
 	{
-		ModManager.SetCurrentMod(null);
-		LoadingUI.Load("MainMenu");
+		downloadingText.gameObject.SetActive(true);
+		downloadingText.text = "请选择MOD压缩包...";
+#if UNITY_ANDROID && !UNITY_EDITOR
+		AndroidSafModPicker.Open(gameObject.name, nameof(OnModArchiveSelected));
+#elif UNITY_EDITOR
+		string archivePath = UnityEditor.EditorUtility.OpenFilePanel("选择MOD压缩包", string.Empty, "zip");
+		OnModArchiveSelected(archivePath);
+#else
+		downloadingText.text = "当前平台暂未实现本地文件选择";
+#endif
 	}
 
-	public void Refresh()
+	public void OnModArchiveSelected(string result)
 	{
-		isLocal = false;
-		versionText.text = string.Format("客户端版本:V1.1.0.6");
-		downloadingText.gameObject.SetActive(true);
-		downloadingText.text = "从服务器获取MOD列表中...";
-		Tools.getFileContentFromUrl(this, "http://www.hanjiasongshu.com/jygamemod/list.xml", delegate(string content)
+		if (string.IsNullOrEmpty(result))
 		{
-			downloadingText.gameObject.SetActive(false);
-			List<ModInfo> list = (ModManager.mods = LoadXml(content));
-			if (!isLocal)
-			{
-				selectMenu.Clear();
-				foreach (ModInfo item in list)
-				{
-					GameObject gameObject = UnityEngine.Object.Instantiate(modItem.gameObject);
-					gameObject.GetComponent<ModItemUI>().Bind(item, this, false);
-					if (File.Exists(item.LocalXmlPath))
-					{
-						gameObject.GetComponent<ModItemUI>().downloadBtn.transform.Find("Text").GetComponent<Text>().text = "更新";
-						gameObject.GetComponent<ModItemUI>().downloadBtn.GetComponent<Image>().color = Color.green;
-					}
-					selectMenu.AddItem(gameObject);
-				}
-			}
-		}, delegate
+			downloadingText.text = "已取消导入";
+			return;
+		}
+		if (result.StartsWith("ERROR:", StringComparison.Ordinal))
 		{
-			downloadingText.text = "获取失败，请检查网络";
-		});
+			downloadingText.text = "选择文件失败：" + result.Substring(6);
+			return;
+		}
+		ImportModAsync(result).Forget();
+	}
+
+	private async UniTaskVoid ImportModAsync(string archivePath)
+	{
+		try
+		{
+			downloadingText.text = "正在校验并导入MOD...";
+			ModInfo importedMod = await ModArchiveImporter.ImportAsync(archivePath);
+			downloadingText.text = $"MOD {importedMod.name} 导入成功";
+			OnLocalMod();
+		}
+		catch (Exception ex)
+		{
+			Debug.LogException(ex);
+			downloadingText.text = "导入失败：" + ex.Message;
+		}
 	}
 
 	public void RefreshLocal()
 	{
-		isLocal = true;
 		selectMenu.Clear();
 		string path = CommonSettings.persistentDataPath + "/modcache/";
 		if (!Directory.Exists(path))
@@ -133,7 +115,7 @@ public class ModSelectUI : MonoBehaviour
 				if (modInfo != null)
 				{
 					GameObject gameObject = UnityEngine.Object.Instantiate(modItem.gameObject);
-					gameObject.GetComponent<ModItemUI>().Bind(modInfo, this, true);
+					gameObject.GetComponent<ModItemUI>().Bind(modInfo, this);
 					selectMenu.AddItem(gameObject);
 				}
 			}
@@ -145,13 +127,6 @@ public class ModSelectUI : MonoBehaviour
 		selectMenu.gameObject.SetActive(true);
 		gonggaoPanel.SetActive(false);
 		RefreshLocal();
-	}
-
-	public void OnOnlineMod()
-	{
-		selectMenu.gameObject.SetActive(true);
-		gonggaoPanel.SetActive(false);
-		Refresh();
 	}
 
 	public void OnGonggao()
